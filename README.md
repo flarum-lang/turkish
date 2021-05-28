@@ -1,11 +1,11 @@
-# 🇹🇷 Turkish Core Experience Pack for Flarum
+# 🇹🇷 Turkish Experience Pack for Flarum
 
-Turkish language extension for Flarum's core.
+Turkish language extension for Flarum.
 
 ## Installation
 
 ```bash
-composer require tolgaaaltas/flarum-lang-turkish
+composer require flarum-lang/turkish
 ```
 
 ## Core list
