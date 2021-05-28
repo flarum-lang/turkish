@@ -1,0 +1,57 @@
+{
+    "name": "tolgaaaltas/flarum-lang-turkish",
+    "type": "flarum-extension",
+    "description": "Turkish language pack for Flarum's core.",
+    "keywords": ["locale"],
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/flarum-lang/turkish/issues",
+        "source": "https://github.com/flarum-lang/turkish/",
+        "forum": "https://discuss.flarum.org/d/21356-flarum-core-turkish-language-pack/"
+    },
+    "homepage": "https://tolgaaltas.com",
+    "funding": [
+        {
+            "type": "website",
+            "url": "https://tolgaaltas.com/contact/"
+        }
+    ],
+    "authors": [
+        {
+            "name": "tolgaaaltas",
+            "homepage": "https://discuss.flarum.org/u/tolgaaaltas"
+        }
+    ],
+    "require": {
+        "flarum/core": "^1.0.0"
+    },
+    "suggest": {
+		"flarum-lang/turkish": "Turkish language pack for Flarum."
+	},
+	"support": {
+		"issues": "https://github.com/flarum-lang/turkish/issues",
+		"source": "https://github.com/flarum-lang/turkish/"
+	},
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        },
+        "authors": [{
+			"name": "tolgaaaltas",
+			"role": "Developer"
+		}],
+        "flarum-extension": {
+            "title": "Turkish Core Experience Pack",
+            "icon": {
+                "image": "core.svg",
+                "backgroundColor": "#ffffff",
+                "backgroundSize": "cover",
+                "backgroundPosition": "center"
+            }
+        },
+        "flarum-locale": {
+            "code": "tr",
+            "title": "Turkish"
+        }
+    }
+}
