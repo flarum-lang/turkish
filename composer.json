@@ -9,17 +9,17 @@
         "source": "https://github.com/flarum-lang/turkish/",
         "forum": "https://discuss.flarum.org/d/21356-flarum-core-turkish-language-pack/"
     },
-    "homepage": "https://tolgaaltas.com",
+    "homepage": "https://github.com/flarum-lang/",
     "funding": [
         {
             "type": "website",
-            "url": "https://tolgaaltas.com/contact/"
+            "url": "https://flarum.org/"
         }
     ],
     "authors": [
         {
             "name": "tolgaaaltas",
-            "homepage": "https://discuss.flarum.org/u/tolgaaaltas"
+            "homepage": "https://tolgaaltas.com/"
         }
     ],
     "require": {
@@ -38,7 +38,7 @@
         },
         "authors": [{
 			"name": "tolgaaaltas",
-			"role": "Developer"
+			"role": "Translator"
 		}],
         "flarum-extension": {
             "title": "Turkish Core Experience Pack",
