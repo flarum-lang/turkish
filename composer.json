@@ -42,7 +42,7 @@
             }
         ],
         "flarum-extension": {
-            "title": "Turkish Language",
+            "title": "Turkish",
             "icon": {
                 "image": "core.svg",
                 "backgroundColor": "#ffffff",
