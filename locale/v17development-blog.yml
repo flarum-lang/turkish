@@ -31,7 +31,7 @@ v17development-flarum-blog:
       require_review_label: 'Blog gönderilerinin incelenmesi gerekiyor'
       require_review_text: 'Bir makale gönderirken, doğrudan görünmez ve bir moderatör tarafından incelenmesi gerekir.'
       select_categories_button: 'Blog kategorilerini seçin'
-      selected_category_count: '{count} kategori seçtiniz|{count} kategori seçtiniz'
+      selected_category_count: '{count, plural, one {# kategori seçtiniz} other {# kategori seçtiniz}}'
       show_tag_hierarchy_label: 'Etiket hiyerarşisini göster'
       show_tag_hierarchy_text: 'Alt kategorilere boşluk ekleyin ve kategori listesine bir hiyerarşi verin.'
   forum:
@@ -57,6 +57,7 @@ v17development-flarum-blog:
       post_article: 'Makale yayınla'
       post_without_blog_info: 'Bu blog gönderisini göndermek istediğinizden emin misiniz? Henüz bir blog özeti veya resmi girmediniz.'
       select_category: 'Bir kategori seç'
+      update_settings: 'Blog ayarlarını güncelle'
       view: Görünüm
       write: Yaz
     forum_nav: 'Forum Menüsü'

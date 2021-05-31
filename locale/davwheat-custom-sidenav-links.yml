@@ -57,5 +57,5 @@ davwheat:
             add: 'Yeni bağlantı'
             fix_url: 'Geçersiz bağlantı'
             invalid_form: 'Tüm alanları doldurun'
-            loading: 'Kullanıcı ekle'
+            loading: 'Bağlantı ekle'
           title: 'Yeni bağlantı ekle'

@@ -20,4 +20,4 @@ flarum-ext-guestengagement:
     uwillreceive: 'Biri size yanıt verdiğinde site veya e-posta yoluyla bildirim alırsınız. Ayrıca içerikleri "beğenebilirsiniz".'
     uwillreceiveps: 'biri size yanıt verdiğinde site veya e-posta yoluyla bildirim alırsınız. Ayrıca içerikleri "beğenebilirsiniz".'
     whenucreate: 'Bir hesap oluşturduğunuzda, okuduğunuz tüm içerikleri hatırlayabileceğiz, böylece tam olarak kaldığınız yerden devam edebilirsiniz.'
-    whenucreateps: 'Bir hesap oluşturduğunuzda, okuduğunuz tüm içerikleri hatırlayabileceğiz,'
+    whenucreateps: 'Bir hesap oluşturduğunuzda, okuduğunuz tüm içerikleri hatırlayabileceğiz ve alacaksınız'

@@ -3,6 +3,22 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 v17development-flarum-support:
+  emails:
+    replied_to_ticket:
+      body: "Sayın {recipient_display_name},\n\n{replier_display_name}, #{ticket_id} numaralı biletinizi yanıtladı (konu '{subject}').\n\nYanıtı incelemek için lütfen aşağıdaki bağlantıyı kullanın:\n{url}\n\nCevap verebilirsiniz veya bu bileti çözüldü olarak işaretleyebilirsiniz.\n"
+      subject: '{replier_display_name}, #{ticket_id} numaralı biletinizi yanıtladı'
+    ticket_pending_reply:
+      body: "Sayın {recipient_display_name},\n\nKısa bir süre önce {replier_display_name}, {replied_date} tarihinde #{ticket_id} numaralı biletinize yanıt verdi ve yanıtınızı bekliyoruz.\n\nBiletinizin URL'si:\n{url}\n\nSorun çözüldüyse, lütfen bileti çözüldü olarak işaretleyin.\n"
+      subject: '#{ticket_id} numaralı bilet yanıtınızı bekliyor'
+    ticket_pending_reply_closed:
+      body: "Sayın {recipient_display_name},\n\nKısa süre önce {replier_display_name}, #{ticket_id} numaralı biletinize yanıt verdi. Maalesef sizden bir cevap alamadık. Etkinlik olmaması nedeniyle biletiniz otomatik olarak kapatıldı.\n\nYine de yanıtlamak istiyorsanız, biletinizin URL'si:\n{url}"
+      subject: '#{ticket_id} numaralı bilet, hareketsizlik nedeniyle kapatıldı'
+    ticket_resolved:
+      body: "Sayın {recipient_display_name},\n\n#{ticket_id} numaralı biletiniz çözüldü olarak işaretlendi. Bu, biletinizin kapatıldığı anlamına gelir.\n\nBiletinizin URL'si:\n{url}\n\nBiletinizi çözüldü olarak işaretlemeyi kabul etmiyorsanız, yeniden açmak için lütfen biletinizi yanıtlayın.\n"
+      subject: '#{ticket_id} numaralı bilet çözüldü olarak işaretlendi'
+    ticket_status_update:
+      body: "Sayın {recipient_display_name},\n\n#{ticket_id} numaralı biletinizin durumu {new_status} olarak değişti.\n\nBiletinizin URL'si:\n{url}\n"
+      subject: '#{ticket_id} numaralı bilet {new_status} olarak işaretlendi'
   forum:
     admin_overview: 'Yönetici genel bakışını aç'
     article:
@@ -119,25 +135,50 @@ v17development-flarum-support:
         neutral_emoji_disabled: 'Kararsız ifadesi etkisizleştirilmiştir.'
     support_tickets: 'Destek biletleri'
     tickets:
+      compose_ticket:
+        not_allowed: 'Şimdi yeni bir destek bileti açamazsınız'
+        private_support: 'Özel destek için, destek platformumuzda yeni bir bilet oluşturmak için bu formu kullanabilirsiniz. Özel olmayan destek konuları için lütfen <a>genel forumlarımıza</a> bakın.'
+        title: 'Yeni bir bilet yaz'
       convert_to_ticket:
         button: 'Bilete dönüştür'
         confirm: 'Bu tartışmayı bir bilete dönüştürmek istediğinizden emin misiniz?'
         event: '{ticket_title} tartışması bilete dönüştürüldü'
       fields:
+        assignees:
+          placeholder: 'Biletin durumu'
+          title: Atananlar
+        information:
+          placeholder: 'Size nasıl yardımcı olabileceğimizi bize söyleyin'
+          title: 'Bilet Bilgileri'
         language:
           description: 'Destek biletiniz {language} olarak ele alınacaktır.'
           empty: 'Dil tespit edilmedi'
           placeholder: 'Dil seç'
           title: Dil
+        status:
+          placeholder: 'Biletin durumu'
+          title: Durum
         subject:
+          description: 'Sorunuzu kısa bir cümleyle açıklamaya çalışın.'
           placeholder: 'Bilet konusu'
           title: Konu
+      load_more:
+        title: 'Daha fazla bilet yükle'
+      my_tickets:
+        description: 'Bu sayfada tüm özel biletlerinizi bulabileceksiniz.'
+        no_tickets: 'Henüz biletiniz yok.'
+        title: Biletlerim
       new_tickets_dropdown:
         no_tickets: 'Bilet bildirimi yok'
         ticket_new: '{username}, {ticket} biletini oluşturdu'
         ticket_updated: '{username}, {ticket} biletine gönderi yazdı'
         title: 'Bilet Bildirimleri'
       opened_on: Açıldı
+      overview:
+        all_tickets: 'Tüm biletler'
+        description: 'Gülümse, sen diğer insanların günlerini kurtaran kahramansın.'
+        no_tickets: 'Kriterlerinize uyan bilet yok, muhtemelen iyi bir iş çıkarıyorsunuz!'
+        title: 'Biletlere genel bakış'
       reminders_sent: 'Bir hatırlatıcı gönderildi|{count} hatırlatıcı gönderildi'
       return_to_overview: 'Bilete genel bakışa dön'
       status:
