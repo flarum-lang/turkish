@@ -7,7 +7,13 @@ migratetoflarum-fake-data:
     generator:
       bulk-mode: '=> migratetoflarum-fake-data.ref.bulk-mode'
       bulk-mode-description: '=> migratetoflarum-fake-data.ref.bulk-mode-description'
-      discussion-count: '=> migratetoflarum-fake-data.ref.discussion-count'
+      date: '=> migratetoflarum-fake-data.ref.date'
+      date-interval-placeholder: '=> migratetoflarum-fake-data.ref.date-interval-placeholder'
+      date-start-placeholder: '=> migratetoflarum-fake-data.ref.date-start-placeholder'
+      discussion-count: 'Oluşturulacak tartışma sayısı'
+      discussion-tags: 'Yeni tartışmalar için etiketler'
+      discussion-tags-none: Yok
+      discussion-tags-random: Rastgele
       post-count: '=> migratetoflarum-fake-data.ref.post-count'
       send: '=> migratetoflarum-fake-data.ref.send'
       user-count: '=> migratetoflarum-fake-data.ref.user-count'
@@ -18,6 +24,9 @@ migratetoflarum-fake-data:
     generator:
       bulk-mode: '=> migratetoflarum-fake-data.ref.bulk-mode'
       bulk-mode-description: '=> migratetoflarum-fake-data.ref.bulk-mode-description'
+      date: '=> migratetoflarum-fake-data.ref.date'
+      date-interval-placeholder: '=> migratetoflarum-fake-data.ref.date-interval-placeholder'
+      date-start-placeholder: '=> migratetoflarum-fake-data.ref.date-start-placeholder'
       post-count: '=> migratetoflarum-fake-data.ref.post-count'
       send: '=> migratetoflarum-fake-data.ref.send'
       title: 'Sahte yanıtlar oluşturun'
@@ -27,6 +36,9 @@ migratetoflarum-fake-data:
   ref:
     bulk-mode: 'Toplu mod'
     bulk-mode-description: 'Tek bir rastgele değer üretir ve her giriş için yeniden kullanır'
+    date: 'Date seed'
+    date-interval-placeholder: 'Aralık (varsayılan: 1 saniye)'
+    date-start-placeholder: 'Başlangıç tarihi (varsayılan: şimdi)'
     post-count: 'Oluşturulacak gönderi sayısı'
     send: 'Veri oluştur'
     user-count: 'Oluşturulacak kullanıcı sayısı'

@@ -18,6 +18,7 @@ malago-achievements:
       description_placeholder: 'Başarı Açıklaması'
       height_label: 'Resim yüksekliği'
       height_placeholder: '32'
+      hidden_label: 'Tüm başarılar listesinden gizle'
       image_label: 'Görsel Bağlantısı veya simge kodu'
       image_placeholder: 'Görsel Resim Bağlantısı'
       name_label: İsim
@@ -28,6 +29,17 @@ malago-achievements:
       row_placeholder: '0'
       submit_button: '=> core.ref.save_changes'
       title: 'Başarı Oluştur'
+      tooltip:
+        comments: 'Bir tartışmada (ör. 10) veya kapsayıcı aralıkta (ör. 10,19) alınan minimum yanıt sayısı'
+        contains: 'Kelime veya kelimeler ve onu içeren minimum gönderi sayısı (ör. tavuk,10) veya kapsayıcı aralık (ör. tavuk,10,19)'
+        discussions: 'Oluşturulan minimum tartışma sayısı (ör. 10) veya kapsayıcı aralık (ör. 10,19)'
+        edits: 'Düzenlenen minimum gönderi sayısı (ör. 10) veya kapsayıcı aralık (ör. 10,19)'
+        likes: 'Minimum beğeni sayısı (ör. 10) veya kapsayıcı aralık (ör. 10,19)'
+        meanwords: 'Aranacak kelime ve minimum ortalama görünüm sayısı (ör. tavuk, 10) veya kapsayıcı aralık (ör. Tavuk, 10,19)'
+        posts: 'Minimum gönderi sayısı (ör. 10) veya kapsamlı aralık (ör. 10,19)'
+        selflikes: 'Alınan minimum beğeni sayısı (ör. 10) veya kapsayıcı aralık (ör. 10,19)'
+        tagposts: 'Aranacak etiket bilgisi ve minimum gönderi sayısı (ör. konu dışı,10) veya kapsayıcı aralık (ör. konu dışı,10,19)'
+        years: 'Kayıtlı minimum yıl sayısı (ör. 10) veya kapsayıcı aralık (ör. 10,19)'
       username: 'Kullanıcı adı'
       username_placeholder: 'Kullanıcı adı'
       variable:
@@ -54,6 +66,11 @@ malago-achievements:
       list_heading: Başarımlar
   forum:
     achievement_points: Puanlar
+    achievement_total_points: Toplam
+    hidden_achievements: 'Gizli başarılar'
+    list_heading: Başarılar
     new_achievement_close: Anladım!
     new_achievement_name: Başarı
     new_achievement_title: 'Yeni başarı!'
+    other_achievements: 'Diğer başarılar'
+    your_achievements: Başarılarınız
