@@ -23,7 +23,7 @@ michaelbelgium-discussion-views:
     discussion_controls:
       resetviews_button: 'Görüntülenmeyi sıfırla'
     modal_resetviews:
-      label: 'Bu tartışmaya ait {count} görüntülenme temizlenecektir. Devam ediyor musunuz?|Bu tartışmaya ait {count} görüntülenme temizlenecektir. Devam ediyor musunuz?'
+      label: '{count, plural, one {Bu tartışmaya ait {count} görüntülenme temizlenecektir. Devam ediyor musunuz?} other {Bu tartışmaya ait {count} görüntülenme temizlenecektir. Devam ediyor musunuz?}}'
       submit_button: 'Evet, hepsini kaldır'
       title: 'Tartışmaların görüntülenmesini sıfırla'
     viewlist:

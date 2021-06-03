@@ -27,5 +27,6 @@ fof-filter:
       text: Filtre
     title: Filtre
   forum:
+    flag_message: 'İçerdiği engellenen dizeler'
     flaged_text: 'Engellenmiş kelimeler'
     flagger_name: 'Otomatik Moderatör'
