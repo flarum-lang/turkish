@@ -8,7 +8,7 @@ blomstra-realtime:
       view-who-types: 'Kimin yazdığını göster'
   forum:
     push:
-      discussion-list-new-activity: 'Güncellenmiş {count} tartışmayı göster|Güncellenmiş {count} tartışmayı göster'
+      discussion-list-new-activity: '{count, plural, one {# güncellenmiş tartışmayı göster} other {# güncellenmiş tartışmayı göster}}'
     typing-indicator:
       no-activity: 'Kimse yazmıyor'
-      people-are-typing: '{number} kişi yazıyor|{number} kişi yazıyor'
+      people-are-typing: '{number, plural, one {# kişi yazıyor} other {# kişi yazıyor}}'

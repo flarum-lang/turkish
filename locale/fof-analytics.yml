@@ -4,6 +4,8 @@
 
 fof-analytics:
   admin:
+    matomo-widget:
+      title: Matomo
     popup:
       field:
         googleGTMCode: 'GTM kod ID (isteğe bağlı)'
@@ -16,14 +18,14 @@ fof-analytics:
         piwikSiteId: 'Site ID'
         piwikTrackAccounts: 'Tek tek kullanıcı hesaplarını gizleyin'
         piwikTrackSubdomain: 'Flarum''un tüm alt alanlarındaki ziyaretçileri takip et'
-        piwikUrl: 'Piwik alanadı veya bağlantısı'
+        piwikUrl: 'Matomo alanadı veya bağlantısı'
         statusGoogle: 'Google Analytics''i etkinleştir'
-        statusPiwik: 'Piwik''i etkinleştir'
+        statusPiwik: 'Matomo''yu etkinleştir'
       placeholder:
-        piwikAuthToken: "Yönetici panelinde bir Piwik istatistik sekmesini etkinleştirmek için bu simgeyi doldurun.\nAyarlar > Kişisel > API Kimlik Doğrulama Simgesi'nde bulabilirsiniz.\n"
+        piwikAuthToken: "Yönetici panelinde bir Matomo  istatistik widgetını etkinleştirmek için bu simgeyi doldurun.\nAyarlar > Kişisel > API Kimlik Doğrulama Simgesi'nde bulabilirsiniz.\n"
       section:
         googleAnalytics: 'Google Analytics'
-        piwik: Piwik
+        piwik: Matomo
       trackAccounts:
         email: 'E-Posta''ya göre takip et'
         none: 'Takip etme'
