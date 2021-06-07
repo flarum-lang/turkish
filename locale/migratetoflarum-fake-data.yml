@@ -19,7 +19,7 @@ migratetoflarum-fake-data:
       user-count: '=> migratetoflarum-fake-data.ref.user-count'
   api:
     no-discussions-matched: 'Eşleşen tartışma yok'
-    no-users-matched: 'Hiçbir kullanıcı eşleşmedi'
+    no-users-matched: 'Eşleşen kullanıcı yok'
   forum:
     generator:
       bulk-mode: '=> migratetoflarum-fake-data.ref.bulk-mode'

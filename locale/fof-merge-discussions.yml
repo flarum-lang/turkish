@@ -23,6 +23,6 @@ fof-merge-discussions:
       type_target_help_text: '<b>{title}</b> ile birleştirilecek tartışma(lar) seçin.'
       type_target_label: 'Bu tartışmaya birleştir'
     post:
-      merged: '<b>{count}</b> gönderi {titles} tartışmasından birleştirildi.|<b>{count}</b> gönderi {titles} tartışmasından birleştirildi.'
+      merged: '{count, plural, one {<b>#</b>gönderisi {titles} tartışmasından birleştirildi.} other  {<b>#</b> gönderisi {titles} tartışmasından birleştirildi.}}'
   ref:
     merge: Birleştir
