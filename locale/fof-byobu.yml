@@ -53,7 +53,7 @@ fof-byobu:
         update_recipients: '{title} alıcılarını güncelle'
     nav:
       nav_item: 'Özel Tartışmalar'
-      start_button: 'Özel Tartış'
+      start_button: 'Özel Tartışma Başlat'
     notifications:
       pd_added_label: 'Birisi beni varolan özel tartışmaya eklediğinde'
       pd_added_text: '{username} seni özel tartışmaya ekledi'
