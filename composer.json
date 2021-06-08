@@ -1,7 +1,7 @@
 {
     "name": "flarum-lang/turkish",
     "type": "flarum-extension",
-    "description": "Turkish language pack for Flarum's core.",
+    "description": "Turkish language pack for Flarum.",
     "keywords": [
         "locale"
     ],
