@@ -6,7 +6,9 @@ flarum-ext-welcomebox:
   admin:
     enablepostbox: 'Ziyaretçiler için Hoşgeldin Kutusunu göster'
   forum:
+    SettingsLink: Ayarlar
     discussion: '=> core.ref.discussions'
+    goToProfile: Profil
     notregistered: 'Henüz bu foruma üye olmadınız.'
     npost: '=> core.ref.posts'
     wback: 'Tekrar hoşgeldin,'
