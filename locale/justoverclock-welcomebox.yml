@@ -11,5 +11,8 @@ flarum-ext-welcomebox:
     goToProfile: Profil
     notregistered: 'Henüz bu foruma üye olmadınız.'
     npost: '=> core.ref.posts'
+    tooltipDisclist: Tartışmalarım
+    tooltipMentions: Bahsetmeler
+    tooltipProfile: Profil
     wback: 'Tekrar hoşgeldin,'
     welcomeguest: 'Hoşgeldin Ziyaretçi'
