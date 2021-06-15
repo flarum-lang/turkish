@@ -179,7 +179,7 @@ v17development-flarum-support:
         description: 'Gülümse, sen diğer insanların günlerini kurtaran kahramansın.'
         no_tickets: 'Kriterlerinize uyan bilet yok, muhtemelen iyi bir iş çıkarıyorsunuz!'
         title: 'Biletlere genel bakış'
-      reminders_sent: 'Bir hatırlatıcı gönderildi|{count} hatırlatıcı gönderildi'
+      reminders_sent: '{count, plural, one {Bir hatırlatıcı gönderildi} other {# hatırlatıcı gönderildi}}'
       return_to_overview: 'Bilete genel bakışa dön'
       status:
         closed:

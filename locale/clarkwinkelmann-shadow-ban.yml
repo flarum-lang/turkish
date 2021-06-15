@@ -15,3 +15,5 @@ clarkwinkelmann-shadow-ban:
     banUser:
       submit: Kaydet
       title: '{username} askıya al'
+    discussionControl:
+      hide: 'Gizlice sakla'
