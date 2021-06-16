@@ -11,7 +11,7 @@ v17development-flarum-support:
       body: "Sayın {recipient_display_name},\n\nKısa bir süre önce {replier_display_name}, {replied_date} tarihinde #{ticket_id} numaralı biletinize yanıt verdi ve yanıtınızı bekliyoruz.\n\nBiletinizin URL'si:\n{url}\n\nSorun çözüldüyse, lütfen bileti çözüldü olarak işaretleyin.\n"
       subject: '#{ticket_id} numaralı bilet yanıtınızı bekliyor'
     ticket_pending_reply_closed:
-      body: "Sayın {recipient_display_name},\n\nKısa süre önce {replier_display_name}, #{ticket_id} numaralı biletinize yanıt verdi. Maalesef sizden bir cevap alamadık. Etkinlik olmaması nedeniyle biletiniz otomatik olarak kapatıldı.\n\nYine de yanıtlamak istiyorsanız, biletinizin URL'si:\n{url}"
+      body: "Sayın {recipient_display_name},\n\nKısa süre önce {replier_display_name}, #{ticket_id} numaralı biletinize yanıt verdi. Maalesef sizden bir cevap alamadık. Etkinlik olmaması nedeniyle biletiniz otomatik olarak kapatıldı.\n\nYine de yanıtlamak istiyorsanız, biletinizin URL'si:\n{url}\n"
       subject: '#{ticket_id} numaralı bilet, hareketsizlik nedeniyle kapatıldı'
     ticket_resolved:
       body: "Sayın {recipient_display_name},\n\n#{ticket_id} numaralı biletiniz çözüldü olarak işaretlendi. Bu, biletinizin kapatıldığı anlamına gelir.\n\nBiletinizin URL'si:\n{url}\n\nBiletinizi çözüldü olarak işaretlemeyi kabul etmiyorsanız, yeniden açmak için lütfen biletinizi yanıtlayın.\n"
