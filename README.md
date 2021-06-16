@@ -6,7 +6,7 @@ We are now delivering free language updates through the this package. This means
 
 Interested in helping make Flarum text in your local language better? You can easily provide suggestions on text improvements using the GitHub. Just visit "[Issues](https://github.com/flarum-lang/turkish/issues)" page on our extension page.
 
-__
+___
 
 **Her zaman güncel ve her zaman gelişen Flarum dil deneyimi!**
 
