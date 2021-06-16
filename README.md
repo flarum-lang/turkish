@@ -6,6 +6,14 @@ We are now delivering free language updates through the this package. This means
 
 Interested in helping make Flarum text in your local language better? You can easily provide suggestions on text improvements using the GitHub. Just visit "[Issues](https://github.com/flarum-lang/turkish/issues)" page on our extension page.
 
+__
+
+**Her zaman güncel ve her zaman gelişen Flarum dil deneyimi!**
+
+Flarum artık bu dil paketiyle ücretsiz dil güncelleştirmeleri sağlıyor. Bu, yerel dilinizi sürekli olarak iyileştirebileceğimiz ve bu güncelleştirmeleri otomatik olarak sitenize gönderebileceğimiz anlamına geliyor. Türkçe Deneyim Paketi uzantısı yüklendikten sonra dilinizdeki Flarum metni her zaman güncel kalır.
+
+Flarum metninin yerel dilinizde daha iyi olmasına yardımcı olmak ister misiniz? GitHub'ı kullanarak metin geliştirmeleri hakkında kolayca önerilerde bulunabilirsiniz. Uzantı sayfamızdaki "[Sorunlar](https://github.com/flarum-lang/turkish/issues)" sayfasını ziyaret etmeniz yeterlidir.
+
 ## Installation
 
 ```bash
