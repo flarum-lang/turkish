@@ -1,6 +1,10 @@
 # 🇹🇷 Turkish Experience Pack for Flarum
 
-Turkish language extension for Flarum.
+**Always up-to-date, always improving Flarum language experience!**
+
+We are now delivering free language updates through the this package. This means we can continuously improve your local language and automatically send these updates to your site. By installing the Turkish Experience Pack extension, the Flarum text in your language will always be up-to-date.
+
+Interested in helping make Flarum text in your local language better? You can easily provide suggestions on text improvements using the GitHub. Just visit "[Issues](https://github.com/flarum-lang/turkish/issues)" page on our extension page.
 
 ## Installation
 
