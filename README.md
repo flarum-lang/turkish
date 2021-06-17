@@ -1,5 +1,10 @@
 # 🇹🇷 Turkish Experience Pack for Flarum
-
+[![Latest Stable Version](https://img.shields.io/packagist/v/flarum-lang/turkish?color=success&label=stable)](https://packagist.org/packages/flarum-lang/turkish) 
+[![Latest Unstable Version](https://img.shields.io/packagist/v/flarum-lang/turkish?include_prereleases&label=unstable)](https://packagist.org/packages/flarum-lang/turkish) 
+[![License](https://img.shields.io/packagist/l/flarum-lang/turkish)](https://packagist.org/packages/flarum-lang/turkish) 
+[![Total Downloads](https://img.shields.io/packagist/dt/flarum-lang/turkish)](https://packagist.org/packages/flarum-lang/turkish/stats) 
+[![Monthly Downloads](https://img.shields.io/packagist/dm/flarum-lang/turkish)](https://packagist.org/packages/flarum-lang/turkish/stats) 
+___
 **Always up-to-date, always improving Flarum language experience!**
 
 We are now delivering free language updates through the this package. This means we can continuously improve your local language and automatically send these updates to your site. By installing the Turkish Experience Pack extension, the Flarum text in your language will always be up-to-date.
