@@ -13,6 +13,7 @@ nearata-auth-minecraft:
       submit_button: 'E-Posta Değiştir'
       title: 'E-Posta Değiştir'
       token_placeholder: Anahtar
+    error_403: 'Geçersiz veya süresi dolmuş anahtar.'
     log_in_button_title: 'Minecraft ile Giriş Yap'
     log_in_modal:
       submit_button: Doğrulama
