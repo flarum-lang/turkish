@@ -217,7 +217,7 @@ core:
     invalid_username_message: 'Kullanıcı adı sadece harfler, rakamlar ve kısa çizgiler içerebilir.'
   email:
     activate_account:
-      body: "Hey {username}!\n\nBirisi (umarım sensindir!) bu e-posta hseabı ile {forum} sitesine kaydoldu.\n\nBu sen isen, hesabını aktifleştirmek için aşağıdaki bağlantıyı tıkla:\n{url}\n\nEğer sen kaydolmadıysan, bu e-postayı dikkate alma.\n"
+      body: "Hey {username}!\n\nBirisi (umarım sensindir!) bu e-posta hesabı ile {forum} sitesine kaydoldu.\n\nBu sen isen, hesabını aktifleştirmek için aşağıdaki bağlantıyı tıkla:\n{url}\n\nEğer sen kaydolmadıysan, bu e-postayı dikkate alma.\n"
       subject: 'Yeni Hesabını Etkinleştir'
     confirm_email:
       body: "Hey {username} !\n\nBirisi (umarım sensindir!) {forum} sitesindeki hesabının e-posta adresini değiştirdi.\n\nBu sen isen, e-postanı doğrulamak için aşağıdaki bağlantıyı tıkla: \n{url} \n\nŞifreni değiştirmek istemiyorsan, bu e-postayı dikkate alma.\n"
