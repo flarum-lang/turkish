@@ -47,7 +47,12 @@ fof-byobu:
     modal:
       help:
         add_recipients: 'Bu tartışma yalnızca burada seçtiğiniz kullanıcılar tarafından görüntülenir. En az 1 alıcı (kendiniz hariç) seçmeniz gerekmektedir.'
+        click_user_to_remove_tooltip: 'Kaldırmak için tıkla'
+        selected_users: 'Kullanıcıyı kaldırmak için adına tıkla.'
         update_recipients: 'Bu tartışma yalnızca burada seçtiğiniz kullanıcılar tarafından görüntülenir.'
+      labels:
+        search_field: 'Kullanıcılarda ara'
+        selected_users: 'Seçili kullanıcılar'
       titles:
         add_recipients: 'Tartışmana alıcı ekle'
         update_recipients: '{title} alıcılarını güncelle'
