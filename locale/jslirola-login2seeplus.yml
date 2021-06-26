@@ -12,7 +12,7 @@ jslirola-login2seeplus:
       title: 'Bu uzunluğu aşan içeriği gizle (<em>-1</em> hepsini gösterir)'
     title: Login2SeePlus
   forum:
-    code: 'Kodu görmek isim giriş yapın'
+    code: 'Kodu görmek için giriş yapın'
     image: 'Resimi görmek için giriş yapın'
     link: 'Bağlantıyı görmek için giriş yapın'
     post: 'Gönderinin tamamını görmek için {login} veya {register} yapmanız gerekiyor'
