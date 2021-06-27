@@ -9,7 +9,7 @@ ianm-level-ranks:
       title: 'Seviye Sıralaması Ayaları'
   forum:
     desc:
-      expText: DNYM
+      expText: '{expTotal} DNYM'
   lib:
     defaults:
       level: Seviye
