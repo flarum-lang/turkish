@@ -6,6 +6,8 @@ nearata-embed-twitch:
   admin:
     allowfullscreen: 'Tam ekrana izin ver'
     autoplay: 'Otomatik oynat'
+    permissions:
+      create_twitch: 'Twitch''i İçe Göm'
   forum:
     button_tooltip_title: 'Twitch İçe Gömme'
     modal:
