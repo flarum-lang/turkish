@@ -11,6 +11,7 @@ clarkwinkelmann-external-email-validation:
       headers: 'İstek Başlığı'
       headers-help: 'Her satır yeni bir başlıktır'
       method: 'İstek Yöntemi'
+      response-success-key: 'Geçerli duruma sahip JSON özniteliğine giden yol'
       uri: 'İstek URI'
       uri-help: 'E-posta değeriyle değiştirilecek kısa kodlar ekleyebilirsiniz, bkz. README.'
       use-response-status: 'Doğrulama durumu için HTTP yanıt durumunu kullan'
