@@ -5,7 +5,15 @@
 shriker-pronouns:
   admin:
     settings:
+      prefix_help_text: 'Bu metin, kullanıcının zamirlerinden önce gösterilecektir. mypronouns.org veya pronouns.is gibi zamir sitelerini temsil etmek istiyorsanız kullanışlıdır'
       prefix_label: 'Zamir Öneki'
       title: 'Kişisel Zamir Ayarı'
   forum:
+    change_pronouns_button: 'Zamiri Değiştir'
+    change_pronouns_title: 'Zamiri Değiştir'
     dismiss_button: Reddet
+    my_pronouns_are_help_text: 'Zamirleriniz profilinizde ve kullanıcı kartınızda görünecektir. <a>Kişi zamirleri nelerdir ve neden önemlidir?</a>'
+    my_pronouns_are_label: 'Benim zamirlerim'
+    my_pronouns_are_placeholder: 'Örneğin: erkek, kadın veya kendinizi tanımlama şekliniz'
+    submit_button: 'Değişiklikleri Kaydet'
+    submit_success_text: 'Kişisel zamiriniz kaydedildi.'
