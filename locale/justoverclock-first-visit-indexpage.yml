@@ -4,7 +4,10 @@
 
 first-visit-indexpage:
   forum:
+    accept-rules: 'Kuralları okudum ve kabul ediyorum'
     agree-button: 'Kabul Ediyorum'
+    alert-message: 'Devam etmek için kuralları kabul edin'
+    app-title: 'Forum Kuralları'
     general-rules: 'Genel kurallar'
     general-rules-text: "<p>Diğer üyelere karşı her zaman saygılı olun</p>\n<p>Tüm gönderiler profesyonel ve saygılı olmalıdır. Topluluk üyeleriyle  \naynı fikirde olmama ve bakış açınızı açıklama hakkına sahipsiniz.</p>\n<p>Ancak, onlara veya bu topluluğun kalitesine saldırmakta, onları küçük düşürmekte, \naşağılamakta veya başka bir şekilde küçümsemekte özgür değilsiniz. Bu forumlarda \nhangi unvana veya güce sahip olursanız olun, bu kurala uymanız beklenir.</p>\n"
     posting-rules: 'Gönderi ve Tartışmalar'
