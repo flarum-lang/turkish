@@ -77,4 +77,6 @@ kilowhat-audit:
       permissionGroup:
         everyone: '=> core.admin.permissions_controls.everyone_button'
         members: '=> core.admin.permissions_controls.members_button'
+      post:
+        hidden: '{discussion} tartışmasında {postuser} kullanıcısının {post} gönderisini gizledi'
       withoutActor: '=> core.group.guest'

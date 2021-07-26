@@ -21,6 +21,7 @@ kilowhat-wordpress:
       cookie_domain_help: 'Yalnızca Flarum alan adından farklıysa gereklidir'
       enable_comments: 'Yorum entegrasyonunu etkinleştir'
       enable_sso: 'SSO Entegrasyonunu Etkinleştir'
+      excerpt_html_nodes: 'İçerik alıntısının uzunluğu (HTML etiketleri sayısı olarak)'
       excerpt_html_whitelist: 'Alıntıda kullanılacak HTML etiketlerinin beyaz listesi (virgülle ayrılmış)'
       force_username_choice: 'Kullanıcıların ilk ziyaretlerinde kullanıcı adlarını seçmelerini sağlayın'
       force_username_choice_help: 'Yukarıda seçilen kuralla varsayılan bir değer sağlanacaktır.'
