@@ -39,7 +39,7 @@ composer require flarum-lang/turkish
 |📌 Sticky|[![Çeviri durumu](https://weblate.rob006.net/widgets/flarum/tr/flarum-sticky/svg-badge.svg)](https://weblate.rob006.net/engage/flarum/tr/?utm_source=widget)|
 |🔔 Subscriptions|[![Çeviri durumu](https://weblate.rob006.net/widgets/flarum/tr/flarum-subscriptions/svg-badge.svg)](https://weblate.rob006.net/engage/flarum/tr/?utm_source=widget)|
 |📨 Suspend|[![Çeviri durumu](https://weblate.rob006.net/widgets/flarum/tr/flarum-suspend/svg-badge.svg)](https://weblate.rob006.net/engage/flarum/tr/?utm_source=widget)|
-|🏷️ Tags [![Çeviri durumu](https://weblate.rob006.net/widgets/flarum/tr/flarum-tags/svg-badge.svg)](https://weblate.rob006.net/engage/flarum/tr/?utm_source=widget)|
+|🏷️ Tags|[![Çeviri durumu](https://weblate.rob006.net/widgets/flarum/tr/flarum-tags/svg-badge.svg)](https://weblate.rob006.net/engage/flarum/tr/?utm_source=widget)|
 |✅ Validation|[![Çeviri durumu](https://weblate.rob006.net/widgets/flarum/tr/validation/svg-badge.svg)](https://weblate.rob006.net/engage/flarum/tr/?utm_source=widget)|
 
 ## 3rd Party Extensions
