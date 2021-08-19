@@ -42,3 +42,6 @@ kyrne-websocket:
       show_updates_text: '{count, plural, one {Güncellenmiş # tartışmayı göster} other {Güncellenmiş # tartışmayı göster}}'
     discussion_page:
       viewing_title: 'Şimdi burada:'
+    widget:
+      empty: 'Çevrimiçi Kullanıcı Bulunmuyor.'
+      title: 'Çevrimiçi Kullanıcılar'
