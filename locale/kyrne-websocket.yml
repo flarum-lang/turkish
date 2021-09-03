@@ -44,4 +44,5 @@ kyrne-websocket:
       viewing_title: 'Şimdi burada:'
     widget:
       empty: 'Çevrimiçi Kullanıcı Bulunmuyor.'
+      guests: '{count, plural, one {1 Ziyaretçi} other {{count} Ziyaretçi}}'
       title: 'Çevrimiçi Kullanıcılar'
