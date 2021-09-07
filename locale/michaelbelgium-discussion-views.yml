@@ -27,4 +27,5 @@ michaelbelgium-discussion-views:
       submit_button: 'Evet, hepsini kaldır'
       title: 'Tartışmaların görüntülenmesini sıfırla'
     viewlist:
+      guest: Ziyaretçi
       title: 'Son Görüntüleyenler'
