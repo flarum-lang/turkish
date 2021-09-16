@@ -12,6 +12,7 @@ fof-best-answer:
       best_answer_not_own_discussion: 'En iyi yanıtı seç (başkasının tartışmasında)'
     settings:
       allow_select_own_post: 'Kendi gönderini seç'
+      allow_select_own_post_help: 'Tartışma sahibinin tartışmadaki kendi gönderilerinden birini en iyi cevap olarak seçmesine izin verin'
       documentation: Belgeler
       enable_all_tags_button: 'Tüm etiketlerde En İyi Yanıtı etkinleştir'
       enable_all_tags_reminder_button: 'En İyi Yanıt hatırlatıcısını için tüm etiketleri etkinleştir'
@@ -28,6 +29,7 @@ fof-best-answer:
       schedule_stop_overnight: 'Aktif olmayan saatlerde hatırlatma bildirimlerinin gönderilmesini önleyin'
       schedule_stop_overnight_help: '9ös - 8öö sunucu zamanı'
       select_best_answer_reminder_days: 'Hatırlatma sıklığı'
+      select_best_answer_reminder_days_help: 'Yapılandırılabilir gün sayısından sonra tartışma sahibine En İyi Yanıtı seçmesi için bir hatırlatıcı gönderin, 0 = hatırlatıcıları devre dışı bırakın.'
       show_filter_help: 'En İyi Yanıtların etkinleştirildiği etiketler için, tartışma listesinde çözülmüş/çözülmemiş filtre seçeneğini görüntülemeyi seçin'
       show_filter_label: 'En İyi Yanıt filtresini göster'
       use_alt_ui: 'Alternatif dizilim'
