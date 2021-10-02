@@ -14,8 +14,8 @@ clarkwinkelmann-catch-the-fish:
     settings:
       alert-round: 'Show an altert with the round name and duration on the homepage'
       animate-flip: 'Flip fish images based on direction'
-      discussion-age: 'How old discussions can be for a fish to be placed on it (days)'
-      post-age: 'How old posts can be for a fish to be placed on it (days)'
+      discussion-age: 'Üzerine balık konulabilmesi için tartışma ne kadar eski olmalıdır (gün cinsinden)'
+      post-age: 'Üzerine balık konulabilmesi için gönderi ne kadar eski olmalıdır (gün cinsinden)'
       time-to-place: 'Time allowed to place fish before it is randomly placed (minutes)'
       title: 'Catch The Fish Settings'
       user-age: 'How long since a user must have been active for a fish to be placed on it (days)'
@@ -51,7 +51,7 @@ clarkwinkelmann-catch-the-fish:
       name-help: 'İsterseniz balığı yeniden adlandırabilirsiniz. Adının forum kurallarına uygun olduğundan emin olun.'
       named-by: Adlandıran
       placed-by: Yerleştiren
-      placement-help: 'Son tartışmalarda ve aktif kullanıcı profillerinde  balıkları gizleyebilirsiniz. Kendi yerleştirdiğiniz balığı yakalayamazsınız.'
+      placement-help: 'Son tartışmalarda ve aktif kullanıcı profillerinde balıkları gizleyebilirsiniz. Kendi yerleştirdiğiniz balığı yakalayamazsınız.'
       submit-continue: Devam
       submit-name: 'Adı kaydet'
       submit-name-place-later: 'Adı kaydet ve saklama yerini seç'
@@ -60,8 +60,8 @@ clarkwinkelmann-catch-the-fish:
       submit-place-random: 'Balığın kendisini gizlemesine izin ver'
       title: 'Bir balık yakaladın!'
     drop-area:
-      message: 'You can drop the fish here'
-      missing-from-store: 'Could not find the fish in the data store'
+      message: 'Balığı buraya bırakabilirsin'
+      missing-from-store: 'Verita mağazasında balık bulamazsınız'
     edit-fish-modal:
       title: 'Balığı Düzenle "{name}"'
     edit-fish:
@@ -82,7 +82,7 @@ clarkwinkelmann-catch-the-fish:
       name-help: 'Bu turun adı, pankartta ve derecelendirmede gözükecektir'
       save: 'Turu kaydet'
       starting-pack: 'Başlangıç Paketi'
-      starting-pack-help: 'Will include a few fishes to get you started in no time'
+      starting-pack-help: 'Başlamanız için balıklar kısa sürede eklenecek'
       starts-at: 'Başlangıç süresi'
     fish-image:
       alt: 'Balığın resmi "{name}"'
@@ -103,9 +103,9 @@ clarkwinkelmann-catch-the-fish:
     new-round-modal:
       title: 'Yeni Tur'
     page-ranking:
-      nothing: 'No active rounds'
-      permission: 'You do not have permission to see the rankings'
-      title: Rankings
+      nothing: 'Hiç aktif tur yok'
+      permission: 'Dereceleri görüntülemek için yetkiniz bulunmuyor'
+      title: Dereceler
     round-alert:
       message: 'Tur "{name}" için {time} süresi boyunca olabildiğince balık yakalayın'
       rankings: 'Derecelendirmeyi gör'
@@ -124,11 +124,11 @@ clarkwinkelmann-catch-the-fish:
       user-name: 'En son adlandıran'
       user-place: 'En son yerleştiren'
     table-ranking:
-      count: 'Fishes caught'
+      count: 'Yakalanan balıklar'
       loading: Yükleniyor...
-      rank: Name
-      title: 'Ranking of round {name}'
-      user: User
+      rank: İsim
+      title: 'Tur sıralaması {name}'
+      user: Kullanıcı
     table-round:
       actions: Eylemler
       edit: Düzenle

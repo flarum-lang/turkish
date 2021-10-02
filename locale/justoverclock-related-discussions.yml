@@ -4,7 +4,10 @@
 
 justoverclock-related-discussions:
   admin:
+    DiscussionPageLayout: 'Benzer tartışmaları, tartışma sayfalarının en altına göster'
     relatedLimit: 'Gösterilecek ilgili tartışmalar (varsayılan 4)'
     relatedLimit-help: 'Gösterilmesini istediğiniz tartışma sayısını bu alana yazınız (örn. 14)'
   forum:
+    participants: Katılımcılar
+    postnumber: 'Gönderi sayısı'
     reldiscussion: 'İlgili Tartışmalar'

@@ -20,8 +20,8 @@ askvortsov-moderator-warnings:
       warning_no_strikes_text: '{mod_username} sizi uyardı! (Sebep?)'
       warning_text: '{mod_username} adlı moderatör tarafından {strikes, plural, one {# ihtarla} other {# ihtarla}} uyarıldınız'
     post:
-      warning: '{mod_username} adlı moderatör tarafından {strikes, plural, one {# ihtarla} other {# ihtarla}} uyarıldınız!'
-      warning_no_strikes: '{mod_username} tarafından uyarıldınız!'
+      warning: '{mod_username} adlı moderatör tarafından {strikes, plural, one {# ihtarla} other {# ihtarla}} uyarıldınız'
+      warning_no_strikes: '{mod_username} tarafından uyarıldınız'
     post_controls:
       warning_button: 'Kullanıcıyı Uyar'
     settings:
