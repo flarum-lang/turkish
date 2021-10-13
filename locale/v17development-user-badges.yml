@@ -62,7 +62,7 @@ v17development-flarum-badges:
       category: 'Rozet kategorisi'
       description: 'Rozet açıklaması'
       earned_by_count: '{count, plural, one {<b># kullanıcı</b> tarafından edinildi} other {<b># kullanıcı</b> tarafından edinildi}}'
-      earned_count: '{count, plural, one  {<b># kullanıcı</b> bu rozeti kazandı} other {<b># kullanıcı</b> bu rozeti kazandı}}'
+      earned_count: '{count, plural, one {<b># kullanıcı</b> bu rozeti kazandı} other {<b># kullanıcı</b> bu rozeti kazandı}}'
       earned_on: 'Rozet şu nedenle kazanıldı'
       earning_reason: 'Rozeti kazanma nedeni'
       name: 'Rozet adı'
