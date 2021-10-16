@@ -7,6 +7,8 @@ justoverclock-related-discussions:
     DiscussionPageLayout: 'Benzer tartışmaları, tartışma sayfalarının en altına göster'
     relatedLimit: 'Gösterilecek ilgili tartışmalar (varsayılan 4)'
     relatedLimit-help: 'Gösterilmesini istediğiniz tartışma sayısını bu alana yazınız (örn. 14)'
+    relatedTitle: '"İlgili Tartışmalar" Başlığı'
+    relatedTitle-help: 'İlgili tartışmalar için varsayılan başlığı kendi başlığınızla değiştirin'
   forum:
     participants: Katılımcılar
     postnumber: 'Gönderi sayısı'

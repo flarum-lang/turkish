@@ -428,6 +428,7 @@ core:
       email_heading: '=> core.ref.email'
       email_label: '=> core.ref.email'
       groups_heading: Gruplar
+      nothing_available: 'Bu kullanıcıyı düzenleme yetkiniz bulunmamaktadır.'
       password_heading: '=> core.ref.password'
       password_label: '=> core.ref.password'
       set_password_label: 'Yeni şifre ayarla'
@@ -443,6 +444,7 @@ core:
       payload_too_large_message: 'İstek yükü çok büyük.'
       permission_denied_message: 'Bunu yapmaya yetkiniz bulunmuyor.'
       rate_limit_exceeded_message: 'Biraz fazla hızlı gidiyorsun. Lütfen birkaç saniye içinde tekrar dene.'
+      render_failed_message: 'Üzgünüz, bu içeriği görüntülerken bir hatayla karşılaştık. Kullanıcı iseniz, lütfen daha sonra tekrar deneyin. Yöneticiyseniz, daha fazla bilgi için Flarum günlük dosyalarınıza bakın.'
     loading_indicator:
       accessible_label: '=> core.ref.loading'
     number_suffix:
