@@ -95,6 +95,7 @@ core:
       title: '=> core.ref.email'
     extension:
       configure_scopes: 'Kapsamları Yapılandır'
+      confirm_purge: 'Temizleme, uzantıyla ilgili tüm veritabanı girdilerini ve varlıkları kaldıracaktır. Uzantıyı kaldırmaz; kaldırma işlemi Composer aracılığıyla yapılmalıdır. Devam etmek istediğine emin misin?'
       confirm_uninstall: 'Kaldırma işlemi, uzantı ile ilgili tüm veritabanı girişlerini kaldıracaktır. Devam etmek istediğine emin misin?'
       disabled: Etkisizleştirildi
       enable_to_see: 'Ayarları görüntülemek ve değiştirmek için uzantıyı etkinleştirin.'
@@ -110,6 +111,7 @@ core:
       no_settings: 'Bu uzantının ayarları yok.'
       open_modal: 'Ayarları aç'
       permissions_title: İzinler
+      purge_button: Temizle
       uninstall_button: Kaldır
     header:
       get_help: 'Yardım Al'

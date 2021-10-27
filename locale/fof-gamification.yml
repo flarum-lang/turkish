@@ -11,13 +11,13 @@ fof-gamification:
     page:
       convert:
         button: 'Beğenileri yukarı oya çevir'
-        converted: '{number} beğeni başarıyla dönüştürüldü.'
+        converted: '{number} beğeni başarıyla dönüştürüldü'
         converting: 'Beğenileriniz dönüştürülüyor. Sonucu görmek için sayfayı birkaç dakika sonra yenileyin. (Dönüşüm forum beğenilerinize bağlı olarak zaman alabilir)'
         help: 'flarum-ext-likes eklentisindeki beğenilerinizi yukarı oya çevirin, ve şuanki tüm konularınız için aktifliğini hesaplayın.'
       rankings:
         blocked:
           help: 'Bu kullanıcılar sıralama sayfasında görünmeyecek. Kullanıcı adları virgül ve sonrasında boşluk ile ayrılmalıdır.'
-          placeholder: 'CDK2020, Ralkage, AngelAvila'
+          placeholder: 'tolgaaaltas, mekici, DursunCan'
           title: 'Yoksayılan kullanıcılar'
         custom_image_1: '1. sıra resmi'
         custom_image_2: '2. sıra resmi'
@@ -40,7 +40,7 @@ fof-gamification:
         color_holder: '#ffffff'
         discussion_page: 'Orijinal gönderilerin toplam oylarını tartışma listesinde göster'
         icon_help: 'İstediğiniz -up ve -down arka eki olan FontAwesome simgesini ekleyin. Örn: arrow, thumbs, chevron'
-        icon_name: 'Upvote/downvote icon'
+        icon_name: 'Yukarı oy/aşağı oy simgesi'
         points_placeholder: 'Points: '
         points_title: Puanlar
         rate_limit: 'Bir oy oranı limiti uygula (10 saniye)'
@@ -48,7 +48,7 @@ fof-gamification:
         vote_color: 'Oylandığındaki renk'
     permissions:
       see_ranking_page: 'Sıralama sayfasına bak'
-      see_votes_label: 'See post upvotes/downvotes'
+      see_votes_label: 'Gönderilen yukarı oyları/aşağı oyları görün'
       vote_label: 'Yukarı/Aşağı oylanan paylaşımlar'
   forum:
     mod_item: 'Oy Verenleri Göster'
