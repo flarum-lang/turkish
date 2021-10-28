@@ -112,6 +112,10 @@ core:
       open_modal: 'Ayarları aç'
       permissions_title: İzinler
       purge_button: Temizle
+      readme:
+        button_label: 'BENİ OKU'
+        no_readme: 'Bu uzantı bir BENİ OKU dosyasına sahip değil'
+        title: '{extName} belgeleri'
       uninstall_button: Kaldır
     header:
       get_help: 'Yardım Al'
