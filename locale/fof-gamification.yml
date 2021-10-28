@@ -6,9 +6,12 @@ core:
   forum:
     index_sort:
       hot_button: Sıralama
+      votes_button: 'Yukarı Oylar'
 fof-gamification:
   admin:
     page:
+      alt_votes:
+        icon_name: 'Alternatif düzen simgesi adı'
       convert:
         button: 'Beğenileri yukarı oya çevir'
         converted: '{number} beğeni başarıyla dönüştürüldü'
@@ -45,6 +48,7 @@ fof-gamification:
         points_title: Puanlar
         rate_limit: 'Bir oy oranı limiti uygula (10 saniye)'
         title: Oylar
+        upvotes_only: 'Yalnızca yukarı oya izin ver'
         vote_color: 'Oylandığındaki renk'
     permissions:
       see_ranking_page: 'Sıralama sayfasına bak'
