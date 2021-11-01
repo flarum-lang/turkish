@@ -429,6 +429,7 @@ core:
   lib:
     badge:
       hidden_tooltip: Gizli
+    debug_button: 'Hata Ayıklama'
     dropdown:
       toggle_dropdown_accessible_label: 'Açılır menüyü aç / kapat'
     edit_user:
