@@ -53,7 +53,8 @@ fof-gamification:
         vote_color: 'Oylandığındaki renk'
     permissions:
       see_ranking_page: 'Sıralama sayfasına bak'
-      see_votes_label: 'Gönderilen yukarı oyları/aşağı oyları görün'
+      see_voters_label: 'Kimin oy verdiğini göster'
+      see_votes_label: 'Yukarı oyların/aşağı oyların sayılarını göster'
       vote_label: 'Yukarı/Aşağı oylanan paylaşımlar'
   forum:
     mod_item: 'Oy Verenleri Göster'
