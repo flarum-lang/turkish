@@ -3,6 +3,10 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 justoverclock-hashtag:
+  admin:
+    settings:
+      regexdesc: 'Aşağıda yer tutucu olarak bir örnek gösterilmiştir. Yalnızca Normal İfadeleri anlıyorsanız düzenleyin.'
+      regexlabel: 'Etiket Normal İfadesi'
   forum:
     post:
-      hashtag_link_tooltip: 'Bu etiket ile ilgili diğer gönderileri bulun'
+      hashtag_link_tooltip: 'Bu etiket ile ilgili gönderileri bulun'
