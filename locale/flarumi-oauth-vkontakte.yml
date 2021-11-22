@@ -19,6 +19,6 @@ fof-oauth:
       vkontakte: '=> fof-oauth.lib.providers.vkontakte'
   lib:
     providers:
-      vkontakte: Vkontakte
+      vkontakte: VK
   providers:
     vkontakte: '=> fof-oauth.lib.providers.vkontakte'

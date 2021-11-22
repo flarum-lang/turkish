@@ -56,6 +56,11 @@ fof-gamification:
       see_voters_label: 'Kimin oy verdiğini göster'
       see_votes_label: 'Yukarı oyların/aşağı oyların sayılarını göster'
       vote_label: 'Yukarı/Aşağı oylanan paylaşımlar'
+  email:
+    body:
+      postVoted: "Merhaba {recipient_display_name},\n\n{actor_display_name} az önce {discussion_title} tartışmasındaki gönderini oyladı.\n\nBurada görüntüleyin: {discussion_url}\n"
+    subject:
+      postVoted: 'Gönderiniz {display_name} tarafından oylandı'
   forum:
     mod_item: 'Oy Verenleri Göster'
     modal:
@@ -65,6 +70,8 @@ fof-gamification:
       name: Sıralamalar
     notification:
       downvote: '{username} paylaşımına aşağı oy verdi'
+      prefrences:
+        vote: 'Gönderilerimden biri yukarı/aşağı oylandığında'
       upvote: '{username} paylaşımına yukarı oy verdi'
     ranking:
       amount: Puan
