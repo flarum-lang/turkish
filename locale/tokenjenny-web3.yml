@@ -9,3 +9,4 @@ tokenjenny-web3:
     settings:
       connect_button: 'MetaMask''e Bağla'
       connected: '<strong>{account}2</strong> bağlandı'
+      privacy_disclose_web3_address_label: 'Başkalarının cüzdan adresimi görmesine izin ver'

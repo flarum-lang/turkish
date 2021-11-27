@@ -43,6 +43,7 @@ fof-gamification:
         auto_upvote: 'Paylaşıldığında otomatik yukarı oyla'
         color_holder: '#ffffff'
         discussion_page: 'Orijinal gönderilerin toplam oylarını tartışma listesinde göster'
+        first_post_only: 'Bir tartışmada yalnızca ilk gönderinin yukarı/aşağı oylanmasına izin verin'
         icon_help: 'İstediğiniz -up ve -down arka eki olan FontAwesome simgesini ekleyin. Örn: arrow, thumbs, chevron'
         icon_name: 'Yukarı oy/aşağı oy simgesi'
         points_placeholder: 'Points: '
@@ -73,6 +74,9 @@ fof-gamification:
       prefrences:
         vote: 'Gönderilerimden biri yukarı/aşağı oylandığında'
       upvote: '{username} paylaşımına yukarı oy verdi'
+    post:
+      downvote_button: 'Aşağı oyla'
+      upvote_button: 'Yukarı oyla'
     ranking:
       amount: Puan
       name: Kullanıcı
@@ -81,4 +85,8 @@ fof-gamification:
       points: 'Puan: {points}'
       rank: '{rank}'
     vote_title: 'Oy Verenleri Göster'
+    voters:
+      label: Oylayanlar
+      label_none: 'Oylayan yok'
+      none: 'Henüz oylayan yok'
     votes: Oylar
