@@ -559,6 +559,9 @@ core:
       log_out_button: '=> core.ref.log_out'
       log_out_confirmation: '{forum} oturumundan çıkış yapmak istediğine emin misin?'
       title: '=> core.ref.log_out'
+    meta_titles:
+      with_page_title: '{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: Sayfa # - {forumName}}}'
+      without_page_title: '{pageNumber, plural, =1 {{forumName}} other {Sayfa # - {forumName}}}'
     reset_password:
       confirm_password_label: 'Yeni Şifreyi Onayla'
       new_password_label: 'Yeni Şifre'
