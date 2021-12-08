@@ -4,6 +4,8 @@
 
 acpl-lscache:
   admin:
+    cache_exclude_help: 'Bu dizeleri içeren yollar önbelleğe alınmayacaktır. Örneğin, <code>/mypath/mypage?aa=bb</code> için burada <code>mypage?aa=</code> kullanılabilir. Başlangıcı eşleştirmek için öğenin başına <code>^</code> ekleyin. Tam bir eşleşme yapmak için URL''nin sonuna <code>$</code> ekleyin. Her satıra bir tane.'
+    cache_exclude_label: 'Yolları önbelleğe almayın'
     public_cache_ttl_help: 'Sayfaların ne kadar süreyle önbelleğe alınacağını saniye cinsinden belirtin. Varsayılan değer 300 saniyedir.'
     public_cache_ttl_label: 'Varsayılan genel önbellek TTL'
     purge_all: 'Tüm LSCache''i temizle'
