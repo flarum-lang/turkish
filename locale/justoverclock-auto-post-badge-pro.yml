@@ -4,6 +4,9 @@
 
 justoverclock-auto-post-badge-pro:
   admin:
+    cologBackg: 'Arkaplan Rengi'
+    colorBg: 'İlerleme Çubuğu Arka Planı'
+    colorBgTwo: Arkaplan
     fromPost: 'Gönderi Numarasından'
     icon: Simge
     levelEight: 'Seviye 8'
