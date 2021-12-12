@@ -31,4 +31,5 @@ justoverclock-auto-post-badge-pro:
     toPost: 'Gönderi Numarasına'
   forum:
     hasWritten: 'Bu kullanıcı yazdı'
+    nextBadge: 'Sonraki Rozet'
     posts: gönderiler
