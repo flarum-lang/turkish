@@ -6,6 +6,7 @@ davwheat:
   ads:
     admin:
       settings:
+        add_script: Yeni
         alert:
           code_has_script: 'Reklam kodlarınızdan biri veya daha fazlası, izin verilmeyen komut dosyası etiketleri içeriyor. Bunları kaldırıp tekrar deneyin.'
           fix_errors: 'Değişiklikleri kaydetmeden önce aşağıdaki hataları giderin'
@@ -20,7 +21,8 @@ davwheat:
           fix_errors: 'Kaydetmeden önce hataları giderin'
           saved: 'Tüm değişiklikler kaydedildi'
           saving: Kaydediliyor...
-        warning: "Reklam kodu <b>YALNIZCA</b> <code>ins</code> etiketini/etiketlerini içermeli ve herhangi bir komut dosyası etiketi içermemelidir. Komut dosyaları \notomatik olarak uzantı tarafından çalıştırılır.\n"
+        script_urls: 'Özel script URL''leri'
+        warning: "<b>Talimatlar:</b>\n<br></br>\n<b>HTML</b> - Bu kutuya reklam için HTML içeriği ekleyin. Bu kutuya herhangi bir {script} etiketi eklemeyin. Script kodları çalışmaz.\n<br></br>\n<b>JS</b> - Bir komut dosyası etiketine eklemek için özel Javascript kodu ekleyin. Bu, {script} etiketinin kendisini <b>İÇERMEMELİ</b>.\n"
     lib:
       locations:
         between_posts: 'Gönderiler arasında'
