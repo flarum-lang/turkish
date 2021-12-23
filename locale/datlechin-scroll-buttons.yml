@@ -4,7 +4,19 @@
 
 datlechin-flarum-scroll-buttons:
   admin:
+    scroll_to_bottom:
+      help: 'Sayfanın en altına kaydırmak için bir düğme göster'
+      icon:
+        help: 'Düğmenin simgesini özelleştirin. Varsayılan simgeyi kullanmak için boş bırakın.'
+        label: 'Aşağı Kaydırma Simgesi'
+      label: 'Aşağı Kaydır'
     scroll_to_bottom_button_help: 'Sayfanın en altına kaydırmak için düğmeyi göster'
     scroll_to_bottom_button_label: 'Aşağı Kaydır'
+    scroll_to_top:
+      help: 'Sayfanın en üstüne kaydırmak için bir düğme göster'
+      icon:
+        help: 'Düğmenin simgesini özelleştirin. Varsayılan simgeyi kullanmak için boş bırakın.'
+        label: 'Yukarı Kaydırma Simgesi'
+      label: 'Yukarı Kaydır'
     scroll_to_top_button_help: 'Sayfanın en üstüne kaydırmak için düğmeyi göster'
     scroll_to_top_button_label: 'Yukarı Kaydır'

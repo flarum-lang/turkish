@@ -11,6 +11,7 @@ kilowhat-formulaire:
       editOwnDiscussion: '=> kilowhat-formulaire.ref.permissions.editOwnDiscussion'
       editOwnUser: '=> kilowhat-formulaire.ref.permissions.editOwnUser'
       export: 'Gönderim verilerini dışa aktar'
+      exportUserDetails: 'Dışa aktarmalarda kullanıcı özel verilerine erişin'
       fill: '=> kilowhat-formulaire.ref.permissions.fill'
       heading: Formulaire
       heading-advanced: 'Formulaire (üçüncü parti uzantılar için tercihler)'
@@ -27,6 +28,13 @@ kilowhat-formulaire:
       max-file-size: 'Belge boyutu üst limiti (kB)'
       radio-style: 'Tek seçenek stili'
       side-nav-on-submission: 'Gönderim sayfasında yan menüyü göster'
+      style-options:
+        far-circle: 'FontAwesome Normal Daire Simgesi'
+        far-square: 'FontAwesome Normal Kare Simgesi'
+        fas-circle: 'FontAwesome Solid Daire Simgesi'
+        fas-square: 'FontAwesome Solid Kare Simgesi'
+        native: 'Yerel tarayıcı kontrolü'
+        switch: 'Flarum anahtarı'
       title: 'Form genel ayarları'
   forum:
     form-create:
