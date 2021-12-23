@@ -14,11 +14,32 @@ clarkwinkelmann-catch-the-fish:
     settings:
       alert-round: 'Show an altert with the round name and duration on the homepage'
       animate-flip: 'Flip fish images based on direction'
+      discussion: Tartışmalar
       discussion-age: 'Üzerine balık konulabilmesi için tartışma ne kadar eski olmalıdır (gün cinsinden)'
+      discussion-tags: 'Beyaz listeyi etiketle'
+      discussion-tags-help: "Herhangi bir etiket seçmezseniz, yukarıdaki zaman ayarlarına uyan herhangi bir tartışma seçilebilir. Herhangi bir sayıda etiket seçilirse, bir tartışmanın seçilecek seçili etiketlerden en az birine sahip olması gerekir. Olasılık, önceki tüm seçenekler denendikten sonra seçilme şansıdır. Listedeki son etiket her zaman yedek görevi görecektir, bu nedenle etiketin içinde en az bir geçerli tartışma olduğundan emin olun.\n"
+      discussion-tags-unavailable: 'Etiketler uzantısı devre dışı bırakıldığından ayar kullanılamıyor.'
+      general: Genel
+      post: Gönderiler
       post-age: 'Üzerine balık konulabilmesi için gönderi ne kadar eski olmalıdır (gün cinsinden)'
+      post-probability: 'Tartışma yerine bir gönderiye yerleştirilme olasılığı (%)'
+      tags-control:
+        add: 'Beyaz listeye ekle'
+        choose: 'Bir etiket seçin'
+        delete: 'Beyaz listeden kaldır'
+        down: 'Aşağı inmek'
+        up: 'Yukarı çıkmak'
+      tags-fallback:
+        last-line: 'Geri çekil'
+        single-line: 'Olasılık için en az 2 etiket gerekli'
+      tags-header:
+        probability: Olasılık
+        tag: Etiket
       time-to-place: 'Time allowed to place fish before it is randomly placed (minutes)'
       title: 'Catch The Fish Settings'
+      user: Kullanıcılar
       user-age: 'How long since a user must have been active for a fish to be placed on it (days)'
+      user-probability: 'Bir kullanıcı profiline yerleştirilme olasılığı (%)'
   api:
     cannot-catch-hold-fish: 'The previous catcher needs to release the fish before you can catch it'
     cannot-catch-own-fish: 'You cannot catch a fish you placed yourself'
@@ -37,6 +58,7 @@ clarkwinkelmann-catch-the-fish:
     random-error: 'Could not generate a random fish placement'
     round-finished: 'This round is finished'
     round-not-started: 'This round has not started'
+    tag-not-allowed: 'Bu etiketin altına balık koyamazsınız'
     too-many-placement-models: 'Only one placement is possible at a time'
     user-suspended: 'Can''t place fish on a suspended user'
     wrong-catch-placement: 'There is no fish here. Maybe you weren''t quick enough and someone else got it first'
@@ -119,6 +141,7 @@ clarkwinkelmann-catch-the-fish:
       new-from-image: 'Toplu görüntü içe aktararak yeni balıklar oluşturun'
       no-user-name: 'Yeniden adlandırılmadı'
       no-user-place: Rastgele
+      placement: 'Mevcut konum'
       title: 'Turdaki balıklar {name}'
       upload: 'Yeni resim yükle'
       user-name: 'En son adlandıran'
