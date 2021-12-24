@@ -12,7 +12,7 @@ clarkwinkelmann-catch-the-fish:
       participate: 'Turlara katılın ve balıkları yakalayın'
       visible: 'Balıkları gör'
     settings:
-      alert-round: 'Show an altert with the round name and duration on the homepage'
+      alert-round: 'Ana sayfada yuvarlak ismi (round name) ve süresi olan bir uyarı göster'
       animate-flip: 'Balık görüntülerini yöne göre çevirin'
       discussion: Tartışmalar
       discussion-age: 'Üzerine balık konulabilmesi için tartışma ne kadar eski olmalıdır (gün cinsinden)'
