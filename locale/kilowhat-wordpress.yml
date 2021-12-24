@@ -90,7 +90,7 @@ kilowhat-wordpress:
       intro: "Premium Wordpress uzantımı satın aldığınız için teşekkürler! Flarum ve Wordpress'inizi otomatik olarak birbirine bağlamak için aşağıdaki kimlik bilgilerinizi doldurun.\n"
       wordpress_password: 'Wordpress yönetici şifresi'
       wordpress_password_help: 'Parola yalnızca ilk yapılandırma için kullanılır ve saklanmaz.'
-      wordpress_url: 'Wordpress URL'
+      wordpress_url: 'Wordpress Bağlantısı'
       wordpress_url_help: 'Wordpress ana sayfanıza bir bağlantı'
       wordpress_username: 'Wordpress yönetici kullanıcı adı'
   api:

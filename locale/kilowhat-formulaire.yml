@@ -314,7 +314,7 @@ kilowhat-formulaire:
         long: 'Uzun metin'
         number: Numara
         radio: Radio
-        select: Dropdown
+        select: 'Aşağı Açılır Menü'
         short: 'Kısa metin'
         upload: Yüklemek
     upload-editor:
