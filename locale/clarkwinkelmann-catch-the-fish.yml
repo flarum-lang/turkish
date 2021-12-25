@@ -8,7 +8,7 @@ clarkwinkelmann-catch-the-fish:
       choose-name: 'Yakaladıktan sonra balık adını seçin'
       choose-place: 'Yakaladıktan sonra balık yerleşimini seçin'
       list-rankings: 'Sıralama sayfasına erişin'
-      moderate: 'Moderate rounds and fishes'
+      moderate: 'Turları ve balıkları yönet'
       participate: 'Turlara katılın ve balıkları yakalayın'
       visible: 'Balıkları gör'
     settings:

@@ -13,7 +13,7 @@ justoverclock-igdb-api:
     game-title-alert-box-description: 'Bir oyun hakkında bir tartışma başlatmak üzereyseniz, tüm bilgileri almak için başka kelimeler olmadan SADECE video oyunu adını başlık olarak (örn. Call of Duty modern warfare) kullanın.'
     gamesPage: 'Yeni ve Yaklaşan Oyunlar'
     genres: Türler
-    genresPage: Genres
+    genresPage: Türler
     metacriticScore: 'MetaCritic Puanı'
     noConnection: 'Hata! Video oyunu veritabanı şu anda yanıt vermiyor. Lütfen daha sonra tekrar kontrol edin.'
     offwebsite: 'Resmi İnternet Sitesi'
