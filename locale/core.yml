@@ -429,6 +429,8 @@ core:
     mod: Moderatör
     mods: Moderatörler
   lib:
+    alert:
+      dismiss_a11y_label: 'Uyarıyı kapat'
     badge:
       hidden_tooltip: Gizli
     debug_button: 'Hata Ayıklama'
