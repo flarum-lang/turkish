@@ -49,7 +49,7 @@ xelson-chat:
           users:
             edit: 'Kullanıcıları seç ve düzenle'
         moderator:
-          got: '{chatname} sohbetinde Moderatör yetkilerini elde ettiniz!'
+          got: '{chatname} sohbetinde Moderatör haklarına sahip oldunuz!'
           lost: '{chatname} sohbetinde Moderatör haklarınızı kaybettiniz.'
         save_button: '=> core.ref.save_changes'
         search:
@@ -83,6 +83,7 @@ xelson-chat:
           search:
             failed: 'Eşleşen kullanıcı bulunamadı'
             invited: 'Davet edildi'
+            more_results: 'Ve {more_results} tane daha...'
             placeholder: 'Kullanıcı Ara'
           title: 'Kullanıcı seç'
         pin: 'Panele sabitle'
