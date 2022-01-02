@@ -13,6 +13,30 @@ datlechin-keyboard-shortcuts:
   forum:
     modal:
       title: 'Klavye Kısayolları'
+  lib:
+    discussion_list: 'Tartışma Listesi'
+    discussion_list_heading: 'Tartışma Listesi'
+    discussion_page: 'Tartışma Sayfası'
+    discussion_page_heading: 'Tartışma Sayfası'
+    global_heading: Küresel
+    shortcuts:
+      back: Geri
+      close: Kapat
+      first_post: 'İlk Gönderi'
+      flags: Bildiriler
+      follow: 'Takip et/Takip etmeyi bırak'
+      help: Yardım
+      last_post: 'Son Gönderi'
+      login: 'Giriş yap'
+      mark_all_as_read: 'Tümünü okundu olarak işaretle'
+      new_discussion: 'Yeni Tartışma'
+      notifications: Bildirimler
+      pin_nav: 'Gezinti Sabitle'
+      refresh: Yenile
+      reply: Yanıtla
+      search: Ara
+      session: 'Kullanıcı Açılır Menüsü'
+      signup: 'Kayıt ol'
   ref:
     discussion_list: 'Tartışma Listesi'
     discussion_list_heading: 'Tartışma Listesi'
