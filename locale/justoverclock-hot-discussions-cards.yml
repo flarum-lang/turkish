@@ -5,4 +5,4 @@
 justoverclock-hot-discussion-cards:
   forum:
     hot: ZİRVE!
-    post: GÖNDERİLER
+    post: '{count, plural, one {GÖNDERİ} other {GÖNDERİLER}}'
