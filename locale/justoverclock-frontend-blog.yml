@@ -4,12 +4,16 @@
 
 justoverclock-frontend-blog:
   admin:
+    charLim: 'Karakter Sınırı'
+    charLim-help: 'Görüntülenecek maksimum karakter sayısını buraya koyun'
     numberOfPost: 'Gönderi Sayısı'
     numberOfPost-help: 'Görüntülemek istediğiniz gönderi sayısını buraya yazın'
     sorting: 'Son veya Popüler Tartışmalar? (varsayılan en sondur)'
     sorting-help: 'En son tartışmaları görüntülemek istiyorsanız "-createdAt" yazın, sıcak tartışmalar için "-commentCount" yazın'
   forum:
     linkToDiscussion: ' Tartışma Bağlantısı'
+    menuButton: Menü
     post: '{count, plural, one {# GÖNDERİ} other {# GÖNDERİLER}}'
+    postedOn: ' Yayınlanan: '
     recentDiscussions: 'Son Tartışmalar:'
     titlePage: 'Forum Tartışmaları'

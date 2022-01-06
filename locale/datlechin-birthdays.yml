@@ -5,10 +5,11 @@
 datlechin-birthdays:
   forum:
     change_dob:
-      show_dob_date: 'Doğum tarihini ve ayını göster'
+      date_of_birth_text: 'Doğum tarihi'
+      show_dob_date: 'Doğum gününü ve ayını göster'
       show_dob_year: 'Doğum yılını göster'
       show_dob_year_help: 'Bu, insanların yaşınızı görmesini sağlayacaktır.'
-      submit_button: '=> core.forum.change_email.submit_button'
+      submit_button: '=> core.ref.save_changes'
       title: 'Doğum Tarihini Düzenle'
     header:
       edit_dob_button: 'Doğum Tarihini Düzenle'
