@@ -11,6 +11,7 @@ justoverclock-frontend-blog:
     sorting: 'Son veya Popüler Tartışmalar? (varsayılan en sondur)'
     sorting-help: 'En son tartışmaları görüntülemek istiyorsanız "-createdAt" yazın, sıcak tartışmalar için "-commentCount" yazın'
   forum:
+    allDiscussions: 'Tüm Tartışmalar'
     linkToDiscussion: ' Tartışma Bağlantısı'
     menuButton: Menü
     post: '{count, plural, one {# GÖNDERİ} other {# GÖNDERİLER}}'
