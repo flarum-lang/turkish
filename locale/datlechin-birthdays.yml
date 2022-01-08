@@ -16,11 +16,13 @@ datlechin-birthdays:
       title: 'Doğum Tarihini Düzenle'
     edit_user:
       birthdays_heading: 'Doğum tarihi'
+      dob_heading: 'Doğum Günü'
     header:
       edit_dob_button: 'Doğum Tarihini Düzenle'
     settings:
       birthday_heading: 'Doğum tarihi'
       change_dob_label: 'Doğum Tarihini Değiştir'
+      dob_heading: 'Doğum Günü'
       show_dob_date_label: 'Doğum gününü ve ayını göster'
       show_dob_year_help: 'Bu, insanların yaşınızı görmesini sağlayacaktır.'
       show_dob_year_label: 'Doğum yılını göster'
