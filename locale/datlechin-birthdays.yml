@@ -3,6 +3,9 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 datlechin-birthdays:
+  admin:
+    settings:
+      set_on_registration_label: 'Kayıt sırasında doğum günlerinin ayarlanmasına izin ver'
   forum:
     change_dob:
       date_of_birth_text: 'Doğum tarihi'
@@ -11,8 +14,16 @@ datlechin-birthdays:
       show_dob_year_help: 'Bu, insanların yaşınızı görmesini sağlayacaktır.'
       submit_button: '=> core.ref.save_changes'
       title: 'Doğum Tarihini Düzenle'
+    edit_user:
+      birthdays_heading: 'Doğum tarihi'
     header:
       edit_dob_button: 'Doğum Tarihini Düzenle'
+    settings:
+      birthday_heading: 'Doğum tarihi'
+      change_dob_label: 'Doğum Tarihini Değiştir'
+      show_dob_date_label: 'Doğum gününü ve ayını göster'
+      show_dob_year_help: 'Bu, insanların yaşınızı görmesini sağlayacaktır.'
+      show_dob_year_label: 'Doğum yılını göster'
     user:
       age_text: 'Yaş: {age}'
       birthday_text: 'Doğum Günü: {date}'
