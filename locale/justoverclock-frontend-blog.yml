@@ -6,6 +6,8 @@ justoverclock-frontend-blog:
   admin:
     charLim: 'Karakter Sınırı'
     charLim-help: 'Görüntülenecek maksimum karakter sayısını buraya koyun'
+    defaultImage: 'Varsayılan Gönderi Resmi'
+    defaultImage-help: 'Burada, olmayan gönderiler için varsayılan resmi tanımlayabilirsiniz'
     numberOfPost: 'Gönderi Sayısı'
     numberOfPost-help: 'Görüntülemek istediğiniz gönderi sayısını buraya yazın'
     sorting: 'Son veya Popüler Tartışmalar? (varsayılan en sondur)'

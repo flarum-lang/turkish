@@ -4,8 +4,15 @@
 
 datlechin-birthdays:
   admin:
+    permissions:
+      edit_own_birthday_label: 'Kendi doğum gününü düzenle'
     settings:
+      date_format_help: '<a>moment.js</a> tarih biçimini kullanın. Varsayılan biçimi kullanmak için boş bırakın.'
+      date_format_label: 'Tarih formatı'
+      date_none_year_label: 'Yıl olmadan tarih formatı'
       set_on_registration_label: 'Kayıt sırasında doğum günlerinin ayarlanmasına izin ver'
+  api:
+    invalid_dob_message: 'Doğum tarihiniz 100 yaşından küçük olmalıdır.'
   forum:
     change_dob:
       date_of_birth_text: 'Doğum tarihi'
