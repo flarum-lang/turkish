@@ -10,13 +10,16 @@ justoverclock-frontend-blog:
     defaultImage-help: 'Burada, olmayan gönderiler için varsayılan resmi tanımlayabilirsiniz'
     numberOfPost: 'Gönderi Sayısı'
     numberOfPost-help: 'Görüntülemek istediğiniz gönderi sayısını buraya yazın'
+    showHeaderHero: 'Karşılama Başlığını Göster'
     sorting: 'Son veya Popüler Tartışmalar? (varsayılan en sondur)'
     sorting-help: 'En son tartışmaları görüntülemek istiyorsanız "-createdAt" yazın, sıcak tartışmalar için "-commentCount" yazın'
   forum:
     allDiscussions: 'Tüm Tartışmalar'
     linkToDiscussion: ' Tartışma Bağlantısı'
+    loginButton: 'Giriş yap'
     menuButton: Menü
     post: '{count, plural, one {# GÖNDERİ} other {# GÖNDERİLER}}'
     postedOn: ' Yayınlanan: '
     recentDiscussions: 'Son Tartışmalar:'
+    signupButton: 'Kayıt ol'
     titlePage: 'Forum Tartışmaları'
