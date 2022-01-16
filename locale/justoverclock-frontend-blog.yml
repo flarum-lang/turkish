@@ -10,6 +10,7 @@ justoverclock-frontend-blog:
     defaultImage-help: 'Burada, olmayan gönderiler için varsayılan resmi tanımlayabilirsiniz'
     numberOfPost: 'Gönderi Sayısı'
     numberOfPost-help: 'Görüntülemek istediğiniz gönderi sayısını buraya yazın'
+    setBlogIndexPage: 'Ön Uç Blog uzantısını ana sayfa olarak ayarla'
     showHeaderHero: 'Karşılama Başlığını Göster'
     showPinnedDiscussions: 'Son 3 Sabitlenmiş Tartışmayı Göster'
     sorting: 'Son veya Popüler Tartışmalar? (varsayılan en sondur)'
