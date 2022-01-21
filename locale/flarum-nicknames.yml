@@ -23,7 +23,7 @@ flarum-nicknames:
       title: '=> flarum-nicknames.ref.change_nickname'
     edit_user:
       nicknames_heading: '=> flarum-nicknames.ref.change_nickname'
-      nicknames_text: 'Kullanıcı adı'
+      nicknames_text: '=> flarum-nicknames.ref.nickname'
     settings:
       change_nickname_button: '=> flarum-nicknames.ref.change_nickname'
     sign_up:
