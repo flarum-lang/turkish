@@ -13,7 +13,7 @@ flarum-nicknames:
       random_username_label: 'Rastgele Kullanıcı Adları'
       regex_label: 'Doğrulama için normal ifade'
       set_on_registration_label: 'Kayıt sırasında takma adların ayarlanmasına izin ver'
-      unique_label: 'Eşsiz kullanıcı adları gerekli mi?'
+      unique_label: 'Benzersiz takma adlar gerektir'
     wrong_driver: 'Bu uzantının çalışabilmesi için <a><strong>Temel Öğeler</strong></a> sayfasındaki görünen ad sürücüsünü "kullanıcı adı" olarak seçmelisiniz.'
   api:
     invalid_nickname_message: 'Bu kullanıcı adı geçerli değildir. Lütfen forum yöneticisi ile iletişime geçerek kullanıcı adı kuralları hakkında daha fazla bilgi edinin.'
