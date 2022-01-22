@@ -30,4 +30,4 @@ flarum-nicknames:
       nickname_placeholder: '=> flarum-nicknames.ref.nickname'
   ref:
     change_nickname: 'Görünür Adı Değiştir'
-    nickname: 'Takma ad'
+    nickname: 'Takma Ad'
