@@ -12,5 +12,6 @@ justoverclock-related-discussions:
     showExcerpt: 'Özet Alıntısını Göster'
   forum:
     participants: Katılımcılar
+    postedOn: 'Şurada:'
     postnumber: 'Gönderi sayısı'
     reldiscussion: 'Önerilen Tartışmalar:'
