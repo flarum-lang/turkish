@@ -8,6 +8,7 @@ justoverclock-user-pc-specs:
     cpu: 'CPU:'
     gpu: 'GPU:'
     motherboard: 'Anakart:'
+    pcSpecsOf: 'PC özellikleri:'
     ram: 'Ram:'
     savePcSpecs: 'Bilgisayar Özelliklerini Kaydet'
     so: 'İşletim sistemi:'
