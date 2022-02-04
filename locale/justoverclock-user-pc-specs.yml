@@ -12,4 +12,5 @@ justoverclock-user-pc-specs:
     ram: 'Ram:'
     savePcSpecs: 'Bilgisayar Özelliklerini Kaydet'
     so: 'İşletim sistemi:'
+    specsSaved: 'PC başarıyla kaydedildi!'
     storage: 'Depolama:'
