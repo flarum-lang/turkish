@@ -3,6 +3,8 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 justoverclock-country-flags:
+  admin:
+    countryColumn: Ülke
   forum:
     clickToSelectCountry: 'Ülkenizi seçmek için tıklayın'
     countrySaved: 'Ülke başarıyla kaydedildi!'
