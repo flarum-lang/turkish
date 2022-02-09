@@ -5,6 +5,7 @@
 justoverclock-country-flags:
   admin:
     countryColumn: Ülke
+    showFlagsOnPosts: 'Gönderilerde Bayrakları Göster'
   forum:
     clickToSelectCountry: 'Ülkenizi seçmek için tıklayın'
     countrySaved: 'Ülke başarıyla kaydedildi!'
