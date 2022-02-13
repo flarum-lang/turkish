@@ -6,6 +6,7 @@ datlechin-birthdays:
   admin:
     permissions:
       edit_own_birthday_label: 'Kendi doğum gününü düzenle'
+      view_birthday_label: 'Doğum gününü görüntüle'
     settings:
       date_format_help: '<a>dayjs</a> tarih biçimini kullanın. Varsayılan biçimi kullanmak için boş bırakın.'
       date_format_label: 'Tarih formatı'
