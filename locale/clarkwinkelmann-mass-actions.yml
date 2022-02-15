@@ -10,6 +10,7 @@ clarkwinkelmann-mass-actions:
     actions:
       hide: 'Silme seçildi'
       lock: 'Seçileni kilitle'
+      markAsRead: 'Seçilileri okundu olarak işaretle'
       restore: 'Seçileni geri yükle'
       tags: Etiketler
       tags-add: '<em>{tag}</em> ekleyin'
