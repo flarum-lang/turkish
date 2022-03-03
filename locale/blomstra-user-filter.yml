@@ -10,10 +10,10 @@ blomstra-user-filter:
   forum:
     index_page:
       filter_user:
-        accessible_label: 'Yazara göre filtrele'
+        accessible_label: 'Yazara göre'
         all: Tümü
         keep_typing: 'Yazmaya devam et...'
-        label: 'Yazara göre filtrele: {text}'
+        label: 'Yazara göre: {text}'
         no_results: 'Sonuç yok'
         remove_filter: 'Yazar filtresini kaldır'
         search_label: 'Kullanıcıları ara...'
