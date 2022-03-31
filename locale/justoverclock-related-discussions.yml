@@ -11,6 +11,7 @@ justoverclock-related-discussions:
     relatedTitle-help: 'İlgili tartışmalar için varsayılan başlığı kendi başlığınızla değiştirin'
     showExcerpt: 'Özet Alıntısını Göster'
   forum:
+    hasBestAnswer: Çözüldü
     participants: Katılımcılar
     postedOn: 'Şurada:'
     postnumber: 'Gönderi sayısı'
