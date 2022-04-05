@@ -8,6 +8,7 @@ justoverclock-steam-api:
     steamApiKey-help: 'ÜCRETSİZ API anahtarınızı https://steamcommunity.com/dev/apikey adresinden alın'
   forum:
     LatestGamesPlayed: 'En Son Oynanan Oyunlar'
+    accountCreated: 'Üyelik tarihi: '
     country: 'Ülke: '
     gamesOwned: 'Sahip Olunan Oyunlar: '
     lastLogin: 'Son giriş: '
