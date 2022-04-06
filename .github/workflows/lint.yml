@@ -1,0 +1,19 @@
+name: Lint YAML
+
+on: [workflow_dispatch, push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@master
+      - name: Lint
+        uses: karancode/yamllint-github-action@master
+        with:
+          yamllint_file_or_dir: locale
+          yamllint_strict: true
+          yamllint_comment: false
+        env:
+          GITHUB_ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
