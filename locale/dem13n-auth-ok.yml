@@ -6,6 +6,6 @@ dem13n-auth-ok:
       app_public_label: App Public Key
       app_key_label: App Secure Key
       app_desc: Buradan bir uygulama oluşturabilirsin <a>https://ok.ru/dk?st.cmd=appEditBasic&st.vpl.mini=false</a>
-      app_p:  Callback URL
+      app_p: Callback URL
   forum:
     login_with_ok_button: Odnoklassniki ile Giriş Yap
