@@ -1,0 +1,10 @@
+---
+
+extends: default
+
+rules:
+
+  line-length: disable
+  document-start:
+    present: false
+  truthy: disable
