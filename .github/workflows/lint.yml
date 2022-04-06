@@ -8,12 +8,6 @@ jobs:
 
     steps:
       - uses: actions/checkout@master
-      - name: Lint
-        uses: karancode/yamllint-github-action@master
-        with:
-          yamllint_file_or_dir: locale
-          yamllint_strict: false
-          yamllint_comment: false
-        env:
-          GITHUB_ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: yaml-lint
+        uses: ibiqlik/action-yamllint@v3
 
