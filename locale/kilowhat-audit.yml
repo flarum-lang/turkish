@@ -78,46 +78,46 @@ kilowhat-audit:
                 disabled: Disabled extension {package}
                 enabled: Enabled extension {package}
             fof_ban_ips:
-                banned: Banned ip {ip}
-                unbanned: Unbanned ip {ip}
-            permission_changed: Edited permission {permission} from {old_groups} to {new_groups}
+                banned: "Banned ip {ip}"
+                unbanned: "Unbanned ip {ip}"
+            permission_changed: "Edited permission {permission} from {old_groups} to {new_groups}"
             post:
-                created: Created a {post} in {discussion}
-                create_date_changed: Changed {postuser}'s {post} start date from {old_date} to {new_date}
-                deleted: Deleted {postuser}'s {post} in {discussion}
-                edit_date_changed: Changed {postuser}'s {post} edit date from {old_date} to {new_date}
-                flagged: Flagged {postuser}'s {post} in {discussion}
-                hidden: Hid {postuser}'s {post} in {discussion}
-                restored: Restored {postuser}'s {post} in {discussion}
-                revised: Revised {postuser}'s {post} in {discussion}
-                user_changed: Changed {post} author from {old_user} to {new_user}
-            setting_changed: Edited setting {key}
-            setting_changed_with_values: Edited setting {key} from {old_value} to {new_value}
+                created: "Created a {post} in {discussion}"
+                create_date_changed: "Changed {postuser}'s {post} start date from {old_date} to {new_date}"
+                deleted: "Deleted {postuser}'s {post} in {discussion}"
+                edit_date_changed: "Changed {postuser}'s {post} edit date from {old_date} to {new_date}"
+                flagged: "Flagged {postuser}'s {post} in {discussion}"
+                hidden: "Hid {postuser}'s {post} in {discussion}"
+                restored: "Restored {postuser}'s {post} in {discussion}"
+                revised: "Revised {postuser}'s {post} in {discussion}"
+                user_changed: 'Changed {post} author from {old_user} to {new_user}'
+            setting_changed: 'Edited setting {key}'
+            setting_changed_with_values: 'Edited setting {key} from {old_value} to {new_value}'
             tag:
-                created: Etiket oluşturdu {tag}
-                deleted: Etiketi kaldırdı {tag}
-                updated: Etiketi güncelledi {tag}
+                created: 'Etiket oluşturdu {tag}'
+                deleted: 'Etiketi kaldırdı {tag}'
+                updated: 'Etiketi güncelledi {tag}'
             user:
                 activated: '{username} kullanıcısının hesabını elle aktive edildi'
-                activated_with_email: {username} kullanıcısının hesap bağlantı ile aktive edildi
-                avatar_changed: {username} kullanıcısı avatarını değiştiri
-                avatar_removed: {username} kullanıcısı avatarını sildi
-                bio_changed: {username} biyografini değiştirdi
-                created: {username} kullanıcısının hesabı oluşturuldu
-                deleted: {username} kullanıcısının hesabı silindi
-                email_changed: Changed {username}'s email from {old_email} to {new_email}
-                email_change_requested: Requested to change {username}'s email to {new_email}
-                groups_changed: Changed {username}'s groups from {old_groups} to {new_groups}
-                impersonated: Impersonated {username}
-                logged_in: Logged in {username} account
-                logged_in_with_provider: Logged in {username} account using {provider}
-                logged_out: Logged out {username} account
-                password_changed: Changed {username}'s password
-                password_change_requested: Requested to change {username}'s password
-                provider_connected: Connected provider {provider} to {username} account
-                suspended: Suspended {username} until {until}
-                unsuspended: Unsuspended {username}
-                username_changed: Changed {username}'s username from {old_username} to {new_username}
-                username_requested: Requested new username {new_username} for user {username}
-                username_request_approved: Approved {username}'s username change from {old_username} to {new_username}
-                username_request_rejected: Rejected {username}'s username change
+                activated_with_email: '{username} kullanıcısının hesap bağlantı ile aktive edildi'
+                avatar_changed: '{username} kullanıcısı avatarını değiştiri'
+                avatar_removed: '{username} kullanıcısı avatarını sildi'
+                bio_changed: '{username} biyografini değiştirdi'
+                created: '{username} kullanıcısının hesabı oluşturuldu'
+                deleted: '{username} kullanıcısının hesabı silindi'
+                email_changed: "Changed {username}'s email from {old_email} to {new_email}"
+                email_change_requested: "Requested to change {username}'s email to {new_email}"
+                groups_changed: "Changed {username}'s groups from {old_groups} to {new_groups}"
+                impersonated: 'Impersonated {username}'
+                logged_in: 'Logged in {username} account'
+                logged_in_with_provider: 'Logged in {username} account using {provider}'
+                logged_out: 'Logged out {username} account'
+                password_changed: "Changed {username}'s password"
+                password_change_requested: "Requested to change {username}'s password"
+                provider_connected: 'Connected provider {provider} to {username} account'
+                suspended: 'Suspended {username} until {until}'
+                unsuspended: 'Unsuspended {username}'
+                username_changed: "Changed {username}'s username from {old_username} to {new_username}"
+                username_requested: 'Requested new username {new_username} for user {username}'
+                username_request_approved: "Approved {username}'s username change from {old_username} to {new_username}"
+                username_request_rejected: "Rejected {username}'s username change"
