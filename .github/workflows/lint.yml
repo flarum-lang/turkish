@@ -10,4 +10,5 @@ jobs:
       - uses: actions/checkout@master
       - name: yaml-lint
         uses: ibiqlik/action-yamllint@v3
-
+        with:
+          config_file: ./.github/yaml-lint.yml
