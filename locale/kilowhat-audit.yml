@@ -98,7 +98,7 @@ kilowhat-audit:
                 deleted: Etiketi kaldırdı {tag}
                 updated: Etiketi güncelledi {tag}
             user:
-                activated: {username} kullanıcısının hesabını elle aktive edildi
+                activated: '{username} kullanıcısının hesabını elle aktive edildi'
                 activated_with_email: {username} kullanıcısının hesap bağlantı ile aktive edildi
                 avatar_changed: {username} kullanıcısı avatarını değiştiri
                 avatar_removed: {username} kullanıcısı avatarını sildi
