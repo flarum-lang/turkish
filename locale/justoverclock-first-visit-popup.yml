@@ -4,6 +4,6 @@
 
 justoverclock-first-visit-popup:
   admin:
-    CookieExp: 'Çerez Bitiş süresi (dakika olarak)'
+    CookieExp: 'Çerez Bitiş süresi (saat olarak)'
     modalContent: 'Modal İçeriği (HTML)'
     modalTitle: 'Modal Başlığı'
