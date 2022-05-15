@@ -7,6 +7,7 @@ justoverclock-check-duplicate-discussions:
     similarNumber: 'Gösterilecek Benzer Tartışmalar'
     similarNumber-help: 'Composer''da gösterilecek benzer tartışmaların sayısını girin'
   forum:
-    foundDiscussion: 'Halihazırda bir tartışma varsa, sorununuzun çözülüp çözülmediğini kontrol edin. Yinelenen konular moderatörler tarafından kapatılacaktır.'
+    foundDiscussion: 'Konunuza uygun olabilecek diğer tartışmaları vurgulamak istiyoruz. Topluluğumuzda tekrar eden tartışmalar oluşturmaktan kaçınmak için bunları kontrol ederseniz memnun oluruz.'
+    identicalWarning: 'Uyarı: Tartışmanızın başlığı mevcut bir tartışmayla aynı!'
     solvedSimilar: '- Çözüldü'
     title: 'Benzer konular bulundu!'
