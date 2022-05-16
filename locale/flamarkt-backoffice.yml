@@ -4,7 +4,7 @@
 
 flamarkt-backoffice:
   admin:
-    settingsInBackoffice: 'Arka ofisteki ayarlar'
+    settingsInBackoffice: 'Backoffice ayarları'
   backoffice:
     nav:
       dashboard: 'Gösterge Paneli'

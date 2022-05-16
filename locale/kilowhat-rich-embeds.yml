@@ -20,7 +20,7 @@ kilowhat-rich-embeds:
       cacheProxy: 'Proxy''li görüntüleri önbelleğe alın'
       cacheProxyHelp: 'Görüntüler, HTTP başlıklarına göre diske önbelleğe alınacaktır'
       imageProxy: 'Görüntü Proxy''si'
-      imageProxyHelp: 'Tüm resimler, ziyaretçi tarayıcısı tarafından alınmak yerine Flarum aracılığıyla proxy''ye alınacaktır.'
+      imageProxyHelp: 'Tüm resimler, ziyaretçi tarayıcısı tarafından alınmak yerine Flarum aracılığıyla proxy''ye alınacaktır'
       layout: Düzen
       layoutOptions:
         block: Blok
@@ -36,9 +36,9 @@ kilowhat-rich-embeds:
         horizontal: Yatay
         vertical: Dikey
       whitelist: 'URL Beyaz Listesi'
-      whitelistHelp: 'Biçim için belgelere bakın. Bir değer ayarlanırsa, diğer tüm URL''ler kara listeye alınmış olarak kabul edilecektir.'
+      whitelistHelp: 'Biçim için belgelere bakın. Bir değer ayarlanırsa, diğer tüm URL''ler kara listeye alınmış olarak kabul edilecektir'
       withoutOpengraph: 'OpenGraph verileri olmayan sayfalar için zengin yerleştirmeler oluşturun'
-      withoutOpengraphHelp: 'Başlık, açıklama ve resim, sayfa HTML''sinden çıkarılacaktır.'
+      withoutOpengraphHelp: 'Başlık, açıklama ve resim, sayfa HTML''sinden çıkarılacaktır'
   api:
     error:
       blacklistedUrl: 'URL {url}, yerleştirme için beyaz listeye alınmadı.'

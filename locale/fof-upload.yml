@@ -19,7 +19,7 @@ fof-upload:
       s3_instance_profile: "Örnek profilinde kimlik bilgilerini kullanmak için anahtarı ve sırrı (secret) boş bırakın.\n"
       watermark: "Yükleme sırasında resimlere filigran (watermark) eklenip eklenmeyeceğini seçin. Filigranlar gif olmayan dosyalara eklenebilir.\n"
     inspect-mime:
-      description: "FoF Upload, yaygın MIME türleri için <a>PHP Mime Detector</a> kitaplığını ve yedek olarak PHP Fileinfo'yu kullanır. Fileinfo tarafından döndürülen MIME değeri sunucudan sunucuya farklı olabilir!\n"
+      description: "FoF Upload, yaygın MIME türleri için <a>PHP Mime Detector</a> kitaplığını ve yedek olarak PHP Fileinfo'yu kullanır. \nFileinfo tarafından döndürülen MIME değeri sunucudan sunucuya farklı olabilir!\n"
       guessed-extension: 'Varsayılan dosya uzantısı (orijinal beyaz listede değilse)'
       laravel-validation: 'Laravel Dosya Doğrulaması'
       mime-detector: 'Mime Dedektörü (birincil)'

@@ -98,7 +98,7 @@ flamarkt-taxonomies:
   lib:
     modal:
       custom: '{value} kullanın'
-      placeholder: '{count, plural, one {Choose a term...} other {Choose # terms...}}'
+      placeholder: '{count, plural, one {Bir terim seçin...} other {# terim seçin...}}'
       placeholderOptional: Seçin...
       submit: Tamam
       title:
