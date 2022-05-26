@@ -8,6 +8,7 @@ clarkwinkelmann-mass-actions:
       controls: 'Toplu seçim kontrollerini görüntüleyin'
   forum:
     actions:
+      delete: 'Seçilenleri kalıcı olarak sil'
       hide: 'Silme seçildi'
       lock: 'Seçileni kilitle'
       markAsRead: 'Seçilileri okundu olarak işaretle'
@@ -17,5 +18,11 @@ clarkwinkelmann-mass-actions:
       tags-edit: 'Etiketleri düzenle'
       unlock: 'Seçilenin kilidini kaldır'
     select:
-      all: 'Tümünü seç'
-      none: 'Tümünün seçimini kaldır'
+      all: Tümü
+      hidden: 'Geçici olarak silindi'
+      locked: Kilitlendi
+      none: Hiçbiri
+      read: Oku
+      unlocked: 'Kilidi açıldı'
+      unread: Okunmadı
+      visible: Silinmedi
