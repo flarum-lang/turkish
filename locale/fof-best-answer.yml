@@ -71,3 +71,5 @@ fof-best-answer:
         select_best_answer: 'Başlattığım bir tartışmada en iyi yanıtı seçmek için otomatik bir hatırlatıcı'
     remove_best_answer: 'Mevcut en iyi yanıtı kaldır'
     this_best_answer: 'En iyi yanıt'
+    user:
+      best-answer-count: '{count, plural, one { {count} en iyi yanıt} other {{count} en iyi yanıt}}'
