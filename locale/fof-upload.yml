@@ -58,7 +58,7 @@ fof-upload:
       imgur:
         client_id: 'Imgur client ID'
         title: 'Imgur resim depolama ayarları'
-        tos: 'Forum kullanıcılarınızın Imgur''un <a>Hizmet Şartlarına</a> uymasını sağlamak sizin sorumluluğunuzdadır.'
+        tos: 'Forum kullanıcılarınızın Imgur''un <a>Hizmet Şartlarına</a> uymasını sağlamak sizin sorumluluğunuzdadır'
       inspect-mime: 'Test dosyası MIME türü'
       local:
         cdn_url: 'İçerik teslim bağlantısı (dosyaların önekleri)'
