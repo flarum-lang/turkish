@@ -19,8 +19,10 @@ kilowhat-rich-embeds:
       blacklistHelp: 'Biçim için belgelere bakın. Bu URL''ler hiçbir zaman zengin yerleştirmelere sahip olmayacak ve görüntü proxy''si aracılığıyla proxy oluşturulamaz'
       cacheProxy: 'Proxy''li görüntüleri önbelleğe alın'
       cacheProxyHelp: 'Görüntüler, HTTP başlıklarına göre diske önbelleğe alınacaktır'
+      imageEmbeds: 'Görseller için Rich Embeds'
+      imageEmbedsHelp: "Bu özellik, bbcode veya markdown ile gönderilere eklenen harici görüntüler hakkında ek bilgiler alır ve görüntüler. Şu anda zengin bağlantılarla aynı kara listeyi/beyaz listeyi ve izinleri yeniden kullanır. Bu görüntüler, OpenGraph görüntü proxy'si aracılığıyla proxy'ye alınmaz. Bu ayarı değiştirdikten sonra Flarum önbelleğini temizlemelisiniz.\n"
       imageProxy: 'OpenGraph Görüntü Proxy''si'
-      imageProxyHelp: 'Tüm resimler, ziyaretçi tarayıcısı tarafından alınmak yerine Flarum aracılığıyla proxy''ye alınacaktır'
+      imageProxyHelp: 'Tüm OpenGraph ve favicon görüntüleri, ziyaretçi tarayıcısı tarafından alınmak yerine Flarum aracılığıyla proxy''ye alınacaktır'
       layout: Düzen
       layoutOptions:
         block: Blok
@@ -47,6 +49,9 @@ kilowhat-rich-embeds:
     controls:
       disable: 'Bu yayındaki yerleştirmeleri devre dışı bırak'
       disableConfirmation: 'Bu gönderideki tüm yerleştirmeler kaldırılacaktır. Devam edelim mi?'
+      imgCopied: Kopyalandı!
+      imgCopy: 'Görselin linkini kopyala'
+      imgOpen: 'Resmi yeni sekmede aç'
       refresh: 'Veriyi Yenile'
     embed:
       altFavicon: '{website} Simge'
