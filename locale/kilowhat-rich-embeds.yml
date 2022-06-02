@@ -19,7 +19,7 @@ kilowhat-rich-embeds:
       blacklistHelp: 'Biçim için belgelere bakın. Bu URL''ler hiçbir zaman zengin yerleştirmelere sahip olmayacak ve görüntü proxy''si aracılığıyla proxy oluşturulamaz'
       cacheProxy: 'Proxy''li görüntüleri önbelleğe alın'
       cacheProxyHelp: 'Görüntüler, HTTP başlıklarına göre diske önbelleğe alınacaktır'
-      imageProxy: 'Görüntü Proxy''si'
+      imageProxy: 'OpenGraph Görüntü Proxy''si'
       imageProxyHelp: 'Tüm resimler, ziyaretçi tarayıcısı tarafından alınmak yerine Flarum aracılığıyla proxy''ye alınacaktır'
       layout: Düzen
       layoutOptions:
