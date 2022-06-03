@@ -4,10 +4,10 @@
 
 swaggymacro:
   admin:
-    setting_only_starter: 'Sadece Başlangıç'
-    setting_show_topic_starter: 'Konu Başlatıcı Bayrağını Göster'
+    setting_only_starter: 'Sadece TS'
+    setting_show_topic_starter: 'TS Bayrağını Göster'
   forum:
     blog_article_author: Yazar
-    not_only_starter: 'Sadece Başlangıç Yok'
-    only_starter: 'Sadece Başlangıç'
-    topic_starter: 'Konu Sahibi'
+    not_only_starter: 'Sadece TS''ini Gösterme'
+    only_starter: 'Sadece TS''ini Göster'
+    topic_starter: 'Tartışma Sahibi'

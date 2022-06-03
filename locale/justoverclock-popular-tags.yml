@@ -7,5 +7,5 @@ justoverclock-popular-tags:
     limit: 'Gösterilen Etiket Sayısı'
     limit-help: 'buraya görüntülemek istediğiniz maksimum etiket sayısını koyun'
   forum:
-    count: 'Toplam Konu Sayısı: '
+    count: 'Toplam Tartışma Sayısı: '
     widgetTitle: 'Popüler Etiketler'
