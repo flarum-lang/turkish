@@ -25,6 +25,8 @@ blomstra-payments:
       purchase: 'satın al'
     nav:
       access_portal: 'Erişim portalı'
+    pay-to-bump:
+      description: '{count, plural, one {Bu tartışma havada kaldı} other {{count} kişi tartışmayı engelledi}}.'
     pay-to-post:
       purchase: 'Yayınlamak için Satın Alın'
       purchase-control: 'Yayınlamak için Ödeme Yapın'
