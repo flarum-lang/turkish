@@ -45,9 +45,16 @@ v17development-flarum-blog:
       title: Başlık
     article_settings:
       fields:
+        highlight:
+          helper_text: 'Bu gönderiye blog genel bakış sayfasında büyük bir resim verin.'
+          title: 'Öne çıkarılan gönderi'
+        image:
+          helper_text: 'Sosyal medya için en iyi görsel çözünürlüğü: 1200x630'
+          title: 'Makale görseli'
         summary:
+          helper_text: 'Bu özet blog genel bakış sayfasında ve SEO amaçlı alanlarda kullanılacaktır.'
           placeholder: 'Lütfen bir özet veya açıklama girin'
-          title: 'Gönderi özeti'
+          title: 'Makale özeti'
       title: 'Blog gönderi ayarları'
     blog: Blog
     categories: Kategoriler
