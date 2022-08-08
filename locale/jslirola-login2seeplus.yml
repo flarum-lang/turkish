@@ -16,3 +16,4 @@ jslirola-login2seeplus:
     image: 'Resimi görmek için giriş yapın'
     link: 'Bağlantıyı görmek için giriş yapın'
     post: 'Gönderinin tamamını görmek için {login} veya {register} yapmanız gerekiyor'
+    post_login: 'Gönderinin tamamını görmek için {login} yapmalısınız'

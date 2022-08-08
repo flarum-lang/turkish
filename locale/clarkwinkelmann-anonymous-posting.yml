@@ -4,5 +4,44 @@
 
 clarkwinkelmann-anonymous-posting:
   admin:
+    permissions:
+      moderate: 'Herhangi bir tartışmayı veya gönderiyi anonimleştir veya anonimleştirme'
+      reveal: 'Anonim tartışmaların ve gönderilerin gerçek yazarlarını görün'
+      use: 'Anonim olarak yayınla'
     settings:
+      avatarAdd: 'Avatar kuralı ekle'
+      avatarAvatarUrl: 'Avatar Bağlantısı'
+      avatarFieldKey: 'Alan anahtarı'
+      avatarFieldValue: 'Alan değeri'
+      avatarFormId: 'Form ID'
+      avatars: 'Anonim avatarlar'
+      avatarsHelp: "Bu özellik, premium <a>Formulaire uzantısı</a> gerektirir. Tartışmaları ve gönderileri almak için ek veritabanı istekleri gerektiğinden, bu özelliğin kullanılması performans üzerinde küçük bir etkiye neden olur. Her girişin formatı hakkında daha fazla ayrıntı için BENİOKU'ya bakın.\n"
       composerHelpTextPosition: 'Düzenleyici yardım metni konumu'
+      composerHelpTextPositionHidden: Gizli
+      composerHelpTextPositionTooltip: 'İpucu (etiketten sonra)'
+      composerHelpTextPositionVisible: 'Görünür (etiketin altında)'
+  forum:
+    composerControls:
+      anonymize: 'Anonim olarak yayınla'
+      anonymizeHelp: 'Moderatörler yine de bu içeriği sizin oluşturduğunuzu bilecekler'
+    discussionControls:
+      anonymize: Anonimleştir
+      anonymizeConfirmation: 'Bu, tartışma yazarını anonim hale getirecektir. İlk gönderi ayrı olarak anonimleştirilmelidir. Devam?'
+      deanonymize: Anonimleştirme
+      deanonymizeConfirmation: 'Bu, tartışmanın asıl yazarını tekrar herkese açık hale getirecektir. Devam?'
+    discussionList:
+      genericReplyText: 'Son yanıtlanan {ago}'
+    postControls:
+      anonymize: Anonimleştir
+      deanonymize: Anonimleştirme
+      deanonymizeConfirmation: 'Bu, gönderinin asıl yazarını tekrar herkese açık hale getirecektir. Devam?'
+      firstPostConfirmation: 'Bu, ilk gönderi yazarını anonim hale getirecektir. Tartışma ayrı olarak anonimleştirilmelidir. Devam?'
+    postPrivacy:
+      mine: Ben
+      mineHelp: 'Bu bilgileri yalnızca siz görebilirsiniz'
+      profile: 'Yalnızca size görünür'
+      profileHelp: 'Profilinizde anonim gönderilerinizi yalnızca siz görebilirsiniz'
+  lib:
+    userMeta:
+      initials: '?'
+      username: Anonim

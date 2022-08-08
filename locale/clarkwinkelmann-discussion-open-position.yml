@@ -5,6 +5,7 @@
 clarkwinkelmann-discussion-open-position:
   admin:
     settings:
+      defaultOpenLastRead: 'Tartışmayı en son okunan gönderi varsayılanında aç'
       openLastOptions:
         always: '=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.always'
         never: '=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.never'

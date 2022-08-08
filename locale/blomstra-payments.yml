@@ -27,8 +27,10 @@ blomstra-payments:
     access-portal:
       options: ayarlar
       purchase: 'satın al'
+      subscribed: 'Abone olundu'
     nav:
       access_portal: 'Erişim portalı'
+      user_subscriptions: Abonelikler
     pay-to-bump:
       description: '{count, plural, one {Bu tartışma havada kaldı} other {{count} kişi tartışmayı engelledi}}.'
       purchase-control: 'Hortlatmak için ödeme yap'
@@ -45,5 +47,14 @@ blomstra-payments:
     payment-options-modal:
       description: "Gruba erişiminizi başlatmak için aşağıdaki seçeneklerden herhangi birini seçin. Ödeme işlemi için ödeme sağlayıcımız Stripe'a yönlendirileceksiniz.\n"
       title: '{group} erişimi sağlamak için ödeme seçenekleri'
+    stripe:
+      interval_once: 'bir kere'
+    subscription-card:
+      cancel-control: İptal
+      none: 'Ödeme veya aktif abonelik yok'
+      pta: 'Erişmek için ödenen'
+      ptb: 'Yükseltmek için ödenen'
+      ptp: 'Yayınlamak için ödenen'
+      ptv: 'Görüntülemek için ödenen'
     tag:
       require-payment-label: 'Ödeme Gerekiyor'

@@ -31,6 +31,8 @@ fof-reactions:
             Label: 'İfadeleri beğenilere dönüştür'
             legend: Beğeniler
           warning: 'Aynı ifade beğeniye <strong>ve</strong> yukarı oya <strong>dönüştürülemez</strong>'
+        react_own_posts_help: 'Etkinleştirildiğinde, izne tabi olarak, kullanıcılar forumdaki kendi gönderilerine tepki verebilir. Kullanıcıların kendi gönderilerine tepki vermesini önlemek için bu ayarı devre dışı bırakın.'
+        react_own_posts_label: 'Kullanıcılar kendi gönderilerine tepki verebilir'
         save_settings: 'Ayarları Kaydet'
     permissions:
       react_posts_label: 'Gönderiye ifade bırakma'
