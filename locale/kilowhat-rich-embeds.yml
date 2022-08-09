@@ -19,6 +19,7 @@ kilowhat-rich-embeds:
       blacklistHelp: 'Biçim için belgelere bakın. Bu URL''ler hiçbir zaman zengin yerleştirmelere sahip olmayacak ve görüntü proxy''si aracılığıyla proxy oluşturulamaz'
       cacheProxy: 'Proxy''li görüntüleri önbelleğe alın'
       cacheProxyHelp: 'Görüntüler, HTTP başlıklarına göre diske önbelleğe alınacaktır'
+      flarumApiPreviews: 'Gelişmiş Flarum önizlemelerini etkinleştir'
       imageEmbeds: 'Görseller için Rich Embeds'
       imageEmbedsHelp: "Bu özellik, bbcode veya markdown ile gönderilere eklenen harici görüntüler hakkında ek bilgiler alır ve görüntüler. Şu anda zengin bağlantılarla aynı kara listeyi/beyaz listeyi ve izinleri yeniden kullanır. Bu görüntüler, OpenGraph görüntü proxy'si aracılığıyla proxy'ye alınmaz. Bu ayarı değiştirdikten sonra Flarum önbelleğini temizlemelisiniz.\n"
       imageProxy: 'OpenGraph Görüntü Proxy''si'
