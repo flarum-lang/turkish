@@ -14,7 +14,7 @@ sycho-profile-cover:
       success: 'Profil kapağı güncellendi.'
     cover: Kapak
     edit_cover: 'Kapağı Düzenle'
-    notice: 'Maksimum boyut: 2MB'
+    notice: 'Maksimum boyut: {size}'
     removed:
       error: 'Kapak kaldırılamadı, daha sonra tekrar deneyin.'
       success: 'Profil kapağı kaldırıldı.'

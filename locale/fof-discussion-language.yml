@@ -8,6 +8,9 @@ fof-discussion-language:
       allow_change_language_label: 'Dil düzenlemesine izin ver'
     settings:
       composer_default_label: 'Düzenleyicide mevcut yerel ayarı önceden seçin'
+      config:
+        country_label: 'Ülke (gösterge bayrağı için)'
+        language_label: Dil
       errors:
         loading_data: 'Dil ve ülke verileri alınırken bir hata oluştu. Uzantıyı devre dışı bırakıp yeniden etkinleştirmeyi deneyin.'
         missing_assets: 'Bu uzantının ihtiyaç duyduğu gereklilikleri yükleyemedik. <code>php flarum assets:publish</code> çalıştırmayı deneyin ve bunun sorunu çözüp çözmediğine bakın.'

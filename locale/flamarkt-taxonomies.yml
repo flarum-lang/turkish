@@ -21,8 +21,11 @@ flamarkt-taxonomies:
         name: '=> flamarkt-taxonomies.ref.field.name'
         rangeSeparatorText: ile
         showFilter: 'Filtreyi ana sayfada göster'
-        showLabel: 'Taksonomi etiketini terimle birlikte göster'
+        showLabel: 'Sınıflandırma etiketini terimle birlikte göster'
         slug: '=> flamarkt-taxonomies.ref.field.slug'
+        tagScope: 'Yalnızca belirtilen etiketlerde'
+        tagScopeDescription: "Sınıflandırma yalnızca seçilen etiketlerde kullanılabilir. Tek bir etiket seçerseniz, ana sayfa filtresi yalnızca o belirli etikette görünür.\n"
+        tagScopePlaceholder: 'Etiket aramak için yazın...'
         type: Tip
         typeDescription: "Taksonomiler birden fazla Flarum kaynağında kullanılabilir. Tür oluşturulduktan sonra değiştirilemez. Farklı türlerdeki taksonomiler için aynı adları ve sümüklü böcekleri (slug) kullanabilirsiniz.\n"
       slugger-options:
@@ -34,7 +37,7 @@ flamarkt-taxonomies:
         new: '=> flamarkt-taxonomies.ref.submit.new'
       title:
         edit: 'Taksonomiyi Düzenle'
-        new: 'Taksonomi Oluştur'
+        new: 'Sınıflandırma Oluştur'
       type-options:
         discussions: Tartışmalar
         products: Ürünler
@@ -65,11 +68,12 @@ flamarkt-taxonomies:
       title: Taksonomiler
     page:
       create:
-        taxonomy: 'Taksonomi oluştur'
+        taxonomy: 'Sınıflandırma oluştur'
         term: 'Terim oluştur'
       reset-term-order: 'Terimler listesini alfabetik sıraya göre sıfırla'
       title: Taksonomiler
     permissions:
+      bypassTermCounts: 'Terim sayısı gereksimini geçersiz kıl'
       editAnyDiscussion: 'Herhangi bir tartışmada taksonomileri düzenleyin'
       editAnyUser: 'Herhangi bir kullanıcıdaki taksonomileri düzenleyin'
       editOwnDiscussion: 'Taksonomileri kendi tartışmalarında düzenleyin'
@@ -86,8 +90,13 @@ flamarkt-taxonomies:
       goToPage: 'Yapılandırma sayfasına git'
   api:
     error:
+      cannot_use_taxonomies_on_model: 'Bu bağlamda sınıflandırmaları kullanmanıza izin verilmiyor'
+      discussion_taxonomy_not_in_scope: '"{slug}" sınıflandırması, mevcut etiket kombinasyonunda mevcut değil'
       invalid_filter_taxonomy: 'Geçersiz "{type}" sınıflandırma filtre anahtarı "{slug}"'
   forum:
+    blog:
+      widget:
+        title: Sınıflandırmalar
     composer:
       choose: '{taxonomy}''yi seçin'
     discussion:
@@ -97,6 +106,7 @@ flamarkt-taxonomies:
       nav: Taksonomiler
   lib:
     modal:
+      bypassTermCounts: 'Terim sayılarını geçersiz kıl'
       custom: '{value} kullanın'
       placeholder: '{count, plural, one {Bir terim seçin...} other {# terim seçin...}}'
       placeholderOptional: Seçin...

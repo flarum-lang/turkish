@@ -10,6 +10,8 @@ blomstra-payments:
     edit-tag:
       bump-others: '(PTB) Başkalarının tartışmaları hortlatmasına izin ver'
       bump-others-description: "Etkinleştirilirse, yalnızca tartışma yazarı değil, tartışmaları bir ödeme ile hortlatabilir.\n"
+      select-bounty-description: "Ödüller için ayarlayacak bir ürün seçin. Ürün, modelle birlikte yalnızca bir Fiyata sahip olabilir: \"Özel fiyat seçer\". <code>prod_</code> ile başlayan ürünün kimliğini bu alana kopyalayın.\n"
+      select-bounty-product: '(Ödül) Gerekli ürün'
       select-ptb-product: '(PTB) Gerekli ürün'
       select-ptb-product-description: "Bir ürün seçmek, bir tartışmaya girmeden önce o ürünün ödenmesini gerektirir.\n"
       select-ptp-product: '(PTP) Gerekli ürün'
@@ -18,6 +20,8 @@ blomstra-payments:
       select-ptv-product-description: "Bu seçenek ile, gizli içerikler için tüm yayınlara kalıcı olarak erişimi sağlar. Stripe panonuzda bir ürün oluşturun ve <code>prod_</code> ile başlayan kimliği bu alana kopyalayın.\n"
       visible-from: 'İçeriğin devamını gizle'
       visible-from-description: "Burada belirttiğiniz sayı değeri, yayınlar için ödeme yapmayan kullanıcılara hangi noktada içeriğin gizleneceğini belirler. Hepsini gizlemek için 0 değerini, OP sonrası için 1 değerini kullanın.\n"
+    permission:
+      enable-bounties: 'Ödülleri etkinleştir'
     settings:
       link-access-portal: 'Kullanıcı açılır menüsünde erişim portalı için bağlantı'
       pk: 'Publishable (api) anahtarı'
@@ -28,6 +32,20 @@ blomstra-payments:
       options: ayarlar
       purchase: 'satın al'
       subscribed: 'Abone olundu'
+    backers-widget:
+      label: '{sum} taahhüt etti'
+      none: 'Henüz destekçi yok.'
+    bounties:
+      enable-control: 'Ödülleri Etkinleştir'
+      purchase-control: 'Ödül Ekle'
+    choose-bounty-amount-modal:
+      checkout-control: Ödeme
+      description: '"{subject}" konusunu desteklemek için tutarınızı seçin veya özel bir miktar seçin.'
+      title: 'Ödül miktarı seçin'
+    exceptions:
+      out-of-bounds-amount:
+        max: '{amount} tutarında bir ödemeye izin verilmez, {max} en yüksek tutardır.'
+        min: '{amount} tutarında bir ödemeye izin verilmez, {min} en düşük tutardır.'
     nav:
       access_portal: 'Erişim portalı'
       user_subscriptions: Abonelikler

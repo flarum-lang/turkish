@@ -5,6 +5,12 @@
 tohsakarat-save-and-load-draft-automatically:
   buttons:
     load: 'Yerel düzenleme kayıtlarını yükle'
+  forum:
+    buttons:
+      load: 'Yerel düzenleme kayıtlarını yükle'
+    states:
+      ask-for-load: 'Yerel düzenleme kayıtlarını bulundu! Yüklemek istiyor musun?'
+      ask-for-save: 'Taslakları çevrimiçi olarak kaydetmek istiyor musunuz?'
   states:
     ask-for-load: 'Yerel düzenleme kayıtlarını bulun! Yüklemek istiyor musun?'
     ask-for-save: 'Taslakları çevrimiçi olarak kaydetmek istiyor musunuz?'

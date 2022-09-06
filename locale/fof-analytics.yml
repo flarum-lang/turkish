@@ -19,7 +19,7 @@ fof-analytics:
         piwikTrackAccounts: 'Tek tek kullanıcı hesaplarını gizleyin'
         piwikTrackSubdomain: 'Flarum''un tüm alt alanlarındaki ziyaretçileri takip et'
         piwikUrl: 'Matomo alanadı veya bağlantısı'
-        statusGoogle: 'Google Analytics''i etkinleştir'
+        statusGoogle: 'Google Analytics''i (UA/GA4) etkinleştir'
         statusPiwik: 'Matomo''yu etkinleştir'
       placeholder:
         piwikAuthToken: "Yönetici panelinde bir Matomo istatistik aracını etkinleştirmek için bu simgeyi doldurun.\nAyarlar > Kişisel > API Kimlik Doğrulama Simgesi'nde bulabilirsiniz.\n"

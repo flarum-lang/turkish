@@ -30,7 +30,7 @@ clarkwinkelmann-group-invitation:
       no-usages-left: 'Bu grup daveti artık kullanılamaz.'
       not-found: 'Üzgünüz, bu grup daveti bulunamadı.'
     success-alert: 'Gruba başarıyla katıldınız!'
-    title: '{group grubuna katılmak için davet edildin!'
+    title: '{group} grubuna katılmak için davet edildin!'
     user:
       already-connected: "{username} kullanısını {group} grubuna ekleyeceğiz. Doğru kullanıcı değil mi? <a>Başka bir hesapta oturum açın</a>.\n"
       already-member: "Harika bir haberimiz var, {username} kullanıcınız zaten {group} grubunun bir üyesi! Gruba başka bir kullanıcıyla katılmak ister misiniz? <a>Başka bir hesapta oturum açın</a>.\n"
