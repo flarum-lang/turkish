@@ -10,7 +10,7 @@ fof-moderator-notes:
       viewnotes: 'Moderatör notlarını görüntüleyin'
   api:
     auto_note: '_Bu kullanıcıya geçtim: _ {reason}'
-    auto_note_actor: '@username olarak değiştirildi_: {reason}'
+    auto_note_actor: '@{username} olarak değiştirildi_: {reason}'
     no_reason_provided: 'Sebep belirtilmedi'
   forum:
     moderatorNotes:

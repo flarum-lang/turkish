@@ -15,6 +15,7 @@ clarkwinkelmann-scout:
         algolia: Algolia
         meilisearch: Meilisearch
         'null': Boş
+        tntsearch: TNTSearch
       meilisearchHost: 'Meilisearch Host'
       meilisearchKey: 'Meilisearch Anahtarı'
       prefix: 'Dizin adı öneki (isteğe bağlı)'

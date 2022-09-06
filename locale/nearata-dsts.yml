@@ -6,6 +6,7 @@ nearata-dsts:
   admin:
     permissions:
       can_bypass_like: 'Beğenmeden görebilir'
+      can_bypass_login: 'Giriş yapmadan geçebilir'
       can_bypass_reply: 'Yanıtlamadan görebilir'
     settings:
       require_like: 'Beğenmesi gerekir'

@@ -146,6 +146,10 @@ v17development-flarum-support:
         not_allowed: 'Şimdi yeni bir destek bileti açamazsınız'
         private_support: 'Özel destek için, destek platformumuzda yeni bir bilet oluşturmak için bu formu kullanabilirsiniz. Özel olmayan destek konuları için lütfen <a>genel forumlarımıza</a> bakın.'
         title: 'Yeni bir bilet yaz'
+      convert_to_discussion:
+        button: 'Tartışmaya dönüştür'
+        confirm: 'Bu bileti herkese açık bir tartışmaya dönüştürmek istediğinizden emin misiniz? Birisi özel bilgileri paylaştıysa, bu da herkese açık hale gelecektir.'
+        event: "{ticket_title} başlıklı bilet tartışmaya dönüştürüldü\n\nBu tartışmaya şimdi gitmek istiyor musunuz?\n"
       convert_to_ticket:
         button: 'Bilete dönüştür'
         confirm: 'Bu tartışmayı bir bilete dönüştürmek istediğinizden emin misiniz?'

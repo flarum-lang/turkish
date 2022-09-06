@@ -8,3 +8,10 @@ tohsakarat-tags-filter:
       filter_tags:
         accessible_label: 'etiket filtresi'
         all: tümü
+        comment_filter: 'İptal etmek için sabitlenmiş etiketlere tıklayın~'
+        keep_typing: Yazıyor...
+        label: '{text}'
+        no_results: 'Sonuç yok'
+        remove_filter: 'aramayı sonlandır;'
+        search_label: Ara...
+        start_typing: 'Yazmaya başlayın...'

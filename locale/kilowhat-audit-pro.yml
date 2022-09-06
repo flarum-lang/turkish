@@ -129,7 +129,7 @@ kilowhat-audit:
         password_changed: '{username} şifresini değiştirdi'
         provider_connected: '{username} hesabına bağlı sağlayıcı {provider}'
         suspended: '{username}, {until} tarihine kadar askıya alındı'
-        unsuspended: 'Askıya alınmadı {kullanıcı adı}'
+        unsuspended: 'Askıya alınmadı {username}'
         username_changed: '{username} adlı kullanıcının {old_username} olan kullanıcı adı {new_username} olarak değiştirildi'
         username_request_approved: '{username} adlı kullanıcının {old_username} olan kullanıcı adının {new_username} olarak değiştirilmesi onaylandı'
         username_request_rejected: '{username} adlı kullanıcının kullanıcı adı değişikliği reddedildi'

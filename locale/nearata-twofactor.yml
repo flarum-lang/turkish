@@ -4,6 +4,8 @@
 
 nearata-twofactor:
   admin:
+    permissions:
+      can_enable_twofactor: 'İki Faktörü etkinleştirebilir'
     settings:
       generate_backups: 'Yedekleme kodlarını oluştur.'
   forum:

@@ -12,7 +12,7 @@ fof-oauth:
         discord:
           client_id_label: '=> fof-oauth.ref.settings.client_id'
           client_secret_label: '=> fof-oauth.ref.settings.client_secret'
-          description: '{Link} adresinde bir uygulama oluşturun. Yönlendirme bağlantısını OAuth2 sekmesine ekleyin.'
+          description: '{link} adresinde bir uygulama oluşturun. Yönlendirme bağlantısını OAuth2 sekmesine ekleyin.'
         facebook:
           app_id_label: '=> fof-oauth.ref.settings.app_id'
           app_secret_label: '=> fof-oauth.ref.settings.app_secret'
