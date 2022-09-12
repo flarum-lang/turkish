@@ -10,7 +10,7 @@ nearata-dsts:
       can_bypass_reply: 'Yanıtlamadan görebilir'
     settings:
       require_like: 'Beğenmesi gerekir'
-      require_like_help: 'Not: Flarum Likes uzantısı gerektirir.'
+      require_like_help: 'Not: <strong>flarum/likes</strong> uzantısı gerektirir.'
       require_reply: 'Yanıtlaması gerekir'
   forum:
     like: 'İçeriği görebilmek için gönderiyi beğenmelisin.'

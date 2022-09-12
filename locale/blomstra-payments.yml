@@ -33,7 +33,7 @@ blomstra-payments:
       purchase: 'satın al'
       subscribed: 'Abone olundu'
     backers-widget:
-      label: '{sum} taahhüt etti'
+      label: '{currency} {sum} taahhüt etti'
       none: 'Henüz destekçi yok.'
     bounties:
       enable-control: 'Ödülleri Etkinleştir'
