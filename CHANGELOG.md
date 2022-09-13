@@ -2,6 +2,29 @@ CHANGELOG
 =========
 
 
+1.7.0 (2022-09-13)
+------------------
+
+**Genel değişiklikler**:
+
+* Flarum çekirdek çevirileri güncellendi.
+
+
+**Yeni uzantılar için destek eklendi**:
+
+* [`annonny/flarum-dice`](https://github.com/mizhiyugan529/flarum-dice)
+
+
+**Uzantılar için çeviriler güncellendi**:
+
+* [`blomstra/payments`](https://extiverse.com/extension/blomstra/payments)
+* [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
+* [`nearata/flarum-ext-dsts`](https://github.com/Nearata/flarum-ext-dsts)
+
+
+Tüm değişiklikler: [1.6.0...1.7.0](https://github.com/flarum-lang/turkish/compare/1.6.0...1.7.0).
+
+
 1.6.0 (2022-09-06)
 ------------------
 
