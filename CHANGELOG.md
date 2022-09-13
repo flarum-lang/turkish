@@ -5,6 +5,11 @@ CHANGELOG
 1.7.0 (XXXX-XX-XX)
 ------------------
 
+**Genel değişiklikler**:
+
+* Flarum çekirdek çevirileri güncellendi.
+
+
 **Yeni uzantılar için destek eklendi**:
 
 * [`annonny/flarum-dice`](https://github.com/mizhiyugan529/flarum-dice)
