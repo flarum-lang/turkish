@@ -2,7 +2,7 @@ CHANGELOG
 =========
 
 
-1.7.0 (XXXX-XX-XX)
+1.7.0 (2022-09-13)
 ------------------
 
 **Genel değişiklikler**:
