@@ -2,6 +2,28 @@ CHANGELOG
 =========
 
 
+1.8.0 (XXXX-XX-XX)
+------------------
+
+**Yeni uzantılar için destek eklendi**:
+
+* [`clarkwinkelmann/flarum-ext-composer-page`](https://github.com/clarkwinkelmann/flarum-ext-composer-page)
+* [`clarkwinkelmann/flarum-ext-discussion-lists`](https://github.com/clarkwinkelmann/flarum-ext-discussion-lists)
+
+
+**Uzantılar için çeviriler güncellendi**:
+
+* [`datlechin/flarum-scroll-buttons`](https://github.com/datlechin/flarum-scroll-buttons)
+* [`flarum/likes`](https://github.com/flarum/likes)
+* [`flarum/subscriptions`](https://github.com/flarum/subscriptions)
+* [`fof/sentry`](https://github.com/FriendsOfFlarum/sentry)
+* [`kilowhat/flarum-ext-custom-paths`](https://extiverse.com/extension/kilowhat/flarum-ext-custom-paths)
+* [`kilowhat/flarum-ext-rich-embeds`](https://extiverse.com/extension/kilowhat/flarum-ext-rich-embeds)
+
+
+Tüm değişiklikler: [1.7.0...1.8.0](https://github.com/flarum-lang/turkish/compare/1.7.0...1.8.0).
+
+
 1.7.0 (2022-09-13)
 ------------------
 
