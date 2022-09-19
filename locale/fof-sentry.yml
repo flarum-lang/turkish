@@ -6,6 +6,7 @@ fof-sentry:
   admin:
     settings:
       dsn_label: 'Sentry DSN'
+      environment_label: 'Sentry Çevresi'
       javascript_console_label: 'JavaScript Konsolunu Takip Et'
       javascript_label: 'JavaScript Hatalarını Bildirin'
       javascript_trace_sample_rate: 'Ön Yüz Performans İzleme Derecesi (0 - 100)'

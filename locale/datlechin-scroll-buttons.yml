@@ -12,6 +12,8 @@ datlechin-flarum-scroll-buttons:
       label: 'Aşağı Kaydır'
     scroll_to_bottom_button_help: 'Sayfanın en altına kaydırmak için düğmeyi göster'
     scroll_to_bottom_button_label: 'Aşağı Kaydır'
+    scroll_to_bottom_help: 'Sayfanın en altına kaydırmak için bir düğme göster'
+    scroll_to_bottom_label: 'Aşağı in'
     scroll_to_top:
       help: 'Sayfanın en üstüne kaydırmak için bir düğme göster'
       icon:
@@ -20,3 +22,5 @@ datlechin-flarum-scroll-buttons:
       label: 'Yukarı Kaydır'
     scroll_to_top_button_help: 'Sayfanın en üstüne kaydırmak için düğmeyi göster'
     scroll_to_top_button_label: 'Yukarı Kaydır'
+    scroll_to_top_help: 'Sayfanın en üstüne kaydırmak için bir düğme göster'
+    scroll_to_top_label: 'Yukarı çık'

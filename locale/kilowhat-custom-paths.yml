@@ -8,6 +8,7 @@ kilowhat-custom-paths:
       disabled: 'Uzantı etkinleştirilmemiş'
       extensions:
         askvortsov-categories: 'Askvortsov Kategoriler'
+        clarkwinkelmann-composer-page: 'ClarkWinkelmann''nın Düzenleyici Sayfası'
         clarkwinkelmann-discussion-bookmarks: 'ClarkWinkelmann''nın Tartışma Yer İmleri'
         clarkwinkelmann-discussion-lists: 'ClarkWinkelmann''nın Tartışma Listesi'
         clarkwinkelmann-group-list: 'ClarkWinkelmann Grup Listesi'
@@ -31,6 +32,8 @@ kilowhat-custom-paths:
         path: Dizin
       paths:
         askvortsov-categories: Kategoriler
+        clarkwinkelmann-composer-page: 'Düzenleyici Sayfası'
+        clarkwinkelmann-composer-page-tag: 'Etiket Düzenleyici Sayfası'
         clarkwinkelmann-discussion-bookmarks: 'Tartışma Yer İmleri'
         clarkwinkelmann-discussion-list: Liste
         clarkwinkelmann-discussion-lists-profile: 'Kullanıcı listesi'
@@ -57,6 +60,7 @@ kilowhat-custom-paths:
         fof-user-directory: 'Kullanıcı dizini'
         following: 'Takip edilenler'
         formulaire-form: Form
+        formulaire-profile: 'Profil alanları'
         formulaire-submission: Başvuru
         index: 'Tartışma listesi (anasayfada olmadığınızda)'
         notifications: 'Bildirimler (mobilde)'
@@ -65,6 +69,7 @@ kilowhat-custom-paths:
         tags: 'Etiketler listesi'
         user: 'Kullanıcı profili'
         user-discussions: 'Kullanıcı tartışmaları'
+        user-likes: 'Kullanıcı beğenileri'
         user-mentions: 'Kullanıcı bahsetmeleri'
         v17development-blog-category: Kategori
         v17development-blog-compose: Oluştur
