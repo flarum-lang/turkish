@@ -76,3 +76,7 @@ blomstra-payments:
       ptv: 'Görüntülemek için ödenen'
     tag:
       require-payment-label: 'Ödeme Gerekiyor'
+core:
+  forum:
+    index_sort:
+      mostBacked_button: 'En çok desteklenen'

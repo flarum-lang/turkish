@@ -14,17 +14,42 @@ clarkwinkelmann-discussion-lists:
       viewPublic: 'Herkese açık tartışma listelerini görüntüleyin'
     settings:
       collapseSeries: 'Varsayılan olarak dizini daralt'
+  api:
+    manualLimit: 'Manuel olarak sıralanan listeler 50''den fazla tartışma içeremez'
+    seriesAnyAddNotAllowed: 'Bir dizi listesine yalnızca kendi tartışmalarınızı ekleyebilirsiniz'
+    seriesAnyConversionNotAllowed: 'Liste size ait olmayan tartışmalar içerdiğinden diziye dönüştürülemiyor'
   forum:
+    badge:
+      private: 'Gizli liste'
+      series: 'Açık liste'
+    discussion:
+      add: 'Listeye ekle'
+      new: 'Yeni liste'
     edit:
+      delete: Sil
+      deleteConfirmation: 'Bu listeyi gerçekten kalıcı olarak silmek istiyor musunuz?'
       name: İsim
       ordering: Sıralama
       orderingOptions:
+        addedAsc: 'Listeye ekleme (en azdan en yeniye)'
+        addedDesc: 'Listeye ekleme (en yeniden en aza doğru)'
         createdAsc: 'Tartışma oluşturma (en eskiden en yeniye)'
         createdDesc: 'Tartışma oluşturma (en yeniden en eskiye)'
         manual: Elle
+      save: Kaydet
       title: 'Listeyi düzenleyin'
       visibility: Görünürlük
       visibilityOptions:
         private: 'Özel liste'
         public: 'Herkese açık liste'
         series: 'Özel dizin'
+    profile:
+      link: Listeler
+    series:
+      expand: Genişlet
+      kind: Diziler
+      visit: 'Her şeyi göster'
+core:
+  forum:
+    index_sort:
+      discussionListDefault_button: 'Listede sırala'

@@ -25,6 +25,10 @@ kilowhat-formulaire:
     settings:
       checkbox-style: 'Onay kutusu stili'
       history-controls: 'Gönderim sayfasında geri / ileri kontrollerini göster'
+      horizontal-layout: 'Yatay form düzenini kullan'
+      horizontal-layout-locations:
+        standaloneEdit: 'Bağımsız Doldurma/Düzenleme Sayfası'
+        standaloneView: 'Bağımsız Görünüm Sayfası'
       max-file-size: 'Belge boyutu üst limiti (kB)'
       radio-style: 'Tek seçenek stili'
       side-nav-on-submission: 'Gönderim sayfasında yan menüyü göster'

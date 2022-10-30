@@ -3,6 +3,17 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 nearata-auth-minecraft:
+  admin:
+    settings:
+      api_secret:
+        help: '<strong>Plugins/OAuth/config.json</strong>''da bulunabilir'
+        label: 'API Gizli Anahtarı'
+      api_url:
+        help: 'Örneğin: http://localhost:4567/verify'
+        label: 'API Bağlantısı'
+      minecraft_server:
+        help: 'Örnek: alanadi.com'
+        label: 'Minecraft Sunucusu IP''si'
   api:
     error_403: 'Geçersiz veya süresi dolmuş anahtar.'
     invalid_token_format: 'Anahtar numaralardan oluşmalıdır.'
@@ -18,6 +29,8 @@ nearata-auth-minecraft:
     log_in_modal:
       submit_button: Doğrulama
       title: 'Minecraft ile Giriş Yap'
+    login_error: 'Oturum başlamadı veya süresi dolmadı.'
+    modal_help: '<strong>{server}</strong> sunucusuna katılın ve aşağıdaki düğmeyi tıklayın.'
     settings:
       change_email_button: 'Postayı Değiştir'
     token_help: 'Anahtar erişimi almak için <strong>srv.mc-oauth.net:255652</strong> sunucusuna katılın.'
