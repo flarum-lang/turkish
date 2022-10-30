@@ -16,6 +16,16 @@ clarkwinkelmann-scout:
         meilisearch: Meilisearch
         'null': Boş
         tntsearch: TNTSearch
+      limit: 'Varsayılan Sonuç Sınırı'
+      limitHelp: "Bu, arama motoruna istenen sonuçların sayısını geçersiz kılar ve oluşturulabilecek sonuç sayfalarının sayısını etkiler (sınır, kullanıcının göremediği içeriği de sayar). Bazı motorlar, izin verilen maksimum değeri değiştirmek için ek yapılandırma gerektirebilir.\n"
+      limitPlaceholder: Oto
       meilisearchHost: 'Meilisearch Host'
       meilisearchKey: 'Meilisearch Anahtarı'
       prefix: 'Dizin adı öneki (isteğe bağlı)'
+      queue: 'Dizin güncellemelerini kuyrukta işle'
+      queueHelp: 'Bu ayar yalnızca Flarum''da eşzamansız bir kuyruk sürücüsü yapılandırılmışsa etkilidir.'
+      tntsearchFuzziness: 'TNT Arama Belirsizliği (yazım hataları/varyasyon eşleşmesi)'
+      tntsearchFuzzyDistance: 'TNT Arama Belirsizliği Levenshtein Mesafesi (isteğe bağlı)'
+      tntsearchFuzzyMaxExpansions: 'TNT Search Fuzziness Max Genişletmeleri (isteğe bağlı)'
+      tntsearchFuzzyPrefixLength: 'TNT Arama Belirsizliği Önek Uzunluğu (isteğe bağlı)'
+      tntsearchMaxDocs: 'TNT Search Max Docs (isteğe bağlı, maksimum sonuç sayısı)'

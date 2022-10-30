@@ -13,3 +13,13 @@ blomstra-trello:
       no_available_tags_label: 'Kullanılabilir forum etiketi yok'
     permissions:
       add_to_trello: 'Bir tartışmayı Trello''ya bağlayabilir'
+    settings:
+      api_key_help: 'Bu uzantının Trello ile bağlanması için {link} adresinden API anahtarını girin.'
+      api_key_label: 'API Anahtarı'
+      api_token_help: 'Bu uzantının Trello ile bağlanması için API belirtecini girin. {link} adresini ziyaret edin ve <code>Bir Jeton Oluştur</code>''u tıklayın.'
+      api_token_label: 'API Jetonu'
+      available_boards_label: 'Mevcut panolar'
+      button:
+        add: Ekle
+        remove: Kaldır
+      default_board_help: 'Seçilen varsayılan pano, forumdaki Trello''ya Gönder modunda önceden seçilecek olan pano olacaktır.'

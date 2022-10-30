@@ -17,10 +17,19 @@ fof-gamification:
         converted: '{number} beğeni başarıyla dönüştürüldü'
         converting: 'Beğenileriniz dönüştürülüyor. Sonucu görmek için sayfayı birkaç dakika sonra yenileyin. (Dönüşüm forum beğenilerinize bağlı olarak zaman alabilir)'
         help: 'flarum-ext-likes eklentisindeki beğenilerinizi yukarı oya çevirin, ve şuanki tüm konularınız için aktifliğini hesaplayın.'
+      groups:
+        add: 'Yeni kural ekle'
+        column:
+          group: Grup
+          maxPoints: 'Maksimum puan (dahil)'
+          minPoints: 'Minimum puan (dahil)'
+        delete: 'Kuralı sil'
+        help: "Bir kullanıcının puan sayısı değiştiğinde, seçilen gruplar gerektiğinde otomatik olarak eklenecek veya kaldırılacaktır. Yapılandırmada değişiklik yaptıysanız, mevcut kullanıcıları güncellemek için <code>php flarum fof:gamification:assign-groups</code> komutunu çalıştırmalısınız. Bir kuralı silmek ve gruptan tüm kullanıcıları kaldırmak istiyorsanız, hem minimum hem de maksimum değerleri boş bir dizeye ayarlayın, ayarları kaydedin ve komut satırı komutunu çalıştırın. Son olarak, kuralı tamamen ayarlardan silebilirsiniz.\n"
+        title: 'Otomatik olarak atanan gruplar'
       rankings:
         blocked:
           help: 'Bu kullanıcılar sıralama sayfasında görünmeyecek. Kullanıcı adları virgül ve sonrasında boşluk ile ayrılmalıdır.'
-          placeholder: 'tolgaaaltas, mekici, DursunCan'
+          placeholder: 'yonetici, kullanici1, kullanici2'
           title: 'Yoksayılan kullanıcılar'
         custom_image_1: '1. sıra resmi'
         custom_image_2: '2. sıra resmi'
@@ -38,6 +47,7 @@ fof-gamification:
         title: Rütbeler
       save_settings: 'Ayarları Kaydet'
       votes:
+        allow_self_votes: 'Kullanıcılar kendi gönderilerine oy verebilir'
         alternate_layout: 'Tartışma listesinde alternatif oylama düzenini kullan'
         alternate_post_layout: 'Tartışma listesinde alternatif oylama düzenini kullan'
         auto_upvote: 'Paylaşıldığında otomatik yukarı oyla'
