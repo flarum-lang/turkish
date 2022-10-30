@@ -19,6 +19,7 @@ CHANGELOG
 * [`jeromegillard/map`](https://github.com/JeromeGillard/flarum-map)
 * [`justoverclock/discussion-tags`](https://extiverse.com/extension/justoverclock/discussion-tags)
 * [`justoverclock/staff-members-widget`](https://github.com/justoverclockl/staff-member-widget)
+* [`webbinaro/gpx-preview`](https://github.com/eddiewebb/flarum-gpx-preview)
 * [`ziiven/flarum-daily-check-in`](https://github.com/Ziiven/flarum-daily-check-in)
 * [`ziiven/flarum-post-number`](https://github.com/Ziiven/flarum-post-number)
 
@@ -26,18 +27,23 @@ CHANGELOG
 **Uzantılar için çeviriler güncellendi**:
 
 * [`blomstra/payments`](https://extiverse.com/extension/blomstra/payments)
+* [`blomstra/trello`](https://github.com/blomstra/flarum-ext-trello)
+* [`clarkwinkelmann/flarum-ext-scout`](https://github.com/clarkwinkelmann/flarum-ext-scout)
 * [`datlechin/flarum-birthdays`](https://github.com/datlechin/flarum-birthdays)
 * [`datlechin/flarum-scroll-buttons`](https://github.com/datlechin/flarum-scroll-buttons)
 * [`datlechin/flarum-signup-button`](https://github.com/datlechin/flarum-signup-button)
 * [`flarum/likes`](https://github.com/flarum/likes)
 * [`flarum/statistics`](https://github.com/flarum/statistics)
 * [`flarum/subscriptions`](https://github.com/flarum/subscriptions)
+* [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification)
 * [`fof/sentry`](https://github.com/FriendsOfFlarum/sentry)
 * [`justoverclock/discussion-info`](https://github.com/justoverclockl/discussions-info)
 * [`kilowhat/flarum-ext-custom-paths`](https://extiverse.com/extension/kilowhat/flarum-ext-custom-paths)
 * [`kilowhat/flarum-ext-formulaire`](https://extiverse.com/extension/kilowhat/flarum-ext-formulaire)
 * [`kilowhat/flarum-ext-rich-embeds`](https://extiverse.com/extension/kilowhat/flarum-ext-rich-embeds)
+* [`maicol07/flarum-ext-sso`](https://github.com/maicol07/flarum-ext-sso)
 * [`nearata/flarum-ext-auth-minecraft`](https://github.com/Nearata/flarum-ext-auth-minecraft)
+* [`nearata/flarum-ext-dsts`](https://github.com/Nearata/flarum-ext-dsts)
 * [`nearata/flarum-ext-minecraft-avatars`](https://github.com/Nearata/flarum-ext-minecraft-avatars)
 * [`v17development/flarum-support`](https://extiverse.com/extension/v17development/flarum-support)
 
