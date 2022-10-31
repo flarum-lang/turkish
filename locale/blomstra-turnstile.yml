@@ -8,6 +8,6 @@ blomstra-turnstile:
       secret_key: 'Gizli anahtar'
       site_key: 'Site anahtarı'
   forum:
-    not_loaded_error: 'Cloudflare Turnike yüklenemedi. Lütfen sayfayı yenileyin ve reklam engelleyicinizi kontrol edin.'
+    not_loaded_error: 'Cloudflare Turnstile yüklenemedi. Lütfen sayfayı yenileyin veya reklam engelleyicinizi kontrol edin.'
 validation:
   turnstile: 'Robot olup olmadığınızı doğrulayamadık. Lütfen sayfayı yenileyin ve tekrar deneyin.'
