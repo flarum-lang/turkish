@@ -2,6 +2,55 @@ CHANGELOG
 =========
 
 
+1.8.0 (XXXX-XX-XX)
+------------------
+
+**Yeni uzantılar için destek eklendi**:
+
+* [`blomstra/turnstile`](https://github.com/blomstra/flarum-ext-turnstile)
+* [`cccyun/flarum-clogin-oauth`](https://github.com/netcccyun/flarum-clogin-oauth)
+* [`clarkwinkelmann/flarum-ext-composer-page`](https://github.com/clarkwinkelmann/flarum-ext-composer-page)
+* [`clarkwinkelmann/flarum-ext-discussion-lists`](https://github.com/clarkwinkelmann/flarum-ext-discussion-lists)
+* [`clarkwinkelmann/flarum-ext-money-rewards`](https://github.com/clarkwinkelmann/flarum-ext-money-rewards)
+* [`clarkwinkelmann/flarum-ext-money-to-all`](https://github.com/clarkwinkelmann/flarum-ext-money-to-all)
+* [`datlechin/flarum-birthdays-widget`](https://github.com/datlechin/flarum-birthdays-widget)
+* [`finteger/ratings`](https://github.com/finteger/ratings)
+* [`ianm/oauth-line`](https://github.com/imorland/flarum-ext-oauth-line)
+* [`jeromegillard/map`](https://github.com/JeromeGillard/flarum-map)
+* [`justoverclock/discussion-tags`](https://extiverse.com/extension/justoverclock/discussion-tags)
+* [`justoverclock/staff-members-widget`](https://github.com/justoverclockl/staff-member-widget)
+* [`webbinaro/gpx-preview`](https://github.com/eddiewebb/flarum-gpx-preview)
+* [`ziiven/flarum-daily-check-in`](https://github.com/Ziiven/flarum-daily-check-in)
+* [`ziiven/flarum-post-number`](https://github.com/Ziiven/flarum-post-number)
+
+
+**Uzantılar için çeviriler güncellendi**:
+
+* [`blomstra/payments`](https://extiverse.com/extension/blomstra/payments)
+* [`blomstra/trello`](https://github.com/blomstra/flarum-ext-trello)
+* [`clarkwinkelmann/flarum-ext-scout`](https://github.com/clarkwinkelmann/flarum-ext-scout)
+* [`datlechin/flarum-birthdays`](https://github.com/datlechin/flarum-birthdays)
+* [`datlechin/flarum-scroll-buttons`](https://github.com/datlechin/flarum-scroll-buttons)
+* [`datlechin/flarum-signup-button`](https://github.com/datlechin/flarum-signup-button)
+* [`flarum/likes`](https://github.com/flarum/likes)
+* [`flarum/statistics`](https://github.com/flarum/statistics)
+* [`flarum/subscriptions`](https://github.com/flarum/subscriptions)
+* [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification)
+* [`fof/sentry`](https://github.com/FriendsOfFlarum/sentry)
+* [`justoverclock/discussion-info`](https://github.com/justoverclockl/discussions-info)
+* [`kilowhat/flarum-ext-custom-paths`](https://extiverse.com/extension/kilowhat/flarum-ext-custom-paths)
+* [`kilowhat/flarum-ext-formulaire`](https://extiverse.com/extension/kilowhat/flarum-ext-formulaire)
+* [`kilowhat/flarum-ext-rich-embeds`](https://extiverse.com/extension/kilowhat/flarum-ext-rich-embeds)
+* [`maicol07/flarum-ext-sso`](https://github.com/maicol07/flarum-ext-sso)
+* [`nearata/flarum-ext-auth-minecraft`](https://github.com/Nearata/flarum-ext-auth-minecraft)
+* [`nearata/flarum-ext-dsts`](https://github.com/Nearata/flarum-ext-dsts)
+* [`nearata/flarum-ext-minecraft-avatars`](https://github.com/Nearata/flarum-ext-minecraft-avatars)
+* [`v17development/flarum-support`](https://extiverse.com/extension/v17development/flarum-support)
+
+
+Tüm değişiklikler: [1.7.0...1.8.0](https://github.com/flarum-lang/turkish/compare/1.7.0...1.8.0).
+
+
 1.7.0 (2022-09-13)
 ------------------
 
