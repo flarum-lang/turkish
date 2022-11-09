@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.9.0 (XXXX-XX-XX)
+------------------
+
+**Yeni uzantılar için destek eklendi**:
+
+* [`ianm/log-viewer`](https://github.com/imorland/flarum-ext-log-viewer)
+
+
+Tüm değişiklikler: [1.8.0...1.9.0](https://github.com/flarum-lang/turkish/compare/1.8.0...1.9.0).
+
+
 1.8.0 (2022-10-31)
 ------------------
 
