@@ -21,6 +21,7 @@ flamarkt-backoffice:
       head:
         email: E-posta
       new: 'Kullanıcı oluştur'
+      searchPlaceholder: 'Kullanıcıları ara...'
       title: Kullanıcılar
   lib:
     header:

@@ -23,18 +23,27 @@ blomstra-payments:
     permission:
       enable-bounties: 'Ödülleri etkinleştir'
     settings:
+      assign-bounty-tag-id: 'İlk gönderilen ödülden sonra tartışmaya atanacak etiket'
       link-access-portal: 'Kullanıcı açılır menüsünde erişim portalı için bağlantı'
+      link-to-terms: 'Ödeme Koşulları URL''si'
       pk: 'Publishable (api) anahtarı'
+      recount-total-discussion-bounties: 'Toplam tartışma ödüllerini yeniden sayın'
       sk: 'Secret (api) anahtarı'
       webhook-secret: 'Webhook imzalama secret'
   forum:
+    accept-terms-modal:
+      accept_label: '<link>Ödeme koşullarını</link> okudum ve kabul ediyorum.'
+      continue_button: 'Ödemeye Devam Et'
+      title: 'Şartları kabul et'
     access-portal:
       options: ayarlar
       purchase: 'satın al'
       subscribed: 'Abone olundu'
     backers-widget:
+      backers: Destekçiler
       label: '{currency} {sum} taahhüt etti'
       none: 'Henüz destekçi yok.'
+      pledged: Rehin
     bounties:
       enable-control: 'Ödülleri Etkinleştir'
       purchase-control: 'Ödül Ekle'
@@ -65,9 +74,12 @@ blomstra-payments:
     payment-options-modal:
       description: "Gruba erişiminizi başlatmak için aşağıdaki seçeneklerden herhangi birini seçin. Ödeme işlemi için ödeme sağlayıcımız Stripe'a yönlendirileceksiniz.\n"
       title: '{group} erişimi sağlamak için ödeme seçenekleri'
+    post_stream:
+      bounty_added_text: '{username}, {amount} ödül ekledi.'
     stripe:
       interval_once: 'bir kere'
     subscription-card:
+      bounty: Ödül
       cancel-control: İptal
       none: 'Ödeme veya aktif abonelik yok'
       pta: 'Erişmek için ödenen'
