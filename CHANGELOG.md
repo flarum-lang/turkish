@@ -7,7 +7,16 @@ CHANGELOG
 
 **Yeni uzantılar için destek eklendi**:
 
+* [`blomstra/oauth-apple`](https://github.com/blomstra/flarum-ext-oauth-apple)
 * [`ianm/log-viewer`](https://github.com/imorland/flarum-ext-log-viewer)
+
+
+**Uzantılar için çeviriler güncellendi**:
+
+* [`blomstra/payments`](https://extiverse.com/extension/blomstra/payments)
+* [`blomstra/trello`](https://github.com/blomstra/flarum-ext-trello)
+* [`flamarkt/backoffice`](https://github.com/flamarkt/backoffice)
+* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
 
 
 Tüm değişiklikler: [1.8.0...1.9.0](https://github.com/flarum-lang/turkish/compare/1.8.0...1.9.0).
