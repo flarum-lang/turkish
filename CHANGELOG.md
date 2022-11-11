@@ -17,6 +17,8 @@ CHANGELOG
 * [`blomstra/trello`](https://github.com/blomstra/flarum-ext-trello)
 * [`flamarkt/backoffice`](https://github.com/flamarkt/backoffice)
 * [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
+* [`kilowhat/flarum-ext-formulaire`](https://extiverse.com/extension/kilowhat/flarum-ext-formulaire)
+* [`kilowhat/flarum-ext-wordpress`](https://extiverse.com/extension/kilowhat/flarum-ext-wordpress)
 
 
 Tüm değişiklikler: [1.8.0...1.9.0](https://github.com/flarum-lang/turkish/compare/1.8.0...1.9.0).
