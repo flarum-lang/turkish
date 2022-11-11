@@ -27,6 +27,12 @@ kilowhat-formulaire:
       history-controls: 'Gönderim sayfasında geri / ileri kontrollerini göster'
       horizontal-layout: 'Yatay form düzenini kullan'
       horizontal-layout-locations:
+        discussionComposer: 'Tartışma Bestecisi'
+        discussionEdit: 'Tartışma Düzenleme Modalı'
+        discussionView: 'Tartışma Görünümü Kapsayıcı'
+        profileEdit: 'Profil Düzenleme Sayfası'
+        profileView: 'Profil Görünüm Sayfası'
+        signUp: 'Kalıcı Kaydolma (yalnızca Formulaire alanları)'
         standaloneEdit: 'Bağımsız Doldurma/Düzenleme Sayfası'
         standaloneView: 'Bağımsız Görünüm Sayfası'
       max-file-size: 'Belge boyutu üst limiti (kB)'
@@ -40,6 +46,8 @@ kilowhat-formulaire:
         native: 'Yerel tarayıcı kontrolü'
         switch: 'Flarum anahtarı'
       title: 'Form genel ayarları'
+      uniformComposerLayout: 'Tek tip tartışma oluşturucu düzeni'
+      uniformComposerLayoutHelp: "Etiketlerin, başlık ve içerik alanlarının stilini Formulaire ile eşleşecek şekilde değiştirir. Bu düzen daha da fazla yer kaplayacağından, <a>Composer Page</a> uzantısını yükleyip etkinleştirmeniz önerilir.\n"
   api:
     cannot-change-form-type: 'Mevcut gönderimleri olan bir formun türünü değiştiremezsiniz'
     duplicate-field-key: 'Anahtar benzersiz olmalıdır'
@@ -61,6 +69,7 @@ kilowhat-formulaire:
     formatter-parsing-error: 'İçerik ayrıştırılamadı: {message}'
     not-allowed-to-fill-field: 'Bu alanın değerini değiştirmenize izin verilmiyor'
     unauthorized-form: '{id} form kimliğini doldurmak için gerekli izinlere sahip değilsiniz'
+    unauthorized-scoped-form: '{id} form kimliğini mevcut etiket kombinasyonuyla dolduramazsınız'
     unknown-form: 'Tanınmayan form kimliği {id}'
   forum:
     auto-discussion-options-modal:
@@ -84,6 +93,12 @@ kilowhat-formulaire:
         title: Başlık
       submit: 'Değişiklikleri doğrula'
       title: 'E-posta şablonu'
+    discussion-composer:
+      field:
+        content: Mesaj
+        poll: Anket
+        tags: Etiketler
+        title: Başlık
     discussion-submission:
       edit: Düzenle
       empty: 'Henüz veri yok'
@@ -186,6 +201,7 @@ kilowhat-formulaire:
         send-confirmation-to-participants: 'Katılımcılara onay e-postası gönder'
         show-on-creation:
           discussion: 'Düzenleyicide göster'
+          discussionHelp: "Flarum tartışma oluşturucu birçok alanı içermeye uygun değildir. Tüm alanların tüm cihazlarda erişilebilir kalmasını sağlamak için <a>Composer Page</a> uzantısını yüklemeli ve etkinleştirmelisiniz.\n"
           user: 'Kayıt esnasında göster'
         title: 'Genel başlık'
         web-confirmation-message: 'Web''de onay mesajı (biçimlendirme etkin)'
@@ -221,6 +237,7 @@ kilowhat-formulaire:
         title: '=> kilowhat-formulaire.ref.manager'
       load-more: 'Daha fazla'
       new: 'Yeni form'
+      search: 'Arama formları...'
       show: Göster
       submissions: Gönderimler
       tabs:
@@ -281,6 +298,7 @@ kilowhat-formulaire:
       form-show: 'Yeni gönderim'
       guest: Misafir
       load-more: 'Daha fazla yükle'
+      search: 'Gönderimleri ara...'
       show: Göster
     submission-sort:
       latest: 'En son gönderimler'
