@@ -9,6 +9,7 @@ CHANGELOG
 
 * [`blomstra/oauth-apple`](https://github.com/blomstra/flarum-ext-oauth-apple)
 * [`ianm/log-viewer`](https://github.com/imorland/flarum-ext-log-viewer)
+* [`ianm/oauth-twitch`](https://github.com/imorland/flarum-ext-oauth-twitch)
 
 
 **Uzantılar için çeviriler güncellendi**:
