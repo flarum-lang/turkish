@@ -8,8 +8,10 @@ CHANGELOG
 **Yeni uzantılar için destek eklendi**:
 
 * [`blomstra/oauth-apple`](https://github.com/blomstra/flarum-ext-oauth-apple)
+* [`blomstra/web3`](https://github.com/blomstra/flarum-ext-web3)
 * [`ianm/log-viewer`](https://github.com/imorland/flarum-ext-log-viewer)
 * [`ianm/oauth-twitch`](https://github.com/imorland/flarum-ext-oauth-twitch)
+* [`vlssu/flarum-cravatar`](https://github.com/vlssu/flarum-cravatar)
 
 
 **Uzantılar için çeviriler güncellendi**:
