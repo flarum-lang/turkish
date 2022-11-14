@@ -352,6 +352,7 @@ kilowhat-formulaire:
   mail:
     edit: Düzenle
     footer: '{title} tarafından gönderildi'
+    no-answer: Cevapsız
     sub-entries: '{count} giriş'
     title-new-submission: '{title} için yeni gönderim'
     title-your-submission: '{title} için gönderiminiz'
