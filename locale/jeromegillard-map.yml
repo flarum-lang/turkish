@@ -12,7 +12,7 @@ jeromegillard-map:
         help: 'Bir jeton almak için <a>maptiler.com</a> adresinden ücretsiz kaydolun. Lütfen onların <b>telif haklarına</b> saygı gösterin.'
         label: 'MapTiler tokeni'
       osm:
-        help: 'OpenStreetMap, Leaflet haritanızı programlamak için uygundur, ancak onu kullanacaksanız OpenStreetMap''in <a>Tile Kullanım Politikası</a>''nı okuyun.'
+        help: 'OpenStreetMap döşemeleri, haritanızı programlamak için iyidir, ancak döşemeleri üretimde kullanacaksanız, OpenStreetMap''in <a>Döşeme Kullanım Politikası</a>''nı okuyun.'
       style:
         help: 'Bir harita stili seçin. <a>Stillerine bir göz atın</a>.'
         label: '{provider} için varsayılan stil'
@@ -34,4 +34,4 @@ jeromegillard-map:
   forum:
     text_editor:
       bbcode_tooltip: 'harita ekle'
-      location_placeholder: 'NEREDE?'
+      location_placeholder: NEREDE

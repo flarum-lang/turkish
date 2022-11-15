@@ -22,6 +22,9 @@ clarkwinkelmann-scout:
       meilisearchHost: 'Meilisearch Host'
       meilisearchKey: 'Meilisearch Anahtarı'
       prefix: 'Dizin adı öneki (isteğe bağlı)'
+      queryMinLength: 'Öneriler için minimum sorgu uzunluğu'
+      queryMinLengthHelp: "Bu ayar yalnızca başlıktaki arama girişinin öneri açılır menüsünü etkiler. Flarum, önerileri almadan önce varsayılan olarak 3 karakterlik bir sorgu uzunluğuna sahiptir ve bu ayar ile geçersiz kılabilirsiniz. Tam arama sonucu sayfası hiçbir zaman minimum sorgu uzunluğuna sahip değildir. Bu değeri değiştirdikten sonra önbelleği temizlemelisiniz.\n"
+      queryMinLengthPlaceholder: Oto
       queue: 'Dizin güncellemelerini kuyrukta işle'
       queueHelp: 'Bu ayar yalnızca Flarum''da eşzamansız bir kuyruk sürücüsü yapılandırılmışsa etkilidir.'
       tntsearchFuzziness: 'TNT Arama Belirsizliği (yazım hataları/varyasyon eşleşmesi)'
