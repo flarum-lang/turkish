@@ -2,6 +2,41 @@ CHANGELOG
 =========
 
 
+1.9.0 (2022-11-16)
+------------------
+
+**Genel değişiklikler**:
+
+* Flarum çekirdek çevirileri güncellendi.
+
+
+**Yeni uzantılar için destek eklendi**:
+
+* [`blomstra/oauth-apple`](https://github.com/blomstra/flarum-ext-oauth-apple)
+* [`blomstra/web3`](https://github.com/blomstra/flarum-ext-web3)
+* [`ianm/log-viewer`](https://github.com/imorland/flarum-ext-log-viewer)
+* [`ianm/oauth-twitch`](https://github.com/imorland/flarum-ext-oauth-twitch)
+* [`vlssu/flarum-cravatar`](https://github.com/vlssu/flarum-cravatar)
+
+
+**Uzantılar için çeviriler güncellendi**:
+
+* [`blomstra/payments`](https://extiverse.com/extension/blomstra/payments)
+* [`blomstra/trello`](https://github.com/blomstra/flarum-ext-trello)
+* [`clarkwinkelmann/flarum-ext-scout`](https://github.com/clarkwinkelmann/flarum-ext-scout)
+* [`flamarkt/backoffice`](https://github.com/flamarkt/backoffice)
+* [`flamarkt/taxonomies`](https://github.com/flamarkt/taxonomies)
+* [`flarum/mentions`](https://github.com/flarum/mentions)
+* [`flarum/statistics`](https://github.com/flarum/statistics)
+* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
+* [`jeromegillard/map`](https://github.com/JeromeGillard/flarum-map)
+* [`kilowhat/flarum-ext-formulaire`](https://extiverse.com/extension/kilowhat/flarum-ext-formulaire)
+* [`kilowhat/flarum-ext-wordpress`](https://extiverse.com/extension/kilowhat/flarum-ext-wordpress)
+
+
+Tüm değişiklikler: [1.8.0...1.9.0](https://github.com/flarum-lang/turkish/compare/1.8.0...1.9.0).
+
+
 1.8.0 (2022-10-31)
 ------------------
 
