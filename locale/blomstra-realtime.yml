@@ -7,8 +7,12 @@ blomstra-realtime:
     permission:
       view-who-types: 'Kimin yazdığını göster'
     settings:
+      release-discussion-updates: 'Tartışma Listesi güncellemeleri'
+      release-discussion-updates-help: 'Etkinleştirildiğinde, yeni tartışmalar aşağıda tanımlanan aralıkta <code>Tartışma Listesi</code>''ne gönderilir.'
       release-discussion-updates-interval: 'Yeni tartışma etkinliğini otomatik olarak zorlamak için aralık'
       release-discussion-updates-interval-help: 'Saniyeler içinde. 0, otomatik itme olmadığı anlamına gelir.'
+      typing-indicator: 'Yazma göstergesi'
+      typing-indicator-help: 'İzne tabi olarak etkinleştirildiğinde, kullanıcılar o anda bir tartışmaya yazan diğer kullanıcıların sayısını görüntüleyebilir. Devre dışı bırakıldığında, yazma etkinliği hem kullanıcı arayüzünden hem de websocket yükünden kaldırılır.'
   forum:
     push:
       discussion-list-new-activity: '{count, plural, one {# güncellenmiş tartışmayı göster} other {# güncellenmiş tartışmayı göster}}'
