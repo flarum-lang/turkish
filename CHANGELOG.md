@@ -2,6 +2,26 @@ CHANGELOG
 =========
 
 
+1.11.0 (XXXX-XX-XX)
+-------------------
+
+**Yeni uzantılar için destek eklendi**:
+
+* [`clarkwinkelmann/flarum-ext-post-stream-search`](https://github.com/clarkwinkelmann/flarum-ext-post-stream-search)
+* [`clarkwinkelmann/flarum-ext-vote-with-money`](https://github.com/clarkwinkelmann/flarum-ext-vote-with-money)
+* [`ianm/translate`](https://extiverse.com/extension/ianm/translate)
+
+
+**Uzantılar için çeviriler güncellendi**:
+
+* [`blomstra/payments`](https://extiverse.com/extension/blomstra/payments)
+* [`blomstra/realtime`](https://extiverse.com/extension/blomstra/realtime)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+
+
+Tüm değişiklikler: [1.10.0...1.11.0](https://github.com/flarum-lang/turkish/compare/1.10.0...1.11.0).
+
+
 1.10.0 (2022-11-21)
 -------------------
 
