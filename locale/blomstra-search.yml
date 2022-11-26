@@ -11,3 +11,7 @@ blomstra-search:
     elastic-index: Index
     elastic-password: '=> core.ref.password'
     elastic-username: '=> core.ref.username'
+    match-sentences: 'Arama terimini tam cümleyle eşleştir'
+    match-words: 'Arama terimini tam kelimelerle eşleştir'
+    search-discussion-subjects: 'Tartışma başlıklarında ara'
+    search-post-bodies: 'Yorumların içinde ara'
