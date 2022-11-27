@@ -7,9 +7,11 @@ CHANGELOG
 
 **Yeni uzantılar için destek eklendi**:
 
+* [`blomstra/conversations`](https://github.com/blomstra/flarum-ext-conversations)
 * [`clarkwinkelmann/flarum-ext-post-stream-search`](https://github.com/clarkwinkelmann/flarum-ext-post-stream-search)
 * [`clarkwinkelmann/flarum-ext-vote-with-money`](https://github.com/clarkwinkelmann/flarum-ext-vote-with-money)
 * [`ianm/translate`](https://extiverse.com/extension/ianm/translate)
+* [`ziiven/flarum-pay-to-see`](https://extiverse.com/extension/ziiven/flarum-pay-to-see)
 
 
 **Uzantılar için çeviriler güncellendi**:
