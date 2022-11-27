@@ -39,6 +39,7 @@ ianm-translate:
         close-translation: 'Çeviriyi kapat'
         translated-header: '{from}''dan {to}''ya AI çevirisi'
         translated-updated: 'Çeviri en son {time} {provider} kullanılarak güncellendi'
+    translate-button-label: Çeviri
     unknown-language: '[algılanmadı]'
     user:
       settings:
