@@ -14,6 +14,7 @@ pay-to-see:
   forum:
     cancel: İptal
     confirm: Onayla
+    modify_pay_to_see_price: 'İçerik Fiyatını Değiştir'
     need_pay2see_tag: '(İçeriği görmek için ödeme yap) için [pay][/pay] etiketini eklemeniz gerekir'
     not_support_anonymous: 'İçeriği görmek için ödeme yapın, anonim gönderide desteklenmez'
     notifications:
@@ -35,5 +36,7 @@ pay-to-see:
     purchase_unlocked_button: 'İçeriğin Kilidi Açıldı'
     purchased_content: 'Satın Alınan İçerik'
     remove: Kaldır
+    remove_pay_to_see_price_success: 'Kaldırılan İçeriği Görmek İçin Ödeme Yapın'
     set_pay_to_see_price: 'İçerik Fiyatını Belirle'
+    set_pay_to_see_price_success: 'İçerik Fiyat Ayarı'
     toolbar_tooltip: 'İçeriği görmek için ödeme girin'

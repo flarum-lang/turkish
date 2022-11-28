@@ -7,6 +7,8 @@ fof-default-user-preferences:
     settings:
       followAfterReply: 'Yanıtladıktan sonra takip et'
       followAfterReply-help: 'Etkinleştirildiğinde, yeni kullanıcılar yanıtladıkları tartışmaları otomatik olarak takip eder.'
+      groupMentioned: 'Grup bahsetme e-postaları'
+      groupMentioned-help: 'Etkinleştirildiğinde, yeni kullanıcılar, ait oldukları bir gruptan bahsedildiğinde otomatik olarak bir e-posta bildirimi almayı seçer.'
       postMentioned: 'Bahsedildiğinde e-posta gönder'
       postMentioned-help: 'Etkinleştirildiğinde yeni kullanıcılar, gönderilerde bahsedilirse otomatik olarak elektronik ileti alırlar.'
       userMentioned: 'Kullanıcı bahsedildiğinde e-posta'
