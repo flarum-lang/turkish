@@ -20,8 +20,10 @@ CHANGELOG
 * [`blomstra/realtime`](https://extiverse.com/extension/blomstra/realtime)
 * [`blomstra/search`](https://github.com/blomstra/flarum-ext-search)
 * [`blomstra/turnstile`](https://github.com/blomstra/flarum-ext-turnstile)
+* [`clarkwinkelmann/flarum-ext-passwordless`](https://github.com/clarkwinkelmann/flarum-ext-passwordless)
 * [`fof/default-user-preferences`](https://github.com/FriendsOfFlarum/default-user-preferences)
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`kilowhat/flarum-ext-wordpress`](https://extiverse.com/extension/kilowhat/flarum-ext-wordpress)
 
 
 Tüm değişiklikler: [1.10.0...1.11.0](https://github.com/flarum-lang/turkish/compare/1.10.0...1.11.0).
