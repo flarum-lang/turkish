@@ -142,6 +142,10 @@ kilowhat-wordpress:
       unlink: 'Bu kullanıcının wordpress kullanıcısından bağlantısını kaldırın'
       unlink_help: 'E-posta bir Wordpress kullanıcısıyla eşleşirse, bu kullanıcı Wordpress''e bir sonraki bağlandığında yeniden bağlanır.'
       warning: "Bu kullanıcı Wordpress ile senkronize tutulur. E-posta ve şifreyi Wordpress'ten düzenlemelisiniz.\n"
+    embed-link-modal:
+      message: 'Sayfa sizi {href} sayfasına yönlendirmeye çalışıyor'
+      open: 'Bağlantıyı açın'
+      title: 'Yorum dizisinden çık'
     embed:
       title: Yorumlar
     log_in:
