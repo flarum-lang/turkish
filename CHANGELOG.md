@@ -2,6 +2,37 @@ CHANGELOG
 =========
 
 
+1.11.0 (2022-12-01)
+-------------------
+
+**Yeni uzantılar için destek eklendi**:
+
+* [`blomstra/conversations`](https://github.com/blomstra/flarum-ext-conversations)
+* [`clarkwinkelmann/flarum-ext-post-stream-search`](https://github.com/clarkwinkelmann/flarum-ext-post-stream-search)
+* [`clarkwinkelmann/flarum-ext-vote-with-money`](https://github.com/clarkwinkelmann/flarum-ext-vote-with-money)
+* [`ianm/translate`](https://extiverse.com/extension/ianm/translate)
+* [`ziiven/flarum-pay-to-see`](https://extiverse.com/extension/ziiven/flarum-pay-to-see)
+* [`ziiven/view-history`](https://github.com/Ziiven/view-history)
+
+
+**Uzantılar için çeviriler güncellendi**:
+
+* [`blomstra/payments`](https://extiverse.com/extension/blomstra/payments)
+* [`blomstra/realtime`](https://extiverse.com/extension/blomstra/realtime)
+* [`blomstra/search`](https://github.com/blomstra/flarum-ext-search)
+* [`blomstra/trello`](https://github.com/blomstra/flarum-ext-trello)
+* [`blomstra/turnstile`](https://github.com/blomstra/flarum-ext-turnstile)
+* [`clarkwinkelmann/flarum-ext-passwordless`](https://github.com/clarkwinkelmann/flarum-ext-passwordless)
+* [`davwheat/virtual-authors`](https://extiverse.com/extension/davwheat/virtual-authors)
+* [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
+* [`fof/default-user-preferences`](https://github.com/FriendsOfFlarum/default-user-preferences)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`kilowhat/flarum-ext-wordpress`](https://extiverse.com/extension/kilowhat/flarum-ext-wordpress)
+
+
+Tüm değişiklikler: [1.10.0...1.11.0](https://github.com/flarum-lang/turkish/compare/1.10.0...1.11.0).
+
+
 1.10.0 (2022-11-21)
 -------------------
 
