@@ -46,7 +46,7 @@ migratetoflarum-fake-data:
       discussion-tags-random: Rastgele
       post-count: 'Oluşturulacak gönderi sayısı'
       refresh: 'Kapat ve sayfayı yenile'
-      reset: 'Nesil tamamlandı! Sıfırlamak için tıklayın'
+      reset: 'Tamamlandı! Formu sıfırlamak için tıklayın'
       send: 'Veri oluştur'
       user-count: 'Oluşturulacak kullanıcı sayısı'
   ref:
