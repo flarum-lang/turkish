@@ -2,15 +2,20 @@ CHANGELOG
 =========
 
 
-1.11.1 (XXXX-XX-XX)
+1.12.0 (XXXX-XX-XX)
 -------------------
+
+**Yeni uzantılar için destek eklendi**:
+
+* [`club-1/flarum-ext-cross-references`](https://github.com/club-1/flarum-ext-cross-references)
+
 
 **Uzantılar için çeviriler güncellendi**:
 
 * [`migratetoflarum/fake-data`](https://github.com/migratetoflarum/fake-data)
 
 
-Tüm değişiklikler: [1.11.0...1.11.1](https://github.com/flarum-lang/turkish/compare/1.11.0...1.11.1).
+Tüm değişiklikler: [1.11.0...1.12.0](https://github.com/flarum-lang/turkish/compare/1.11.0...1.12.0).
 
 
 1.11.0 (2022-12-01)
