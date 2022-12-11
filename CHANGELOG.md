@@ -12,6 +12,7 @@ CHANGELOG
 
 **Uzantılar için çeviriler güncellendi**:
 
+* [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views)
 * [`migratetoflarum/fake-data`](https://github.com/migratetoflarum/fake-data)
 
 
