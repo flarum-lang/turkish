@@ -3,6 +3,11 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 club-1-cross-references:
+  admin:
+    show_discussion_id:
+      help: 'Bir tartışmanın görüntülendiği her yere tartışma kimlik numaraları ekleyin'
+      label: 'Tartışma kimliğini göster'
   forum:
+    comment: yorum
     post_stream:
       discussion_referenced_text: '{username}, bu tartışmaya {source} kaynağından başvurdu'
