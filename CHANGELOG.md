@@ -8,11 +8,13 @@ CHANGELOG
 **Yeni uzantılar için destek eklendi**:
 
 * [`club-1/flarum-ext-cross-references`](https://github.com/club-1/flarum-ext-cross-references)
+* [`finteger/shorts`](https://extiverse.com/extension/finteger/shorts)
 
 
 **Uzantılar için çeviriler güncellendi**:
 
 * [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
+* [`fof/share-social`](https://github.com/FriendsOfFlarum/share-social)
 * [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views)
 * [`migratetoflarum/fake-data`](https://github.com/migratetoflarum/fake-data)
 
