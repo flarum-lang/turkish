@@ -6,10 +6,12 @@ fof-share-social:
   admin:
     settings:
       canonical-urls: 'Paylaşım için standart URL''ler kullanın'
+      plain-copy: 'Düz URL kopyasını göster'
   forum:
     discussion:
       share_button: Paylaş
     modal:
+      copy_button: Kopyala
       title: Paylaş
   lib:
     networks:
