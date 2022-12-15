@@ -2,6 +2,26 @@ CHANGELOG
 =========
 
 
+1.12.0 (2022-12-15)
+-------------------
+
+**Yeni uzantılar için destek eklendi**:
+
+* [`club-1/flarum-ext-cross-references`](https://github.com/club-1/flarum-ext-cross-references)
+* [`finteger/shorts`](https://extiverse.com/extension/finteger/shorts)
+
+
+**Uzantılar için çeviriler güncellendi**:
+
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
+* [`fof/share-social`](https://github.com/FriendsOfFlarum/share-social)
+* [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views)
+* [`migratetoflarum/fake-data`](https://github.com/migratetoflarum/fake-data)
+
+
+Tüm değişiklikler: [1.11.0...1.12.0](https://github.com/flarum-lang/turkish/compare/1.11.0...1.12.0).
+
+
 1.11.0 (2022-12-01)
 -------------------
 
