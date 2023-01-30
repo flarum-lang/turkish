@@ -12,6 +12,7 @@ justoverclock-related-discussions:
     showExcerpt: 'Özet Alıntısını Göster'
     showTooltip: 'Alıntıyla Araç İpucunu Göster'
   forum:
+    avatarTooltip: 'gönderi oluşturulma tarihi'
     deleted: Silindi
     hasBestAnswer: Çözüldü
     hasBestAnswer-title: 'Bu tartışma çözüldü olarak işaretlendi'

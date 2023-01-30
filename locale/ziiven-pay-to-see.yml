@@ -24,6 +24,7 @@ pay-to-see:
     ok: Tamam
     pay_to_see_content: 'İçeriği Görmek İçin Öde'
     pay_to_see_content_bypass: 'İçeriği Görmek İçin Ödeyin [İzinli Atlama]'
+    pay_to_see_content_label: 'Öde ve Gör İçeriği'
     pay_to_see_owner_bypass: 'İçeriği Görmek İçin Ödeyin [Yönetici Atlama]'
     purchase_button: 'İçerik Satın Al'
     purchase_confirmation: 'İçerik Satın Al'

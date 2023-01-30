@@ -32,6 +32,7 @@ kilowhat-audit:
       user-title: 'Kullanıcı Denetim Günlüğü'
   lib:
     browser:
+      audit_log_cleared: 'Denetim günlüklerinden {deleted_count} girdi temizlendi'
       cache_cleared: 'Önbelleği elle temizledi'
       client:
         access_token: 'Erişim bileti'
