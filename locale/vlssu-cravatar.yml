@@ -6,7 +6,11 @@ vlssu-flarum-cravatar:
   admin:
     settings:
       defaults:
+        helptext: 'Bir e-posta adresinde eşleşen Cravatar resmi yoksa ne olur? Cravatar, varsayılan olarak kullanabileceğiniz bir dizi yerleşik seçeneğe sahiptir. Bunların çoğu, istenen e-posta karmasını alıp o e-posta adresine özel temalı bir resim oluşturmak için kullanarak çalışır.'
         title: Varsayılanlar
+      proxy:
+        helptext: 'Varsayılan olarak, cravatar URL''leri doğrudan cravatar.cn''den alınır. Bu, tüm cravatar isteklerinin doğrudan forum tarafından karşılanmasını sağlar.'
+        title: 'Proxy cravatar'
       replace-flarum-custom:
         helptext: 'Foruma zaten yüklenmiş olan özel avatarları bir Cravatar ile değiştir'
         title: 'Foruma yüklenen özel avatarları değiştir'

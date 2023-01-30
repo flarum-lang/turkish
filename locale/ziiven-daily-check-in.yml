@@ -6,7 +6,7 @@ ziven-checkin:
   admin:
     settings:
       Alert: Uyarı
-      Modal: Modal
+      Modal: Pencere
       None: Hiçbiri
       allow-check-in: 'Giriş''e izin ver'
       auto-check-in: 'Otomatik giriş'
@@ -21,6 +21,8 @@ ziven-checkin:
       timezone: 'Saat dilimi'
   forum:
     check-in: Giriş
+    check-in-failed: 'Giriş Başarısız'
     check-in-success: 'Giriş Başarılı'
     checked-in-day: '{count} Gün Giriş Yapıldı'
     checked-in-days: '{count} Gün İçinde Giriş Yapıldı'
+    try-again-later: 'Lütfen daha sonra tekrar deneyin'

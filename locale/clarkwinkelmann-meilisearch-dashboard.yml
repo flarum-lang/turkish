@@ -4,5 +4,7 @@
 
 clarkwinkelmann-meilisearch-dashboard:
   admin:
+    header:
+      link: 'Meilisearch Paneli'
     permission:
       access: 'Meilisearch Paneline Erişim'
