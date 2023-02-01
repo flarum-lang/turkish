@@ -11,3 +11,4 @@ club-1-cross-references:
     comment: yorum
     post_stream:
       discussion_referenced_text: '{username}, bu tartışmaya {source} kaynağından başvurdu'
+    unknown_discussion: '<BİLİNMEYEN TARTIŞMA>'
