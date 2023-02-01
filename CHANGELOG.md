@@ -2,6 +2,22 @@ CHANGELOG
 =========
 
 
+1.14.0 (XXXX-XX-XX)
+-------------------
+
+**Yeni uzantılar için destek eklendi**:
+
+* [`ziiven/money-transfer`](https://github.com/Ziiven/ziven-money-transfer)
+
+
+**Uzantılar için çeviriler güncellendi**:
+
+* [`club-1/flarum-ext-cross-references`](https://github.com/club-1/flarum-ext-cross-references)
+
+
+Tüm değişiklikler: [1.13.0...1.14.0](https://github.com/flarum-lang/turkish/compare/1.13.0...1.14.0).
+
+
 1.13.0 (2023-01-30)
 -------------------
 
