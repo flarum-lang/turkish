@@ -7,6 +7,8 @@ CHANGELOG
 
 **Yeni uzantılar için destek eklendi**:
 
+* [`matteociaroni/flarum-public-suspensions`](https://github.com/matteociaroni/flarum-public-suspensions)
+* [`rob006/flarum-ext-last-post-avatar`](https://github.com/rob006-software/flarum-ext-last-post-avatar)
 * [`ziiven/money-transfer`](https://github.com/Ziiven/ziven-money-transfer)
 
 
