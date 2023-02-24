@@ -2,6 +2,24 @@ CHANGELOG
 =========
 
 
+1.15.0 (XXXX-XX-XX)
+-------------------
+
+**Yeni uzantılar için destek eklendi**:
+
+* [`nearata/flarum-ext-related-discussions`](https://github.com/Nearata/flarum-ext-related-discussions)
+* [`peruguitar/flarum-ext-user-portrait`](https://github.com/Anexsoft/peruguitar-flarum-ext-user-portrait)
+* [`ziiven/flarum-raffle-ticket`](https://extiverse.com/extension/ziiven/flarum-raffle-ticket)
+
+
+**Uzantılar için çeviriler güncellendi**:
+
+* [`flarum/sticky`](https://github.com/flarum/sticky)
+
+
+Tüm değişiklikler: [1.14.0...1.15.0](https://github.com/flarum-lang/turkish/compare/1.14.0...1.15.0).
+
+
 1.14.0 (2023-02-11)
 -------------------
 
