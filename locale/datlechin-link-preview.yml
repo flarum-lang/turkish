@@ -12,6 +12,8 @@ datlechin-link-preview:
       cache_time_label: 'Önbellek Zamanı'
       convert_media_urls_help: 'Etkinleştirilirse, bu, tüm medya URL''lerini bağlantı önizlemelerine dönüştürür.'
       convert_media_urls_label: 'Medya URL''lerini dönüştürün'
+      open_links_in_new_tab_help: 'Eğer etkinleştirilirse, bağlantılar yeni sekmede açılır.'
+      open_links_in_new_tab_label: 'Bağlantıları yeni sekmede aç'
       use_google_favicons_help: 'Etkinleştirilirse, ilgili sitenin favicon''unu istemek için ön uçta bir Google hizmeti kullanır.'
       use_google_favicons_label: 'Google Favicon API''ı kullan'
       whitelist_help: 'Bağlantı önizlemesine izin vermek için virgülle ayrılmış bir alan adı veya bağlantı listesi girin.'

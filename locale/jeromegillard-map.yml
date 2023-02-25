@@ -35,3 +35,5 @@ jeromegillard-map:
     text_editor:
       bbcode_tooltip: 'harita ekle'
       location_placeholder: NEREDE
+      marker_description_placeholder: 'İşaretçi açılır pencere içeriği. İşaretçiyi gizlemek için başlık ve açıklamayı boş bırakın.'
+      marker_title_placeholder: 'İşaretçi başlığı'

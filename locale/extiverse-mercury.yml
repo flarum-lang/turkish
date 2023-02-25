@@ -5,7 +5,7 @@
 extiverse-mercury:
   admin:
     extension-updates-page:
-      extension-is-up-to-date: günceldir
+      extension-is-up-to-date: Güncel
       extension-name: Uzantı
       highest-version: 'Son sürüm'
       installed-version: 'Kurulu sürüm'

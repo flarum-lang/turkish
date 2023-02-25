@@ -13,7 +13,7 @@ kilowhat-formulaire:
       export: 'Gönderim verilerini dışa aktar'
       exportUserDetails: 'Dışa aktarmalarda kullanıcı özel verilerine erişin'
       fill: '=> kilowhat-formulaire.ref.permissions.fill'
-      heading: Formulaire
+      heading: Biçim
       heading-advanced: 'Formulaire (üçüncü parti uzantılar için tercihler)'
       listForms: 'Silinmeyen formların listesini görüntüle'
       listSubmissions: 'Gönderimlerin listesini görüntüle'

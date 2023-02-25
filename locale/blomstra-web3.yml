@@ -6,6 +6,7 @@ blomstra-web3:
   admin:
     settings:
       allow-sign-up: 'Web3 ile Kaydolmaya İzin Ver'
+      prioritize-web3-auth-modals: 'Web3 ile oturum aç/Varsayılan olarak kaydol'
   forum:
     connect-wallet-modal:
       could-not-sign: 'Seçilen hesaptaki kullancı adına kriptografik olarak imzalanamadı.'

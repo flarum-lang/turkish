@@ -7,8 +7,10 @@ clarkwinkelmann-anonymous-posting:
     permissions:
       moderate: 'Herhangi bir tartışmayı veya gönderiyi anonimleştir veya anonimleştirme'
       reveal: 'Anonim tartışmaların ve gönderilerin gerçek yazarlarını görün'
-      use: 'Anonim olarak yayınla'
+      use: 'Düzenleyicideyken içeriği anonim olarak değiştir seçeneği'
     settings:
+      alwaysAnonymiseEdits: 'Düzenlemeleri daima anonim yap'
+      alwaysAnonymiseEditsHelp: "Varsayılan olarak, anonim gönderi yazarı tarafından yapılan düzenlemeler/gizlemeler anonimleştirilir, ancak bir gönderiyi veya tartışmayı düzenleyen herhangi bir moderatör, düzenleme/gizleme yazarı olarak gösterilmeye devam eder. Bu seçenek etkinleştirildiğinde, düzenleme/gizleme aktörü kim olursa olsun hiçbir zaman anonim içerikte oturum açmayacaktır.\n"
       avatarAdd: 'Avatar kuralı ekle'
       avatarAvatarUrl: 'Avatar Bağlantısı'
       avatarFieldKey: 'Alan anahtarı'
@@ -17,9 +19,12 @@ clarkwinkelmann-anonymous-posting:
       avatars: 'Anonim avatarlar'
       avatarsHelp: "Bu özellik, premium <a>Formulaire uzantısı</a> gerektirir. Tartışmaları ve gönderileri almak için ek veritabanı istekleri gerektiğinden, bu özelliğin kullanılması performans üzerinde küçük bir etkiye neden olur. Her girişin formatı hakkında daha fazla ayrıntı için BENİOKU'ya bakın.\n"
       composerHelpTextPosition: 'Düzenleyici yardım metni konumu'
+      composerHelpTextPositionHelp: 'Onay kutusu ve bu metin yalnızca izni olan kullanıcılar görür.'
       composerHelpTextPositionHidden: Gizli
       composerHelpTextPositionTooltip: 'İpucu (etiketten sonra)'
       composerHelpTextPositionVisible: 'Görünür (etiketin altında)'
+      defaultAnonymity: 'Varsayılan olarak yeni içeriği anonim yap'
+      defaultAnonymityWhenAbleToSwitch: 'İzine sahip kullanıcılar için varsayılan olarak yeni içeriği anonim yap'
   forum:
     composerControls:
       anonymize: 'Anonim olarak yayınla'

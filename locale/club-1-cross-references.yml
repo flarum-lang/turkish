@@ -4,11 +4,18 @@
 
 club-1-cross-references:
   admin:
+    enable_short_references:
+      help: 'Mesajlardaki #<ID> metnini (ör. #42) ilgili tartışmanın bağlantılarına dönüştürün.'
+      label: 'Kısa referansları etkileştir'
+    retrofit_links_in_frontend:
+      help: "Bu uzantı etkinleştirilmediğinde gönderilen iletilerdeki tartışma bağlantılarının başlıklarını gösterin. Bu ön uçta yapılır, bu nedenle kötü bir kullanıcı deneyimine yol açabilir.\n"
+      label: 'Bağlantıları kullanıcı arabiriminde güçlendir'
     show_discussion_id:
-      help: 'Bir tartışmanın görüntülendiği her yere tartışma kimlik numaraları ekleyin'
+      help: 'Bir tartışmanın görüntülendiği her yere tartışma kimlik numaraları ekleyin.'
       label: 'Tartışma kimliğini göster'
   forum:
     comment: yorum
     post_stream:
+      discussion_referenced_multiple_text: '{username}, bu tartışmaya birden çok kaynaktan başvurdu: {sources}'
       discussion_referenced_text: '{username}, bu tartışmaya {source} kaynağından başvurdu'
-    unknown_discussion: '<BİLİNMEYEN TARTIŞMA>'
+    unknown_discussion: '<bilinmeyen tartışma>'
