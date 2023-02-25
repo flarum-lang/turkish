@@ -14,7 +14,17 @@ CHANGELOG
 
 **Uzantılar için çeviriler güncellendi**:
 
+* [`blomstra/conversations`](https://github.com/blomstra/flarum-ext-conversations)
+* [`blomstra/web3`](https://github.com/blomstra/flarum-ext-web3)
+* [`clarkwinkelmann/flarum-ext-anonymous-posting`](https://github.com/clarkwinkelmann/flarum-ext-anonymous-posting)
+* [`club-1/flarum-ext-cross-references`](https://github.com/club-1/flarum-ext-cross-references)
+* [`datlechin/flarum-link-preview`](https://github.com/datlechin/flarum-link-preview)
+* [`extiverse/mercury`](https://github.com/extiverse/mercury)
 * [`flarum/sticky`](https://github.com/flarum/sticky)
+* [`fof/links`](https://github.com/FriendsOfFlarum/links)
+* [`jeromegillard/map`](https://github.com/JeromeGillard/flarum-map)
+* [`kilowhat/flarum-ext-formulaire`](https://extiverse.com/extension/kilowhat/flarum-ext-formulaire)
+* [`kilowhat/flarum-ext-rich-embeds`](https://extiverse.com/extension/kilowhat/flarum-ext-rich-embeds)
 
 
 Tüm değişiklikler: [1.14.0...1.15.0](https://github.com/flarum-lang/turkish/compare/1.14.0...1.15.0).
