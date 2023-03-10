@@ -27,6 +27,8 @@ flarum-tags:
       bypass_tag_counts_label: 'Etiketi atlama gereksinimleri'
       restrict_by_tag_heading: 'Etikete Göre Sınırla'
       tag_discussions_label: 'Etiket tartışmaları'
+    settings:
+      button_text: '=> flarum-tags.ref.choose_tags'
     tag_settings:
       range_separator_text: ' to '
       required_primary_heading: 'Gerekli Birincil Etiket Sayısı'
@@ -53,7 +55,7 @@ flarum-tags:
       submit_button: '=> core.ref.okay'
       title: 'Tartışmanız için Etiket Seçin'
     composer_discussion:
-      choose_tags_link: 'Etiketleri Seç'
+      choose_tags_link: '=> flarum-tags.ref.choose_tags'
     discussion_controls:
       edit_tags_button: 'Etiketleri Düzenle'
     header:
@@ -63,14 +65,21 @@ flarum-tags:
       tags_link: '=> flarum-tags.ref.tags'
       untagged_link: Etiketlenmemiş
     post_stream:
-      added_and_removed_tags_text: '{username}, {tagsAdded} ekledi ve {tagsRemoved} kaldırdı.'
-      added_tags_text: '{username}, {tagsAdded} ekledi.'
-      removed_tags_text: '{username}, {tagsRemoved} kaldırdı.'
+      added_and_removed_tags_text: '{username}, {tagsAdded} öğesini ekledi ve {tagsRemoved} {time} öğesini kaldırdı.'
+      added_tags_text: '{username}, {tagsAdded} {time} ekledi.'
+      removed_tags_text: '{username}, {tagsRemoved} {time} öğesini kaldırdı.'
       tags_text: '{count, plural, one {{tags} etiketini} other {{tags} etiketlerini}}'
     tag:
       meta_description_text: '{tag} etiketindeki tüm tartışmalar'
   lib:
     deleted_tag_text: Silindi
+    tag_selection_modal:
+      bypass_requirements: 'Etiket gereksinimlerini atla'
+      choose_secondary_placeholder: '=> flarum-tags.ref.choose_tags_placeholder'
+      choose_tags_placeholder: '=> flarum-tags.ref.choose_tags_placeholder'
+      submit_button: '=> core.ref.okay'
+      title: '=> flarum-tags.ref.choose_tags'
   ref:
+    choose_tags: 'Etiketleri Seçin'
     name: İsim
     tags: Etiketler
