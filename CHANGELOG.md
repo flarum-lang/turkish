@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+1.15.1 (XXXX-XX-XX)
+-------------------
+
+**Uzantılar için çeviriler güncellendi**:
+
+* [`flarum/lock`](https://github.com/flarum/lock)
+* [`flarum/tags`](https://github.com/flarum/tags)
+
+
+Tüm değişiklikler: [1.15.0...1.15.1](https://github.com/flarum-lang/turkish/compare/1.15.0...1.15.1).
+
+
 1.15.0 (2023-02-25)
 -------------------
 
