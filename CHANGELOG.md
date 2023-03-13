@@ -21,7 +21,9 @@ CHANGELOG
 * [`flarum/lock`](https://github.com/flarum/lock)
 * [`flarum/sticky`](https://github.com/flarum/sticky)
 * [`flarum/tags`](https://github.com/flarum/tags)
+* [`justoverclock/theaudiodb-api`](https://extiverse.com/extension/justoverclock/theaudiodb-api)
 * [`nearata/flarum-ext-related-discussions`](https://github.com/Nearata/flarum-ext-related-discussions)
+* [`ziiven/flarum-money-leaderboard`](https://github.com/Ziiven/flarum-money-leaderboard)
 
 
 Tüm değişiklikler: [1.15.0...1.16.0](https://github.com/flarum-lang/turkish/compare/1.15.0...1.16.0).
