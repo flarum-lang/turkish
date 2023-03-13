@@ -4,12 +4,17 @@
 
 ziven-money-leaderboard:
   admin:
+    permission:
+      allow_view_leaderboard: 'Skor tablosunu görüntülemeye izin ver'
     settings:
       leaderboard-entry-position: 'Skor Tahtası girdi konumu'
       leaderboard-entry-sideNav: 'Yan menü'
       leaderboard-entry-topRightMenu: 'Sağ üst menü'
       leaderboard-icon: 'Skor Tahtası simgesi'
       leaderboard-icon-help: '<code>fas fa-</code> öneki dahil herhangi bir FontAwesome simge sınıfının adını girin.'
+      leaderboard-init-load-count: 'İlk yük sayısı'
+      leaderboard-load-more-count: 'Daha fazla sayı yükle'
+      leaderboard-max-load-count: 'Maksimum yük sayısı'
   forum:
     leaderboard-list-money: 'Sahip Olduğu Para'
     leaderboard-list-rank: Derece
