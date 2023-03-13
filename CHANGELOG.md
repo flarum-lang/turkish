@@ -2,16 +2,29 @@ CHANGELOG
 =========
 
 
-1.15.1 (XXXX-XX-XX)
+1.16.0 (XXXX-XX-XX)
 -------------------
+
+**Genel değişiklikler**:
+
+* Flarum çekirdek çevirileri güncellendi.
+
+
+**Yeni uzantılar için destek eklendi**:
+
+* [`datlechin/flarum-chatgpt`](https://github.com/datlechin/flarum-chatgpt)
+
 
 **Uzantılar için çeviriler güncellendi**:
 
+* [`datitisev/flarum-backup`](https://extiverse.com/extension/datitisev/flarum-backup)
 * [`flarum/lock`](https://github.com/flarum/lock)
+* [`flarum/sticky`](https://github.com/flarum/sticky)
 * [`flarum/tags`](https://github.com/flarum/tags)
+* [`nearata/flarum-ext-related-discussions`](https://github.com/Nearata/flarum-ext-related-discussions)
 
 
-Tüm değişiklikler: [1.15.0...1.15.1](https://github.com/flarum-lang/turkish/compare/1.15.0...1.15.1).
+Tüm değişiklikler: [1.15.0...1.16.0](https://github.com/flarum-lang/turkish/compare/1.15.0...1.16.0).
 
 
 1.15.0 (2023-02-25)
