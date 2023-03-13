@@ -14,6 +14,7 @@ core:
       custom_footer_text: '=> core.ref.custom_footer_text'
       custom_header_heading: 'Özel Üstbilgi'
       custom_header_text: '=> core.ref.custom_header_text'
+      custom_styles_cannot_use_less_features: 'Özel LESS''te @import ve data-uri özelliklerine izin verilmez.'
       custom_styles_heading: 'Özel Stiller'
       custom_styles_text: 'Flarum''un varsayılan stillerinin üzerine uygulanacak kendi Less/CSS kodunuzu ekleyerek forumunuzun görünümünü özelleştirin.'
       dark_mode_label: 'Karanlık Mod'
@@ -48,6 +49,15 @@ core:
       clear_cache_button: 'Önbelleği Temizle'
       description: 'Bir bakışta forumun.'
       io_error_message: 'Dosya sistemine yazılamadı. Dosya sistemi izinlerinizi kontrol edin ve tekrar deneyin veya komut satırından çalıştırmayı deneyin.'
+      status:
+        headers:
+          queue-driver: 'Kuyruk Sürücüsü'
+          scheduler-status: Zamanlayıcı
+          session-driver: 'Oturum Sürücüsü'
+        scheduler:
+          active: Aktif
+          inactive: 'Aktif değil'
+          never-run: 'Asla gitme'
       title: 'Gösterge Paneli'
       tools_button: Araçlar
     debug-warning:
@@ -155,6 +165,7 @@ core:
     permissions:
       allow_post_editing_label: 'Gönderi düzenlemeye izin ver'
       allow_renaming_label: 'Yeniden adlandırmaya izin ver'
+      create_access_token_label: 'Erişim belirteci oluştur'
       create_heading: Oluşturma
       delete_discussions_forever_label: 'Tartışmaları kalıcı olarak sil'
       delete_discussions_label: 'Tartışmaları sil'
@@ -166,6 +177,7 @@ core:
       edit_users_groups_label: 'Kullanıcı gruplarını düzenle'
       edit_users_label: 'Kullanıcıları düzenle'
       global_heading: Genel
+      moderate_access_tokens_label: 'Erişim Belirtecini Modere Et'
       moderate_heading: Yönetim
       new_group_button: 'Yeni Grup'
       participate_heading: Katılma
@@ -173,7 +185,7 @@ core:
       read_heading: Okuma
       rename_discussions_label: 'Tartışmaları yeniden adlandır'
       reply_to_discussions_label: 'Tartışmalara yanıt ver'
-      search_users_label: 'Kullanıcılarda ara'
+      search_users_label: '=> core.ref.search_users'
       sign_up_label: 'Kayıt Ol'
       start_discussions_label: 'Tartışmalar başlat'
       title: İzinler
@@ -200,6 +212,8 @@ core:
       description: 'Forumunuzdaki tüm kullanıcıların sayfalandırılmış bir listesi.'
       grid:
         columns:
+          display_name:
+            title: 'Görünen ad'
           edit_user:
             button: '=> core.ref.edit'
             title: '=> core.ref.edit_user'
@@ -221,8 +235,12 @@ core:
         invalid_column_content: Geçersiz
       pagination:
         back_button: 'Önceki sayfa'
+        first_button: 'İlk sayfaya git'
+        go_to_page_textbox_a11y_label: 'Doğrudan sayfa numarasına git'
+        last_button: 'Son sayfaya git'
         next_button: 'Sonraki sayfa'
         page_counter: '{total} sayfadan {current}'
+      search_placeholder: '=> core.ref.search_users'
       title: '=> core.ref.users'
       total_users: 'Toplam kullanıcılar: {count}'
   api:
@@ -370,7 +388,7 @@ core:
       viewing_text: '{count, plural, one {{index} < {formattedCount} gönderi} other {{index} < {formattedCount} gönderi}}'
     post_stream:
       discussion_renamed_old_tooltip: 'Eski başlık şuydu: "{old}"'
-      discussion_renamed_text: '{username} başlığı {new} olarak değiştirdi.'
+      discussion_renamed_text: '{username}, başlığı {new} olarak {time} değiştirdi.'
       load_more_button: '=> core.ref.load_more'
       reply_placeholder: '=> core.ref.write_a_reply'
       time_lapsed_text: '{period} sonra'
@@ -381,6 +399,38 @@ core:
       all_discussions_button: '"{query}" için tüm tartışmalarda ara'
       discussions_heading: '=> core.ref.discussions'
       users_heading: '=> core.ref.users'
+    security:
+      browser_on_operating_system: '{os} üzerinde {browser}'
+      cannot_terminate_current_session: 'Geçerli etkin oturum sonlandırılamıyor. Bunun yerine oturumu kapatın.'
+      created: Oluşturuldu
+      current_active_session: 'Mevcut Aktif Oturum'
+      developer_tokens_heading: 'Geliştirici Jetonları'
+      empty_text: 'Burada görülecek bir şey yok gibi görünüyor.'
+      global_logout:
+        heading: 'Genel Oturum Kapatma'
+        help_text: 'Geçerli tanımlama bilgisi oturumunu temizler, tüm oturumları sonlandırır, geliştirici belirteçlerini iptal eder ve tüm e-posta onay veya parola sıfırlama e-postalarını geçersiz kılar.'
+        log_out_button: '=> core.ref.log_out'
+      hide_access_token: 'Jetonu Gizle'
+      last_activity: 'Son aktivite'
+      never: Asla
+      new_access_token_button: '=> core.ref.new_token'
+      new_access_token_modal:
+        submit_button: 'Jeton Oluştur'
+        title: '=> core.ref.new_token'
+        title_placeholder: Başlık
+      revoke_access_token: 'Geri çek'
+      revoke_access_token_confirmation: '=> core.ref.generic_confirmation_message'
+      session_terminated: '{count, plural, one {Oturum sonlandırıldı} other {# Oturum sonlandırıldı}}.'
+      session_termination_failed: 'Oturumlarınız sonlandırılırken bir hata oluştu.'
+      sessions_heading: 'Aktif Oturumlar'
+      show_access_token: 'Jetonu Görüntüle'
+      terminate_all_other_sessions: 'Diğer tüm oturumları sonlandır'
+      terminate_all_other_sessions_confirmation: '=> core.ref.generic_confirmation_message'
+      terminate_session: Sonlandır
+      title: '=> core.ref.security'
+      token_item_title: '{title} - {token}'
+      token_revoked: 'Jeton iptal edildi.'
+      token_title_placeholder: /
     settings:
       account_heading: Hesap
       change_email_button: '=> core.ref.change_email'
@@ -413,6 +463,7 @@ core:
       posts_empty_text: 'Burada hiç gönderi yok gibi görünüyor.'
       posts_link: '=> core.ref.posts'
       posts_load_more_button: '=> core.ref.load_more'
+      security_link: '=> core.ref.security'
       settings_link: '=> core.ref.settings'
     user_controls:
       button: Seçenekler
@@ -442,6 +493,8 @@ core:
       dismiss_a11y_label: 'Uyarıyı kapat'
     badge:
       hidden_tooltip: Gizli
+    data_segment:
+      label: '{label}:'
     debug_button: 'Hata Ayıklama'
     dropdown:
       toggle_dropdown_accessible_label: 'Açılır menüyü aç / kapat'
@@ -461,6 +514,7 @@ core:
     error:
       dependent_extensions_message: '{extension} uzantısı şu uzantı etkisizleştirilmeden önce etkisizleştirilemez: {extensions}'
       extension_initialiation_failed_message: '{extension} başlatılamadı, daha fazla bilgi için tarayıcı konsolunu kontrol edin.'
+      generic_cross_origin_message: 'Oops! Kaynaklar arası istek sırasında bir şeyler ters gitti. Lütfen sayfayı yeniden yükleyin ve tekrar deneyin.'
       generic_message: 'Oops! Bir şeyler yanlış gitti. Lütfen sayfayı yenileyin ve tekrar deneyin.'
       missing_dependencies_message: '{extension} şu uzantı aktif edilmeden önce aktif edilemez: {extensions}'
       not_found_message: 'İstenen kaynak bulunamadı.'
@@ -505,6 +559,7 @@ core:
     edit_user: 'Kullanıcıyı Düzenle'
     email: E-posta
     extensions: Uzantılar
+    generic_confirmation_message: 'Devam etmek istediğinizden emin misiniz? Bu işlem geri alınamaz.'
     icon: Simge
     icon_text: 'Herhangi bir <a>FontAwesome</a> simgesi adını <code>fas fa-</code> <em>öneki dahil</em> olarak girin.'
     load_more: 'Daha Fazla Yükle'
@@ -512,6 +567,7 @@ core:
     log_in: 'Giriş Yap'
     log_out: 'Çıkış Yap'
     mark_all_as_read: 'Tümünü Okundu Olarak İşaretle'
+    new_token: 'Yeni Jeton'
     next_page: 'Sonraki Sayfa'
     notifications: Bildirimler
     okay: Tamam
@@ -524,6 +580,8 @@ core:
     reset_your_password: 'Şifreni Sıfırla'
     restore: 'Geri Yükle'
     save_changes: 'Değişiklikleri Kaydet'
+    search_users: 'Kullanıcıları ara'
+    security: Güvenlik
     settings: Ayarlar
     sign_up: 'Kayıt Ol'
     some_others: '{count, plural, one {# diğer} other {# diğer}}'

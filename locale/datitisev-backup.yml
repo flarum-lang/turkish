@@ -52,6 +52,19 @@ datitisev-backup:
         access-token:
           description: 'https://www.dropbox.com/developers/apps adresinde bir oAuth 2 erişim jetonu oluşturun.'
           label: 'Erişim tokeni'
+        help:
+          obtain-access-code-button: 'Dropbox''u Aç'
+          obtain-access-code-label: 'Bir erişim kodu edinin (uygulama anahtarı gerektirir)'
+          obtain-refresh-token-button: 'Kodu kullan'
+          obtain-refresh-token-label: 'Yenileme jetonu almak için erişim kodunu kullanın (uygulama anahtarı ve gizli uygulama anahtarı gerektirir)'
+          obtain-refresh-token-success: 'Yenileme belirteci başarıyla alındı ve yukarıda güncellendi! Saklamak için değişiklikleri kaydedin.'
+        key:
+          label: 'Uygulama Anahtarı'
+        refresh-token:
+          description: 'Yenileme jetonunu almak için aşağıdaki alanları kullanın veya https://www.codemzy.com/blog/dropbox-long-lived-access-refresh-token#how-can-i-get-a-refresh-token-manually adresindeki talimatları manuel olarak izleyin.'
+          label: 'Jetonu Yenile'
+        secret:
+          label: 'Uygulama Gizli Anahtarı'
       ftp:
         host:
           description: 'FTP ile bağlanılacak ana bilgisayar adı, örneğin: <em> ftp.yourdomain.local </em>.'

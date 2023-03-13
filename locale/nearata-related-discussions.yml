@@ -18,6 +18,7 @@ nearata-related-discussions:
       position_options:
         first_post: 'İlk Tartışmadan Sonra'
         last_post: 'Son Tartışmadan Sonra'
+        reply_block: 'Yanıt Engellemesinden Sonra'
   forum:
     discussion_list_title: 'İlgili Tartışmalar'
     no_results: 'İlgili tartışma bulunamadı'
