@@ -69,7 +69,7 @@ fof-oauth:
           help: 'Bu bağlantılı hesaplar, diğer sağlayıcıları kullanarak forumda oturum açmanıza izin verir.'
           identifier-label: '{provider} ID'
           label: 'Bağlı hesaplar'
-          last-used-label: 'Son kullanılan'
+          last-used-label: 'Son kullanılma'
           link-created-label: 'Bağlantı oluşturuldu'
           orphaned-account: 'Daha önce bu sağlayıcı aracılığıyla oturum açtınız, ancak bu forum o zamandan beri bu yöntemle oturum açmayı devre dışı bıraktı.'
           unlink-confirm: '{provider} ile olan bağlantıyı kaldırmak istediğinizden emin misiniz? Gelecekte yeniden kimlik doğrulaması yapmazsanız, artık bu forumda oturum açamayacaksınız.'
