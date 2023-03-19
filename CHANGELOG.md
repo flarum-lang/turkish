@@ -23,6 +23,8 @@ CHANGELOG
 * [`flarum/sticky`](https://github.com/flarum/sticky)
 * [`flarum/tags`](https://github.com/flarum/tags)
 * [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
+* [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks)
+* [`justoverclock/steam-api`](https://extiverse.com/extension/justoverclock/steam-api)
 * [`justoverclock/theaudiodb-api`](https://extiverse.com/extension/justoverclock/theaudiodb-api)
 * [`nearata/flarum-ext-related-discussions`](https://github.com/Nearata/flarum-ext-related-discussions)
 * [`ziiven/flarum-money-leaderboard`](https://github.com/Ziiven/flarum-money-leaderboard)
