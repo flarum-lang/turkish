@@ -33,7 +33,7 @@ fof-webhooks:
       404: 'Webhook Bulunamadı'
   admin:
     errors:
-      service_not_found: '''{service}'' hizmeti bulunamıyor.'
+      service_not_found: '"{service}" hizmeti bulunamadı.'
       tag_invalid: 'Bu web kancası geçersiz bir etiketle sınırlandırılmıştır. Kısıtlama uygulanmayacaktır. Bunun amaçlandığından emin olun.'
       url_invalid: 'Bağlantı, seçilen servis için geçerli değil.'
     nav:

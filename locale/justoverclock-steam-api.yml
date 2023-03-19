@@ -11,7 +11,13 @@ justoverclock-steam-api:
     accountCreated: 'Üyelik tarihi: '
     country: 'Ülke: '
     gamesOwned: 'Sahip Olunan Oyunlar: '
+    lastLogOff: 'Son çıkış: '
     lastLogin: 'Son giriş: '
+    noCountry: 'Dolu değil'
+    noGamesAvailable: 'Son iki haftada hiç oyun oynanmadı.'
+    privateProfile: 'Gizli profil'
+    profile: 'Profil: '
+    publicProfile: 'Herkese açık profil'
     realName: 'Gerçek ad: '
     status: 'Durum: '
     statusAway: Uzakta
@@ -21,6 +27,6 @@ justoverclock-steam-api:
     statusPlay: 'Oyun Arıyorum'
     statusSnooze: Kestiriyor
     statusTrade: 'Değiş tokuş için arıyorum'
-    steamId: 'Steam Profil Kimliği'
+    steamId: 'Steam Profil Kimliği veya özel ad'
     steamIdSaved: 'Steam kimliği başarıyla kaydedildi'
     visitProfile: 'Profili ziyaret edin'
