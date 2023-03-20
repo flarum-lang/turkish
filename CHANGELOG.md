@@ -13,6 +13,7 @@ CHANGELOG
 **Yeni uzantılar için destek eklendi**:
 
 * [`datlechin/flarum-chatgpt`](https://github.com/datlechin/flarum-chatgpt)
+* [`justoverclock/be-active-user-indicator`](https://github.com/justoverclockl/active-user-indicator)
 
 
 **Uzantılar için çeviriler güncellendi**:
