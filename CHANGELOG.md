@@ -14,6 +14,7 @@ CHANGELOG
 
 * [`datlechin/flarum-chatgpt`](https://github.com/datlechin/flarum-chatgpt)
 * [`justoverclock/be-active-user-indicator`](https://github.com/justoverclockl/active-user-indicator)
+* [`justoverclock/job-cards`](https://extiverse.com/extension/justoverclock/job-cards)
 
 
 **Uzantılar için çeviriler güncellendi**:
@@ -23,6 +24,7 @@ CHANGELOG
 * [`flarum/mentions`](https://github.com/flarum/mentions)
 * [`flarum/sticky`](https://github.com/flarum/sticky)
 * [`flarum/tags`](https://github.com/flarum/tags)
+* [`fof/linguist`](https://github.com/FriendsOfFlarum/linguist)
 * [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
 * [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks)
 * [`justoverclock/steam-api`](https://extiverse.com/extension/justoverclock/steam-api)
