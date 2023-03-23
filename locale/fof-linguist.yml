@@ -88,6 +88,8 @@ fof-linguist:
       validation: 'Doğrulama Hataları'
     locales:
       all: Tümü
+    permissions:
+      view_string_keys: 'Çeviri dizisi anahtarlarını görüntüle'
     placeholder:
       all-locales: 'Bu alana yazılan bir metin tüm dillerde gösterilir'
       hint: 'Asıl değer:'
