@@ -24,7 +24,7 @@ ianm-follow-users:
     filter:
       following: 'Takip edilen kullanıcılar'
     followed: 'Takip ediliyor'
-    followers: Takipçiler
+    followers: '{count, plural, one {Takipçi} other {Takipçiler}}'
     index:
       follow_tag_button: '=> ianm-follow-users.lib.follow'
       unfollow_tag_button: '=> ianm-follow-users.lib.change_follow_type'

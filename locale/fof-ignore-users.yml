@@ -11,6 +11,8 @@ fof-ignore-users:
       discussion_label: 'Engellenen kullanıcı tarafından başlatıldı'
       user_label: 'Engellenen kullanıcı'
     profile_link: 'Engellenmiş Kullanıcılar'
+    profile_page:
+      no_ignored: 'Görünüşe göre kimseyi görmezden gelmiyorsun.'
     user_controls:
       ignore_button: Engelle
       ignore_confirmation: 'Bu kullanıcıyı engellemek istediğinize emin misiniz?'
