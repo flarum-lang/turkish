@@ -15,6 +15,7 @@ CHANGELOG
 * [`datlechin/flarum-chatgpt`](https://github.com/datlechin/flarum-chatgpt)
 * [`justoverclock/be-active-user-indicator`](https://github.com/justoverclockl/active-user-indicator)
 * [`justoverclock/job-cards`](https://extiverse.com/extension/justoverclock/job-cards)
+* [`nearata/flarum-ext-cloudflare`](https://github.com/Nearata/flarum-ext-cloudflare)
 
 
 **Uzantılar için çeviriler güncellendi**:
@@ -24,9 +25,11 @@ CHANGELOG
 * [`flarum/mentions`](https://github.com/flarum/mentions)
 * [`flarum/sticky`](https://github.com/flarum/sticky)
 * [`flarum/tags`](https://github.com/flarum/tags)
+* [`fof/ignore-users`](https://github.com/FriendsOfFlarum/ignore-users)
 * [`fof/linguist`](https://github.com/FriendsOfFlarum/linguist)
 * [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
 * [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks)
+* [`ianm/follow-users`](https://github.com/imorland/follow-users)
 * [`justoverclock/steam-api`](https://extiverse.com/extension/justoverclock/steam-api)
 * [`justoverclock/theaudiodb-api`](https://extiverse.com/extension/justoverclock/theaudiodb-api)
 * [`nearata/flarum-ext-related-discussions`](https://github.com/Nearata/flarum-ext-related-discussions)
