@@ -30,10 +30,12 @@ CHANGELOG
 * [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
 * [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks)
 * [`ianm/follow-users`](https://github.com/imorland/follow-users)
+* [`ianm/synopsis`](https://github.com/imorland/synopsis)
 * [`justoverclock/steam-api`](https://extiverse.com/extension/justoverclock/steam-api)
 * [`justoverclock/theaudiodb-api`](https://extiverse.com/extension/justoverclock/theaudiodb-api)
 * [`nearata/flarum-ext-related-discussions`](https://github.com/Nearata/flarum-ext-related-discussions)
 * [`ziiven/flarum-money-leaderboard`](https://github.com/Ziiven/flarum-money-leaderboard)
+* [`ziiven/flarum-pay-to-see`](https://extiverse.com/extension/ziiven/flarum-pay-to-see)
 
 
 Tüm değişiklikler: [1.15.0...1.16.0](https://github.com/flarum-lang/turkish/compare/1.15.0...1.16.0).
