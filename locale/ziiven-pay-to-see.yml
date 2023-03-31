@@ -4,10 +4,14 @@
 
 pay-to-see:
   admin:
+    error_need_one_tag: 'Lütfen en az bir etiket seçin'
     permission:
       allow_bypass_pay2see: '(İçeriği görmek için öde) atlamaya izin ver'
       allow_purchase_pay2see: 'İçeriği görmek için ödemeye izin ver'
+      allow_set_pay2see: 'Diğer kullanıcının tartışmasını görmek için ücret ödemeye izin ver'
       allow_use_pay2see: 'Kullanıma izin ver (görmek için öde)'
+    set_permission_tag: 'Etiketler İzin Ayarı'
+    set_permission_tag_help: 'Bir kullanıcı bir tartışma başlatırken, izni olan herhangi bir etiketi seçerek P2S''yi kullanabilir'
     settings:
       badge_icon: 'Rozet simgesi'
       badge_icon_desc: '<code>fas fa-</code> öneki dahil herhangi bir FontAwesome simge sınıfının adını girin. Rozeti kaldırmak için boş bırakın.'
@@ -36,8 +40,19 @@ pay-to-see:
     purchase_success: 'Satın Alma Başarılı'
     purchase_unlocked_button: 'İçeriğin Kilidi Açıldı'
     purchased_content: 'Satın Alınan İçerik'
+    purchased_users: 'Satın Alan Kullanıcılar'
+    purchased_users_empty: 'Henüz kimse satın almadı'
     remove: Kaldır
     remove_pay_to_see_price_success: 'Kaldırılan İçeriği Görmek İçin Ödeme Yapın'
+    set_error_no_permission: 'İçeriği görmek için ödeme yapma izniniz yok'
     set_pay_to_see_price: 'İçerik Fiyatını Belirle'
     set_pay_to_see_price_success: 'İçerik Fiyat Ayarı'
+    tag_has_permission: 'İçeriği görmek için ödemeye izin ver'
+    tag_no_permission: 'Seçili etiketlerde görmek için ödeme yapamazsınız'
+    tag_no_permission_title: 'İçeriği Görmek İçin Öde'
     toolbar_tooltip: 'İçeriği görmek için ödeme girin'
+  lib:
+    cancel: İptal
+    confirm: Onayla
+    ok: Tamam
+    save: Kaydet

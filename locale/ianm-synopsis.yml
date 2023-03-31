@@ -5,6 +5,9 @@
 ianm-synopsis:
   admin:
     settings:
+      disable-when-searching:
+        help: 'Etkinleştirildiğinde, özet yerine varsayılan en alakalı gönderi alıntısı kullanılacaktır'
+        label: 'Arama yaparken özeti devre dışı bırak'
       excerpt-label: 'Özet metninin karakter sayısı'
       excerpt-length:
         help: 'Gönderiden kaç karakter görüntülenmelidir?'

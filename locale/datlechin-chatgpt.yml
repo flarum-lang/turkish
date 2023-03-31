@@ -15,5 +15,7 @@ datlechin-chatgpt:
       max_tokens_label: 'Maksimum Jeton'
       model_help: '<a>Modeller</a> hakkında daha fazla bilgi edinin (varsayılan: <code>text-davinci-003</code>).'
       model_label: Model
+      user_prompt_badge_help: 'Kullanıcı isteminin yanında görüntülenecek metin.'
+      user_prompt_badge_label: 'Kullanıcı İstemi (Prompt) Rozeti'
       user_prompt_help: 'Cevabı oluşturmak için kullanılacak bilgi istemi. Varsayılan, tartışmayı kimin başlattığıdır.'
       user_prompt_label: 'Kullanıcı İstemi'
