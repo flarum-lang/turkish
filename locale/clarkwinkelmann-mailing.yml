@@ -16,6 +16,7 @@ clarkwinkelmann-mailing:
       mail_all: 'E-posta gönder'
       mail_individual: 'Bu Kullanıcıya E-Posta Gönder'
     modal_mail:
+      as_html_label: 'HTML olarak gönder'
       default_subject: '=> clarkwinkelmann-mailing.ref.default_subject'
       message_label: Mesaj
       recipients_label: Alıcılar
