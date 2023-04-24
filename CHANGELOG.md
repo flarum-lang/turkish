@@ -2,6 +2,25 @@ CHANGELOG
 =========
 
 
+1.17.0 (XXXX-XX-XX)
+-------------------
+
+**Yeni uzantılar için destek eklendi**:
+
+* [`xsoft-ict/mason-tag`](https://github.com/xsoft-ict/fof-mason-tag)
+
+
+**Uzantılar için çeviriler güncellendi**:
+
+* [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money)
+* [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa)
+* [`clarkwinkelmann/flarum-ext-mailing`](https://github.com/clarkwinkelmann/flarum-ext-mailing)
+* [`fof/links`](https://github.com/FriendsOfFlarum/links)
+
+
+Tüm değişiklikler: [1.16.0...1.17.0](https://github.com/flarum-lang/turkish/compare/1.16.0...1.17.0).
+
+
 1.16.0 (2023-04-17)
 -------------------
 
