@@ -25,12 +25,16 @@ flarum-mentions:
       reply_to_post_text: '#{number} numaralı gönderiye yanıt'
     group_mention:
       deleted_text: '[bilinmeyen grup]'
+    mentioned_by:
+      load_more_button: '=> core.ref.load_more'
+      title: 'Bu gönderiye verilen yanıtlar'
     notifications:
       group_mentioned_text: '{username}, üyesi olduğunuz bir gruptan bahsetti'
       others_text: '=> core.ref.some_others'
       post_mentioned_text: '{username} senin gönderini yanıtladı'
       user_mentioned_text: '{username} senden bahsetti'
     post:
+      mentioned_by_more_text: '{count} yanıt daha.'
       mentioned_by_self_text: '{users} bunu yanıtladın.'
       mentioned_by_text: '{users} bunu yanıtladı.'
       others_text: '=> core.ref.some_others'
