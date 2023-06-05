@@ -5,6 +5,7 @@
 fof-byobu:
   admin:
     permission:
+      add_more_than_two_user_recipients: 'Özel tartışmaya 2''den fazla kullanıcı alıcısı ekleyin'
       create_private_discussions_with_blocking_users: 'Özel tartışmaları engelleyen kullanıcılarla özel tartışma oluştur'
       create_private_discussions_with_groups: 'Gruplar ile özel tartışma oluştur'
       create_private_discussions_with_users: 'Kullanıcılar ile özel tartışma oluştur'
@@ -18,6 +19,8 @@ fof-byobu:
       delete_on_last_recipient_left_help: 'Etkinleştirilirse, son kullanıcı ayrıldığında PD''ler veritabanından kalıcı olarak silinir. Aksi takdirde, PD geçici olarak silinir/gizlenir.'
       enable-make-public-option: '"Herkese açık hale getir" özelliğini etkinleştirin'
       enable-make-public-option-help: 'Tüm alıcıları kaldırma, yeni bir etiket atama ve tartışmayı herkese açık hale getirme (seçilen etiketin görünürlük ayarlarına göre) izni olanlara yetenek ekler.'
+      hide_from_all_discussions_page: 'PM''leri "Tüm Tartışmalar" sayfasından gizle'
+      hide_from_all_discussions_page_help: 'Özel tartışmalara yalnızca "Özel Tartışmalar" sayfasından veya kullanıcı profilinden erişilebilir'
       post-event-icon: 'Byobu Gönderi Etkinlikleri'
   email:
     body:
