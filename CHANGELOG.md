@@ -29,6 +29,7 @@ CHANGELOG
 * [`flarum/sticky`](https://github.com/flarum/sticky)
 * [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
 * [`fof/links`](https://github.com/FriendsOfFlarum/links)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
 
 
 Tüm değişiklikler: [1.16.0...1.17.0](https://github.com/flarum-lang/turkish/compare/1.16.0...1.17.0).
