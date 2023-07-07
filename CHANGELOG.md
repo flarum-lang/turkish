@@ -26,6 +26,7 @@ CHANGELOG
 * [`clarkwinkelmann/flarum-ext-mailing`](https://github.com/clarkwinkelmann/flarum-ext-mailing)
 * [`flarum/likes`](https://github.com/flarum/likes)
 * [`flarum/mentions`](https://github.com/flarum/mentions)
+* [`flarum/sticky`](https://github.com/flarum/sticky)
 * [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
 * [`fof/links`](https://github.com/FriendsOfFlarum/links)
 
