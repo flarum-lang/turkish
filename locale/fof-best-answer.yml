@@ -30,8 +30,12 @@ fof-best-answer:
       schedule_stop_overnight_help: '9ös - 8öö sunucu zamanı'
       select_best_answer_reminder_days: 'Hatırlatma sıklığı'
       select_best_answer_reminder_days_help: 'Yapılandırılabilir gün sayısından sonra tartışma sahibine En İyi Yanıtı seçmesi için bir hatırlatıcı gönderin, 0 = hatırlatıcıları devre dışı bırakın.'
+      select_best_answer_tags_help: 'Bir En İyi Cevap ayarlandığında, varsa hangi etiketlerin tartışmalara ekleneceğini seçin. Yalnızca ikincil etiketlere izin verilir. En İyi Cevap kaldırılırsa bu etiketler kaldırılacaktır.'
+      select_best_answer_tags_label: 'En iyi cevapların olduğu tartışmalar için etiketler'
       show_filter_help: 'En İyi Yanıtların etkinleştirildiği etiketler için, tartışma listesinde çözülmüş/çözülmemiş filtre seçeneğini görüntülemeyi seçin'
       show_filter_label: 'En İyi Yanıt filtresini göster'
+      show_max_lines_help: 'Devre dışı bırakmak için 0 olarak ayarlayın. Bir gönderi, yapılandırılan satır miktarından daha uzunsa, gönderi önizlemesinde bir solma efektiyle kesilecektir.'
+      show_max_lines_label: 'Post önizlemede gösterilecek maks. satırlar'
       use_alt_ui: 'Alternatif dizilim'
       use_alt_ui_help: 'Altbilgideki en iyi yanıt kontrolleri'
   email:
@@ -73,3 +77,8 @@ fof-best-answer:
     this_best_answer: 'En iyi yanıt'
     user:
       best-answer-count: '{count, plural, one { {count} en iyi yanıt} other {{count} en iyi yanıt}}'
+fof-user-directory:
+  lib:
+    sort:
+      least_best_answers: 'En az en iyi cevaplar'
+      most_best_answers: 'En iyi cevaplar'

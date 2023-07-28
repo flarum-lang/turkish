@@ -6,6 +6,7 @@ blomstra-turnstile:
   admin:
     settings:
       forgot: '=> core.forum.forgot_password.title'
+      help_text: 'Cloudflare hesabınızda <a>buradan</a> Turnike anahtarları oluşturun.'
       secret_key: 'Gizli anahtar'
       signin: '=> core.forum.log_in.title'
       signup: '=> core.forum.sign_up.title'

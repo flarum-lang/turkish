@@ -18,6 +18,8 @@ fof-reactions:
         reactions: 'Mevcut İfadeler'
         title: 'Özel İfadeler'
       settings:
+        allow-anonymous: 'Anonim (misafir) tepkilere izin ver'
+        allow-anonymous-help: 'Etkinleştirilirse konuklar ve anonim kullanıcılar gönderilere yanıt verebilir. Anonim tepkilerin bir kullanıcı profiline bağlı olmayacağını ve tepkiler listesinde toplanacağını unutmayın.'
         integrations:
           gamification:
             downvoteHelptext: 'Otomatik olarak aşağı oya dönüştürülmesini istediğiniz ifadeyi girin'
@@ -41,6 +43,7 @@ fof-reactions:
     disabled-reaction: 'Bu ifadeyi şu anda kullanamazsınız, lütfen sayfayı yenileyin'
     mod_item: 'İfadeleri Göster'
     modal:
+      anonymous_count: '{count, plural, one {# bilinmeyen kullanıcı} other {# bilinmeyen kullanıcılar}}'
       title: İfadeler
     notification: '{username}, gönderinize {reaction} ifadesi bıraktı'
     react_button_label: Tepki

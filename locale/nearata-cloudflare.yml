@@ -18,6 +18,13 @@ nearata-cloudflare:
         js: 'JavaScript Küçült'
         js_help: 'Web siteniz için tüm JavaScript dosyalarını otomatik olarak küçültün.'
         section_title: 'Ayarı Küçült'
+      r2:
+        access_key_id: 'Erişim Anahtarı ID'
+        access_key_secret: 'Erişim Gizli Anahtarı'
+        bucket_name: 'Bucket Adı'
+        public_domain: 'Genel Alan Adı'
+        s3_api: 'S3 API'
+        section_title: R2
       refer_to: 'Daha fazla bilgi için <strong><url>bu sayfaya</url></strong> bakın.'
       refresh_zone_button_label: 'Zone ID Yenile'
       refresh_zone_help: 'Yukarıdaki düğmeye <strong>yalnızca</strong> alan adı değiştiyse tıklayın.'

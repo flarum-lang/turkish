@@ -17,7 +17,7 @@ justoverclock-igdb-api:
     metacriticScore: 'MetaCritic Puanı'
     noConnection: 'Hata! Video oyunu veritabanı şu anda yanıt vermiyor. Lütfen daha sonra tekrar kontrol edin.'
     offwebsite: 'Resmi İnternet Sitesi'
-    pageText: '2022''de hangi oyunlar çıkacak diye merak ediyorsanız hepsini tek sayfada topladık. Bu liste, yeni tarihler duyurulduğunda, başlıklar ertelendiğinde ve büyük açıklamalar gerçekleştiğinde yaşayan, nefes alan bir program olarak hareket etmek için sürekli güncellenecektir. Bu, oyun ve ötesinde önümüzdeki birkaç ayınızı planlamanıza yardımcı olacaktır. Oyun takvimi sürekli değiştiği için bu sayfayı favorilerinize eklemenizi şiddetle tavsiye ederiz.'
+    pageText: 'Bu yıl hangi oyunların çıkacağını merak ediyorsanız, hepsini bir sayfaya topladık. Bu liste, yeni tarihler açıklandıkça, başlıklar ertelendikçe ve büyük açıklamalar gerçekleştikçe yaşayan, nefes alan bir program olarak hareket edecek şekilde sürekli olarak güncellenecektir. Bu, önümüzdeki birkaç ayı oyun oynama ve ötesini planlamanıza yardımcı olacaktır. Oyun takvimi sürekli değiştiğinden, bu sayfaya yer işareti koymanızı önemle tavsiye ederiz.'
     pageTitle: 'Yeni ve Yaklaşan Oyunlar'
     pagetitle: 'Yeni ve Yaklaşan Oyunlar'
     publisher: Yayıncı

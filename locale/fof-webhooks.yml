@@ -17,6 +17,7 @@ fof-webhooks:
       deleted: 'Grup silindi `{1}`'
       renamed: 'Grup adı değiştirildi `{1}`'
     post:
+      approved: '`{1}` için onaylanan gönderi'
       deleted: 'Gönderi silindi `{1}`'
       hidden: 'Gönderi gizlendi `{1}`'
       posted: 'Yeni gönderi `{1}`'
@@ -34,6 +35,7 @@ fof-webhooks:
   admin:
     errors:
       service_not_found: '"{service}" hizmeti bulunamadı.'
+      tag_disabled: 'Bu web kancasında yapılandırılmış bir etiket kısıtlaması vardı. Etiketler uzantısı devre dışı bırakıldı. Kısıtlama uygulanmayacaktır. Bunun amaçlandığından emin olun.'
       tag_invalid: 'Bu web kancası geçersiz bir etiketle sınırlandırılmıştır. Kısıtlama uygulanmayacaktır. Bunun amaçlandığından emin olun.'
       url_invalid: 'Bağlantı, seçilen servis için geçerli değil.'
     nav:
@@ -41,6 +43,9 @@ fof-webhooks:
     settings:
       actions:
         flarum:
+          approval:
+            postwasapproved: 'Gönderi Onaylandı'
+            title: 'Flarum Onayı'
           discussion:
             deleted: '=> fof-webhooks.ref.deleted'
             hidden: '=> fof-webhooks.ref.hidden'
@@ -70,9 +75,10 @@ fof-webhooks:
       help:
         disabled: 'Bu web kancası, etkin bir etkinliğe sahip olmadığı için etkisizleştirildi.'
         general: 'Burada forumunuza webhooklar ekleyebilir, düzenleyebilir ve kaldırabilirsiniz.'
+        tags: 'Web kancalarını belirli etiketlerle sınırlayabilirsiniz. Herhangi bir etiket seçerseniz, webhook yalnızca etkinlik seçilen etiketlerden herhangi birine sahip bir kaynakta tetiklenirse tetiklenir.'
         url: 'Webhook''un yürütülecek uç noktası'
       item:
-        tag_any_label: Hiç
+        tag_any_label: 'Herhangi Bir Etiket'
       modal:
         description: 'Burada, webhookun hangi olaylarda tetikleneceğini değiştirirsiniz.'
         events_label: Etkinlikler

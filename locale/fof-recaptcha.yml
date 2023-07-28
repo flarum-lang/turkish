@@ -7,8 +7,11 @@ fof-recaptcha:
     permissions:
       post_without_captcha: 'Captcha olmadan gönderi ve tartışmalar oluşturun'
     settings:
+      forgot: '=> core.forum.forgot_password.title'
       help_text: 'Google reCAPTCHA bilgilerinizi <a>buradan</a> alın.'
       secret_key_label: 'Secret Key'
+      signin: '=> core.forum.log_in.title'
+      signup: '=> core.forum.sign_up.title'
       site_key_label: 'Site Key'
       type_label: 'reCAPTCHA Tipi'
   forum:

@@ -38,6 +38,8 @@ fof-oauth:
           api_key_label: 'API Anahtarı'
           api_secret_label: 'API Secret'
           description: '{link} bağlantısında bir uygulama oluşturun. Bir Hizmet Şartları bağlantısı ve Gizlilik Politikası bağlantısı belirlemeniz gerekecektir. Daha sonra istek e-posta iznini eklediğinizden emin olun.'
+      update_email_from_provider_help: 'Etkinleştirilirse, kullanıcının e-posta adresi, foruma her girişte OAuth sağlayıcısı tarafından sağlanan adresle eşleşecek şekilde güncellenecektir. Tüm sağlayıcılar güncel e-postayı sağlamaz; bu durumda bu ayarın bu sağlayıcılar üzerinde herhangi bir etkisi olmaz.'
+      update_email_from_provider_label: 'Sağlayıcıdan gelen e-posta adresini güncelle'
     settings_accessibility_label: '{name} ayarları'
   forum:
     error:
