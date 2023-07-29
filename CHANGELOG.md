@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.18.1 (XXXX-XX-XX)
+-------------------
+
+**Uzantılar için çeviriler güncellendi**:
+
+* [`nearata/flarum-ext-twofactor`](https://github.com/Nearata/flarum-ext-twofactor)
+
+
+Tüm değişiklikler: [1.18.0...1.18.1](https://github.com/flarum-lang/turkish/compare/1.18.0...1.18.1).
+
+
 1.18.0 (2023-07-29)
 -------------------
 
