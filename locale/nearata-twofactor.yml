@@ -41,7 +41,7 @@ nearata-twofactor:
               download_button_label: İndir
               download_file_format: "{website_title} | {website_url}\n\nBu yedek kodları güvenli ancak erişilebilir bir yerde saklayın.\n\nKOD LİSTESİ\n\n{codes}\n\n* Her bir yedek kodu yalnızca bir kez kullanabilirsiniz.\n* Bu kodlar belirtilen sırada KULLANILMALIDIR.\n* Bu kodlar şu tarihte oluşturulmuştur: {date}.\n"
               message: "Bu kurtarma kodlarını güvenli bir yerde saklayın. İki faktörlü cihazınızı kaybederseniz, bu tek seferlik kullanım kodları, hesabınızda oturum açmak için listelenen sırada kullanılabilir.\n"
-            button_label: Aktif
+            button_label: 'Aktif Edin'
             enter_code_manually: 'Bunun yerine anahtarı manuel olarak girin'
             scan_qr: 'Hesabınızı kurmak için bu QR kodunu iki faktörlü kimlik doğrulama cihazınızla tarayın.'
             success: 'Kimlik doğrulama uygulaması aktifleştirildi.'
