@@ -65,9 +65,9 @@ flarum-tags:
       tags_link: '=> flarum-tags.ref.tags'
       untagged_link: Etiketlenmemiş
     post_stream:
-      added_and_removed_tags_text: '{username}, {tagsAdded} öğesini ekledi ve {tagsRemoved} öğesini {time} kaldırdı.'
-      added_tags_text: '{username}, {tagsAdded} öğesini {time} ekledi.'
-      removed_tags_text: '{username}, {tagsRemoved} öğesini {time} kaldırdı.'
+      added_and_removed_tags_text: '{username}, {time} {tagsAdded} ekledi ve {tagsRemoved} kaldırdı.'
+      added_tags_text: '{username}, {tagsAdded} {time} ekledi.'
+      removed_tags_text: '{username}, {tagsRemoved} {time} kaldırdı.'
       tags_text: '{count, plural, one {{tags} etiketini} other {{tags} etiketlerini}}'
     tag:
       meta_description_text: '{tag} etiketindeki tüm tartışmalar'
