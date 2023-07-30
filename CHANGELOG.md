@@ -7,6 +7,7 @@ CHANGELOG
 
 **Uzantılar için çeviriler güncellendi**:
 
+* [`flarum/tags`](https://github.com/flarum/tags)
 * [`nearata/flarum-ext-twofactor`](https://github.com/Nearata/flarum-ext-twofactor)
 
 
