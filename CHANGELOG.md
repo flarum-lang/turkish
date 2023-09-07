@@ -2,6 +2,21 @@ CHANGELOG
 =========
 
 
+1.19.0 (XXXX-XX-XX)
+-------------------
+
+**Yeni uzantılar için destek eklendi**:
+
+* [`datitisev/flarum-post-galleries`](https://github.com/dsevillamartin/flarum-post-galleries)
+* [`datlechin/flarum-oauth-envato`](https://github.com/datlechin/flarum-oauth-envato)
+* [`fof/profile-image-crop`](https://github.com/FriendsOfFlarum/profile-image-crop)
+* [`matteociaroni/flarum-old-content`](https://github.com/matteociaroni/flarum-old-content)
+* [`rehiy/flarum-reply-to-see`](https://github.com/rehiy/flarum-reply-to-see)
+
+
+Tüm değişiklikler: [1.18.1...1.19.0](https://github.com/flarum-lang/turkish/compare/1.18.1...1.19.0).
+
+
 1.18.1 (2023-07-30)
 -------------------
 
