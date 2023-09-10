@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.20.0 (XXXX-XX-XX)
+-------------------
+
+**Yeni uzantılar için destek eklendi**:
+
+* [`datlechin/flarum-oauth-spotify`](https://github.com/datlechin/flarum-oauth-spotify)
+
+
+Tüm değişiklikler: [1.19.0...1.20.0](https://github.com/flarum-lang/turkish/compare/1.19.0...1.20.0).
+
+
 1.19.0 (2023-09-07)
 -------------------
 
