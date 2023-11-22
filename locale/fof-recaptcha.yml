@@ -13,7 +13,13 @@ fof-recaptcha:
       signin: '=> core.forum.log_in.title'
       signup: '=> core.forum.sign_up.title'
       site_key_label: 'Site Key'
+      type_help: 'Bu uzantı yalnızca reCAPTCHA v2''yi destekler. Seçilen tür, reCAPTCHA kimlik bilgilerinizin türüyle eşleşmelidir.'
       type_label: 'reCAPTCHA Tipi'
+    test:
+      help_text: "Bu test yukarıda girilen mevcut değerleri kullanacaktır. Ayarları değiştirdikten sonra testi yeniden yüklediğinizden emin olun ve test geçtikten sonra kaydetmeyi unutmayın!\nAşağıdakiler kaydedilen ayarları yansıtmayabilir.\n"
+      load_test_button: Yükle
+      success_message: 'Başarılı! reCAPTCHA doğru şekilde yapılandırıldı.'
+      title: 'reCAPTCHA''yı Test Et'
   forum:
     error: 'reCAPTCHA gönderilirken bir hata oluştu. Tekrar deneyin.'
 validation:
