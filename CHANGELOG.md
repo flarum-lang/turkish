@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.20.1 (2023-11-22)
+-------------------
+
+**Uzantılar için çeviriler güncellendi**:
+
+* [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha)
+
+
+Tüm değişiklikler: [1.20.0...1.20.1](https://github.com/flarum-lang/turkish/compare/1.20.0...1.20.1).
+
+
 1.20.0 (2023-09-11)
 -------------------
 
