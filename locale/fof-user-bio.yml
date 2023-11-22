@@ -12,6 +12,7 @@ fof-user-bio:
       allowFormatting: 'Biyografi alanında biçimlendirmeye izin ver'
       allowFormatting_help: 'Tasarım gereği, bu biçimlendirme sonradan biçimlendirmeden ayrıdır. BBCode ve/veya Markdown uzantıları etkinleştirilirse, biyografiyi biçimlendirmek için kullanılabilirler. Resim veya yerleştirmeye izin verilmez. Flarum biçimlendiriciye eklenen uzantılar, biyo biçimlendirici için *açıkça* destek eklemelidir.'
       bioLimit: 'Biyografi karakter sınırı'
+      maxLines: 'Bir seferde gösterilecek maksimum satır sayısı'
   forum:
     userbioPlaceholder: 'Kendin hakkında bir şeyler yaz'
     userbioPlaceholderOtherUser: '{username} için biyografi yaz'

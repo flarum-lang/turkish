@@ -33,3 +33,6 @@ fof-discussion-language:
       change_language_button: 'Dil Ayarla'
     index_language:
       any: 'Herhangi Bir Dil'
+    sub_controls:
+      subscription_language_help: 'Burada bir dil seçtiğinizde yalnızca o dildeki yeni etkinlikler hakkında bilgilendirilirsiniz.'
+      subscription_language_label: 'Tartışma dili'

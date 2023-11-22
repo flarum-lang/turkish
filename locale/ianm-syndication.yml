@@ -27,9 +27,13 @@ ianm-syndication:
       forum_new_discussions: 'Forumdaki yeni tartışmalar'
       tag_activity: '{tag} etiketi için etkinlikler'
       tag_new_discussions: '{tag} etiketindeki tartışmalar'
+      user_last_posts: 'Bu kullanıcının gönderileri ve yanıtları'
     discussion:
       feed_link: Akış
     feeds:
+      entries:
+        user_posts:
+          title_reply: 'Ynt: {discussion}'
       titles:
         discussion_subtitle: 'Bu tartışmadaki son yazılar'
         discussion_title: '{discussion_name}'
@@ -41,3 +45,5 @@ ianm-syndication:
         tag_d_title: '{tag} etiketindeki son tartışmalar'
         tag_subtitle: '{tag} etiketindeki son gönderiler'
         tag_title: '{tag} etiketindeki etkinlikler'
+        user_subtitle: 'Bu kullanıcının son gönderileri ve yanıtları.'
+        user_title: '{username}'

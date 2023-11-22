@@ -35,6 +35,7 @@ fof-doorman:
         key: Anahtar
         max_uses: 'Maksimum Kullanım'
         title: 'Davetiye Kodları'
+        total_uses: '{totalUses, plural, one {{totalUses} defa kullanıldı} other {{totalUses} defa kullanıldı}}'
         used_times: '{remaining, plural, one {{remaining} kullanım kaldı} other {{remaining} kullanım kaldı}}'
         warning: 'Bu davet kodu maksimum sayıda kullanılmış.'
       title: Doorman

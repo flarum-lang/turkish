@@ -12,7 +12,7 @@ fof-best-answer:
       best_answer_not_own_discussion: 'En iyi yanıtı seç (başkasının tartışmasında)'
     settings:
       allow_select_own_post: 'Kendi gönderini seç'
-      allow_select_own_post_help: 'Tartışma sahibinin tartışmadaki kendi gönderilerinden birini en iyi cevap olarak seçmesine izin verin'
+      allow_select_own_post_help: 'Kullanıcının bir tartışmaya en iyi yanıt olarak kendi gönderisini seçmesine izin ver'
       documentation: Belgeler
       enable_all_tags_button: 'Tüm etiketlerde En İyi Yanıtı etkinleştir'
       enable_all_tags_reminder_button: 'En İyi Yanıt hatırlatıcısını için tüm etiketleri etkinleştir'

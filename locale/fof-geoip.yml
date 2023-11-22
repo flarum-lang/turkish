@@ -11,7 +11,7 @@ fof-geoip:
       service_freegeoip_label: FreeGeoIP
       service_ipapi_description: 'Dakikada 45''e kadar ücretsiz arama yapmak için <b>http://ip-api.com</b>''u kullanın. Daha fazlasını yaparsanız IP''niz kara listeye alınabilir ve ardından <b>http://ip-api.com/docs/unban</b> adresinden yasağını kaldırabilirsiniz.'
       service_ipapi_label: 'IP Api'
-      service_ipdata_description: 'Her gün 1500''e kadar ücretsiz arama yapmak için <b>https://ipdata.co</b>’yu kullanın.'
+      service_ipdata_description: 'Günde 1.500''e kadar ücretsiz arama yapmak için <b>https://ipdata.co</b>''yu kullanın. Daha yüksek kullanım limitleri için ücretli planlar da mevcuttur.'
       service_ipdata_label: IPData
       service_iplocation_description: 'Ülke ve ISP verilerini almak için <b>https://www.iplocation.net/</b> adresini kullanın. Arama oranı sınırları bilinmiyor.'
       service_iplocation_label: 'IP Konumu'
@@ -22,3 +22,14 @@ fof-geoip:
   forum:
     alerts:
       ip_copied: 'IP Adresi Kopyalandı'
+    map_button_label: 'IP Bilgisi'
+    map_modal:
+      country_code: 'Ülke Kodu'
+      error: Hata
+      ip_address: 'IP Adresi'
+      isp: 'Servis Sağlayıcı'
+      organization: Kurum
+      threat_level: 'Tehdit Seviyesi'
+      threat_types: 'Tehdit Seviyesi'
+      title: 'IP Bilgisi'
+      zip_code: 'Posta Kodu'

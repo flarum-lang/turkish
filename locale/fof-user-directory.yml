@@ -10,6 +10,7 @@ fof-user-directory:
       default-sort: 'Varsayılan sıralama'
       disable-global-search-source: 'Flarum genel arama alanına Kullanıcı Listesini eklemeyin'
       link: 'Kullanıcı listesinin görülebilmesi için anasayfaya bağlantı ekle'
+      link-group-mentions: 'Gönderilerdeki grup sözlerini Kullanıcı Dizinine bağlayın'
       use-small-cards: 'Küçük kullanıcı kartlarını kullan'
   forum:
     header:

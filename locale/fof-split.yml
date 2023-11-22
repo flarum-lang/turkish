@@ -15,5 +15,6 @@ fof-split:
       was_split_from: '{count, plural, one {{count} gönderi {target} tartışmasından taşındı.} other {{count} gönderi {target} tartışmasından taşındı.}}'
       was_split_to: '{count, plural, one {{count} gönderi {target} tartışmasına taşındı.} other {{count} gönderi {target} tartışmasına taşındı.}}'
     split:
+      cancel: 'Ayırmayı iptal et'
       from: 'Buradan ayır'
       to: 'Buraya ayır'

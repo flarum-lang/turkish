@@ -10,12 +10,26 @@ flarum-calendar:
       add: 'Takvime Yeni Etkinlik Ekle'
       moderate: 'Takvimde etkinlik düzenle veya kaldır (her kullanıcı kendi oluşturduğunu düzenleyebilir)'
       view: 'Etkinlikleri göster'
+    settings:
+      hide_host: 'Ev sahibini gizle (Ev sahibi:)'
   forum:
     button:
       create: 'Yeni Etkinlik'
       landing: 'Etkinlik Takvimi'
       login: 'Etkinliğini Ekle '
     event:
+      confirm_delete: 'Bu etkinliği silmek istediğinden emin misin?'
+      deleted: 'Bu etkinlik silindi'
       details: 'Bu etkinlik hakkında daha fazla bilgi'
+      ends: 'Bitiş:'
+      hosted_by: 'Ev Sahibi:'
+      starts: 'Başlangıç:'
     modal:
+      dates_label: 'Ne Zaman'
+      description_label: Detaylar
+      description_placeholder: 'Etkinlik detayları'
+      requirement_message: 'Etkinlikler isim ve açıklama gerektirir'
       submit: Gönder
+      title_create: 'Yeni takvim etkinliği oluştur'
+      title_edit: 'Etkinlik detaylarını düzenle'
+      title_label: Ne

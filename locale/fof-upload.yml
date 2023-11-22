@@ -2,6 +2,13 @@
 # Use https://weblate.rob006.net/projects/flarum/fof-upload/tr/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+blomstra-gdpr:
+  lib:
+    data:
+      uploads:
+        anonymize_description: 'Yüklenen dosyalardan kullanıcı referansını kaldırır. Dosyaların kendisi, onları önceden anonimleştirmeden görüntüleyebilen kullanıcılar tarafından erişilebilir durumda kalır.'
+        delete_description: 'Kullanıcı tarafından yüklenen tüm dosyaları siler.'
+        export_description: 'Kullanıcı tarafından yüklenen tüm dosyalar.'
 fof-upload:
   admin:
     buttons:
@@ -113,9 +120,17 @@ fof-upload:
       qiniu: QiNiu
   api:
     upload_errors:
+      cannot_write_to_disk: 'Diske yazılamıyor.'
       could_not_detect_mime: 'Bu dosyanın türü algılanamadı, lütfen tekrar deneyin.'
       forbidden_type: 'Bu türdeki dosyaların yüklenmesine izin verilmiyor.'
+      max_upload_file_size_form: 'Formdan yükleme maksimum dosya boyutu sınırına ulaşıldı.'
+      max_upload_file_size_ini: 'Php.ini''den yükleme maksimum dosya boyutu sınırına ulaşıldı.'
+      no_file_uploaded: 'Hiçbir dosya yüklenmedi.'
+      no_files_made_it_to_upload: 'Lütfen {max} kb''den büyük olmayan dosyalar yükleyin.'
+      no_upload_tmp_folder: 'Dosya yüklemek için tmp klasörü yok.'
+      partial_upload: 'Kısmi yükleme.'
       unsupported_type: 'Yükleyici bu tür dosya tipini desteklemiyor: {mime}.'
+      upload_blocked_by_php_extension: 'Bir php uzantısı yüklemeyi engelledi.'
   forum:
     buttons:
       attach: 'Dosya Ekle'

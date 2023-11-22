@@ -8,6 +8,14 @@ fof-username-request:
       moderate_requests: 'Kullanıcı adı/takma ad değişikliği isteklerini onaylayın'
       request_nickname: 'Takma ad değişikliği isteyin'
       request_username: 'Kullanıcı adı değişikliği isteyin'
+  email:
+    body:
+      approved: "Merhaba {recipient_display_name},\n\nKullanıcı adınızı \"{new_username}\" olarak değiştirme isteğiniz {actor_display_name} tarafından onaylandı.\n\nArtık yeni kullanıcı adınızla giriş yapabilirsiniz: {login_url}\n"
+      noReasonProvided: 'Herhangi bir neden belirtilmedi.'
+      rejected: "Merhaba {recipient_display_name},\n\nKullanıcı adınızı \"{old_username}\" yerine \"{requested_username}\" olarak değiştirme isteğiniz {actor_display_name} tarafından reddedildi.\n\nSebep: {reason}\n"
+    subject:
+      approved: '{display_name}, kullanıcı adınızın {requested_username} olarak değiştirilmesini onayladı'
+      rejected: '{display_name}, kullanıcı adı değişikliğinizi {requested_username} olarak reddetti'
   forum:
     nickname_modals:
       action:

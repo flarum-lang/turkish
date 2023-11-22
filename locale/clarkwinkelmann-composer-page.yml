@@ -5,12 +5,17 @@
 clarkwinkelmann-composer-page:
   admin:
     settings:
+      forPrivateDiscussions: 'Özel tartışmalar için kullan'
+      forPrivateDiscussionsHelp: 'Byobu Tartışma Düzenleyicisini sayfaya entegre eder'
       onlyInTags: 'Yalnızca aşağıdaki etiketlerde (isteğe bağlı)'
       onlyInTagsHelp: "Etiket yollarının (slug) virgülle ayrılmış listesi. Herhangi bir etiket seçilmeden önce bile sayfayı her zaman kullanmak için boş bırakın.\n"
   forum:
     nav:
       cancel: 'Düzenleyiciden çık'
       continue: 'Tartışmaya devam et'
+    page-private:
+      heading: 'Özel tartışma başlat'
+      title: 'Özel tartışma başlat'
     page:
       heading: 'Bir Tartışma Başlat'
       title: 'Bir Tartışma Başlat'

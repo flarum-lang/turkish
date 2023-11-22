@@ -6,7 +6,13 @@ fof-oauth:
   admin:
     configure_button_label: 'FoF OAuth ile Ayarlayın'
     settings:
+      fullscreen_popup_help: 'Etkinleştirildiğinde, OAuth girişi tam ekran bir açılır pencerede açılacaktır. Bu etkinleştirilirse genişlik ve yükseklik ayarları dikkate alınmaz.'
+      fullscreen_popup_label: 'OAuth için Tam Ekran Açılır Penceresini Kullan'
       only_icons_label: 'Yalnızca Oturum Aç Düğmesi simgelerini göster (alternatif düzen)'
+      popup_height_help: 'OAuth açılır penceresinin yüksekliğini ayarlayın. "OAuth için Tam Ekran Açılır Penceresini Kullan" seçeneği etkinleştirilirse bu ayar göz ardı edilecektir.'
+      popup_height_label: 'OAuth Açılır Pencere Yüksekliği'
+      popup_width_help: 'OAuth açılır penceresinin genişliğini ayarlayın. "OAuth için Tam Ekran Açılır Penceresini Kullan" seçeneği etkinleştirilirse bu ayar göz ardı edilecektir.'
+      popup_width_label: 'OAuth Açılır Pencere Genişliği'
       providers:
         callback_url_text: 'Gerekirse, geri arama bağlantısını {url} olarak ayarlayın.'
         discord:
