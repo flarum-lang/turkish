@@ -4,9 +4,9 @@
 
 datlechin-discussion-overview:
   forum:
-    created: Oluşturuldu
+    created: Oluşturulma
     last_reply: 'Son yanıt'
     likes: Beğeniler
-    replies: Cevaplar
+    replies: Yanıtlar
     users: Kullanıcılar
     views: Görüntüleme
