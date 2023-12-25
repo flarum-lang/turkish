@@ -2,7 +2,7 @@ CHANGELOG
 =========
 
 
-1.21.1 (XXXX-XX-XX)
+1.21.1 (2023-12-25)
 -------------------
 
 **Uzantılar için çeviriler güncellendi**:
