@@ -9,6 +9,8 @@ ianm-translate:
       translate-to-all-locales: 'Çeviriyi herhangi bir forum yerel ayarında görüntüleyin'
       translate-to-locale: 'Çeviriyi geçerli yerel ayarda görüntüle'
     settings:
+      bind-browser-language: 'Tarayıcı dili ekle'
+      bind-browser-language-help: 'Etkinleştirildiğinde, kullanıcının tarayıcı dili/dilleri çeviri için mevcut diller listesine eklenecektir.'
       deepl:
         api_key:
           help: '{link} adresinden kaydolun. Sürücü, ücretsiz/pro anahtar tipini otomatik olarak algılayacaktır.'
@@ -32,6 +34,9 @@ ianm-translate:
           label: '=> ianm-translate.lib.settings.api-key'
       provider: 'Çeviri sağlayıcı'
       readme-info: 'Genişletilmiş bilgi için README belgelerine bakın.'
+      translate-all-enabled: 'Tüm çeviri dillerini etkinleştir'
+      translate-all-help: 'Etkinleştirildiğinde yönetici kullanıcılar ve izne sahip diğer kişiler, içeriği kurulu herhangi bir forum diline çevirebilir.'
+      use-native-locale-names: 'Yerel ayar adlarını kullanın'
   forum:
     detected-language: 'Bu yayın {postLang} içinde'
     discussion:

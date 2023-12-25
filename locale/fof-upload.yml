@@ -89,14 +89,24 @@ fof-upload:
         position: 'Filigran konumu'
         title: 'Filigran görseli'
         toggle: 'Filigran görseli'
+    nav:
+      shared-uploads-button: 'Paylaşılan yüklemeler'
     pane:
       description: 'Yükleme hizmetlerini ve tercihlerini ayarlayın.'
       title: Yükle
     permissions:
+      access_shared_label: 'Medya Yöneticisi''nde paylaşılan dosyalara erişim'
       delete_uploads_of_others_label: 'Kullanıcı yüklemelerini silin'
       download_label: 'Dosya indirme'
       upload_label: 'Dosya yükleme'
+      upload_shared_label: 'Paylaşılan dosyaları yükle'
       view_user_uploads_label: 'Kullanıcı yüklemelerini göster'
+    shared-uploads:
+      description: 'Forumunuzun tüm kullanıcılarının kullanabileceği dosyalar yükleyin.'
+      introduction: "Paylaşılan yüklemeler, forumunuzun tüm kullanıcıları tarafından kullanılabilen dosyalardır. Herhangi bir gönderiye eklenmezler ancak medya yöneticisi kullanılarak gönderilere eklenebilirler.\n\n<strong>Uyarı:</strong> Paylaşılan yüklemeler hiçbir izinle korunmaz. URL'ye sahip olan herkes bunları görüntüleyebilir.\n"
+      no-files: 'Henüz paylaşılan dosya yüklenmedi.'
+      title: 'Paylaşılan yüklemeler'
+      upload-new-button: 'Yeni dosya yükle'
     templates:
       bbcode-image: 'BBCode görsel şablonu'
       bbcode-image_description: "BBCode kullanarak tüm görüntüyü satır içinde gösterir. <strong>Bunun çalışması için flarum/bbcode'un kurulu ve etkinleştirilmiş olması gerekir.</strong> İndirme işlevi yoktur, istatistik toplanmaz ve hotlink koruması yok sayılır.\n"
@@ -136,7 +146,9 @@ fof-upload:
       attach: 'Dosya Ekle'
       cancel: İptal
       media: Medyalarım
+      shared_media: 'Paylaşılan medya'
       upload: Yükle
+      upload_shared: Paylaşılan
       user_uploads: 'Kullanıcı yüklemeleri'
     file_list:
       confirm_selection_btn: '{fileCount, plural, =0 {Seçilmedi} one {Dosya seçin} other {Dosyaları seçin}}'
@@ -166,3 +178,23 @@ fof-upload:
       no_snippet_preview: '<Önizleme yayınlandıktan sonra burada görünecek>'
     validation:
       max_size: '{max} kb üzerindeki yüklemeler kabul edilmez.'
+  lib:
+    file_list:
+      confirm_selection_btn: '{fileCount, plural, =0 {His seçilmedi} one {Dosya seç} other {Dosya seç}}'
+      delete_confirmation: '"{fileName}" dosyasını silmek istediğinizden emin misiniz?'
+      delete_file_a11y_label: '"{fileName}" dosyasını sil'
+      empty: 'Gönderilecek dosya bulunmuyor.'
+      hide_file:
+        btn_a11y_label_hide: '"{fileName}" dosyasını medya yöneticisinden gizle'
+        btn_a11y_label_show: '"{fileName}" dosyasını medya yöneticisinde erişime aç'
+      load_more_files_btn: 'Daha fazla dosya'
+      loading: 'Dosyalar yükleniyor...'
+      modal_empty_desktop: 'Dosya listeniz boş. Yüklemek için düğmeye tıklayın veya bir dosyayı buraya sürükleyin.'
+      modal_empty_phone: 'Dosya listeniz boş. Bir dosya yüklemek için yukarıdaki düğmeye dokunun.'
+      release_to_upload: 'Yüklemeye hazırla'
+      select_file_a11y_label: '"{fileName}" dosyasını seçin'
+    upload-shared-file-modal:
+      dropzone: 'Dosyaları buraya sürükleyip bırakın veya göz atmak için tıklayın'
+      hide-from-media-gallery: 'Kullanıcının medya galerisinden gizle'
+      title: 'Yeni paylaşılan dosya'
+      upload: Yükle

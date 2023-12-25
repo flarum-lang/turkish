@@ -25,6 +25,7 @@ nearata-embed-video:
         webtorrent: WebTorrent
   forum:
     button_tooltip_title: 'Video Göm'
+    cannot_create: 'Video gömmeye izniniz bulunmamaktadır'
     cannot_view: 'Hata: Bu içeriği görüntüleme izniniz yok'
     modal:
       add_pointer: 'Nokta ekle'

@@ -11,6 +11,8 @@ clarkwinkelmann-post-stream-search:
       dropdownAccessHelp: 'Araç çubuğu devre dışı bırakılırsa yalnızca klavye kısayolu veya aşağıdaki diğer etkin kısayollardan herhangi biri aracılığıyla kullanılabilir.'
       originalPosterBadge: 'Etkileşimli OP rozetini göster'
       originalPosterBadgeHelp: 'OP tarafından gönderilen gönderilerin yanına bir rozet eklenecektir. Rozete tıklamak, o kullanıcı için otomatik olarak filtre uygular.'
+      sideNavAccess: 'Tartışma içinde gezinme yoluna erişim'
+      sideNavAccessHelp: 'Önceki ayarla aynıdır ancak düğme, açılır menü yerine kenar çubuğuna ayrı bir giriş olarak eklenecektir.'
   forum:
     cannotGoToPost:
       action: 'Filtreleri temizlemeyi deneyin'

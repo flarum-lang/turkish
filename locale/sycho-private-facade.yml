@@ -18,6 +18,7 @@ sycho-private-facade:
       screen_banner_description: 'Ekran Mesajı'
       screen_banner_heading: 'Ekran Afişi'
       screen_banner_title: 'Ekran Başlığı'
+      url_exclusions: 'Giriş/Kayıt Sayfasına Yönlendirmeden Hariç Tutulacak Bağlantılar.'
       use_welcome_hero_text: 'Hoş Geldiniz Banner Metni Kullanın'
   forum:
     log_in_label: '=> core.ref.log_in'

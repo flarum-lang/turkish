@@ -7,6 +7,9 @@ askvortsov-article-series:
     edit_tags:
       is_article_series: 'Bir makale serisi mi?'
   forum:
+    article_item:
+      next_article: 'Sonraki makale'
+      prev_article: 'Önceki makale'
     article_list:
       title: '{series} Makale Serisi'
     article_series_modal:

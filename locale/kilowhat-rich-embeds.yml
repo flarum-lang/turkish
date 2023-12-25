@@ -48,6 +48,9 @@ kilowhat-rich-embeds:
         block: Blok
         inline: Çizgide
         separated: Ayrılmış
+      maxImageCount: 'Önizlemedeki maksimum resim sayısı'
+      maxImageCountHelp: "Opengraph'tan veya geri dönüş ayrıştırıcısından kaç resim gösterilecek. Tüm resim URL'leri her zaman kaydedilir ve bu ayarı daha sonra değiştirmenize olanak tanır.\n"
+      maxImageCountPlaceholder: 'Sınırsız kullanım için boş bırakın'
       position: Konum
       positionOptions:
         above: 'Bağlantının üstünde'
@@ -90,6 +93,11 @@ kilowhat-rich-embeds:
             createdAt: 'Oluşturulma tarihi'
           type: Sorun
         privateRepoSuffix: '[özel]'
+        pull:
+          stats:
+            commentCount: Yorumlar
+            reviewCount: İncelemeler
+          type: 'Çekme isteği'
         siteName: GitHub
     error:
       blacklistedUrl: 'URL {url}, yerleştirme için beyaz listeye alınmadı.'

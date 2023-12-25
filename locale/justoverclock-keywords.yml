@@ -4,12 +4,16 @@
 
 flarum-ext-keywords:
   admin:
+    addRow: 'Tanım Ekle'
     definition: Tanım
     parseonce: 'Bir gönderide kelimeleri birer defa tanımla'
     removedef: 'Tanımı sil'
     word: Kelime
   forum:
+    definition: Tanım
+    loadMore: 'Devamını Yükle'
     pagetitle: 'Sözlük Sayfası'
     searchtext: 'Sözlükte arama yapmak için yazın...'
     tagline: 'Bu sitede kullanılan terimler hakkında daha fazla bilgi edinmek ister misiniz? Daha fazlasını öğrenmek için Sözlüğe bakın.'
+    term: Terim
     title: Sözlük

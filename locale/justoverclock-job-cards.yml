@@ -14,6 +14,7 @@ justoverclock-job-cards:
     formSaved: 'Form başarıyla kaydedildi'
     fullNameField: 'Tam Ad'
     jobFormTitle: 'İş Kartı'
+    jobProfile: 'İş Profili'
     'no': Hayır
     notAvailable: 'Uygun değil'
     saveBtn: Kaydet
