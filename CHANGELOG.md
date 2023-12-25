@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.21.1 (2023-12-25)
+-------------------
+
+**Uzantılar için çeviriler güncellendi**:
+
+* [`datlechin/flarum-discussion-overview`](https://github.com/datlechin/flarum-discussion-overview)
+
+
+Tüm değişiklikler: [1.21.0...1.21.1](https://github.com/flarum-lang/turkish/compare/1.21.0...1.21.1).
+
+
 1.21.0 (2023-11-23)
 -------------------
 
