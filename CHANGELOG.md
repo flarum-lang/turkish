@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.22.1 (XXXX-XX-XX)
+-------------------
+
+**Uzantılar için çeviriler güncellendi**:
+
+* [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
+
+
+Tüm değişiklikler: [1.22.0...1.22.1](https://github.com/flarum-lang/turkish/compare/1.22.0...1.22.1).
+
+
 1.22.0 (2023-12-26)
 -------------------
 
