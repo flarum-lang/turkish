@@ -5,6 +5,8 @@
 fof-reactions:
   admin:
     page:
+      cdn:
+        title: CDN
       convert:
         button: 'Eski ifadeleri dönüştür'
         converted: '{number} beğeninin tamamı başarıyla dönüştürüldü'
