@@ -7,6 +7,7 @@ CHANGELOG
 
 **Uzantılar için çeviriler güncellendi**:
 
+* [`blomstra/turnstile`](https://github.com/blomstra/flarum-ext-turnstile)
 * [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
 
 
