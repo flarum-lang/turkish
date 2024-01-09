@@ -2,6 +2,24 @@ CHANGELOG
 =========
 
 
+1.23.0 (2024-01-09)
+-------------------
+
+**Yeni uzantılar için destek eklendi**:
+
+* [`blomstra/horizon`](https://github.com/blomstra/flarum-ext-horizon)
+
+
+**Uzantılar için çeviriler güncellendi**:
+
+* [`blomstra/turnstile`](https://github.com/blomstra/flarum-ext-turnstile)
+* [`clarkwinkelmann/flarum-ext-passwordless`](https://github.com/clarkwinkelmann/flarum-ext-passwordless)
+* [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
+
+
+Tüm değişiklikler: [1.22.0...1.23.0](https://github.com/flarum-lang/turkish/compare/1.22.0...1.23.0).
+
+
 1.22.0 (2023-12-26)
 -------------------
 
