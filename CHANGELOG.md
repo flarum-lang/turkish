@@ -2,6 +2,20 @@ CHANGELOG
 =========
 
 
+1.24.1 (2024-01-13)
+-------------------
+
+**Uzantılar için çeviriler güncellendi**:
+
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
+* [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+
+
+Tüm değişiklikler: [1.24.0...1.24.1](https://github.com/flarum-lang/turkish/compare/1.24.0...1.24.1).
+
+
 1.24.0 (2024-01-13)
 -------------------
 
