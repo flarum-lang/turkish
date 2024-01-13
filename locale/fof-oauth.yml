@@ -6,6 +6,10 @@ fof-oauth:
   admin:
     configure_button_label: 'FoF OAuth ile Ayarlayın'
     settings:
+      advanced:
+        heading: Gelişmiş
+        log-oauth-errors-help: 'Etkinleştirilirse OAuth hataları Flarum günlüğüne kaydedilecektir. Bu, OAuth sorunlarının ayıklanmasına yardımcı olabilir ancak aynı zamanda hassas bilgiler de içerebilir.'
+        log-oauth-errors-label: 'OAuth hatalarını günlüğe kaydet'
       fullscreen_popup_help: 'Etkinleştirildiğinde, OAuth girişi tam ekran bir açılır pencerede açılacaktır. Bu etkinleştirilirse genişlik ve yükseklik ayarları dikkate alınmaz.'
       fullscreen_popup_label: 'OAuth için Tam Ekran Açılır Penceresini Kullan'
       only_icons_label: 'Yalnızca Oturum Aç Düğmesi simgelerini göster (alternatif düzen)'
@@ -36,6 +40,7 @@ fof-oauth:
           client_id_label: '=> fof-oauth.ref.settings.client_id'
           client_secret_label: '=> fof-oauth.ref.settings.client_secret'
           description: '{link} bağlantısında bir uygulama oluşturun.'
+          hosted_domain_label: 'Barındırılan Alan Adı (G Suite/Google Apps İşletme Sürümü, isteğe bağlı)'
         linkedin:
           client_id_label: '=> fof-oauth.ref.settings.client_id'
           client_secret_label: '=> fof-oauth.ref.settings.client_secret'
