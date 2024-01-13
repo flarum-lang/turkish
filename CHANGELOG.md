@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.24.0 (XXXX-XX-XX)
+-------------------
+
+**Yeni uzantılar için destek eklendi**:
+
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
+
+
+Tüm değişiklikler: [1.23.0...1.24.0](https://github.com/flarum-lang/turkish/compare/1.23.0...1.24.0).
+
+
 1.23.0 (2024-01-09)
 -------------------
 
