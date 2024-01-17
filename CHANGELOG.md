@@ -2,6 +2,27 @@ CHANGELOG
 =========
 
 
+1.25.0 (XXXX-XX-XX)
+-------------------
+
+**Yeni uzantılar için destek eklendi**:
+
+* [`litalino/flarum-blog-article-series`](https://github.com/Litalino/flarum-blog-article-series)
+* [`litalino/flarum-top-bar`](https://github.com/Litalino/flarum-top-bar)
+* [`nearata/flarum-ext-maintenance-mode`](https://github.com/Nearata/flarum-ext-maintenance-mode)
+
+
+**Uzantılar için çeviriler güncellendi**:
+
+* [`fof/links`](https://github.com/FriendsOfFlarum/links)
+* [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha)
+* [`ianm/translate`](https://extiverse.com/extension/ianm/translate)
+* [`katosdev/signature`](https://github.com/katosdev/signature)
+
+
+Tüm değişiklikler: [1.24.1...1.25.0](https://github.com/flarum-lang/turkish/compare/1.24.1...1.25.0).
+
+
 1.24.1 (2024-01-13)
 -------------------
 
