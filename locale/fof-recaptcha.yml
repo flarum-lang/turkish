@@ -24,6 +24,7 @@ fof-recaptcha:
       title: 'reCAPTCHA''yı Test Et'
   forum:
     error: 'reCAPTCHA gönderilirken bir hata oluştu. Tekrar deneyin.'
+    unknown_error: 'Bilinmeyen bir hata oluştu. Captcha''yı kontrol edip tekrar deneyin.'
 validation:
   recaptcha: 'reCAPTCHA doğrulaması başarısız.'
   recaptcha-unknown: 'reCAPTCHA doğrulanırken bilinmeyen bir hata oluştu ({errors}).'

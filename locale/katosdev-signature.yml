@@ -36,12 +36,20 @@ Xengine-signature:
         title: Kaydediliyor
 signature:
   admin:
+    permissions:
+      allow_signature: 'İmza sahibi olsun'
+      edit_signature_others: 'Diğer kullanıcıların imzasını düzenle'
     settings:
+      allow_inline_editing:
+        description: 'İmza satır içinde düzenlensin.'
+        help: 'Etkinleştirildiğinde kullanıcılar bir gönderiyi görüntülerken imzalarını düzenleyebilir.'
       maximum_char_limit:
-        description: 'İmzadaki maksimum karakter limiti (karakterler sayılır, HTML etiketleri geçerli sayılmaz)'
+        description: 'İmzadaki maksimum karakter sınırı.'
+        help: 'Kullanıcı imzasındaki maksimum karakter sınırını aştığında, karakter sayısı uygun olana kadar kaydetmesi engellenecektir.'
         placeholder: '1000 (varsayılan)'
       maximum_image_count:
         description: 'Eklenecek maksimum görsel sayısı.'
+        help: 'Kullanıcı imzasındaki maksimum görsel sayısını aştığında, görsel sayısı buna uygun olana kadar kaydetmesi engellenecektir.'
         placeholder: '5 (varsayılan)'
       maximum_image_height:
         description: 'Editöre eklenecek görsellerin toplam yükseklik sınırı.'
@@ -52,6 +60,7 @@ signature:
     title: İmza
   forum:
     buttons:
+      edit: 'İmzayı Düzenle'
       save: 'İmzayı Kaydet'
       signature: İmza
     errors:
@@ -66,3 +75,5 @@ signature:
       loading:
         content: 'Lütfen bekleyin...'
         title: Kaydediliyor
+    profile:
+      click: 'İmzanı yazmak için tıkla'

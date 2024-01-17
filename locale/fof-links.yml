@@ -9,6 +9,7 @@ fof-links:
       delete_link_confirmation: 'Bu bağlantıyı silmek istediğine emin misin?'
       everyone-label: Herkes
       guests-label: Ziyaretçiler
+      icon_additional_text: 'Bir marka simgesi kullanmak istiyorsanız bunun yerine <code>fab fa-</code> önekini kullanın.'
       icon_label: '=> core.ref.icon'
       icon_text: '=> core.ref.icon_text'
       internal_link: 'Bu bir dahili bağlantı mı?'
@@ -21,6 +22,7 @@ fof-links:
       url_description: 'Etiket olarak göstermek için boş bırakın.'
       url_label: '=> fof-links.ref.url'
       url_placeholder: '=> fof-links.ref.url'
+      use_rel_me: 'Diğer sitelerde kimlik doğrulaması için <code>rel=''me''</code> özelliğini ekleyin'
       visibility: 'Bağlantı görünürlüğü'
     links:
       create_button: '=> fof-links.ref.create_link'

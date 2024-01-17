@@ -34,9 +34,11 @@ ianm-translate:
           label: '=> ianm-translate.lib.settings.api-key'
       provider: 'Çeviri sağlayıcı'
       readme-info: 'Genişletilmiş bilgi için README belgelerine bakın.'
+      readme-none: 'Bu sürücü için ek ayar gerekmez.'
       translate-all-enabled: 'Tüm çeviri dillerini etkinleştir'
       translate-all-help: 'Etkinleştirildiğinde yönetici kullanıcılar ve izne sahip diğer kişiler, içeriği kurulu herhangi bir forum diline çevirebilir.'
       use-native-locale-names: 'Yerel ayar adlarını kullanın'
+      use-native-locale-names-help: 'Etkinleştirildiğinde, adın geçerli dil sürümü yerine varsayılan dil ayarı kullanılacaktır.'
   forum:
     detected-language: 'Bu yayın {postLang} içinde'
     discussion:
@@ -44,14 +46,16 @@ ianm-translate:
         close-translation: 'Çeviriyi kapat'
         translated-header: '{from}''dan {to}''ya AI çevirisi'
         translated-updated: 'Çeviri en son {time} {provider} kullanılarak güncellendi'
+      title:
+        detected-language: '{postLang}'
     translate-button-label: Çeviri
     unknown-language: '[algılanmadı]'
     user:
       settings:
         heading: Tercüme
         source-language:
-          help: 'Devre dışı bırakıldığında, yalnızca geçerli forum dili dışında bir dilde yazılan gönderiler etiketlenecektir. Tüm gönderileri algılanan dille etiketlemek için bu ayarı etkinleştirin.'
-          label: 'Gönderi dilini her zaman göster'
+          help: 'Devre dışı bırakıldığında, yalnızca mevcut forum dili dışında bir dilde yazılmış çevrilebilir içerik etiketlenecektir. Tüm içeriği algılanan dille etiketlemek için bu ayarı etkinleştirin.'
+          label: 'Dili her zaman göster'
   lib:
     providers:
       deepl: DeepL
