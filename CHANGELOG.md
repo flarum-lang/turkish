@@ -2,6 +2,23 @@ CHANGELOG
 =========
 
 
+1.26.0 (XXXX-XX-XX)
+-------------------
+
+**Yeni uzantılar için destek eklendi**:
+
+* [`litalino/flarum-adblock`](https://github.com/Litalino/flarum-adblock)
+
+
+**Uzantılar için çeviriler güncellendi**:
+
+* [`kilowhat/flarum-ext-custom-paths`](https://extiverse.com/extension/kilowhat/flarum-ext-custom-paths)
+* [`nearata/flarum-ext-cakeday`](https://github.com/Nearata/flarum-ext-cakeday)
+
+
+Tüm değişiklikler: [1.25.0...1.26.0](https://github.com/flarum-lang/turkish/compare/1.25.0...1.26.0).
+
+
 1.25.0 (2024-01-17)
 -------------------
 
