@@ -23,10 +23,13 @@ kilowhat-custom-paths:
         flarum-tags: 'Flarum Etiketleri'
         fof-byobu: 'FriendsOfFlarum Byobu'
         fof-gamification: 'FriendsOfFlarum Gamification'
+        fof-masquerade: 'FriendsOfFlarum Masquerade'
+        fof-moderator-notes: 'FriendsOfFlarum Moderatör Notları'
         fof-pages: 'FriendsOfFlarum Sayfalar'
         fof-user-directory: 'FriendsOfFlarum Kullanıcı Dizini'
         kilowhat-formulaire: 'KILOWHAT Formulaire'
         v17development-blog: 'v17development Flarum Blog'
+        v17development-user-badges: 'v17development Kullanıcı Rozetleri'
       head:
         name: İsim
         path: Dizin
@@ -56,6 +59,8 @@ kilowhat-custom-paths:
         fof-byobu-profile: 'Kullanıcı tartışmaları'
         fof-gamification: Sıralamalar
         fof-gamification-user-votes: 'Kullanıcı Oyları'
+        fof-masquerade: 'Profil sayfası'
+        fof-moderator-notes-user-notes: 'Profil notları'
         fof-pages: Sayfalar
         fof-user-directory: 'Kullanıcı dizini'
         following: 'Takip edilenler'
@@ -71,9 +76,13 @@ kilowhat-custom-paths:
         user-discussions: 'Kullanıcı tartışmaları'
         user-likes: 'Kullanıcı beğenileri'
         user-mentions: 'Kullanıcı bahsetmeleri'
+        user-security: Güvenlik
         v17development-blog-category: Kategori
         v17development-blog-compose: Oluştur
         v17development-blog-overview: 'Genel Bakış'
         v17development-blog-post: Gönderi
+        v17development-user-badges-item: 'Rozet detayları'
+        v17development-user-badges-overview: 'Rozet özetleri'
+        v17development-user-badges-user-badges: 'Profil rozetleri'
       redirect: 'Varsayılan Flarum dizinlerini yeni dizinlere yönlendirin'
       reset: 'Dizinleri sıfırla'
