@@ -7,7 +7,10 @@ CHANGELOG
 
 **Yeni uzantılar için destek eklendi**:
 
+* [`ianm/boring-avatars`](https://github.com/imorland/flarum-ext-boring-avatars)
 * [`litalino/flarum-adblock`](https://github.com/Litalino/flarum-adblock)
+* [`nearata/flarum-ext-password-strength-enforcer`](https://github.com/Nearata/flarum-ext-password-strength-enforcer)
+* [`nodeloc/dislikes`](https://github.com/nodeloc/Dislikes)
 
 
 **Uzantılar için çeviriler güncellendi**:
