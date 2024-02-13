@@ -17,6 +17,7 @@ fof-reactions:
         help: 'Uzantıyı güncellediyseniz, ifadelerin dönüştürülmesi gerekmektedir. Eğer yeni yüklediyseniz bu mesajı görmezden gelebilirsiniz.'
       reactions:
         Helptext: 'İfadeyi veya Font Awesome için uygun kodu girin ve istediğiniz türü seçin.'
+        delete_confirmation: 'Bu reaksiyonu silmek istediğinizden emin misiniz? Bu eylem geri alınamaz.'
         help:
           display: Görünüm
           identifier: İfade
@@ -42,6 +43,7 @@ fof-reactions:
         react_own_posts_label: 'Kullanıcılar kendi gönderilerine tepki verebilir,'
         save_settings: 'Ayarları Kaydet'
     permissions:
+      delete_post_reactions_label: 'Gönderideki tepkileri kaldır'
       react_posts_label: 'Gönderiye ifade bırakma'
       see_reactions_label: 'Kimlerin ifade bıraktığını göster'
   forum:
@@ -49,6 +51,7 @@ fof-reactions:
     mod_item: 'İfadeleri Göster'
     modal:
       anonymous_count: '{count, plural, one {# bilinmeyen kullanıcı} other {# bilinmeyen kullanıcılar}}'
+      no_reactions: 'Henüz tepki yok'
       title: İfadeler
     notification: '{username}, gönderinize {reaction} ifadesi bıraktı'
     react_button_label: Tepki

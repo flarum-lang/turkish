@@ -15,3 +15,14 @@ fof-anti-spam:
         delete_posts_label: 'Gönderileri sil'
         delete_user_help: 'Bu, kullanıcıyı kalıcı olarak silecektir. Devre dışı bırakıldığında kullanıcı askıya alınır.'
         delete_user_label: 'Kullanıcıyı sil'
+        heading: 'Varsayılan moderatör eylemleri'
+        introduction: "Bir kullanıcı spam gönderen olarak işaretlendiğinde moderatörler, belirli kullanım durumuyla nasıl başa çıkacaklarına ilişkin çeşitli eylemler arasından seçim yapabilir. Bu ayarlar, süreci hızlandırmak için normalde gerçekleştireceğiniz eylemleri önceden ayarlamanıza olanak tanır, ancak aynı zamanda gerektiğinde değişikliklere de izin verir.\n"
+        move_discussions_to_tags_help: 'Bu, bu kullanıcı tarafından başlatılan tüm tartışmaları belirttiğiniz etiketlere taşıyacaktır. Tartışmaları asıl etiketlerinde bırakmak için etiket seçimini temizleyin. ''Tartışmaları sil'' seçeneği etkinse hiçbir etkisi olmaz.'
+        move_discussions_to_tags_label: 'Tartışmaları etiket(lere) taşıyın'
+      stopforumspam:
+        email_label: 'E-Posta İstenmeyen Kontrolü'
+        frequency_label: Eşik
+        heading: StopForumSpam
+        introduction: "Yeni kullanıcı kayıtlarını <a>StopForumSpam</a> veritabanına göre kontrol eder. <code>Güven</code> veya <code>sıklık</code> eşiklerinden birine ulaşılırsa kullanıcının forumunuza kayıt işlemini tamamlaması engellenir.\n\n<code>fof/oauth</code> ve <code>fof/passport</code> aracılığıyla SSO kaydı da desteklenir. Diğer SSO sağlayıcılarının çalışması gerekir ancak bunlar test edilmemiştir.\n"
+        ip_label: 'IP Adresi İstenmeyen Kontrolü'
+        username_label: 'Kullanıcı Adı İstenmeyen Kontrolü'

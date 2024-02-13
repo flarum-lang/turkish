@@ -16,6 +16,7 @@ ziven-money-leaderboard:
       leaderboard-load-more-count: 'Daha fazla sayı yükle'
       leaderboard-max-load-count: 'Maksimum yük sayısı'
   forum:
+    leaderboard-list-empty: 'İçerik yok'
     leaderboard-list-money: 'Sahip Olduğu Para'
     leaderboard-list-rank: Derece
     leaderboard-list-title: 'Para Skor Tahtası'
