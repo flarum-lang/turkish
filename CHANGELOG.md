@@ -2,6 +2,33 @@ CHANGELOG
 =========
 
 
+1.26.0 (XXXX-XX-XX)
+-------------------
+
+**Yeni uzantılar için destek eklendi**:
+
+* [`ianm/boring-avatars`](https://github.com/imorland/flarum-ext-boring-avatars)
+* [`litalino/flarum-adblock`](https://github.com/Litalino/flarum-adblock)
+* [`nearata/flarum-ext-password-strength-enforcer`](https://github.com/Nearata/flarum-ext-password-strength-enforcer)
+* [`nodeloc/dislikes`](https://github.com/nodeloc/Dislikes)
+
+
+**Uzantılar için çeviriler güncellendi**:
+
+* [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab)
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
+* [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
+* [`fof/share-social`](https://github.com/FriendsOfFlarum/share-social)
+* [`ianm/follow-users`](https://github.com/imorland/follow-users)
+* [`imdong/flarum-ext-visible-to-op-only`](https://github.com/imdong/flarum-ext-visible-to-op-only)
+* [`kilowhat/flarum-ext-custom-paths`](https://extiverse.com/extension/kilowhat/flarum-ext-custom-paths)
+* [`nearata/flarum-ext-cakeday`](https://github.com/Nearata/flarum-ext-cakeday)
+* [`ziiven/flarum-money-leaderboard`](https://github.com/Ziiven/flarum-money-leaderboard)
+
+
+Tüm değişiklikler: [1.25.0...1.26.0](https://github.com/flarum-lang/turkish/compare/1.25.0...1.26.0).
+
+
 1.25.0 (2024-01-17)
 -------------------
 
