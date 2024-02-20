@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.26.1 (XXXX-XX-XX)
+-------------------
+
+**Uzantılar için çeviriler güncellendi**:
+
+* [`blomstra/database-queue`](https://github.com/blomstra/flarum-ext-database-queue)
+
+
+Tüm değişiklikler: [1.26.0...1.26.1](https://github.com/flarum-lang/turkish/compare/1.26.0...1.26.1).
+
+
 1.26.0 (2024-02-18)
 -------------------
 
