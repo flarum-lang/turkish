@@ -4,6 +4,8 @@
 
 blomstra-database-queue:
   admin:
+    settings:
+      backoff_label: 'Geri Al'
     stats:
       auto_refresh: 'Otomatik Yenile'
       data:
