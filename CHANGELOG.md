@@ -8,6 +8,9 @@ CHANGELOG
 **Uzantılar için çeviriler güncellendi**:
 
 * [`blomstra/database-queue`](https://github.com/blomstra/flarum-ext-database-queue)
+* [`datlechin/flarum-birthdays`](https://github.com/datlechin/flarum-birthdays)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
 
 
 Tüm değişiklikler: [1.26.0...1.26.1](https://github.com/flarum-lang/turkish/compare/1.26.0...1.26.1).
