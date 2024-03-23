@@ -24,6 +24,7 @@ fof-best-answer:
         general: Genel
         reminders: Hatırlatıcılar
         reminders_notice: 'Hatırlatıcıların çalışması için Flarum planlayıcısını doğru şekilde ayarlamış olmanız gerekir.'
+        search: Ara
         tags: 'En İyi Yanıt Etiketi'
       remind_tag_ids: 'Hatırlatıcıyı belirli etiketlerde etkinleştirmek için etiketleri belirleyin (virgülle ayırarak)'
       remind_tags_help: 'Varsa hangi etiketler için hatırlatıcı gönderileceğini seçin. Hatırlatıcılar yalnızca bu etiketlerle yapılan tartışmalar için gönderilecektir.'
@@ -41,6 +42,8 @@ fof-best-answer:
       show_filter_label: 'En İyi Yanıt filtresini göster'
       show_max_lines_help: 'Devre dışı bırakmak için 0 olarak ayarlayın. Bir gönderi, yapılandırılan satır miktarından daha uzunsa, gönderi önizlemesinde bir solma efektiyle kesilecektir.'
       show_max_lines_label: 'Post önizlemede gösterilecek maks. satırlar'
+      solution_search: 'Çözüm arama'
+      solution_search_help: 'En İyi Yanıtlarla tartışmaları arama özelliğini etkinleştirin'
       tags_info: "Bir etiket En İyi Yanıt etkinleştirildiğinde, her kullanıcı grubuna yanıtları (kendi tartışması, herhangi bir tartışma) ayarlayabilecek izinler atayın. İzinler genel olarak (En İyi Yanıt özellikli etiketler için) veya etiket bazında atanabilir.\n"
       use_alt_ui: 'Alternatif dizilim'
       use_alt_ui_help: 'Altbilgideki en iyi yanıt kontrolleri'
@@ -80,6 +83,9 @@ fof-best-answer:
         best_answer_in_discussion: 'En iyi cevap, katıldığım bir tartışmada belirlenir'
         select_best_answer: 'Başlattığım bir tartışmada en iyi yanıtı seçmek için otomatik bir hatırlatıcı'
     remove_best_answer: 'Mevcut en iyi yanıtı kaldır'
+    search:
+      all_discussions_solutions_button: '"{query}" çözümü içeren tüm tartışmaları arayın'
+      discussions_solutions_heading: 'Çözümlü tartışmalar'
     this_best_answer: 'En iyi yanıt'
     user:
       best-answer-count: '{count, plural, one { {count} en iyi yanıt} other {{count} en iyi yanıt}}'

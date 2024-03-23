@@ -10,14 +10,24 @@ fof-polls:
       self_edit: 'Oluşturulan anketleri düzenleyin (düzenleme sonrası izin gerektirir)'
       self_post_edit: 'Kendi gönderilerindeki *tüm* anketleri düzenleyin (düzenleme sonrası izin gerektirir)'
       start: 'Anket oluştur'
+      start_global: 'Genel bir anket başlat'
       view_results_without_voting: 'Sonuçları oy vermeden göster'
       vote: 'Ankete oy ver'
     settings:
       allow_option_image: 'Her anket seçeneği için bir resim URL''sinin sağlanmasına izin ver'
+      enable_global_polls: 'Genel anketleri etkinleştir'
+      enable_global_polls_help: 'Genel anketler belirli bir gönderiye bağlı değildir ve bunlara özel bir anket sayfasından erişilebilir.'
       max_options: 'Anket başına maksimum seçenek sayısı'
       options_color_blend: 'Anket seçeneklerinde renk karışımı metni'
       options_color_blend_help: 'Anket seçeneklerini daha okunabilir hale getirmek için renk karıştırmayı kullanmak için bunu kullanın. Bu özellik, forumunuzun görünümüyle ilgili sorunlara neden olarak okunabilirliği azaltıyorsa devre dışı bırakın.'
   forum:
+    answers: Yanıtlar
+    compose:
+      add_title: 'Anket Ekle'
+      continue_editing: 'Düzenlemeye Devam Et'
+      edit_title: 'Anketi Düzenle'
+      polls_manager: 'Anket Yöneticisi'
+      polls_preview: 'Anketi Görüntüle'
     composer_discussion:
       add_poll: '=> fof-polls.forum.moderation.add'
       edit_poll: '=> fof-polls.forum.moderation.edit'
@@ -30,6 +40,7 @@ fof-polls:
       allow_change_vote_label: 'Kullanıcıların oylarını değiştirmesine izin ver'
       allow_multiple_votes_label: 'Kullanıcıların birden fazla seçeneği oylamasına izin ver'
       date_placeholder: 'Anket sona erme süresi (İsteğe bağlı)'
+      delete: Sil
       edit_title: 'Anketi Düzenle'
       hide_votes_label: 'Anket bitene kadar oyları gizle'
       image_option_placeholder: 'Resim URL''si (isteğe bağlı)'
@@ -41,9 +52,18 @@ fof-polls:
       no_voters: 'Oy Kullanılmamış'
       option_placeholder: Yanıt
       options_label: Yanıtlar
+      poll_image:
+        alt_help_text: 'Bu metin bir resim ayarlandığında gereklidir; resim düzgünce yüklenemezse görüntülenecektir.'
+        alt_label: 'Görsel Alternatif Metni'
+        help: 'Anketin yanında görüntülenecek bir resim yükleyin (isteğe bağlı).'
+        label: 'Anket Görseli'
       public_poll_label: 'Kullanıcıların yanıt verenleri görmesine izin ver'
       question_placeholder: Soru
       submit: Gönder
+      subtitle_placeholder: 'Alt başlık/Açıklama (İsteğe bağlı)'
+      tooltip:
+        options:
+          add-button: 'Yanıt Ekle'
     moderation:
       add: 'Anket Ekle'
       delete: 'Anketi Sil'
@@ -52,8 +72,25 @@ fof-polls:
     no_permission: 'Oy vermek için yetkiniz bulunmamaktadır'
     poll:
       cannot_change_vote: 'Oy kullandıktan sonra oyunuzu değiştiremezsiniz.'
+      cannot_start_poll_button: 'Genel Anket Başlatılamıyor'
+      start_poll_button: 'Genel Anket Başlat'
       submit_button: Oyla
+    poll_controls:
+      delete_confirmation: 'Bu anketi silmek istediğinize emin misiniz?'
+      delete_error_message: 'Anket silinirken bir şeyler ters gitti.'
+      delete_label: Sil
+      delete_success_message: 'Anket başarıyla silindi.'
+      edit_label: Düzenle
+      view_label: Görüntüle
     poll_ended: 'Bu anket sona ermiştir.'
+    poll_form:
+      delete: 'Anketi Sil'
+      error: 'Anket kaydedilirken bir hata oluştu. Lütfen herhangi bir yöneticiyle iletişime geçin.'
+    poll_never_ends: 'Anket sona ermez'
+    polls_count: '{count, plural, one { {count} oy} other {{count} oy}}'
+    polls_list:
+      empty_text: 'Görünüşe göre burada topluluk çapında bir anket yok.'
+      load_more_button: 'Daha Fazla Yükle'
     public_poll: 'Oy verenler'
     tooltip:
       badge: Anket
