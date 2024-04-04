@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.27.0 (XXXX-XX-XX)
+-------------------
+
+**Yeni uzantılar için destek eklendi**:
+
+* [`nodeloc/telegram`](https://github.com/nodeloc/telegram)
+
+
+Tüm değişiklikler: [1.26.1...1.27.0](https://github.com/flarum-lang/turkish/compare/1.26.1...1.27.0).
+
+
 1.26.1 (2024-03-24)
 -------------------
 
