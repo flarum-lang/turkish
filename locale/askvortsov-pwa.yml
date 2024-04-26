@@ -22,6 +22,12 @@ askvortsov-pwa:
         heading: Renkler
         theme_color_label: 'Tema rengi'
         theme_color_text: 'Bu renk uygulamanızın Görev Yöneticindeki rengini belirler.'
+      firebase_config:
+        heading: Firebase
+        help_text: 'Uygulamanızı Apple uygulama mağazasında yayınlarken anında bildirim desteği eklemek için uygulamanıza anında bildirim eklemek üzere Firebase''i kullanmanız gerekir. Lütfen Firebase Hizmet Yapılandırmanızı oluşturun ve buraya yükleyin.'
+        see_documentation_here: 'Rehbere buradan göz atın'
+        upload_file: 'Dosya yükle'
+        upload_successful: 'Firebase yapılandırmanız başarıyla yüklendi'
       heading: 'İleri Web Uygulaması Ayarları'
       logo_heading: 'Logolar ve Simgeler'
       logo_size_text: '{size} piksele {size} piksel boyutuna ölçeklendirilecek bir logo yükleyin.'

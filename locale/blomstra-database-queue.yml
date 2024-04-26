@@ -5,7 +5,16 @@
 blomstra-database-queue:
   admin:
     settings:
+      backoff_help: "Gerçekleştirilememiş bir özel durumla karşılaşan bir işi yeniden denemeden önce beklenecek saniye sayısı.\n"
       backoff_label: 'Geri Al'
+      memory_help: "Megabayt cinsinden bellek sınırı.\n"
+      memory_label: Bellek
+      rest_help: "İşler arasında beklenilecek saniye sayısı.\n"
+      rest_label: Bekleme
+      retries_help: "Bir işi günlüğe kaydetmeden önce başarısız olabilecek deneme sayısı.\n"
+      retries_label: 'Yeniden denemeler'
+      timeout_help: "Bir işlemin zaman aşımına uğrayana kadar çalıştırılabileceği saniye sayısı.\n"
+      timeout_label: 'Zaman Aşımı'
     stats:
       auto_refresh: 'Otomatik Yenile'
       data:
