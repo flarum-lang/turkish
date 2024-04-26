@@ -2,6 +2,22 @@ CHANGELOG
 =========
 
 
+1.27.1 (XXXX-XX-XX)
+-------------------
+
+**Uzantılar için çeviriler güncellendi**:
+
+* [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa)
+* [`blomstra/database-queue`](https://github.com/blomstra/flarum-ext-database-queue)
+* [`datlechin/flarum-chatgpt`](https://github.com/datlechin/flarum-chatgpt)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+* [`ianm/follow-users`](https://github.com/imorland/follow-users)
+
+
+Tüm değişiklikler: [1.27.0...1.27.1](https://github.com/flarum-lang/turkish/compare/1.27.0...1.27.1).
+
+
 1.27.0 (2024-04-07)
 -------------------
 
