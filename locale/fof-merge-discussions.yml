@@ -42,6 +42,6 @@ fof-merge-discussions:
       preferences:
         discussion_merged: 'Birisi tartışmalarımdan birini başka biriyle birleştiriyor'
     post:
-      merged: '{count, plural, one {<b>#</b>gönderisi {titles} tartışmasından birleştirildi.} other {<b>#</b> gönderisi {titles} tartışmasından birleştirildi.}}'
+      merged: '{count, plural, one {<b>#</b> gönderi {titles} tartışmasından birleştirildi.} other {<b>#</b> gönderi {titles} tartışmasından birleştirildi.}}'
   ref:
     merge: Birleştir
