@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.27.2 (XXXX-XX-XX)
+-------------------
+
+**Uzantılar için çeviriler güncellendi**:
+
+* [`fof/merge-discussions`](https://github.com/FriendsOfFlarum/merge-discussions)
+
+
+Tüm değişiklikler: [1.27.1...1.27.2](https://github.com/flarum-lang/turkish/compare/1.27.1...1.27.2).
+
+
 1.27.1 (2024-04-26)
 -------------------
 
