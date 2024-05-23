@@ -11,9 +11,12 @@ fof-polls:
       self_post_edit: 'Kendi gönderilerindeki *tüm* anketleri düzenleyin (düzenleme sonrası izin gerektirir)'
       start: 'Anket oluştur'
       start_global: 'Genel bir anket başlat'
+      upload_images: 'Kullanıcıların anketler için resim yüklemesine izin ver'
       view_results_without_voting: 'Sonuçları oy vermeden göster'
       vote: 'Ankete oy ver'
     settings:
+      allow_image_uploads: 'Anketler ve seçenekleri için resim yüklemeye izin ver'
+      allow_image_uploads_help: 'Etkinleştirilirse, kullanıcılar resim yüklemenin yanı sıra bir resim URL''si de sağlayabilirler (seçenekler için etkinleştirilirse, anketin kendisi için her zaman etkinleştirilir).'
       allow_option_image: 'Her anket seçeneği için bir resim URL''sinin sağlanmasına izin ver'
       enable_global_polls: 'Genel anketleri etkinleştir'
       enable_global_polls_help: 'Genel anketler belirli bir gönderiye bağlı değildir ve bunlara özel bir anket sayfasından erişilebilir.'
@@ -61,13 +64,14 @@ fof-polls:
         alt_label: 'Görsel Alternatif Metni'
         help: 'Anketin yanında görüntülenecek bir resim yükleyin (isteğe bağlı).'
         label: 'Anket Görseli'
+        later_help: 'Anketi oluşturduktan sonra bir resim yükleyebileceksiniz.'
       poll_option_image:
         help: 'Anket yanıtının yanında görüntülenecek bir resim yükleyin (isteğe bağlı).'
         label: 'Anket Yanıtı Resmi'
       public_poll_label: 'Kullanıcıların yanıt verenleri görmesine izin ver'
       question_placeholder: Soru
       submit: Gönder
-      subtitle_placeholder: 'Alt başlık/Açıklama (İsteğe bağlı)'
+      subtitle_placeholder: 'Alt başlık/Açıklama (tercihe bağlı)'
       tooltip:
         options:
           add-button: 'Yanıt Ekle'
@@ -113,7 +117,7 @@ fof-polls:
       badge: Anket
       votes: '{count, plural, one {# oy} other {# oy}}'
     upload_image:
-      remove_button: 'Görseli Kaldır'
-      upload_button: 'Görsel Seç'
+      remove_button: 'Görseli Sil'
+      upload_button: 'Görsel Yükle'
     votes_modal:
       title: 'Oy Verenler'

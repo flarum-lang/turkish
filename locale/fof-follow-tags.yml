@@ -26,7 +26,7 @@ fof-follow-tags:
   forum:
     badge:
       following_tag_tooltip: 'Takip Edilen'
-      lurking_tag_tooltip: Gizlenmiş
+      lurking_tag_tooltip: 'Yakın Takip'
     index:
       follow_tag_button: 'Takip et'
       following:
