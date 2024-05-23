@@ -2,6 +2,24 @@ CHANGELOG
 =========
 
 
+1.28.0 (XXXX-XX-XX)
+-------------------
+
+**Yeni uzantılar için destek eklendi**:
+
+* [`blomstra/gdpr`](https://github.com/blomstra/flarum-ext-gdpr)
+* [`madeyedeer/flarum-pallet-theme`](https://github.com/MadEyeDeer/flarum-pallet-theme)
+
+
+**Uzantılar için çeviriler güncellendi**:
+
+* [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+
+
+Tüm değişiklikler: [1.27.2...1.28.0](https://github.com/flarum-lang/turkish/compare/1.27.2...1.28.0).
+
+
 1.27.2 (2024-05-12)
 -------------------
 
