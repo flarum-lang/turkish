@@ -2,6 +2,29 @@ CHANGELOG
 =========
 
 
+1.28.0 (2024-07-13)
+-------------------
+
+**Yeni uzantılar için destek eklendi**:
+
+* [`blomstra/gdpr`](https://github.com/blomstra/flarum-ext-gdpr)
+* [`madeyedeer/flarum-pallet-theme`](https://github.com/MadEyeDeer/flarum-pallet-theme)
+
+
+**Uzantılar için çeviriler güncellendi**:
+
+* [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa)
+* [`datlechin/flarum-simple-tour-guide`](https://github.com/datlechin/flarum-simple-tour-guide)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+* [`fof/user-bio`](https://github.com/FriendsOfFlarum/user-bio)
+
+
+Tüm değişiklikler: [1.27.2...1.28.0](https://github.com/flarum-lang/turkish/compare/1.27.2...1.28.0).
+
+
 1.27.2 (2024-05-12)
 -------------------
 
