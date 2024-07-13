@@ -16,6 +16,7 @@ fof-upload:
     help_texts:
       client_extension: "Varsayılan olarak Yükle, MIME türüne göre güvenli bir dosya uzantısı seçecektir.\nZIP veya ikili verilere dayalı bazı dosya türleri için bu, beklenen uzantıların yerine genel uzantıların kullanılmasına neden olabilir.\nBurada, aynen tutulacak dosya uzantılarının virgülle ayrılmış bir listesini girebilirsiniz.\n"
       composer_buttons: "Varsayılan olarak hem medya yöneticisi düğmesi hem de yükleme düğmesi görünür durumdadır. Ayrıca yalnızca bir düğmeyi görüntülemeyi de seçebilirsiniz.\n"
+      custom_s3_url: "Belirli bir URL formatı gerektiren S3 uyumlu bir hizmet kullanıyorsanız (ör. Backblaze B2) veya varsayılan URL formatıyla ilgili sorunlar yaşıyorsanız bu ayarı kullanın. Bu ayar genellikle çoğu hizmet için gerekli değildir. URL'nin protokolü (https://) içerdiğinden ve doğru biçimlendirildiğinden emin olun. Örnek: https://your-bucket.s3.your-region.backblazeb2.com\n"
       disable-download-logging: "Forum kullanıcıları tarafından yapılan her indirme işleminin kaydını etkisizleştir. Etkinleştirilmesi, gelecekte indirenlerin sayısını ve diğer ölçümleri görmenizi sağlar.\n"
       disable-hotlink-protection: "Hotlink koruması, diğer sitelerden indirme yapılmasına engel olur. Geçerli bir csrf token ve post id'si gereklidir.\n"
       download_templates: "İndirme şablonları, dosyaların forumunuzda nasıl görüneceğini ayarlamanızı sağlar, örneğin önizleme veya düğme gibi. Mevcut olanlar:\n"
@@ -42,6 +43,7 @@ fof-upload:
         acl: 'Access Control List (ACL)'
         advanced_title: 'Gelişmiş S3 depolama ayarları'
         bucket: Bucket
+        custom_url: 'Özel S3 Bağlantısı'
         endpoint: Endpoint
         key: Key
         region: Region

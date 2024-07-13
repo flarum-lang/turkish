@@ -14,5 +14,10 @@ fof-user-bio:
       bioLimit: 'Biyografi karakter sınırı'
       maxLines: 'Bir seferde gösterilecek maksimum satır sayısı'
   forum:
+    profile:
+      cancel_button: İptal
+      cancel_confirm: 'Biyografinizi düzenlemeyi iptal etmek istediğinizden emin misiniz? Yaptığınız tüm değişiklikleri kaybedeceksiniz.'
+      edit_bio_label: 'Biyografiyi düzenle'
+      save_button: Kaydet
     userbioPlaceholder: 'Kendin hakkında bir şeyler yaz'
     userbioPlaceholderOtherUser: '{username} için biyografi yaz'

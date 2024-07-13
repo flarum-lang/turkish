@@ -4,6 +4,7 @@
 
 datlechin-simple-tour-guide:
   admin:
+    add_step: 'Yeni adım ekle'
     description: Açıklama
     description_placeholder: 'Adım açıklaması.'
     edit_modal:
@@ -11,17 +12,27 @@ datlechin-simple-tour-guide:
       delete_step: 'Adımı sil'
       delete_step_confirmation: 'Bu adımı silmek istediğinizden emin misiniz?'
       edit_step: 'Düzenle {title}'
+    'no': Hayır
+    permissions:
+      reset_tour_guide: 'Tur rehberini sıfırla'
     settings:
       allow_close_help: 'Kullanıcıların boşluğa tıklayarak rehberi kapatmasına izin verin.'
       allow_close_label: 'Kapatmaya izin ver'
       show_progress_help: 'Bu, açılır pencerenin üst kısmında mevcut adımı ve toplam adımları gösterecektir.'
       show_progress_label: 'Süreci göster'
+      skip_null_elements_help: 'Hedefi hiçbir HTML öğesiyle eşleşmeyen adımları atlayın. ''html[lang=''es''] my-selector'' ile dilleri hedeflemek için bunu kullanabilirsiniz. Bu aynı zamanda tutarlılık için Önceki düğmesini de gizler ve siz de ilerlemeyi gizlemelisiniz.'
+      skip_null_elements_label: 'Boş öğeleri atla'
     target: Hedef
     target_placeholder: 'Adımdaki hedef öğe (örn. #oge-kimligi).'
     title: Başlık
     title_placeholder: 'Adım başlığı.'
+    trigger_click: 'Tetikleyici tıklama'
+    'yes': Evet
   forum:
     done_btn_text: Tamamla
     next_btn_text: Sonraki
     prev_btn_text: Önceki
     progress_text: '{total} adımdan {current}'
+    user_controls:
+      reset_tour_guide: 'Turu yeniden başlat'
+      reset_tour_guide_confirmation: 'Bu kullanıcıyı turu yeniden başlatmaya zorlamak istediğinizden emin misiniz?'
