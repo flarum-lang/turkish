@@ -20,9 +20,16 @@ fof-anti-spam:
         move_discussions_to_tags_help: 'Bu, bu kullanıcı tarafından başlatılan tüm tartışmaları belirttiğiniz etiketlere taşıyacaktır. Tartışmaları asıl etiketlerinde bırakmak için etiket seçimini temizleyin. ''Tartışmaları sil'' seçeneği etkinse hiçbir etkisi olmaz.'
         move_discussions_to_tags_label: 'Tartışmaları etiket(lere) taşıyın'
       stopforumspam:
+        api_key_instructions_text: '<register>StopForumSpam''a kaydolun</register>. Daha sonra <key>bir API anahtarı edinmeniz</key> gerekecektir.'
+        api_key_label: 'API Anahtarı'
+        api_key_text: 'Daha geniş forum topluluğunu spam''den uzak tutmak için spam gönderenleri StopForumSpam''e bildirme seçeneğiniz var.'
         email_label: 'E-Posta İstenmeyen Kontrolü'
+        frequency_help: "Spam filtresini tetikleyecek tüm etkin kontroller arasındaki spam raporlarının sayısı.\nÖrn: E-posta 1 hit alırsa ve IP 2 hit alırsa, toplamda 3 hit olur. Eşik 3 veya daha azına ayarlanırsa kaydı engelleriz.\n"
         frequency_label: Eşik
         heading: StopForumSpam
         introduction: "Yeni kullanıcı kayıtlarını <a>StopForumSpam</a> veritabanına göre kontrol eder. <code>Güven</code> veya <code>sıklık</code> eşiklerinden birine ulaşılırsa kullanıcının forumunuza kayıt işlemini tamamlaması engellenir.\n\n<code>fof/oauth</code> ve <code>fof/passport</code> aracılığıyla SSO kaydı da desteklenir. Diğer SSO sağlayıcılarının çalışması gerekir ancak bunlar test edilmemiştir.\n"
         ip_label: 'IP Adresi İstenmeyen Kontrolü'
+        region_closest_label: 'En yakın'
+        regional_endpoint_help: 'Varsayılan olarak, en hızlı yanıtı sağlamak için aramayı en yakın bölgesel sunucuya yönlendireceğiz. Şirket veya ülke gizlilik düzenlemelerine uyum gibi belirli bir bölgeyle trafiği sınırlamak isterseniz, belirli bir bölgeye bir bağlantı zorlayabilirsiniz.'
+        regional_endpoint_label: 'Coğrafi Erişim'
         username_label: 'Kullanıcı Adı İstenmeyen Kontrolü'

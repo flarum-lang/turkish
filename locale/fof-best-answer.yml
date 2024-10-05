@@ -15,6 +15,8 @@ fof-best-answer:
       allow_select_own_post_help: 'Kullanıcının bir tartışmaya en iyi yanıt olarak kendi gönderisini seçmesine izin ver'
       discussion_sidebar_jump_button: 'Tartışma kenar çubuğunda En İyi Yanıta atla düğmesini görüntüle'
       discussion_sidebar_jump_button_help: 'Tartışma kenar çubuğuna gönderi akışındaki En İyi Yanıt''a atlayan bir düğme ekler.'
+      display_tags: 'Etiketleri arama sonuçlarında görüntüle'
+      display_tags_help: 'En İyi Yanıtlar ile yapılan tartışmalar için arama sonuçlarında etiketi(leri) görüntüle'
       documentation: Belgeler
       enable_all_tags_button: 'Tüm etiketlerde En İyi Yanıtı etkinleştir'
       enable_all_tags_reminder_button: 'En İyi Yanıt hatırlatıcısını için tüm etiketleri etkinleştir'

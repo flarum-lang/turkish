@@ -32,3 +32,67 @@ blomstra-gdpr:
       allow_anonymization: 'Silme istekleri için anonimleştirmeye izin ver'
       allow_anonymization_help: 'Varsayılan seçenektir ve çoğu topluluk için önerilir. Bu modda, gönderiler/yorumlar GDPR''nin izin verdiği ölçüde mümkün olduğu kadar korunacak, ancak kullanıcıyı tanımlayabilecek tüm bilgiler kaldırılacaktır.'
       allow_deletion: 'Kaldırma istekleri için silmeye izin ver'
+      allow_deletion_help: 'Çok daha katı bir seçenek. Bu modda, tüm gönderiler/yorumlar silinecek ve kullanıcı veritabanından kaldırılacak. Dikkatli kullanın.'
+      default_anonymous_username: 'Anonimleştirilmiş kullanıcılar için varsayılan kullanıcı adı'
+      default_anonymous_username_help: 'Bir kullanıcı anonimleştirildiğinde, kullanıcı adı bu değerle ve anonimleştirme isteğinin kimliğiyle değiştirilir, örneğin <code>Anonim123</code>.'
+      default_erasure: 'Silme istekleri için varsayılan eylem'
+      default_erasure_help: 'Silme istekleri için varsayılan eylem ne olmalıdır?'
+      default_erasure_options:
+        anonymization: Anonimleştirme
+        deletion: Silme
+      gdpr_page:
+        help_text: 'Forumunuzda hangi eylemleri kullanacağınıza karar vermeden önce, hangi verilerin entegre edildiğini ve hem anonimleştirme hem de silme için nasıl işlendiğini anlamak hayati önem taşır. Verilerin nasıl işlendiğini ve hangi isteğe bağlı uzantıların verilerini bu uzantı tarafından işlenmek üzere kaydettiğini anlamak için GDPR genel bakışını ziyaret edin.'
+        title: 'Veri Entegrasyonu ve eylemler'
+    userlist:
+      columns:
+        gdpr_actions:
+          export: '{username} için verileri dışa aktar'
+          title: 'GDPR Eylemleri'
+  email:
+    confirm_erasure:
+      body: "Hey {display_name}!\n\nBirisi (umarım sizsinizdir) az önce `{display_name}` hesabını silmeyi talep etti.\n\nBu işlemi onaylamak için lütfen aşağıdaki bağlantıyı takip edin, ardından talebiniz ekibimiz tarafından işleme alınacaktır.\n\n{erasure_confirm_url}\n"
+      subject: 'Hesap silme isteğinizi onaylayın'
+    erasure_cancelled:
+      body: "Merhaba {display_name}!\n\nBu, hesap silme talebinizin iptal edildiğine dair otomatik bir bildirimdir.\n\nHesabınız artık silinmeyecek.\n"
+      subject: 'Hesap silme talebi iptal edildi'
+    erasure_completed:
+      anonymization:
+        body: "Hey {display_name}!\n\nBu, hesabınızın anonimleştirildiğine dair otomatik ve son bir bildirimdir.\n"
+        subject: 'Hesap anonimleştirme tamamlandı'
+      deletion:
+        body: "Hey {display_name}!\n\nBu, hesabınızın silindiğine dair otomatik ve son bir bildirimdir.\n"
+        subject: 'Hesap silme işlemi tamamlandı'
+    export_available:
+      body: "Hey {display_name}!\n\n{username} için hesap verilerinin dışa aktarılmasını istediniz. Bu dışa aktarma başarıyla oluşturuldu ve artık kullanılabilir:\n\n{url}\n\nBu dışa aktarma {destroys_at} tarihine kadar kullanılabilir kalacaktır.\n"
+      subject: 'Veri aktarımı mevcut'
+  forum:
+    badges:
+      anonymized_user: 'Anonimleştirilmiş Kullanıcı'
+    delete_user:
+      text: "{username}'in hesabını silmek istediğinizden emin misiniz?\n\nBu eylem geri alınamaz.\n"
+      title: '{username} adlı kullanıcının hesabını sil'
+  lib:
+    data:
+      avatar:
+        delete_description: 'Kullanıcının avatarını dosya sisteminden siler.'
+        export_description: 'Kullanıcının avatarını dosya sisteminden alır ve dışa aktarma işlemine dahil eder.'
+      discussions:
+        export_description: 'Kullanıcının başlattığı tüm tartışmaları dışa aktarır. Veriler başlık ve oluşturma tarihiyle sınırlıdır.'
+      forum:
+        export_description: 'Forum başlığını, bağlantıyı, kullanıcı adını, e-postayı ve geçerli tarihi dışa aktarır.'
+      no_action: 'Hiçbir işlem yapılmadı.'
+      posts:
+        anonymize_description: 'Kullanıcının yaptığı tüm paylaşımlardan IP adresini kaldırır.'
+        delete_description: 'Kullanıcının yaptığı tüm paylaşımları siler.'
+        export_description: 'Kullanıcının yaptığı tüm gönderileri dışa aktarır. Veriler içerik, oluşturma tarihi, IP adresi ve tartışma kimliğiyle sınırlıdır.'
+      tokens:
+        delete_description: 'Kullanıcının oluşturduğu tüm tokenları siler.'
+        export_description: 'Kullanıcının oluşturduğu tüm tokenları dışa aktarır. Veriler oluşturma tarihi ve token türüyle sınırlıdır.'
+      user:
+        anonymize_description: 'Kullanıcı tablosundaki tüm sütunları null olarak ayarlar. Boş olmayan sütunlar varsayılan değerlerine veya özel değerlerine ayarlanır. Parola değiştirilir, tercihler varsayılan olarak ayarlanır ve tüm gruplar kaldırılır.'
+        delete_description: 'Kullanıcıyı veritabanından siler.'
+        export_description: 'Kullanıcı tablosundan verileri dışa aktarır. id, password hariç tüm sütunlar.'
+    request_data:
+      request_button: 'Arşiv isteği'
+      text: "Sizin için bir zip arşivi hazırlanacaktır. Hazır olduğunda, bir indirme bağlantısı içeren bir bildirim alacaksınız. Bağlantı bir gün boyunca aktif kalacaktır.\n"
+      title: '{username} için veri isteği'
