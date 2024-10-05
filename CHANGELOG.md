@@ -2,6 +2,22 @@ CHANGELOG
 =========
 
 
+1.28.1 (XXXX-XX-XX)
+-------------------
+
+**Uzantılar için çeviriler güncellendi**:
+
+* [`blomstra/gdpr`](https://github.com/flarum/gdpr)
+* [`blomstra/horizon`](https://github.com/blomstra/flarum-ext-horizon)
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
+* [`fof/terms`](https://github.com/FriendsOfFlarum/terms)
+
+
+Tüm değişiklikler: [1.28.0...1.28.1](https://github.com/flarum-lang/turkish/compare/1.28.0...1.28.1).
+
+
 1.28.0 (2024-07-13)
 -------------------
 
