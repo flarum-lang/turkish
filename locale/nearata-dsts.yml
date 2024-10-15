@@ -26,6 +26,8 @@ nearata-dsts:
       require_reply: 'Yanıtlaması gerekir'
   forum:
     button: DSTS
+    composer:
+      dsts_tooltip: DSTS
     fof_upload:
       like: 'Dosyayı görmek için beğeni vermelisiniz.'
       login: 'Dosyayı görmek için giriş yapmalısınız.'
@@ -33,8 +35,15 @@ nearata-dsts:
     like: 'İçeriği görebilmek için gönderiyi beğenmelisin.'
     login: 'İçeriği görebilmek için giriş yapmalısın.'
     post:
+      bbcode:
+        hidden_content: 'Gizli İçerik'
+        like_text: 'Bu içeriği görmek için gönderiyi beğenmeniz gerekir'
+        login_text: 'Bu içeriği görmek için giriş yapmalısınız'
+        reply_text: 'Bu içeriği görmek için tartışmaya cevap vermelisiniz'
       fof_upload:
+        like_text: 'Dosyayı görmek için gönderiyi beğenmelisiniz'
         login_text: 'Dosyayı görmek için giriş yapmalısınız'
+        reply_text: 'Dosyayı görmek için tartışmaya cevap vermelisiniz'
       like_tooltip: 'İçeriği görmek için gönderiyi beğenmelisiniz'
       login_tooltip: 'İçeriği görmek için giriş yapmalısınız'
       reply_tooltip: 'İçeriği görmek için tartışmaya cevap vermelisiniz'
