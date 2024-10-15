@@ -33,6 +33,7 @@ CHANGELOG
 * [`gbcl/userip`](https://github.com/GBCLStudio/userip)
 * [`justoverclock/auto-post-count-badge`](https://github.com/justoverclockl/auto-post-count-badge)
 * [`justoverclock/steam-api`](https://flarum.org/extension/justoverclock/steam-api)
+* [`litalino/flarum-adblock`](https://github.com/Litalino/flarum-adblock)
 * [`nearata/flarum-ext-dsts`](https://github.com/Nearata/flarum-ext-dsts)
 * [`serakoi/flarumstaffbadge`](https://github.com/ThatKoffe/flarumstaffbadge)
 * [`v17development/flarum-seo`](https://github.com/v17development/flarum-seo)
