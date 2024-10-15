@@ -3,6 +3,13 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 v17development-flarum-seo:
+  admin:
+    permissions:
+      configure_seo: 'SEO''yu yapılandırmaya izin ver'
   forum:
+    controls:
+      configure_seo: 'SEO''yu Düzenle'
+      reset_seo: 'SEO''yu Sıfırla'
+      update_seo: 'SEO''yu Güncelle'
     profile_description: '{username} profili | {discussion_count} tartışmaları | {comment_count} gönderileri'
     profile_title: '{username} profili'

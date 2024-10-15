@@ -13,6 +13,7 @@ justoverclock-steam-api:
     gamesOwned: 'Sahip Olunan Oyunlar: '
     lastLogOff: 'Son çıkış: '
     lastLogin: 'Son giriş: '
+    lastLogoff: 'Son çıkış: '
     noCountry: 'Dolu değil'
     noGamesAvailable: 'Son iki haftada hiç oyun oynanmadı.'
     privateProfile: 'Gizli profil'

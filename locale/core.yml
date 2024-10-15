@@ -239,6 +239,8 @@ core:
             title: Gruplar
           join_time:
             title: Katıldı
+          user_actions:
+            title: Eylemler
           user_id:
             title: ID
           username:
@@ -511,6 +513,10 @@ core:
       hidden_tooltip: Gizli
     data_segment:
       label: '{label}:'
+    datetime_formats:
+      humanTimeLong: ll
+      humanTimeShort: 'G AAA'
+      scrubber: 'AAAA YYYY'
     debug_button: 'Hata Ayıklama'
     dropdown:
       toggle_dropdown_accessible_label: 'Açılır menüyü aç / kapat'

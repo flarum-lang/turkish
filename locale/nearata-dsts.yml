@@ -8,8 +8,11 @@ nearata-dsts:
       can_bypass_like: 'Beğenmeden görebilir'
       can_bypass_login: 'Giriş yapmadan geçebilir'
       can_bypass_reply: 'Yanıtlamadan görebilir'
+      can_use_bbcode: 'BB Kodunu kullanabilir'
     settings:
+      enabled: Etkinleştirilmiş
       fof_upload:
+        enabled: Etkinleştirilmiş
         require_like: 'Beğeni gerektirir'
         require_like_help: '<strong>flarum/likes</strong> uzantısı gerektirir.'
         require_reply: 'Cevap gerektirir'
@@ -29,4 +32,10 @@ nearata-dsts:
       reply: 'Dosyayı görmek için cevap vermelisiniz.'
     like: 'İçeriği görebilmek için gönderiyi beğenmelisin.'
     login: 'İçeriği görebilmek için giriş yapmalısın.'
+    post:
+      fof_upload:
+        login_text: 'Dosyayı görmek için giriş yapmalısınız'
+      like_tooltip: 'İçeriği görmek için gönderiyi beğenmelisiniz'
+      login_tooltip: 'İçeriği görmek için giriş yapmalısınız'
+      reply_tooltip: 'İçeriği görmek için tartışmaya cevap vermelisiniz'
     reply: 'İçeriği görebilmek için tartışmayı yanıtlamalısın.'

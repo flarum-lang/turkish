@@ -6,3 +6,7 @@ foskym-nickname-group-formatter:
   admin:
     display: 'Grup kullanıcılarının takma adları nasıl görüntülenecek?'
     optional: 'Tercihe Bağlı'
+    setting:
+      showInUserCard: 'kullanıcı kartında göster (kullanıcı profil sayfası gibi)'
+      showInUserCardPopover: 'kullanıcı kartında göster (açılır pencere)'
+      showInUserPost: 'Kullanıcının gönderilerinde göster'

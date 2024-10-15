@@ -33,6 +33,8 @@ fof-best-answer:
       remind_tag_ids: 'Hatırlatıcıyı belirli etiketlerde etkinleştirmek için etiketleri belirleyin (virgülle ayırarak)'
       remind_tags_help: 'Varsa hangi etiketler için hatırlatıcı gönderileceğini seçin. Hatırlatıcılar yalnızca bu etiketlerle yapılan tartışmalar için gönderilecektir.'
       remind_tags_label: 'Hatırlatma Etiketleri'
+      remove_solutions_from_main_search: 'Çözülenleri ana aramadan kaldır'
+      remove_solutions_from_main_search_help: 'Ana ''tüm tartışmalar'' arama sonuçlarından En İyi Yanıtları içeren tartışmaları kaldırın'
       schedule_log_output: 'Zamanlayıcı çıktısını kayıt dosyasına ekle'
       schedule_on_one_server: 'Zamanlayıcı için ''onOneServer()'' kullanın'
       schedule_on_one_server_help: 'Redis/Memcache gerektirir'

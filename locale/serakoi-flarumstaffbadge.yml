@@ -4,6 +4,11 @@
 
 serakoi-flarumstaffbadge:
   admin:
+    permissions:
+      canEditStaffBadge:
+        label: 'Personel Rozetini Düzenleyebilir'
+      canEditTagList:
+        label: 'Etiket Listesini Düzenleyebilir (Staff Badge)'
     staffBadge:
       help: 'Personel Rozeti Metni (Varsayılan olarak ''PERSONEL'' şeklindedir)'
       label: 'Personel Rozeti Metni'

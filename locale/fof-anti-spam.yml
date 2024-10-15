@@ -4,6 +4,19 @@
 
 fof-anti-spam:
   admin:
+    blocked_registrations:
+      attempted-at: Yakalanan
+      button: 'Engellenen Kayıtlar'
+      delete_entry: 'Girişi sil'
+      email: 'E-posta Adresi'
+      help: "Bu sayfa, StopForumSpam hizmeti tarafından engellenen tüm kayıtları gösterir. Her kaydın ayrıntılarını görüntüleyebilir ve dilerseniz kaydı veritabanından silebilirsiniz.\n"
+      ip: 'IP Adresi'
+      login-provider: 'Giriş Sağlayıcısı'
+      login-provider-data: 'Giriş Sağlayıcısı Verisi'
+      no-records: 'Engellenen kayıt bulunamadı.'
+      sfs-data: 'StopForumSpam Verisi'
+      title: 'Engellenen Kayıtlar'
+      username: 'Kullanıcı adı'
     permissions:
       spamblock_users_label: 'Bu kullanıcıyı istenmeyen olarak işaretle'
     settings:
@@ -23,6 +36,10 @@ fof-anti-spam:
         api_key_instructions_text: '<register>StopForumSpam''a kaydolun</register>. Daha sonra <key>bir API anahtarı edinmeniz</key> gerekecektir.'
         api_key_label: 'API Anahtarı'
         api_key_text: 'Daha geniş forum topluluğunu spam''den uzak tutmak için spam gönderenleri StopForumSpam''e bildirme seçeneğiniz var.'
+        confidence_help: 'Güven puanı, test edilen alanın istenmeyen aktiviteye yol açacağının makul derecede iyi bir göstergesidir. Güven düzeyinizi yüzde olarak ayarlayın. Alan bu rakama eşit veya üstündeyse, yukarıdaki ''frekans'' testine bakılmaksızın kayıt engellenecektir.'
+        confidence_label: Güven
+        email_hash_help: 'E-posta adresinin kendisini geçirmek istemiyorsanız e-posta adresinin MD5 karmasını geçirin. Bu yöntem tüm kara listeleri, normalleştirme ve karartma atlama kontrollerini atlatır.'
+        email_hash_label: 'Karma (hashed) e-posta adresi kullan'
         email_label: 'E-Posta İstenmeyen Kontrolü'
         frequency_help: "Spam filtresini tetikleyecek tüm etkin kontroller arasındaki spam raporlarının sayısı.\nÖrn: E-posta 1 hit alırsa ve IP 2 hit alırsa, toplamda 3 hit olur. Eşik 3 veya daha azına ayarlanırsa kaydı engelleriz.\n"
         frequency_label: Eşik
@@ -30,6 +47,32 @@ fof-anti-spam:
         introduction: "Yeni kullanıcı kayıtlarını <a>StopForumSpam</a> veritabanına göre kontrol eder. <code>Güven</code> veya <code>sıklık</code> eşiklerinden birine ulaşılırsa kullanıcının forumunuza kayıt işlemini tamamlaması engellenir.\n\n<code>fof/oauth</code> ve <code>fof/passport</code> aracılığıyla SSO kaydı da desteklenir. Diğer SSO sağlayıcılarının çalışması gerekir ancak bunlar test edilmemiştir.\n"
         ip_label: 'IP Adresi İstenmeyen Kontrolü'
         region_closest_label: 'En yakın'
+        region_europe_label: Avrupa
+        region_us_label: ABD
         regional_endpoint_help: 'Varsayılan olarak, en hızlı yanıtı sağlamak için aramayı en yakın bölgesel sunucuya yönlendireceğiz. Şirket veya ülke gizlilik düzenlemelerine uyum gibi belirli bir bölgeyle trafiği sınırlamak isterseniz, belirli bir bölgeye bir bağlantı zorlayabilirsiniz.'
         regional_endpoint_label: 'Coğrafi Erişim'
+        report_blocked_registrations_help: 'Bir kayıt engellendiğinde, spam göndericisinin etkinliğinin daha iyi doğrulanabilmesi için bu girişimi StopForumSpam''a geri bildireceğiz. Bir StopForumSpam API anahtarının ayarlanmasını gerektirir (aşağıya bakın).'
+        report_blocked_registrations_label: 'Engellenen kayıtları bildir'
+        sfs_lookup_help: 'Etkinleştirilirse, forumunuza yeni bir kullanıcı kaydolduğunda StopForumSpam veritabanını kontrol edeceğiz. Kullanıcı bulunursa (kullanıcı adı, IP adresi, e-posta) ve bu veri noktası etkinleştirilirse ve SFS güven düzeyi tanımladığınız düzeye ulaşırsa, kayıtlarını tamamlamaları engellenecektir.'
+        sfs_lookup_label: 'Kayıtlara göz gezdir'
         username_label: 'Kullanıcı Adı İstenmeyen Kontrolü'
+  forum:
+    message:
+      stopforumspam:
+        blocked: 'Kayıt bilgileriniz spam otomasyonu veritabanında bulunduğundan kaydınız engellenmiştir.'
+    spammer_modal:
+      hard_delete_discussions_help: 'Bu, bu kullanıcı tarafından başlatılan tüm tartışmaları kalıcı olarak silecektir. Devre dışı bırakıldığında, tartışmalar gizlenecektir.'
+      hard_delete_discussions_label: 'Tartışmayı sil'
+      hard_delete_posts_help: 'Bu, bu kullanıcı tarafından yapılan tüm gönderileri (yorumlar, yanıtlar, vb.) kalıcı olarak silecektir. Devre dışı bırakıldığında, gönderiler gizlenecektir.'
+      hard_delete_posts_label: 'Gönderileri sil'
+      hard_delete_user_help: 'Bu, kullanıcıyı kalıcı olarak silecektir. Devre dışı bırakıldığında, kullanıcı askıya alınacaktır.'
+      hard_delete_user_label: 'Kullanıcıyı sil'
+      intro: 'Bir kullanıcıyı spam gönderici olarak işaretlediğinizde, forumunuzda bulunan eklentilere bağlı olarak çeşitli eylemler gerçekleştirilecektir.'
+      move_discussions_tag_help: 'Bu, bu kullanıcı tarafından başlatılan tüm tartışmaları forum ayarlarında belirttiğiniz etikete taşıyacaktır. Devre dışı bırakıldığında, tartışmalar geçerli etiketlerinde bırakılacaktır.'
+      move_discussions_tag_label: 'Tartışmaları karantinaya alınmış etikete taşı'
+      process_button: İşlem
+      report_to_sfs_help: 'Bu, kullanıcının temel ayrıntılarını (kullanıcı adı, e-posta, IP adresi) StopForumSpam''a bildirecektir. Bu, kullanıcının StopForumSpam hizmetini kullanan diğer forumlara kaydolmasını önlemeye yardımcı olacaktır.'
+      report_to_sfs_label: 'StopForumSpam''a bildirin'
+      title: '{username} kullanıcısını spam gönderici olarak işaretle'
+    user_controls:
+      spammer_button: Spamcı

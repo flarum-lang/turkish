@@ -24,6 +24,11 @@ fof-links:
       url_placeholder: '=> fof-links.ref.url'
       use_rel_me: 'Diğer sitelerde kimlik doğrulaması için <code>rel=''me''</code> özelliğini ekleyin'
       visibility: 'Bağlantı görünürlüğü'
+      visibility.guest-only.help: 'Bu bağlantıyı yalnızca {guest} görebilir. Yukarıdaki izin ''{everyone}'' olarak ayarlanmalıdır.'
+      visibility.guest-only.label: 'Sadece {guest} mi?'
+      visibility.help: 'Bağlantılar varsayılan olarak yalnızca <code>{admin}</code> kullanıcıları tarafından görülebilir. Bu bağlantıyı kimlerin görebileceğini belirtmek için izinleri ayarlayın.'
+      visibility.help-disabled: 'Görünürlük ayarlarını değiştirmeden önce bağlantıyı kaydedin.'
+      visibility.label: 'Bağlantı görünürlüğü'
     links:
       create_button: '=> fof-links.ref.create_link'
       links: '=> fof-links.ref.links'

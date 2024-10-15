@@ -5,6 +5,8 @@
 fof-oauth:
   admin:
     configure_button_label: 'FoF OAuth ile Ayarlayın'
+    permissions:
+      moderate_user_providers: 'Kullanıcının bağlı hesaplarını denetle'
     settings:
       advanced:
         heading: Gelişmiş
@@ -80,6 +82,7 @@ fof-oauth:
       settings:
         linked-account:
           help: 'Bu bağlantılı hesaplar, diğer sağlayıcıları kullanarak forumda oturum açmanıza izin verir.'
+          identification-label: '{provider} ID'
           identifier-label: '{provider} ID'
           label: 'Bağlı hesaplar'
           last-used-label: 'Son kullanılma'

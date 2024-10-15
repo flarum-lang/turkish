@@ -12,6 +12,8 @@ justoverclock-auto-post-count-badge:
     levelOne-help: '1. seviye için göstermek istediğiniz fontawesome simgesini buraya yapıştırın (ör. "fas fa-square")'
     levelSix: '6. seviye - "İş Bilen!" için simgeyi değiştir'
     levelSix-help: '6. seviye için göstermek istediğiniz fontawesome simgesini buraya yapıştırın (ör. "fas fa-square")'
+    levelThree: '3. seviye için simgeyi değiştir - "Konuşmacı"'
+    levelThree-help: '3. seviye için göstermek istediğiniz fontawesome simgesini buraya yapıştırın (örneğin "fas fa-square")'
     levelTree: '3. seviye - "Konuşkan" için simgeyi değiştir'
     levelTree-help: '3. seviye için göstermek istediğiniz fontawesome simgesini buraya yapıştırın (ör. "fas fa-square")'
     levelTwo: '2. seviye - "Buralarda Yeni" için simgeyi değiştir'

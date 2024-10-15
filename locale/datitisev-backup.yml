@@ -25,6 +25,12 @@ datitisev-backup:
         bucket:
           description: 'Yüklenecek S3 klasörü.'
           label: Bucket
+        credentials-key:
+          description: 'AWS kimlik bilgileri anahtarı'
+          label: Anahtar
+        credentials-secret:
+          description: 'AWS kimlik bilgileri gizli anahtarı'
+          label: 'Gizli anahtar'
         credentials:
           key:
             description: 'AWS kimlik bilgileri anahtarı'
@@ -94,6 +100,12 @@ datitisev-backup:
           description: 'FTP sunucusunda kimlik doğrulaması yapılacak kullanıcı adı.'
           label: 'Kullanıcı adı'
       gdrive:
+        client-id:
+          description: "Bir Google projesi oluşturmak ve İstemci Kimliğinizi ve İstemci Gizli Anahtarınızı almak için https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md adresindeki talimatları izleyin.\n"
+          label: 'Müşteri Kimliği'
+        client-secret:
+          description: ' '
+          label: 'Müşteri Gizli Anahtarı'
         client:
           id:
             description: "Bir Google projesi oluşturmak ve almak için @ https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md talimatlarını izleyin. Sizin Client ID ve Client Secret değerlerinizi kaydedin.\n"
@@ -104,6 +116,9 @@ datitisev-backup:
         folder:
           description: 'https://drive.google.com/drive/u/0/folders/ID'
           label: 'Klasör ID''si'
+        help:
+          test_button: 'Test bağlantısı'
+          test_success_alert: 'Google Drive''a başarıyla bağlanıldı! Ayarları saklamak için değişiklikleri kaydedin.'
         refresh-token:
           description: "Google oAuth uygulamanız için yenileme jetonunu almak için @ https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/2-getting-your-refresh-token.md talimatlarını izleyin.\n"
           label: 'Tokeni Yenile'
@@ -111,6 +126,7 @@ datitisev-backup:
         target:
           description: 'Yedeklemelerin kaydedileceği yerel dizini belirtin.'
           label: 'Hedef yol'
+      name_label: 'Konum Adı'
       title: '{adapter} yapılandırın'
     adapters:
       aliyun: 'Alibaba Cloud (Aliyun)'
@@ -126,6 +142,9 @@ datitisev-backup:
       sftp: SFTP
       webdav: Webdav
       zip: 'Zip Arşivi'
+    create_button: 'Yeni adaptör ekle'
+    delete_button: Sil
+    delete_confirmation: '"{name}" ({adapter}) öğesini silmek istediğinizden emin misiniz?'
     nav:
       description: 'Forumunuzun kopyalarını saklayın.'
       label: Yedekleme
