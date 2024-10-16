@@ -2,6 +2,46 @@ CHANGELOG
 =========
 
 
+1.29.0 (2024-10-16)
+-------------------
+
+**Genel değişiklikler**:
+
+* Flarum çekirdek çevirileri güncellendi.
+
+
+**Yeni uzantılar için destek eklendi**:
+
+* [`datlechin/flarum-cbox`](https://github.com/datlechin/flarum-cbox)
+
+
+**Uzantılar için çeviriler güncellendi**:
+
+* [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache)
+* [`blomstra/gdpr`](https://github.com/flarum/gdpr)
+* [`blomstra/horizon`](https://github.com/blomstra/flarum-ext-horizon)
+* [`datitisev/flarum-backup`](https://flarum.org/extension/datitisev/flarum-backup)
+* [`datlechin/flarum-tag-passwords`](https://github.com/datlechin/flarum-tag-passwords)
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
+* [`fof/links`](https://github.com/FriendsOfFlarum/links)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
+* [`fof/open-collective`](https://github.com/FriendsOfFlarum/open-collective)
+* [`fof/terms`](https://github.com/FriendsOfFlarum/terms)
+* [`foskym/nickname-group-formatter`](https://github.com/FoskyM/flarum-nickname-group-formatter)
+* [`gbcl/userip`](https://github.com/GBCLStudio/userip)
+* [`justoverclock/auto-post-count-badge`](https://github.com/justoverclockl/auto-post-count-badge)
+* [`justoverclock/steam-api`](https://flarum.org/extension/justoverclock/steam-api)
+* [`litalino/flarum-adblock`](https://github.com/Litalino/flarum-adblock)
+* [`nearata/flarum-ext-dsts`](https://github.com/Nearata/flarum-ext-dsts)
+* [`serakoi/flarumstaffbadge`](https://github.com/ThatKoffe/flarumstaffbadge)
+* [`v17development/flarum-seo`](https://github.com/v17development/flarum-seo)
+
+
+Tüm değişiklikler: [1.28.0...1.29.0](https://github.com/flarum-lang/turkish/compare/1.28.0...1.29.0).
+
+
 1.28.0 (2024-07-13)
 -------------------
 
