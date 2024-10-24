@@ -2,6 +2,32 @@ CHANGELOG
 =========
 
 
+1.30.0 (2024-10-24)
+-------------------
+
+**Genel değişiklikler**:
+
+* Flarum çekirdek çevirileri güncellendi.
+
+
+**Yeni uzantılar için destek eklendi**:
+
+* [`foskym/flarum-better-user-directory`](https://github.com/FoskyM/flarum-better-user-directory)
+
+
+**Uzantılar için çeviriler güncellendi**:
+
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
+* [`fof/filter`](https://github.com/FriendsOfFlarum/filter)
+* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
+* [`fof/impersonate`](https://github.com/FriendsOfFlarum/impersonate)
+* [`fof/nightmode`](https://github.com/FriendsOfFlarum/nightmode)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+
+
+Tüm değişiklikler: [1.29.0...1.30.0](https://github.com/flarum-lang/turkish/compare/1.29.0...1.30.0).
+
+
 1.29.0 (2024-10-16)
 -------------------
 
