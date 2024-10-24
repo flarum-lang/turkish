@@ -10,7 +10,7 @@ fof-filter:
     countLabel: 'Sansür Toleransı'
     email:
       default_subject: 'Son Gönderiniz Hakkında'
-      default_text: "Gönderiniz için teşekkürler! Ancak forumumuzda görmek istemediğimiz bazı ifadeler içerdiği için şimdilik gönderiniz şimdilik yayından kaldırıldı.\n\nEğer bunun bir hata düşünüyorsanız şanslısınız, kaldırılan her gönderi moderatörlerimiz tarafından incelenmektedir. Eğer bir yanlışlık varsa gönderiniz tekrar yayına alınacaktır.\n\n\nAnlayışınız için teşekkürler.\n"
+      default_text: "Gönderiniz için teşekkür ederiz! Ne yazık ki, gönderiniz forumlarımızda görmek istemediğimiz bir şey içerdiği için kaldırıldı.\n\nBunun bir hata olduğuna inanıyorsanız, şanslısınız, kaldırılan her gönderi moderatörlerimiz tarafından incelenir. Bunun yanlış bir şekilde kaldırıldığını tespit ederlerse, geri yüklerler.\n\nAnlayışınız için teşekkür ederiz.\n"
     email_help: 'İşaretlenmiş e-posta içeriği. HTML ve düz metin geçerlidir.'
     filter_label: 'Filtrelenecek kelimeler'
     help: 'Girilen terimler virgül ve boşlukla ayrılmalıdır.'

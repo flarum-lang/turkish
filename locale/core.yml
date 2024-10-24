@@ -515,8 +515,8 @@ core:
       label: '{label}:'
     datetime_formats:
       humanTimeLong: ll
-      humanTimeShort: 'G AAA'
-      scrubber: 'AAAA YYYY'
+      humanTimeShort: 'D MMM'
+      scrubber: 'MMMM YYYY'
     debug_button: 'Hata Ayıklama'
     dropdown:
       toggle_dropdown_accessible_label: 'Açılır menüyü aç / kapat'

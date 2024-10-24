@@ -20,6 +20,15 @@ fof-polls:
       allow_option_image: 'Her anket seçeneği için bir resim URL''sinin sağlanmasına izin ver'
       enable_global_polls: 'Genel anketleri etkinleştir'
       enable_global_polls_help: 'Genel anketler belirli bir gönderiye bağlı değildir ve bunlara özel bir anket sayfasından erişilebilir.'
+      general:
+        heading: 'Genel Ayarlar'
+        help: 'Bu ayarlar Anketler uzantısının temel özelliklerini kontrol eder.'
+      global_polls:
+        heading: 'Genel Anketler'
+        help: 'Bu ayarlar genel anketler özelliğini kontrol eder.'
+      image:
+        heading: 'Görsel Ayarları'
+        help: 'Bu ayarlar anketler için görsel ayarlarını kontrol eder.'
       image_height: 'Resim yüksekliğini yeniden boyutlandır'
       image_width: 'Resim genişliğini yeniden boyutlandır'
       max_options: 'Anket başına maksimum seçenek sayısı'

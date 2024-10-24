@@ -19,3 +19,12 @@ fof-impersonate:
       title: 'Başka bir kullanıcı olarak giriş yapın'
     user_controls:
       impersonate_button: 'Giriş yapılacak kullanıcı'
+  lib:
+    modal:
+      impersonate_username: '{username} olarak giriş yapın'
+      label: 'Büyük güç büyük sorumluluk getirir. Devam ederek, çıkış yapana kadar {username} olacaksınız.'
+      placeholder_optional: '(İsteğe bağlı) Bu kullanıcıya geçme nedeninizi belirtin'
+      placeholder_required: 'Devam etmeden önce bu kullanıcıya geçme nedeninizi belirtmelisiniz'
+      title: 'Başka bir kullanıcı olarak giriş yap'
+    user_controls:
+      impersonate_button: 'Kullanıcı olarak giriş yap'
