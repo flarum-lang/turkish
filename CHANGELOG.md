@@ -2,6 +2,27 @@ CHANGELOG
 =========
 
 
+1.32.0 (XXXX-XX-XX)
+-------------------
+
+**Yeni uzantılar için destek eklendi**:
+
+* [`ziiven/flarum-decoration-store`](https://flarum.org/extension/ziiven/flarum-decoration-store)
+* [`ziiven/flarum-fireworks`](https://github.com/Ziiven/flarum-fireworks)
+
+
+**Uzantılar için çeviriler güncellendi**:
+
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+* [`gtdxyz/flarum-ext-badges`](https://github.com/daocatt/flarum-ext-badges)
+* [`ianm/follow-users`](https://github.com/imorland/follow-users)
+* [`ianm/translate`](https://flarum.org/extension/ianm/translate)
+* [`maicol07/flarum-oidc-client`](https://flarum.org/extension/maicol07/flarum-oidc-client)
+
+
+Tüm değişiklikler: [1.31.0...1.32.0](https://github.com/flarum-lang/turkish/compare/1.31.0...1.32.0).
+
+
 1.31.0 (2024-11-08)
 -------------------
 
