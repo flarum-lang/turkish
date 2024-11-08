@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+1.31.0 (2024-11-08)
+-------------------
+
+**Yeni uzantılar için destek eklendi**:
+
+* [`flarum/gdpr`](https://github.com/flarum/gdpr)
+* [`gtdxyz/flarum-ext-badges`](https://github.com/daocatt/flarum-ext-badges)
+
+
+Tüm değişiklikler: [1.30.0...1.31.0](https://github.com/flarum-lang/turkish/compare/1.30.0...1.31.0).
+
+
 1.30.0 (2024-10-24)
 -------------------
 
