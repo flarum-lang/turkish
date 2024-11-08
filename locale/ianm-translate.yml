@@ -4,6 +4,8 @@
 
 ianm-translate:
   admin:
+    glossary:
+      button: Sözlük
     permission:
       refresh-translation: 'Önbelleğe alınmış bir çevirinin yeniden çevirisini zorla'
       translate-to-all-locales: 'Çeviriyi herhangi bir forum yerel ayarında görüntüleyin'

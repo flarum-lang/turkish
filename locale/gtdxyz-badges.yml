@@ -90,6 +90,7 @@ gtdxyz-flarum-badges:
       select_limit: 'Kullanıcı kartınızda görünmek için {limit, plural, one {<b>bir rozet</b>} other {<b># rozetler</b>}}öğesini seçebilirsiniz.'
       title: 'Kullanıcı kartındaki rozetler'
     give_badge: 'Rozet ver'
+    hidden_badges: 'Bu kullanıcı henüz rozet göstermemektedir.'
     moderation:
       give_badge: 'Rozet ver'
       remove_badge: 'Kullanıcıdan rozeti kaldır'

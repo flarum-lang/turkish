@@ -8,6 +8,8 @@ maicol07-oidc-client:
       callback_logout_note: 'Yalnızca sağlayıcıdan çıkış seçeneği etkinleştirildiğinde gereklidir (sayfanın en altına bakın)'
       callback_subtitle: 'Bunlar, müşteri yetkilendirme kodunu almak ve ilgili seçenek etkinleştirilmişse sağlayıcıdan çıkış yapmak için sağlayıcınıza kaydetmeniz gereken geri arama URI''larıdır.'
       callback_title: 'Geri arama URI''leri (Callback URIs)'
+      client:
+        title: 'İstemci ayarları'
       client_id: 'Client ID'
       client_secret: 'Client secret'
       client_settings_subtitle: 'OpenID Connect sağlayıcınız tarafından verilen müşteri bilgilerinizi buraya ekleyin. Daha fazla yardım için dokümanları kontrol edin.'
