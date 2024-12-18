@@ -141,3 +141,22 @@ flarum-extension-manager:
       updater_title: Güncellemeler
     why_not_modal:
       title: 'Neden Güncellenmiyor'
+  validation:
+    attributes:
+      bearer: 'HTTP Taşıyıcısı'
+      'bearer.*': 'HTTP Taşıyıcısı'
+      extension_id: 'Eklenti ID''si'
+      github_oauth: 'GitHub OAuth'
+      'github_oauth.*': 'GitHub OAuth'
+      gitlab_oauth: 'GitLab OAuth'
+      'gitlab_oauth.*': 'GitLab OAuth'
+      gitlab_token: 'GitLab Erişim Anahtarı'
+      'gitlab_token.*': 'GitLab Erişim Anahtarı'
+      minimum_stability: 'minimum kararlılık'
+      package: paket
+      repositories: depolar
+      'repositories.*': depolar
+      'repositories.*.type': 'depo türü'
+      'repositories.*.url': 'depo bağlantısı'
+      update_mode: 'güncelleme modu'
+      version: sürüm
