@@ -13,6 +13,7 @@ CHANGELOG
 
 **Uzantılar için çeviriler güncellendi**:
 
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
 * [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
 * [`gtdxyz/flarum-ext-badges`](https://github.com/daocatt/flarum-ext-badges)
 * [`ianm/follow-users`](https://github.com/imorland/follow-users)
