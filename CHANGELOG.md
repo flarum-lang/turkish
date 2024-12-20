@@ -7,6 +7,7 @@ CHANGELOG
 
 **Yeni uzantılar için destek eklendi**:
 
+* [`huseyinfiliz/modern-footer`](https://github.com/huseyinfiliz/modern-footer)
 * [`ziiven/flarum-decoration-store`](https://flarum.org/extension/ziiven/flarum-decoration-store)
 * [`ziiven/flarum-fireworks`](https://github.com/Ziiven/flarum-fireworks)
 
