@@ -20,6 +20,7 @@ fof-moderator-notes:
       created_text: '{username}, bu notu {date} tarihinde oluşturdu'
       delete: Sil
       dismiss_button: Bitti
+      filter_by_me: 'Sadece benim oluşturduğum notlar'
       input_heading: '<strong>{username}</strong> için notlarınızı girin (markdown desteklenir)'
       noNotes: 'Görünüşe göre burada hiç not yok.'
       submit_button: 'Notu kaydet'

@@ -8,6 +8,12 @@ blomstra-gdpr:
       tagsubscription:
         anonymize_description: 'Kullanıcının etikete aboneliğini kaldırır.'
         export_description: 'Varsa, bir etiketin abonelik düzeyinin ayrıntılarını dışa aktarır.'
+flarum-gdpr:
+  lib:
+    data:
+      tagsubscription:
+        anonymize_description: 'Kullanıcının etikete olan aboneliğini kaldırır.'
+        export_description: 'Bir etiketin abonelik düzeyi varsa, bu düzeyin ayrıntılarını dışa aktarır.'
 fof-follow-tags:
   admin:
     settings:

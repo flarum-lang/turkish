@@ -2,6 +2,12 @@
 # Use https://weblate.rob006.net/projects/flarum/fof-drafts/tr/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-gdpr:
+  lib:
+    data:
+      drafts:
+        delete_description: 'Kullanıcı tarafından oluşturulan tüm taslakları silin.'
+        export_description: 'Kullanıcı tarafından oluşturulan tüm taslaklar.'
 fof-drafts:
   admin:
     permissions:

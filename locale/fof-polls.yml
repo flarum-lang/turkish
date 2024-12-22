@@ -59,6 +59,7 @@ fof-polls:
       edit_title: 'Anketi Düzenle'
       error: '=> core.lib.error.generic_message'
       hide_votes_label: 'Anket bitene kadar oyları gizle'
+      hide_votes_label_help: 'Anketi başlatan kullanıcı her zaman oyları görebilecek.'
       image_option_placeholder: 'Resim URL''si (isteğe bağlı)'
       include_question: 'Bir soru eklemelisiniz'
       max: 'En fazla {max} yanıtınız olabilir'

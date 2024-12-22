@@ -16,8 +16,9 @@ justoverclock-related-discussions:
     deleted: Silindi
     hasBestAnswer: Çözüldü
     hasBestAnswer-title: 'Bu tartışma çözüldü olarak işaretlendi'
+    noRelatedFound: 'İlgili tartışmalar bulunamadı...'
     participants: Katılımcılar
     postedOn: 'Şurada:'
-    postnumber: 'Gönderi sayısı'
+    postnumber: 'cevap sayısı'
     reldiscussion: 'Önerilen Tartışmalar:'
-    repliedOn: 'cevap verdi'
+    repliedOn: 'son cevap'

@@ -39,3 +39,6 @@ flarum-suspend:
       suspended_tooltip: 'Askıya alındı'
     user_controls:
       suspend_button: Askıda
+  validation:
+    attributes:
+      suspendedUntil: 'kadar askıya alındı'

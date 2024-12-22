@@ -13,6 +13,8 @@ flarum-gdpr:
   lib:
     data:
       boringavatar:
+        anonymize_description: 'Boring avatarı siler ve yerine rastgele yeni bir avatar oluşturur.'
+        delete_description: 'Boring avatarı sil.'
         export_description: 'Avatarı dışa aktarılan zip dosyasına ekler.'
 ianm-boring-avatars:
   admin:

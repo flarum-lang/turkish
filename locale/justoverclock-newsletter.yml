@@ -15,3 +15,25 @@ flarum-ext-newsletter:
     prconsent: 'Gizlilik Onayı'
     submitbutton: Gönder
     subscribe: 'Bültenimize abone olun. Lütfen e-postanızı girin ve gönder düğmesine basın.'
+justoverclock-newsletter:
+  admin:
+    ctaText: 'Topluluğumuzu ziyaret edin'
+    emailSentErrorMessage: 'E-posta gönderilemedi.'
+    emailSentSuccessMessage: 'E-postalar başarıyla gönderildi!'
+    emailTitle: 'Bülten Başlığı'
+    lastNewsletterSent: 'Son bülten gönderildi'
+    lastNewsletterSentDescription: 'gönderilen son haber bülteninin başlığı'
+    lastNewsletterSentText: 'gönderildi: '
+    newsLetterOptOutFooter: 'Bu e-postaları beğenmediniz mi?'
+    newsLetterOptOutFooterUnsubscribe: 'Aboneliğinizi iptal edin.'
+    newsletterCountText: 'Bülteniniz yukarıdaki abonelerin tümüne gönderilecektir.'
+    newsletterCountTextTwo: kullanıcılar!
+    noNewsletterSent: 'Veri yok'
+    sendEmailButtonText: 'Tüm Abonelere E-posta Gönder'
+    sendingText: Gönderiliyor...
+    textOrHtml: 'Bülten Alanı (metin veya html)'
+    totalSubscribers: 'Toplam aboneler'
+    totalSubscribersCount: 'toplam abone kullanıcı sayısı'
+  forum:
+    optOutPageTitle: 'Gelen kutunuz çok mu doluyor? Burada bültenimizden çıkabilirsiniz.'
+    optOutPlaceholder: 'E-posta adresinizi girin'

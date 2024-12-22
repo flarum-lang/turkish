@@ -8,6 +8,12 @@ blomstra-gdpr:
       bannedipdata:
         anonymize_description: 'Kullanıcıya bağlı tüm IP adresleri ayrıştırılır ancak IP''nin kendisi, nedeni ile birlikte yasaklı olarak kalacaktır. ''Neden'' alanında hiçbir PII verisinin saklanmadığından emin olun.'
         export_description: 'Bir IP yasağı kaydı, bir kullanıcıyla ilişkilendirilmişse (yani kullanıcı IP tarafından yasaklanmışsa), yasağın nedeni ve oluşturulma tarihiyle birlikte kullanıcının IP adresi de dışa aktarmaya dahil edilecektir.'
+flarum-gdpr:
+  lib:
+    data:
+      bannedipdata:
+        anonymize_description: 'Kullanıcıya bağlı tüm IP adresleri ayrıştırılır ancak IP''nin kendisi, nedeni ile birlikte yasaklı olarak kalacaktır. ''Neden'' alanında hiçbir PII verisinin saklanmadığından emin olun.'
+        export_description: 'Bir IP yasağı kaydı bir kullanıcıyla ilişkilendirilmişse (yani kullanıcı IP tarafından yasaklanmışsa), yasağın nedeni ve oluşturulma tarihiyle birlikte kullanıcının IP adresi de dışa aktarmaya dahil edilecektir.'
 fof-ban-ips:
   admin:
     empty_text: 'Yasaklamış IP bulunamadı.'

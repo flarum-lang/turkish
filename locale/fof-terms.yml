@@ -8,6 +8,12 @@ blomstra-gdpr:
       userpolicydata:
         delete_description: 'Kullanıcının şartları kabul etmesini kaldırır'
         export_description: 'Kullanıcının şartları kabulüne ilişkin ayrıntılar'
+flarum-gdpr:
+  lib:
+    data:
+      userpolicydata:
+        delete_description: 'Kullanıcının şartları kabul etme yükümlülüğünü kaldırır'
+        export_description: 'Kullanıcının şartları kabul ettiğine dair ayrıntılar'
 fof-terms:
   admin:
     buttons:
@@ -63,7 +69,11 @@ fof-terms:
       title: '{username} için şartları kabul etme durumu'
     update-alert:
       can-accept-message: 'Yakın zamanda şartları güncelledik. Siteyi kullanmaya devam etmek için şartları kabul etmelisiniz.'
+      can-accept-optional-message: 'Şartları yakın zamanda güncelledik. Bunları istediğiniz zaman inceleyebilirsiniz.'
+      close: Kapat
       must-accept-message: 'Yeni şartlara göz atana kadar hesabınıza erişimi kısıtladık.'
       review: 'Yeni şartları incelemek ve kabul etmek için buraya tıklayın'
     user_controls:
       state_button: 'Şartları kabul etme durumu'
+    user_settings:
+      optional_policies_label: Politikalar

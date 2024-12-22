@@ -19,3 +19,5 @@ acpl-lscache:
     purge_on_discussion_update_label: 'Tartışma Güncellemesinde URL''leri temizle veya Etiketleri önbelleğe al'
     serve_stale_help: 'Etkinleştirilirse, yeni bir önbellek kopyası oluşturulana kadar ziyaretçilere önbelleğe alınmış bir sayfanın eski bir sürümü sunulur. Bu, sunucu yükünü azaltır. Devre dışı bırakılırsa sayfa, önbellek güncellemesi sırasında dinamik olarak oluşturulur ve bu da bekleme sürelerini artırabilir. Tasarım gereği, bu seçenek güncel olmayan içerik sunabilir. Bunu kabul edilemez bulursanız lütfen bunu etkinleştirmeyin.'
     serve_stale_label: 'Eski İçeriği Sunun'
+    status_codes_cache_help: 'Bir HTTP durum kodu ve o sayfanın önbelleğe alınması için gereken saniye sayısını boşlukla ayırarak belirtin. Satır başına bir tane.'
+    status_codes_cache_label: 'Varsayılan HTTP Durum Kodu Sayfası TTL'
