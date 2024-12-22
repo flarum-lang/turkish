@@ -9,6 +9,11 @@ blomstra-gdpr:
         anonymize_description: 'Sıkıcı avatarı siler ve yeni, rastgele bir avatar oluşturur.'
         delete_description: 'Sıkıcı avatarı siler.'
         export_description: 'Dışa aktarma zip dosyasına sıkıcı avatarı ekler.'
+flarum-gdpr:
+  lib:
+    data:
+      boringavatar:
+        export_description: 'Avatarı dışa aktarılan zip dosyasına ekler.'
 ianm-boring-avatars:
   admin:
     settings:
