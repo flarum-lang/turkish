@@ -15,7 +15,9 @@ CHANGELOG
 * [`huseyinfiliz/modern-footer`](https://github.com/huseyinfiliz/modern-footer)
 * [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor)
 * [`irmmr/flarum-ext-rtl`](https://github.com/irmmr/flarum-ext-rtl)
+* [`litalino/flarum-geo-weather-widget`](https://github.com/Litalino/flarum-geo-weather-widget)
 * [`litalino/flarum-related-discussions`](https://github.com/Litalino/flarum-related-discussions)
+* `nodeloc-ignore-hidden-tags`
 * [`shebaoting/repost`](https://github.com/shebaoting/Repost)
 * [`tohsakarat/table-of-content`](https://github.com/tohsakrat/flarum-table-of-content)
 * [`ziiven/flarum-decoration-store`](https://flarum.org/extension/ziiven/flarum-decoration-store)
