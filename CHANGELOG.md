@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.33.0 (XXXX-XX-XX)
+-------------------
+
+**Yeni uzantılar için destek eklendi**:
+
+* [`huseyinfiliz/notificationhub`](https://github.com/huseyinfiliz/notificationhub)
+
+
+Tüm değişiklikler: [1.32.0...1.33.0](https://github.com/flarum-lang/turkish/compare/1.32.0...1.33.0).
+
+
 1.32.0 (2024-12-24)
 -------------------
 
