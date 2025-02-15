@@ -99,6 +99,7 @@ fof-polls:
       cannot_start_poll_button: 'Genel Anket Başlatılamıyor'
       start_poll_button: 'Genel Anket Başlat'
       submit_button: Oyla
+      total_votes: '{count, plural, one {# oy verildi} other {# oy verildi}}'
     poll_controls:
       delete_confirmation: 'Bu anketi silmek istediğinize emin misiniz?'
       delete_error_message: 'Anket silinirken bir şeyler ters gitti.'
