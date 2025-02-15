@@ -7,7 +7,14 @@ CHANGELOG
 
 **Yeni uzantılar için destek eklendi**:
 
+* [`huseyinfiliz/flagify`](https://github.com/huseyinfiliz/flagify)
 * [`huseyinfiliz/notificationhub`](https://github.com/huseyinfiliz/notificationhub)
+* [`huseyinfiliz/private-profile`](https://github.com/huseyinfiliz/private-profile)
+
+
+**Uzantılar için çeviriler güncellendi**:
+
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
 
 
 Tüm değişiklikler: [1.32.0...1.33.0](https://github.com/flarum-lang/turkish/compare/1.32.0...1.33.0).
