@@ -2,6 +2,13 @@
 # Use https://weblate.rob006.net/projects/flarum/fof-masquerade/tr/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-gdpr:
+  lib:
+    data:
+      masqueradeanswers:
+        anonymize_description: '=> flarum-gdpr.lib.data.masqueradeanswers.delete_description'
+        delete_description: 'Kullanıcının hesabından tüm profil alanı cevaplarını kaldır'
+        export_description: 'Kullanıcının profil alanı cevaplarını dışa aktar'
 fof-masquerade:
   admin:
     buttons:
