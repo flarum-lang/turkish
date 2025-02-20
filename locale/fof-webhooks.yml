@@ -86,8 +86,11 @@ fof-webhooks:
         extra_text_label: 'İlave Metin'
         group_help: 'Bu grup tarafından görülebilecek kaynakları gönderin'
         group_label: Grup
+        include_matching_tags_label: 'Eşleşen etiketleri dahil et -- belirli etiketlerle sınırlı webhook''lar için, olayın hangi etiketlerle eşleştiğini göster'
         max_post_content_length_help: 'Webhook ilgili tüm olaylarda gönderi içeriğini sınırlamak için bir sayı ayarlayın. Sınırı kaldırmak için 0 veya nothing olarak değiştirin.'
         max_post_content_length_label: 'Maksimum Gönderi İçeriği Uzunluğu'
+        name_help: 'Webhook''un adı. Bu, Discord kullanıcı adı, Slack bot adı gibi şeyler için kullanılacaktır.'
+        name_label: Adı
         title: 'Web Kancaları Ayarları'
         use_plain_text_label: 'Yazı içeriğinde biçimlendirme miktarını azaltın'
       services:

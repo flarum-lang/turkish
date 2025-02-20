@@ -31,7 +31,7 @@ kilowhat-wordpress:
       comment_tag_custom_help: 'Etiket kimliklerinin virgülle ayrılmış listesi'
       comment_tag_none: 'Etiket atama'
       cookie_domain: 'Çerez Alan Adı'
-      cookie_domain_help: 'Yalnızca Flarum alan adından farklıysa gereklidir'
+      cookie_domain_help: "Bu ayar yalnızca \"Cookie\" giriş mekanizması kullanıldığında geçerlidir. Bu değeri yalnızca her iki site de farklı alt alan adlarında ise ayarlamanız gerekir.\n"
       enable_comments: 'Yorum entegrasyonunu etkinleştir'
       enable_sso: 'SSO Entegrasyonunu Etkinleştir'
       excerpt_html_nodes: 'İçerik alıntısının uzunluğu (HTML etiketleri sayısı olarak)'

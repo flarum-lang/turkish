@@ -36,6 +36,8 @@ kilowhat-formulaire:
         standaloneEdit: 'Bağımsız Doldurma/Düzenleme Sayfası'
         standaloneView: 'Bağımsız Görünüm Sayfası'
       max-file-size: 'Belge boyutu üst limiti (kB)'
+      noByobuFields: 'Byobu eklentisinin özel tartışmalarında, tartışma alanlarını dahil etmeyin'
+      noByobuFieldsHelp: 'Varsayılan olarak; etiketle sınırlandırılmayan tartışma alanları, özel tartışmalar da dahil olmak üzere tüm tartışmalara uygulanacaktır.'
       radio-style: 'Tek seçenek stili'
       side-nav-on-submission: 'Gönderim sayfasında yan menüyü göster'
       style-options:
@@ -71,6 +73,7 @@ kilowhat-formulaire:
     unauthorized-form: '{id} form kimliğini doldurmak için gerekli izinlere sahip değilsiniz'
     unauthorized-scoped-form: '{id} form kimliğini mevcut etiket kombinasyonuyla dolduramazsınız'
     unknown-form: 'Tanınmayan form kimliği {id}'
+    unsupported-discussion-form: 'Bu tür bir tartışmada {id} formunu dolduramazsınız'
   forum:
     auto-discussion-options-modal:
       field:
