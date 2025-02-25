@@ -8,7 +8,10 @@ CHANGELOG
 **Yeni uzantılar için destek eklendi**:
 
 * [`dalez/flarum-identityagent`](https://github.com/DellZHackintosh/flarum-identityagent)
+* [`gbcl/oauth-logto`](https://github.com/GBCLStudio/flarum-oauth-logto)
+* [`gtdxyz/flarum-ext-login`](https://github.com/daocatt/flarum-ext-login)
 * [`justoverclock/profile-stories`](https://github.com/justoverclockl/profile-stories)
+* [`krombox/flarum-ext-oauth-wordpress`](https://github.com/krombox/flarum-ext-oauth-wordpress)
 * [`litalino/flarum-country-flags`](https://github.com/Litalino/flarum-country-flags)
 * [`madeyedeer/avatar-tools`](https://github.com/MadEyeDeer/avatar-tools)
 * [`mattoid/flarum-ext-store-auto-check-in`](https://github.com/Mattoids/flarum-ext-store-auto-check-in)
@@ -33,6 +36,7 @@ CHANGELOG
 * [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory)
 * [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks)
 * [`glowingblue/localizd`](https://flarum.org/extension/glowingblue/localizd)
+* [`hehongyuanlove/flarum-auth-qq`](https://github.com/Hehongyuanlove/flarum-auth-qq)
 * [`imdong/flarum-ext-visible-to-op-only`](https://github.com/imdong/flarum-ext-visible-to-op-only)
 * [`justoverclock/newsletter`](https://github.com/justoverclockl/newsletter)
 * [`justoverclock/related-discussions`](https://flarum.org/extension/justoverclock/related-discussions)
@@ -40,6 +44,7 @@ CHANGELOG
 * [`kilowhat/flarum-ext-formulaire`](https://flarum.org/extension/kilowhat/flarum-ext-formulaire)
 * [`kilowhat/flarum-ext-rich-embeds`](https://flarum.org/extension/kilowhat/flarum-ext-rich-embeds)
 * [`kilowhat/flarum-ext-wordpress`](https://flarum.org/extension/kilowhat/flarum-ext-wordpress)
+* [`litalino/flarum-more-bbcode`](https://github.com/Litalino/flarum-more-bbcode)
 * [`spookygames/flarum-ext-auth-keycloak`](https://github.com/spookygames/flarum-ext-auth-keycloak)
 * [`ziiven/flarum-money-leaderboard`](https://github.com/Ziiven/flarum-money-leaderboard)
 
