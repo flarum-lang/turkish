@@ -4,4 +4,46 @@
 
 justoverclock-profile-stories:
   admin:
+    permission:
+      createStory: 'Yeni hikaye oluştur'
+      deleteStory: 'Hikayeleri sil'
+      editStory: 'Hikayeleri düzenle'
+      viewStory: 'Tüm hikayeleri görüntüle'
     uploadLabel: 'Kullanıcı hikayeleri sayfası için banner yükle'
+    uploadLabelHelp: 'Görselin en az 1920px genişliğinde olması gerektiğini unutmayın'
+  forum:
+    StoryModalTitle: Hikayesi
+    createStory: 'Hikaye oluştur'
+    editStoryModal: 'Hikayeyi düzenle'
+    editStoryModalBtn: Onayla
+    globalStories: 'Kullanıcıların hikayeleri'
+    globalStoriesDescription: 'Bu bölüm, kullanıcılarımız tarafından kazanılan tüm hikayeleri içerir!'
+    globalStoriesEmpty: 'Henüz bir hikaye yok.'
+    globalStoriesTitle: 'Kullanıcı hikayeleri'
+    heroTitle: Hikayeleri
+    nextPage: sonraki
+    nextStepBtn: 'sonraki adım'
+    notifications:
+      newStory: 'Yeni bir profil hikayeniz var!'
+    prevPage: önceki
+    previousStepBtn: 'önceki adım'
+    saveBtn: Kaydet
+    stories: Hikayeler
+    stories-count: ' {count, plural, one { {count} hikaye} other {{count} hikaye}}'
+    storyBtnTextInput: 'Düğme Metni'
+    storyContentCta: 'düğme metni'
+    storyContentLink: Bağlantı
+    storyContentText: 'Hikayenin tamamı... (Metin veya HTML)'
+    storyCta: 'Düğme metni'
+    storyIcon: 'fas fa-user'
+    storyIconInput: 'Bağlantı düğmesi'
+    storyImage: 'Hikaye görsel bağlantısı (tavsiye edilen boyut 500x300)'
+    storyImgInput: Görsel
+    storyLinkButtonInput: 'Bağlantı düğmesi'
+    storyLinkInput: Bağlantı
+    storyTextInput: 'Hikaye metni'
+    storyTitle: 'Hikaye başlığı (kısa)...'
+    storyTitleInput: 'Hikaye başlığı'
+    successDelete: 'Hikaye başarıyla silindi!'
+    successEdited: 'Hikaye başarıyla değiştirildi!'
+    youDontHavePermission: 'Yeni hikaye oluşturma izniniz yok!'
