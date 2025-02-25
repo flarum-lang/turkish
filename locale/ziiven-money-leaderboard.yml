@@ -7,14 +7,18 @@ ziven-money-leaderboard:
     permission:
       allow_view_leaderboard: 'Skor tablosunu görüntülemeye izin ver'
     settings:
+      leaderboard-additional-info: 'Ek bilgi'
+      leaderboard-additional-info-help: 'Sıralamanın başında ek bilgi görüntüler. Paragrafı gizlemek için boş bırakın.'
       leaderboard-entry-position: 'Skor Tahtası girdi konumu'
       leaderboard-entry-sideNav: 'Yan menü'
       leaderboard-entry-topRightMenu: 'Sağ üst menü'
+      leaderboard-hide-money-text: 'Kullanıcı adından sonra para birimini gizle'
       leaderboard-icon: 'Skor Tahtası simgesi'
       leaderboard-icon-help: '<code>fas fa-</code> öneki dahil herhangi bir FontAwesome simge sınıfının adını girin.'
       leaderboard-init-load-count: 'İlk yük sayısı'
       leaderboard-load-more-count: 'Daha fazla sayı yükle'
       leaderboard-max-load-count: 'Maksimum yük sayısı'
+      leaderboard-slug: 'Adres Kısa Adı'
   forum:
     leaderboard-list-empty: 'İçerik yok'
     leaderboard-list-money: 'Sahip Olduğu Para'

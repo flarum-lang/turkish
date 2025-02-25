@@ -11,9 +11,11 @@ acpl-lscache:
     clearing_cache_listener_label: 'Flarum Önbelleği Temizlendiğinde LSCache''yi Temizle'
     drop_qs_help: "Önbelleğe alırken <code>fbclid</code> veya <code>utm*</code> gibi belirli sorgu dizelerini bırakmak için bu özelliği kullanın. Bu, izleme için kullanılan ancak sayfa içeriğini etkilemeyen UTM kodları gibi \"önemsiz\" sorgu dizelerine sahip sayfaların gereksiz önbelleğe alınmasını önler. Bu, LSWS v5.2.3 veya daha yenisini gerektirir. Her satıra bir tane düşecek sorgu dizelerini listeleyin. <a>Sorgu dizelerini bırakma hakkında daha fazla bilgi edinin</a>.<br></br> \n⚠️ Bu ayar, .htaccess dosyasını değiştirir.\n"
     drop_qs_label: 'Sorgu Dizelerini Bırak'
+    permissions:
+      purge: '=> acpl-lscache.ref.purge_cache'
     public_cache_ttl_help: 'Genel sayfaların saniye cinsinden ne kadar süreyle önbelleğe alınması gerektiğini tanımlayın. Varsayılan değer 604800 saniyedir (bir hafta).'
     public_cache_ttl_label: 'Varsayılan Genel Önbellek TTL'
-    purge_all: 'Tüm LSCache''i Temizle'
+    purge_all: '=> acpl-lscache.ref.purge_cache'
     purge_all_success: 'LiteSpeed Web Sunucusuna tüm LSCache girişlerini temizlemesi bildirildi'
     purge_on_discussion_update_help: 'Bir tartışma güncellendiğinde temizlemek istediğiniz URL''leri veya önbellek etiketlerini, her satıra bir tane gelecek şekilde girin. URL <code>/</code> ile başlamalıdır, ör. <code>/rankings</code> ve önbellek Etiketi <code>tag=</code> ile başlamalıdır, ör. <code>tag=sıralamalar</code>. Birden fazla rota için, .htaccess''e rotaları etiketleyen normal ifadeli bir kural eklemek ve buraya yalnızca bu etiketi girmek daha hızlıdır. <a>Daha fazla bilgi edinin</a>. Varsayılan olarak ana sayfanın ve güncellenen tartışmaların önbelleği temizlenir.'
     purge_on_discussion_update_label: 'Tartışma Güncellemesinde URL''leri temizle veya Etiketleri önbelleğe al'
@@ -21,3 +23,11 @@ acpl-lscache:
     serve_stale_label: 'Eski İçeriği Sunun'
     status_codes_cache_help: 'Bir HTTP durum kodu ve o sayfanın önbelleğe alınması için gereken saniye sayısını boşlukla ayırarak belirtin. Satır başına bir tane.'
     status_codes_cache_label: 'Varsayılan HTTP Durum Kodu Sayfası TTL'
+  forum:
+    purge:
+      discussion: '=> acpl-lscache.ref.purge_cache'
+  lib:
+    purge_all_success: 'LiteSpeed Sunucusuna tüm LSCache girişlerini temizlemesi için bildirim gönderildi.'
+    purge_success: 'LiteSpeed Sunucusuna LSCache girişlerini temizlemesi için bildirim gönderildi.'
+  ref:
+    purge_cache: 'LSCache''yi Temizle'

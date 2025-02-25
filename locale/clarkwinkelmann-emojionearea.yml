@@ -5,6 +5,7 @@
 clarkwinkelmann-emojionearea:
   admin:
     settings:
+      closeOnPick: 'Emoji seçildiğinde seçiciyi kapat'
       enableRecent: 'Son kullanılanları etkinleştir'
       enableSearch: 'Aramayı etkinleştir'
       enableTones: 'Tonları etkinleştir'
@@ -12,5 +13,16 @@ clarkwinkelmann-emojionearea:
       hideFlarumButton: 'Flarum''un ifade düğmesini gizle'
       searchPosition: 'Arama ve tonları en alta taşı'
   forum:
+    filters:
+      activity: Aktivite
+      animals_nature: 'Hayvanlar & Doğa'
+      flags: Bayraklar
+      food_drink: 'Yiyecek & İçecek'
+      objects: Nesneler
+      recent: Yakın
+      smileys_people: 'Yüzler & İnsanlar'
+      symbols: Semboller
+      tones: 'Cilt Tonları'
+      travel_places: 'Seyahat & Yerler'
     picker_button: 'İfade Seçici'
     search_placeholder: Ara...

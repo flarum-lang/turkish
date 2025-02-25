@@ -11,6 +11,7 @@ flarum-ext-auth-keycloak:
       delegate_avatars_label: 'Temsilci avatarları'
       encryption_algorithm_label: 'Şifreleme algoritması'
       encryption_key_label: 'Şifreleme anahtarı (veya sertifika)'
+      keycloak_version_label: 'Keycloak sürümü'
       realm_label: Realm
       role_mapping_label: 'Rolden gruba eşleme'
       server_url_label: 'Sunucu URL''si'

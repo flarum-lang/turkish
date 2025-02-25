@@ -96,9 +96,39 @@ kilowhat-rich-embeds:
         pull:
           stats:
             commentCount: Yorumlar
+            commitCount: Commits
+            createdAt: 'Oluşturulma tarihi'
             reviewCount: İncelemeler
           type: 'Çekme isteği'
+        repo:
+          stats:
+            forkCount: Çatallar
+            openIssueCount: 'Açık sorunlar'
+            stargazerCount: Yıldızlar
+            subscriberCount: Gözlemciler
+          type:
+            private: 'Özel depo'
+            public: 'Herkese açık depo'
         siteName: GitHub
+      googledrive:
+        file:
+          stats:
+            createdTime: 'Oluşturulma tarihi'
+            modifiedTime: 'Düzenlenme tarihi'
+            size: 'Dosya boyutu'
+          thumbnailAlt: 'Google Drive dosya önizlemesi'
+          type: Dosya
+        siteName: 'Google Drive'
+      youtube:
+        siteName: Youtube
+        video:
+          stats:
+            commentCount: Yorumlar
+            likeCount: Beğeniler
+            publishedAt: 'Yayınlanma tarihi'
+            viewCount: Görüntülenmeler
+          thumbnailAlt: 'Video küçük resmi'
+          type: Video
     error:
       blacklistedUrl: 'URL {url}, yerleştirme için beyaz listeye alınmadı.'
       invalidUrl: 'URL {url} geçerli değil.'

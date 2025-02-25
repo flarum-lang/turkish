@@ -12,3 +12,10 @@ glowingblue-localizd:
       help: 'Bu seçenek, <b>Localizd</b> + <a>Linguist</a> aracılığıyla çok dillidir.'
       modal_title: 'Linguist ile çeviriler ekleyin'
       translate: Çevir
+  forum:
+    errors:
+      causes: 'Bu, aşağıdaki sebeplerden bir veya birkaçı olabilir'
+      deleted: 'Sayfa silinmiş olabilir'
+      does_not_exist: 'Sayfa mevcut olmayabilir'
+      logged_in_only: 'Sayfa yalnızca giriş yapmış kullanıcılara açık olabilir'
+      no_permission: 'Bu sayfayı görüntüleme izniniz olmayabilir'
