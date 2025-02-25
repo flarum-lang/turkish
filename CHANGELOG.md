@@ -9,6 +9,7 @@ CHANGELOG
 
 * [`dalez/flarum-identityagent`](https://github.com/DellZHackintosh/flarum-identityagent)
 * [`justoverclock/profile-stories`](https://github.com/justoverclockl/profile-stories)
+* [`litalino/flarum-country-flags`](https://github.com/Litalino/flarum-country-flags)
 * [`madeyedeer/avatar-tools`](https://github.com/MadEyeDeer/avatar-tools)
 * [`mattoid/flarum-ext-store-auto-check-in`](https://github.com/Mattoids/flarum-ext-store-auto-check-in)
 * [`mattoid/flarum-ext-store-check-in`](https://github.com/Mattoids/flarum-ext-store-check-in)
@@ -24,6 +25,7 @@ CHANGELOG
 * [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache)
 * [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab)
 * [`afrux/online-users-widget`](https://github.com/afrux/online-users-widget)
+* [`blomstra/horizon`](https://github.com/blomstra/flarum-ext-horizon)
 * [`clarkwinkelmann/flarum-ext-emojionearea`](https://github.com/clarkwinkelmann/flarum-ext-emojionearea)
 * [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
 * [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
