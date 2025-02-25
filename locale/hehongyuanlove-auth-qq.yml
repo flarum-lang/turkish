@@ -9,5 +9,7 @@ hehongyuanlove-auth-qq:
       client_secret_label: 'App Secret'
       title: 'QQ Ayarları'
   forum:
+    buttons:
+      unlink: 'UnLink QQ'
     log_in:
       with_qq_button: QQ

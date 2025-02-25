@@ -5,8 +5,18 @@
 blomstra-horizon:
   admin:
     settings:
+      trim_completed: 'Tamamlanan İşleri Kes'
+      trim_completed_help: "Bu tablo, Horizon kontrol panelindeki tamamlanan işleri görüntüler.\n"
+      trim_failed: 'Başarısız İşleri Kes'
+      trim_failed_help: "Bu tablo, Horizon kontrol panelindeki başarısız işleri görüntüler.\n"
       trim_help: "Burada Horizon'un son ve başarısız işleri ne kadar süreyle (dakika cinsinden)\nsaklamasını istediğinizi yapılandırabilirsiniz. Genellikle, son işler bir saat\nboyunca saklanırken, tüm başarısız işler bir hafta boyunca saklanır.\n"
+      trim_monitored: 'İzlenen İşleri Kes'
+      trim_monitored_help: "Bu tablo, Horizon kontrol panelindeki izlenen işleri görüntüler.\n"
+      trim_pending: 'Bekleyen İşleri Kes'
+      trim_pending_help: "Bu tablo, Horizon kontrol panelindeki bekleyen işleri görüntüler.\n"
       trim_recent: 'Son İşleri Kes'
+      trim_recent_failed: 'Son Başarısız İşleri Kes'
+      trim_recent_failed_help: "Bu tablo, Horizon kontrol panelindeki son başarısız işleri görüntüler.\n"
       trim_recent_help: "Bu tablo, Horizon kontrol panelinde son yapılan işleri görüntüler.\n"
       trim_title: 'Kırpma Ayarları'
     stats:
@@ -18,6 +28,13 @@ blomstra-horizon:
         max-runtime: 'Maksimum Çalışma Süresi'
         max-throughput: 'Maksimum Verim'
         max-wait-time: 'Maksimum Bekleme Süresi'
+        redis-cpu-sys: 'Redis CPU Sistem'
+        redis-cpu-user: 'Redis CPU Kullanıcı'
+        redis-max-memory: 'Redis Maks Bellek'
+        redis-memory-policy: 'Redis Bellek Politikası'
+        redis-memory-policy-tooltip: "Bellek politikası, Redis'in maxmemory sınırına ulaşıldığında neyi\nkaldıracağına nasıl karar vereceğini belirler. Varsayılanı `noeviction`:\nBellek sınırı aşıldığında yeni değerler kaydedilmez. Belgeler için tıklayın.\n"
+        redis-peak-memory: 'Redis Bellek Zirvesi'
+        redis-used-memory: 'Kullanılan Redis Belleği'
         status:
           inactive: 'Etkin Olmayanlar'
           label: Durum
