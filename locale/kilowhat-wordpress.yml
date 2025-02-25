@@ -25,13 +25,19 @@ kilowhat-wordpress:
       unsaved-changes: 'Kaydedilmeyen değişiklikler var'
       validation-errors: 'Gönderinizde bazı hatalar bulduk'
     settings:
-      api_key: 'Flarum API Anahtarı'
+      api_key: 'Paylaşılan API Anahtarı'
+      api_key_reset: 'Yeni API Anahtarı Oluştur'
+      api_key_reset_confirm: "Gerçekten yeni bir Paylaşımlı API Anahtarı oluşturmak istiyor musunuz? Eski anahtar çalışmayı durduracak ve WordPress eklenti ayarlarında manuel olarak güncellenmesi gerekecek.\n"
       comment_tag: 'Yeni yorum konuları için etiketleyin'
       comment_tag_custom: 'Özel değerler'
       comment_tag_custom_help: 'Etiket kimliklerinin virgülle ayrılmış listesi'
       comment_tag_none: 'Etiket atama'
       cookie_domain: 'Çerez Alan Adı'
       cookie_domain_help: "Bu ayar yalnızca \"Cookie\" giriş mekanizması kullanıldığında geçerlidir. Bu değeri yalnızca her iki site de farklı alt alan adlarında ise ayarlamanız gerekir.\n"
+      default_actor: 'Varsayılan Aktör'
+      default_actor_help: "Bu Flarum kullanıcısı tüm askıya alma, kilitleme, silme eylemlerinin aktörü olarak atanacaktır. Ayrıca, \"SSO'dan tartışma yazarı ata\" etkinleştirilmediği sürece tartışmaların ve gönderilerin sahibi olarak kullanılacaktır.\n"
+      default_actor_placeholder_invalid: 'Olası geçersiz değer: {value} - Bir kullanıcıyı aramak için yazın...'
+      default_actor_placeholder_search: 'Bir kullanıcıyı aramak için yazın...'
       enable_comments: 'Yorum entegrasyonunu etkinleştir'
       enable_sso: 'SSO Entegrasyonunu Etkinleştir'
       excerpt_html_nodes: 'İçerik alıntısının uzunluğu (HTML etiketleri sayısı olarak)'
@@ -39,6 +45,14 @@ kilowhat-wordpress:
       excerpt_length: 'İçerik alıntısının uzunluğu (karakter olarak)'
       force_username_choice: 'Kullanıcıların ilk ziyaretlerinde kullanıcı adlarını seçmelerini sağlayın'
       force_username_choice_help: 'Yukarıda seçilen kuralla varsayılan bir değer sağlanacaktır.'
+      iframe_redirect_delay: 'Iframe Yönlendirme Gecikmesi (milisaniye)'
+      iframe_redirect_delay_help: "Bu ayar yalnızca \"Gizli Iframe\" oturum açma mekanizması kullanılırken kullanılır. İlk Flarum sayfası yüklendikten sonra uzantının kullanıcı etkileşimi olmadan oturum açmayı ve sayfa yenilemeyi denemeye devam edeceği süre. Wordpress'ten yanıt almak bu değerden daha uzun sürerse, kullanıcı yalnızca oturum açma ve yenileme önerisi alır. Kullanıcıya otomatik olarak yenileme yerine her zaman oturum açmayı önermek için sıfıra ayarlayın.\n"
+      login_method: 'Küresel Giriş Mekanizması'
+      login_method_help: "\"Çerez\" yalnızca Wordpress ve Flarum üst düzey bir etki alanını paylaşıyorsa çalışır. \"Yönlendirme\", kullanıcı forumu ziyaret etmeyi düşünmese bile Wordpress'ten her oturum açma işleminden sonra bir yönlendirmeye neden olur. \"Gizli Iframe\" yalnızca Flarum'u ziyaret ederken bağlanır ve ilk sayfa yüklemesinde bir sayfa yenilemesine neden olur. Aşağıdaki \"Iframe gecikmesi\" ile birleştirildiğinde bu yalnızca talep üzerine oturum açmak için kullanılabilir.\n"
+      login_method_options:
+        cookie: Çerez
+        iframe: 'Gizli Iframe'
+        redirect: Yönlendirme
       post_delete: 'Bir Wordpress gönderisi kalıcı olarak silindiğinde eylem'
       post_delete_options:
         delete: 'Flarum''da tartışmayı kalıcı olarak sil'
@@ -51,9 +65,11 @@ kilowhat-wordpress:
         hide: 'Flarum''da tartışmayı gizle'
         ignore: 'Yoksay (tartışmayı Yorumlara İzin Ver''e göre kilitle)'
         lock: 'Flarum''da tartışmayı kilitle'
+      report_http_errors: 'Yapılandırılmış Flarum muhabirlerine WordPress REST API HTTP hatalarını gönderin'
+      report_http_errors_help: "Bu ayarın değeri ne olursa olsun, istekler her zaman varsayılan günlükçüye metin olarak kaydedilir. Bu seçenek, API hatalarının yığın izleriyle istisnalar olarak Sentry'ye veya diğer izleme araçlarına gönderilmesini istiyorsanız yararlıdır.\n"
       section_comments_intro: "Bu özellik, WordPress yorumlarını bir Flarum iframe ile değiştirir. Ziyaretçiler artık yorum yapamaz. Tartışmalar yalnızca WordPress'te yorumların etkinleştirildiği gönderiler için oluşturulur. Yorumları etkinleştirmek veya devre dışı bırakmak, Flarum'un tartışma kilidi ile senkronize edilir. Bu özelliği etkinleştirdiğinizde blogunuz zaten gönderiler içeriyorsa, Flarum tartışmasının oluşturulabilmesi için her makale için yorumları yeniden etkinleştirmeniz ve devre dışı bırakmanız gerekir.\n"
       section_general_intro: 'Uzantının çalışmasını için gereken temel ayarlar.'
-      section_sso_intro: "Bu özellik, WordPress kullanıcılarını Flarum ile sorunsuz bir şekilde bağlayacaktır. Onlar için otomatik olarak bir hesap oluşturacak ve WordPress ile senkronize edecektir. Flarum'da mevcut bir hesap varsa e-posta üzerinden otomatik eşleştirir. Flarum'da bir kullanıcıyı silerseniz, WordPress üzerinden oturum açarsa tekrar hesap oluşturur. Bu nedenle hesap silmek yerine askıya almayı deneyebilirsiniz.\n"
+      section_sso_intro: "Bu özellik, Wordpress kullanıcılarını Flarum ile sorunsuz bir şekilde bağlayacaktır. Onlar için otomatik olarak bir hesap oluşturacak ve Wordpress ile senkronize edecektir. Flarum'da mevcut bir hesap varsa e-posta üzerinden otomatik eşleştirir. Flarum'da bir kullanıcıyı silerseniz, Wordpress üzerinden oturum açarsa tekrar hesap oluşturur. Bu nedenle hesap silmek yerine askıya almayı deneyebilirsiniz.\n"
       summary_as_last_post: 'Özet gönderisini yeni tartışmaların son gönderisi olarak ayarlayın'
       summary_as_last_post_help: "Bu, Wordpress gönderisi yayınlanır yayınlanmaz yeni yorum tartışmalarının Flarum'daki tartışma listesinin en üstüne çıkmasını sağlar. Varsayılan olarak, tartışma yalnızca ilk kullanıcı bir yorum yazdığında en üste çıkar.\n"
       use_post_date: 'Tartışma oluşturma tarihi olarak Wordpress gönderi tarihini kullanın'
@@ -72,9 +88,11 @@ kilowhat-wordpress:
         user_login: 'WordPress''den Gelenler için Kullanıcı Adı'
       welcome_message: 'Tanıtım mesajı'
       welcome_message_help: 'Bu mesaj, kullanıcı forumu ilk ziyaret ettiğinde, etkinleştirilmişse kullanıcı adı seçimiyle birlikte gösterilecektir.'
+      wordpress_login_full_page: 'Wordpress oturum açmayı açılır pencere yerine bir sayfa olarak açın'
+      wordpress_login_full_page_help: "Varsayılan olarak, Flarum'dan giriş bağlantısına tıklamak, diğer OAuth yöntemleri gibi bir açılır pencerede Wordpress giriş sayfasını açacaktır. Bu ayar etkinleştirildiğinde, geçerli tarayıcı sekmesi Wordpress giriş sayfasına gidecek ve sonrasında Flarum'a yönlendirilecektir.\n"
       wordpress_login_only: 'Yalnızca WordPress ile girişe izin ver'
       wordpress_login_only_help: "Flarum girişini devre dışı bırakır ve giriş gerektiğinde doğrudan WordPress giriş penceresini açar. Bu, \"Kayıt Olma\" iznini otomatik olarak Kapalı olarak ayarlayacaktır.\n"
-      wordpress_login_path: 'WordPress Giriş Yolu'
+      wordpress_login_path: 'Wordpress giriş yolu'
       wordpress_login_path_help: 'Yalnızca giriş bağlantısını bir eklenti ile yeniden tanımladıysanız gereklidir'
       wordpress_url: 'WordPress Bağlantısı'
       wordpress_username: 'WordPress Yönetici Kullanıcı Adı'
