@@ -9,6 +9,9 @@ maicol07-oidc-client:
       callback_subtitle: 'Bunlar, müşteri yetkilendirme kodunu almak ve ilgili seçenek etkinleştirilmişse sağlayıcıdan çıkış yapmak için sağlayıcınıza kaydetmeniz gereken geri arama URI''larıdır.'
       callback_title: 'Geri arama URI''leri (Callback URIs)'
       client:
+        id: 'Client ID'
+        secret: 'Client secret'
+        subtitle: "Buraya, OpenID Connect sağlayıcınız tarafından verilen istemci bilgilerinizi ekleyin. Daha fazla yardım için belgeleri kontrol edin.\n"
         title: 'İstemci ayarları'
       client_id: 'Client ID'
       client_secret: 'Client secret'

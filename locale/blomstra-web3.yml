@@ -6,7 +6,52 @@ blomstra-web3:
   admin:
     settings:
       allow-sign-up: 'Web3 ile Kaydolmaya İzin Ver'
+      ffi-disabled: "PHP FFI uzantısı etkinleştirilmemiş. Dotsama cüzdanları çalışmayacaktır.\n"
+      infura-project-id: 'Infura Proje ID'
+      infura-project-id-help: "Infura Proje ID'niz. Bunu https://infura.io adresinden alabilirsiniz. Şu cüzdanlar için gereklidir: Coinbase, WalletConnect.\n"
+      no-email-signup-message: "E-posta adresi ile kaydolmayan kullanıcılar için gösterilecek mesaj (devre dışı bırakmak için boş bırakın).\n"
+      no-email-signup-message-help: 'E-posta düzenleme sayfasına bağlantı vermek için [link]metin[/link] kullanın.'
       prioritize-web3-auth-modals: 'Web3 ile oturum aç/Varsayılan olarak kaydol'
+      signup-with-email: 'Eposta ile Kaydol'
   forum:
     connect-wallet-modal:
       could-not-sign: 'Seçilen hesaptaki kullancı adına kriptografik olarak imzalanamadı.'
+      evm-wallets: 'EVM Cüzdanları'
+      goback: Geri
+      polkadot-wallets: '=> blomstra-web3.ref.polkadot-wallets'
+      signature-invalid: 'İmza geçersiz.'
+      title: 'Cüzdan Bağla'
+    evm-connect-wallet-modal:
+      bind: '=> blomstra-web3.ref.bind'
+      disconnect: '=> blomstra-web3.ref.disconnect'
+      disconnect-and-unbind: 'Bağlantıyı Kes ve Kaldır'
+      select: '=> blomstra-web3.ref.select'
+      title: 'EVM Cüzdanları'
+    log-in:
+      basic-login-link: 'Temel Girişe Geç'
+      select-wallet-account: '=> blomstra-web3.ref.select-wallet-account'
+      with-wallet: 'Web3 ile giriş yapın'
+    polkadot-connect-wallet-modal:
+      attach_address: '=> blomstra-web3.ref.bind'
+      connection-request-rejected: 'Bağlantı isteği reddedildi'
+      disconnect: '=> blomstra-web3.ref.disconnect'
+      goback: 'Cüzdanlara Geri Dön'
+      select: '=> blomstra-web3.ref.select'
+      title: '=> blomstra-web3.ref.polkadot-wallets'
+      unattach_address: '=> blomstra-web3.ref.unbind'
+    settings:
+      unbind: '=> blomstra-web3.ref.unbind'
+      unbind_confirm: 'Bu adresin bağlantısını kaldırmak istediğinizden emin misiniz?'
+      wallet-connect-button: 'Cüzdan Bağla'
+      wallets_heading: Cüzdanlar
+    sign-up:
+      basic-signup-link: 'Temel Kayıta Geç'
+      select-wallet-account: '=> blomstra-web3.ref.select-wallet-account'
+      with-wallet: 'Web3 ile kayıt ol'
+  ref:
+    bind: 'Adresi bağla'
+    disconnect: 'Bağlantıyı Kes'
+    polkadot-wallets: 'Polkadot Cüzdanları'
+    select: 'Adres seç'
+    select-wallet-account: 'Cüzdan hesabını seç {rightArrow}'
+    unbind: 'Adresin bağını hesaptan kaldır'

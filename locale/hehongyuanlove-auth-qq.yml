@@ -10,6 +10,19 @@ hehongyuanlove-auth-qq:
       title: 'QQ Ayarları'
   forum:
     buttons:
-      unlink: 'UnLink QQ'
+      link: 'QQ Bağla'
+      login: '=> hehongyuanlove-auth-qq.forum.log_in.with_qq_button'
+      unlink: 'QQ Kaldır'
     log_in:
       with_qq_button: QQ
+    modals:
+      link:
+        title: 'QQ Bağla'
+      unlink:
+        buttons:
+          cancel: İptal
+          confirm: Kaldır
+        info:
+          confirm: 'QQ hesabınızın bağını kaldırmak istediğinizden emin misiniz?'
+          no_providers: 'Başka bir giriş yönteminiz yok. Lütfen önce hesap şifrenizi sıfırlayın.'
+        title: 'QQ Kaldır'

@@ -9,6 +9,24 @@ blomstra-s3-assets:
       configured_by_environment: 'Paket ayarlarınız önceden yapılandırılmış, burada görülecek bir şey yok.'
       s3-compatible-section: 'Bu ayarlar yalnızca S3 uyumlu paketler için gereklidir'
       s3-compatible-section-help: 'AWS S3 kullanıyorsanız bu ayarları boş bırakın'
+      s3acl:
+        help: 'Bu bucket''a ait ACL''yi belirtin'
+        label: ACL
+      s3bucket:
+        help: 'S3 bucket'
+        label: Bucket
+      s3endpoint:
+        help: 'S3 Endpoint'
+        label: Endpoint
       s3key:
         help: yardım
         label: Anahtar
+      s3region:
+        help: 'S3 bölge'
+        label: Bölge
+      s3secret:
+        help: 'S3 access secret'
+        label: Secret
+      s3url:
+        help: 'S3 Bağlantı'
+        label: Bağlantı
