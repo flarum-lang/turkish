@@ -100,6 +100,10 @@ ianm-translate:
       post:
         title: 'Gönderi çevirilerini yönet'
       quiz:
+        answer-additional: 'Doğru cevap açıklaması'
+        option: 'Yanıt {number}'
+        question: Soru
+        subtitle: 'Alt başlık'
         title: 'Test çevirilerini yönet'
       save-changes: '=> core.ref.save_changes'
       translations-label: Çeviriler
@@ -120,5 +124,6 @@ ianm-translate:
       deepl: DeepL
       google-cloud: 'Google Cloud Translate'
       google-free: 'Google Translate'
+      libre: LibreTranslate
     settings:
       api-key: 'API Anahtarı'

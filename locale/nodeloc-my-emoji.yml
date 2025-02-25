@@ -4,5 +4,73 @@
 
 nodeloc-emoji:
   admin:
+    my_emoji_section:
+      edit_emoji:
+        delete_emoji_button: 'Emojiyi sil'
+        delete_emoji_confirmation: 'Bu emojiyi silmek istediğinizden emin misiniz?'
+        emoji_category_label: 'Kategori kodu'
+        emoji_title_label: 'Emoji Başlığı'
+        modal_title: 'Emoji Ekle'
+        path_or_url_label: 'Klasör yolu veya Bağlantı'
+        saved_message: '=> core.admin.settings.saved_message'
+        submit_button: '=> core.ref.save_changes'
+        text_to_category_name_label: 'Kategori adı'
+        text_to_replace_label: 'Değiştirilecek Metin'
+      emoji_list:
+        load_more_button: '=> core.forum.post_stream.load_more_button'
+      export_json_button: 'JSON''u dışa aktar'
+      import_json_button: 'JSON''u içe aktar'
+      import_myemoji_message: 'Bu yalnızca emoji yapılandırmalarını içe aktaracaktır. Emoji resimlerini manuel olarak yüklemeniz gerekir.'
     settings:
+      auto_hide_label: 'Otomatik gizle'
+      auto_hide_text: 'Bir emoji seçildiğinde seçiciyi gizle.'
+      category_settings_heading: 'Kategori Ayarları'
+      emoji_data_label: 'Emoji verileri'
       emoji_settings_heading: 'Emoji Ayarları'
+      emoji_style_label: 'Emoji biçimi'
+      emoji_version_label: 'Emoji versiyonu'
+      emoji_version_text: 'Kullanılacak Emoji spesifikasyonunun sürümü.'
+      general_ui_settings_heading: 'Genel UI Ayarları'
+      initial_category_label: 'Başlangıç kategorisi'
+      initial_category_text: 'Varsayılan olarak, seçici Gülücükler & Duygu kategorisini göstererek başlar.'
+      recents_count_label: 'Son kullanılan emoji sayısı'
+      recents_count_text: 'Kaydedilecek son myemoji sayısı.'
+      show_category_buttons_label: 'Kategori düğmelerini göster'
+      show_preview_label: 'Önizleme bölümünü göster'
+      show_recents_label: 'En son kullanılan myemoji''yi göster (ve kaydet)'
+      show_search_label: 'Arama alanını göster'
+      show_variants_label: 'Varyantları göster'
+      show_variants_text: 'Bazı myemoji''lerin ten rengi varyantları vardır. Seçicide varyantları olan bir emoji seçildiğinde, kullanıcının istediği varyantı seçebilmesi için bir varyant açılır penceresi görünür.'
+      specify_categories_label: 'Kategorileri belirtin'
+      specify_categories_text: 'Burada bir kategori listesi belirleyebilirsiniz ve seçici yalnızca bu kategorileri gösterecektir.'
+  forum:
+    composer:
+      emoji_tooltip: 'Emoji ekle'
+    emoji-button:
+      categories:
+        activities: '=> nodeloc-emoji.ref.emoji_categories.activities'
+        animals: '=> nodeloc-emoji.ref.emoji_categories.animals'
+        custom: '=> nodeloc-emoji.ref.emoji_categories.custom'
+        flags: '=> nodeloc-emoji.ref.emoji_categories.flags'
+        food: '=> nodeloc-emoji.ref.emoji_categories.food'
+        objects: '=> nodeloc-emoji.ref.emoji_categories.objects'
+        people: '=> nodeloc-emoji.ref.emoji_categories.people'
+        recents: '=> nodeloc-emoji.ref.emoji_categories.recents'
+        smileys: '=> nodeloc-emoji.ref.emoji_categories.smileys'
+        symbols: '=> nodeloc-emoji.ref.emoji_categories.symbols'
+        travel: '=> nodeloc-emoji.ref.emoji_categories.travel'
+      no_myemoji_found_message: 'Hiçbir myemoji bulunamadı'
+      search_placeholder: 'Emojileri ara'
+  ref:
+    emoji_categories:
+      activities: Aktiviteler
+      animals: 'Hayvanlar & Doğa'
+      custom: Özel
+      flags: Bayraklar
+      food: 'Yiyecek & İçecekler'
+      objects: Nesneler
+      people: 'İnsanlar & Vücut'
+      recents: 'Son Emojiler'
+      smileys: 'Gülücük & Duygular'
+      symbols: Semboller
+      travel: 'Seyahat & Yerler'
