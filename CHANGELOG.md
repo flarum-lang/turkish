@@ -7,9 +7,11 @@ CHANGELOG
 
 **Yeni uzantılar için destek eklendi**:
 
+* [`blt950/oauth-generic`](https://github.com/blt950/flarum-ext-oauth-generic)
 * [`dalez/flarum-identityagent`](https://github.com/DellZHackintosh/flarum-identityagent)
 * [`ffans/geetest`](https://github.com/FFans/geetest)
 * [`foskym/flarum-issue-tracking-youtrack`](https://github.com/FoskyM/flarum-issue-tracking-youtrack)
+* [`foskym/flarum-oauth-center`](https://github.com/FoskyM/flarum-oauth-center)
 * [`gbcl/oauth-logto`](https://github.com/GBCLStudio/flarum-oauth-logto)
 * [`gtdxyz/flarum-ext-login`](https://github.com/daocatt/flarum-ext-login)
 * [`justoverclock/profile-stories`](https://github.com/justoverclockl/profile-stories)
@@ -21,12 +23,16 @@ CHANGELOG
 * [`mattoid/flarum-ext-store-check-in`](https://github.com/Mattoids/flarum-ext-store-check-in)
 * [`michaelbelgium/flarum-umami`](https://github.com/MichaelBelgium/flarum-umami)
 * [`nodeloc/flarum-ext-my-emoji`](https://github.com/nodeloc/flarum-ext-my-emoji)
+* [`nodeloc/flarum-ext-referral`](https://github.com/nodeloc/flarum-ext-referral)
+* [`nodeloc/whisper`](https://github.com/nodeloc/whisper)
+* [`ordinaryjellyfish/automod`](https://flarum.org/extension/ordinaryjellyfish/automod)
 * [`sas_sam/flarum-regrole`](https://github.com/SasSam/flarum-regrole)
 * [`tohsakarat/post-camera`](https://github.com/tohsakrat/post-camera)
 * [`umhelper/oauth-clerk`](https://github.com/UMHelper/flarum-ext-oauth-clerk)
 * [`walsgit/recycle-bin`](https://github.com/WalsGit/recycle-bin)
 * [`xypp/sticky-card`](https://github.com/zxy19/flarum-sticky-card)
 * [`xypp/store-auto-checkin`](https://github.com/zxy19/flarum-store-auto-checkin)
+* [`xypp/store-doorman`](https://github.com/zxy19/flarum-store-doorman)
 * [`xypp/store-group`](https://github.com/zxy19/flarum-store-group)
 
 
@@ -58,6 +64,7 @@ CHANGELOG
 * [`litalino/flarum-more-bbcode`](https://github.com/Litalino/flarum-more-bbcode)
 * [`maicol07/flarum-oidc-client`](https://flarum.org/extension/maicol07/flarum-oidc-client)
 * [`spookygames/flarum-ext-auth-keycloak`](https://github.com/spookygames/flarum-ext-auth-keycloak)
+* [`vlssu/flarum-cravatar`](https://github.com/vlssu/flarum-cravatar)
 * [`ziiven/flarum-decoration-store`](https://flarum.org/extension/ziiven/flarum-decoration-store)
 * [`ziiven/flarum-money-leaderboard`](https://github.com/Ziiven/flarum-money-leaderboard)
 
