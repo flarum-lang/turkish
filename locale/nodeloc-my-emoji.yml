@@ -19,15 +19,28 @@ nodeloc-emoji:
       emoji_list:
         load_more_button: '=> core.forum.post_stream.load_more_button'
       export_json_button: 'JSON''u dışa aktar'
+      heading_title: 'Özel Emojiler'
       import_json_button: 'JSON''u içe aktar'
       import_myemoji_message: 'Bu yalnızca emoji yapılandırmalarını içe aktaracaktır. Emoji resimlerini manuel olarak yüklemeniz gerekir.'
     settings:
       auto_hide_label: 'Otomatik gizle'
       auto_hide_text: 'Bir emoji seçildiğinde seçiciyi gizle.'
       category_settings_heading: 'Kategori Ayarları'
+      emoji_categories:
+        activities: '=> nodeloc-emoji.ref.emoji_categories.activities'
+        animals: '=> nodeloc-emoji.ref.emoji_categories.animals'
+        flags: '=> nodeloc-emoji.ref.emoji_categories.flags'
+        food: '=> nodeloc-emoji.ref.emoji_categories.food'
+        objects: '=> nodeloc-emoji.ref.emoji_categories.objects'
+        people: '=> nodeloc-emoji.ref.emoji_categories.people'
+        smileys: '=> nodeloc-emoji.ref.emoji_categories.smileys'
+        symbols: '=> nodeloc-emoji.ref.emoji_categories.symbols'
+        travel: '=> nodeloc-emoji.ref.emoji_categories.travel'
       emoji_data_label: 'Emoji verileri'
+      emoji_data_text: 'Bu genellikle çevrilmiş emoji adları sağlamak için kullanılır.'
       emoji_settings_heading: 'Emoji Ayarları'
       emoji_style_label: 'Emoji biçimi'
+      emoji_style_native_option: Yerel
       emoji_version_label: 'Emoji versiyonu'
       emoji_version_text: 'Kullanılacak Emoji spesifikasyonunun sürümü.'
       general_ui_settings_heading: 'Genel UI Ayarları'

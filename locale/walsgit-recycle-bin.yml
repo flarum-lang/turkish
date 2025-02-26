@@ -72,6 +72,7 @@ walsgit-recycle-bin:
       title: 'Gönderi metni'
     posts_bin: 'Gönderi Kutusu'
     restore_discussion:
+      confirmation: 'Bu tartışmayı geri yüklemek istediğinizden emin misiniz:'
       restore_button: 'Bu tartışmayı geri yükle'
       success: 'Tartışma başarıyla geri yüklendi'
       title: 'Tartışmayı geri yükle'

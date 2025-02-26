@@ -18,6 +18,21 @@ kilowhat-wordpress:
       title: 'Sağlık kontrolü'
     permissions:
       gambits: 'Wordpress Üçüncü-taraf hileleri (belgelere bakın)'
+    role-group-sync:
+      choose:
+        group: 'Bir grup seçin'
+        role: 'Wordpress Rolünü Seçin...'
+      custom:
+        group: Özel...
+        role: Özel...
+      delete: 'Kuralı sil'
+      head:
+        group: 'Flarum Grubu'
+        role: 'Wordpress Rolü'
+      role-loader:
+        error: 'Wordpress''ten rol listesini yüklerken bir sorun oluştu. Rol adlarını hala manuel olarak girebilirsiniz.'
+        loading: 'Wordpress''ten roller yükleniyor...'
+      selected-custom-group: Özel
     save-controls:
       no-unsaved-changes: 'Her şey kaydedildi'
       save: Kaydet
@@ -28,6 +43,8 @@ kilowhat-wordpress:
       api_key: 'Paylaşılan API Anahtarı'
       api_key_reset: 'Yeni API Anahtarı Oluştur'
       api_key_reset_confirm: "Gerçekten yeni bir Paylaşımlı API Anahtarı oluşturmak istiyor musunuz? Eski anahtar çalışmayı durduracak ve WordPress eklenti ayarlarında manuel olarak güncellenmesi gerekecek.\n"
+      comment_author_sync: 'Tartışma yazarını SSO''dan atayın'
+      comment_author_sync_help: 'Wordpress yazarı SSO aracılığıyla bir Flarum hesabı oluşturduysa, bu Flarum hesabı yorum tartışmasının sahibi olarak ayarlanacaktır.'
       comment_tag: 'Yeni yorum konuları için etiketleyin'
       comment_tag_custom: 'Özel değerler'
       comment_tag_custom_help: 'Etiket kimliklerinin virgülle ayrılmış listesi'
@@ -65,16 +82,20 @@ kilowhat-wordpress:
         hide: 'Flarum''da tartışmayı gizle'
         ignore: 'Yoksay (tartışmayı Yorumlara İzin Ver''e göre kilitle)'
         lock: 'Flarum''da tartışmayı kilitle'
+      post_thumbnail_list: 'Wordpress gönderi küçük resmini Flarum tartışma listesinde göster'
+      post_thumbnail_summary: 'Wordpress gönderisinin küçük resmini alıntının üstünde göster'
       report_http_errors: 'Yapılandırılmış Flarum muhabirlerine WordPress REST API HTTP hatalarını gönderin'
       report_http_errors_help: "Bu ayarın değeri ne olursa olsun, istekler her zaman varsayılan günlükçüye metin olarak kaydedilir. Bu seçenek, API hatalarının yığın izleriyle istisnalar olarak Sentry'ye veya diğer izleme araçlarına gönderilmesini istiyorsanız yararlıdır.\n"
-      section_comments_intro: "Bu özellik, WordPress yorumlarını bir Flarum iframe ile değiştirir. Ziyaretçiler artık yorum yapamaz. Tartışmalar yalnızca WordPress'te yorumların etkinleştirildiği gönderiler için oluşturulur. Yorumları etkinleştirmek veya devre dışı bırakmak, Flarum'un tartışma kilidi ile senkronize edilir. Bu özelliği etkinleştirdiğinizde blogunuz zaten gönderiler içeriyorsa, Flarum tartışmasının oluşturulabilmesi için her makale için yorumları yeniden etkinleştirmeniz ve devre dışı bırakmanız gerekir.\n"
+      role_group_sync: 'Rolden Gruba Senkronizasyon'
+      role_group_sync_help: "Burada seçilen gruplar, uzantı tarafından otomatik olarak kullanıcılara eklenecek ve kullanıcılardan kaldırılacak, bu nedenle asla manuel olarak atamadığınız ve diğer uzantılar tarafından da yönetilmeyen özel Flarum grupları kullanmak muhtemelen en iyisidir. Hem güvenlik nedenlerinden hem de yanlışlıkla kilitlenmediğinizden emin olmak için muhtemelen yönetici grubunu bu şekilde atamamalısınız. Bir role birden fazla grup atayabilir ve bir grup birden fazla role eşlenebilir. Flarum <a>İzinler sayfasında</a> ek Flarum grupları oluşturabilirsiniz.\n"
+      section_comments_intro: "Bu özellik, Wordpress yorumlarını bir Flarum iframe ile değiştirir. Ziyaretçiler artık yorum yapamaz. Tartışmalar yalnızca Wordpress'te yorumların etkinleştirildiği gönderiler için oluşturulur. Yorumları etkinleştirmek veya devre dışı bırakmak, Flarum'un tartışma kilidi ile senkronize edilir. Bu özelliği etkinleştirdiğinizde blogunuz zaten gönderiler içeriyorsa, Flarum tartışmasının oluşturulabilmesi için her makale için yorumları yeniden etkinleştirmeniz ve devre dışı bırakmanız gerekir.\n"
       section_general_intro: 'Uzantının çalışmasını için gereken temel ayarlar.'
       section_sso_intro: "Bu özellik, Wordpress kullanıcılarını Flarum ile sorunsuz bir şekilde bağlayacaktır. Onlar için otomatik olarak bir hesap oluşturacak ve Wordpress ile senkronize edecektir. Flarum'da mevcut bir hesap varsa e-posta üzerinden otomatik eşleştirir. Flarum'da bir kullanıcıyı silerseniz, Wordpress üzerinden oturum açarsa tekrar hesap oluşturur. Bu nedenle hesap silmek yerine askıya almayı deneyebilirsiniz.\n"
       summary_as_last_post: 'Özet gönderisini yeni tartışmaların son gönderisi olarak ayarlayın'
       summary_as_last_post_help: "Bu, Wordpress gönderisi yayınlanır yayınlanmaz yeni yorum tartışmalarının Flarum'daki tartışma listesinin en üstüne çıkmasını sağlar. Varsayılan olarak, tartışma yalnızca ilk kullanıcı bir yorum yazdığında en üste çıkar.\n"
       use_post_date: 'Tartışma oluşturma tarihi olarak Wordpress gönderi tarihini kullanın'
       use_post_date_help: "Varsayılan olarak Flarum tartışmaları, oluşturulma tarihi olarak geçerli saati kullanır. Bu seçenek, Wordpress gönderisinin de geçmiş bir tarihi varsa, geçmiş bir tarihle tartışmalar oluşturmaya izin verir.\n"
-      user_delete: 'WordPress''te bir kullanıcı silindiğinde eylem'
+      user_delete: 'Wordpress''te bir kullanıcı silindiğinde eylem'
       user_delete_desc: '"Sil"i seçerseniz, Flarum''daki içeriği değil, yalnızca kullanıcı silinir.'
       user_delete_options:
         delete: 'Flarum kullanıcısını sil'
@@ -83,15 +104,15 @@ kilowhat-wordpress:
       username_strategy: 'Yeni Kullanıcılar için Kullanıcı Adı'
       username_strategy_help: 'Flarum''da zaten varsa, kullanıcı adına bir sayı eklenecektir'
       username_strategy_options:
-        first_name: 'WordPress''ten İlk İsim'
+        first_name: 'Wordpress''ten İlk İsim'
         random: 'Rastgele Kullanıcı Adı'
-        user_login: 'WordPress''den Gelenler için Kullanıcı Adı'
+        user_login: 'Wordpress''den Gelenler için Kullanıcı Adı'
       welcome_message: 'Tanıtım mesajı'
       welcome_message_help: 'Bu mesaj, kullanıcı forumu ilk ziyaret ettiğinde, etkinleştirilmişse kullanıcı adı seçimiyle birlikte gösterilecektir.'
       wordpress_login_full_page: 'Wordpress oturum açmayı açılır pencere yerine bir sayfa olarak açın'
       wordpress_login_full_page_help: "Varsayılan olarak, Flarum'dan giriş bağlantısına tıklamak, diğer OAuth yöntemleri gibi bir açılır pencerede Wordpress giriş sayfasını açacaktır. Bu ayar etkinleştirildiğinde, geçerli tarayıcı sekmesi Wordpress giriş sayfasına gidecek ve sonrasında Flarum'a yönlendirilecektir.\n"
-      wordpress_login_only: 'Yalnızca WordPress ile girişe izin ver'
-      wordpress_login_only_help: "Flarum girişini devre dışı bırakır ve giriş gerektiğinde doğrudan WordPress giriş penceresini açar. Bu, \"Kayıt Olma\" iznini otomatik olarak Kapalı olarak ayarlayacaktır.\n"
+      wordpress_login_only: 'Yalnızca Wordpress ile girişe izin ver'
+      wordpress_login_only_help: "Flarum girişini devre dışı bırakır ve giriş gerektiğinde doğrudan Wordpress giriş penceresini/sayfasını açar. Bu, \"Kayıt Olma\" iznini otomatik olarak Kapalı olarak ayarlayacaktır. “Kapalı” olarak kaldığından emin olun, aksi takdirde ziyaretçiler bağımsız Flarum hesapları oluşturabilir.\n"
       wordpress_login_path: 'Wordpress giriş yolu'
       wordpress_login_path_help: 'Yalnızca giriş bağlantısını bir eklenti ile yeniden tanımladıysanız gereklidir'
       wordpress_url: 'WordPress Bağlantısı'
@@ -113,14 +134,14 @@ kilowhat-wordpress:
       wordpress_username: 'Wordpress yönetici kullanıcı adı'
   api:
     blocked_actions:
-      email_change: 'Bu hesap WordPress ile ilişkilendirildi. Elektronik postanı değiştirmek için ana siteyi kullan.'
-      login: 'Bu hesap WordPress ile ilişkikendirildi. Bağlanmak için ana siteden giriş yap.'
-      password_reset: 'Bu hesap WordPress ile ilişkilendirildi. Şifreyi sıfırlamak için ana siteyi kullan.'
+      email_change: 'Bu hesap Wordpress ile ilişkilendirildi. Epostanı değiştirmek için ana siteyi kullan.'
+      login: 'Bu hesap Wordpress ile ilişkikendirildi. Bağlanmak için ana siteden giriş yap.'
+      password_reset: 'Bu hesap Wordpress ile ilişkilendirildi. Şifreyi sıfırlamak için ana siteyi kullan.'
     health:
-      api-error-401: 'Wordpress API''sine erişmeye çalışmak 401 hatasıyla sonuçlandı. Flarum''daki "Wordpress admin kullanıcı adını" ve Wordpress''teki "Flarum API Anahtarını" iki kez kontrol edin'
+      api-error-401: 'WordPress API''sine erişmeye çalışmak 401 hatasıyla sonuçlandı. "Paylaşılan API Anahtarı"nın Flarum ve WordPress ayarları arasında eşleştiğini doğrulayın'
       api-error-json: 'Wordpress API''sine erişmeye çalışmak bir hatayla sonuçlandı: {message} - Body: {body}'
       api-error-other: 'Wordpress API''sine erişmeye çalışmak bir hatayla sonuçlandı: {message}'
-      api-key-mismatch: 'Wordpress''teki "Flarum API Anahtarı" ayarı, Flarum''daki "Flarum API Anahtarı" ayarıyla eşleşmiyor (beklenen: "{expected}", gerçek: "{actual}")'
+      api-key-mismatch: 'Wordpress''teki "Paylaşılan API Anahtarı" ayarı, Flarum''daki "Paylaşılan API Anahtarı" ayarıyla eşleşmiyor (beklenen: "{expected}", gerçek: "{actual}")'
       api-key-missing: '"Flarum API Anahtarı" eksik. Yönetici panelini yenilemeyi deneyin ve olası hatalar için günlük dosyasını kontrol edin'
       comments-mismatch-flarum: 'Yorumlar entegrasyonu Flarum''da etkin, ancak Wordpress''te değil'
       comments-mismatch-wordpress: 'Yorumlar entegrasyonu Wordpress''te etkin, ancak Flarum''da değil'
@@ -129,9 +150,15 @@ kilowhat-wordpress:
       cookie-domain-format: 'Çerez etki alanı, geçerli bir etki alanı gibi görünmüyor. Bunun herhangi bir protokol veya yol içermeyen bir etki alanı olduğunu kontrol edin'
       cookie-domain-mismatch: 'Wordpress''teki "Çerez alanı" ayarı, Flarum''daki "Çerez Alanı" ayarıyla eşleşmiyor (Wordpress değeri "{wordpress}", Flarum değeri "{flarum}")'
       debug-mode: 'Flarum hata ayıklama modu etkinleştirildi. Hata ayıklamayı bitirdikten sonra devre dışı bırakın'
+      default-actor-not-found: '"Varsayılan Aktör" ayarı geçerli bir kullanıcıya atıfta bulunmuyor'
+      default-actor-not-set: '"Varsayılan Aktör" ayarı doldurulmalıdır'
       flarum-url-mismatch: 'Wordpress''teki "Flarum URL" ayarı, Flarum config.php''de yapılandırılan URL ile eşleşmiyor (beklenen: "{expected}", gerçek: "{actual}")'
       lock-extension-required: 'Yorumlar entegrasyonunu kullanmak için Kilit uzantısı etkinleştirilmelidir'
       login-only-signup-open: '"Yalnızca Wordpress ile oturum açmaya izin ver" ayarının tam olarak etkili olması için Flarum izinleri altında Kaydolma özelliğini devre dışı bırakmanız gerekir'
+      role-group-sync-incomplete: 'Rol grup senkronizasyon ayarları tamamen doldurulmamış'
+      role-group-sync-invalid-group: 'Rol grup senkronizasyonu için geçersiz Flarum grup kimliği seçildi: {id}'
+      role-group-sync-invalid-role: 'Grup senkronizasyonu için geçersiz Wordpress rolü seçildi: {role}'
+      role-group-sync-syntax: 'Rol grup senkronizasyon ayarlarında kodlama sorunu var'
       sso-mismatch-flarum: 'SSO entegrasyonu Flarum''da etkinleştirildi, ancak Wordpress''te değil'
       sso-mismatch-wordpress: 'SSO entegrasyonu Wordpress''te etkinleştirildi, ancak Flarum''da değil'
       suspend-extension-required: '"Kullanıcı silme" işleminde eylemin "Askıya al" seçeneğini kullanmak için Askıya alma uzantısı etkinleştirilmelidir'
@@ -146,8 +173,10 @@ kilowhat-wordpress:
       wordpress-url-missing: '"Wordpress URL" ayarı doldurulmalıdır'
       wordpress-url-trailing-slash: '"Wordpress URL" ayarı sonunda eğik çizgi içermemelidir (geçerli değer: "{url}")'
       wordpress-username-missing: '"Wordpress yönetici kullanıcı adı" ayarı doldurulmalıdır'
+    sync_setting_error: "Ayarların Wordpress ile senkronize edilmesinde hata. Wordpress tarafındaki onay kutularının Flarum'daki değerlerle aynı değerlere ayarlandığını manuel olarak kontrol edin. Hata: {exception}.\n"
     wizard:
-      already_installed: "Flarum zaten WordPress'e bağlı. Sihirbazı tekrar çalıştırın, Flarum'daki \"WordPress Bağlantısını\" ve WordPress'teki \"Flarum API Anahtarını\" silin.\n"
+      already_installed: "Flarum zaten Wordpress'e bağlı. Sihirbazı tekrar çalıştırın, Flarum'daki \"WordPress Bağlantısını\" ve WordPress'teki \"Flarum Paylaşılan API Anahtarını\" silin.\n"
+      api_error_generic: "Wordpress eklentisi kurulum uç noktasına bir POST isteği gerçekleştirirken hata oluştu ({exception}). Flarum Integration WordPress eklentisinin kurulu ve etkinleştirilmiş olduğundan emin olun.\n"
       api_error_get: 'Wordpress ayarlarına ({exception}) bir GET isteği gerçekleştirirken hata oluştu.'
       api_error_post: 'Wordpress ayarlarına POST isteği yapılırken hata oluştu ({exception}).'
       api_unauthorized: "Verilen kimlik bilgileriyle kimlik doğrulaması yapamadık. URL'yi, kullanıcı adını ve şifreyi iki kez kontrol edin. Daha fazla sorun giderme adımı için belgelere bakın.\n"
@@ -166,14 +195,21 @@ kilowhat-wordpress:
       title: 'Yorum dizisinden çık'
     embed:
       title: Yorumlar
+    instant-login:
+      avatar_alt_text: 'Wordpress Avatar'
+      button: 'Şimdi giriş yapın ve yenileyin'
+      message: 'Forumu ana web site hesabınızla kullanabilirsiniz'
+      welcome_known_user: 'Tekrar hoş geldin, {avatar} <strong>{name}</strong>!'
+      welcome_unknown_user: 'Tekrar hoşgeldin!'
     log_in:
-      with_wordpress_button: 'WordPress ile Giriş Yap'
+      with_wordpress_button: 'Wordpress ile Giriş Yap'
     settings:
       edit_on_wordpress: 'Ana web sitesinde e-posta ve şifreyi değiştirin'
     summary-post:
       blog_link: 'Blog''da oku'
-      head_label: 'WordPress Gönderisi'
+      head_label: 'Wordpress Gönderisi'
       read_more: 'Devamını oku'
+    thumbnail_alt_fallback: 'Wordpress gönderi küçük resmi'
     welcome-modal:
       default_message: 'Forum''a hoşgeldin. Bir kullanıcı adı belirle ve kullanmaya başla!'
       not_now: 'Atla ve ziyareti olarak okumaya devam et'

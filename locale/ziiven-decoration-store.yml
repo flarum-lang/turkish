@@ -3,5 +3,48 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 ziven-decoration-store:
+  forum:
+    display-name: 'Görünen İsim'
+    display-name-default: 'Dekorasyon Mağazası'
+    item-already-have: 'Ürün zaten satın alındı'
+    item-expired: 'Abonelikten Çıkıldı'
+    item-property-style-text-effect: 'Önizleme Metni'
+    item-purchase-cost: 'Satınalma fiyatı'
+    item-purchase-item-type: 'Ürün türü'
+    item-purchase-item-type-avatarFrame: 'Avatar Çerçevesi'
+    item-purchase-purchase-type: 'Satınalma türü'
+    item-purchase-status-button-0: 'Ürünü Kullan'
+    item-purchase-status-button-1: 'Ürünü Çıkar'
+    item-purchase-subscription-cost: 'Abone fiyatı'
+    item-purchase-title: 'Ürün ismi'
+    item-soldout: 'Ürün tükendi'
+    item-subscribe: Abone
+    item-unsubscribe: 'Abonelikten Çık'
+    my-decoration: Dekorasyonum
+    navigate: Navigasyon
+    processing: İşleniyor...
+    user-money-amount: Sahipsin
+    view-shopping-cart: Sepet
   lib:
+    cancel: İptal
+    close: Kapalı
     confirm: Onaylamak
+    item-amount: Stokta
+    item-cost: Fiyat
+    item-cost-free: Ücretsiz
+    item-desc: 'Ürün Açıklaması'
+    item-label: 'Ürün Etiketi'
+    item-label-owned: Mevcut
+    item-label-popular: Popüler
+    item-label-recommend: Önerilen
+    item-sold: Satıldı
+    item-stock-remaining: 'Mevcut Stok'
+    item-title: 'Ürün İsmi'
+    item-type: 'Ürün Türü'
+    item-type-all: 'Tüm Ürün Türleri'
+    item-type-avatarFrame: 'Avatar Çerçevesi'
+    item-type-profileBackground: 'Profil Arkaplanı'
+    item-type-usernameColor: 'Kullanıcı Adı Rengi'
+    none: Hiçbiri
+    ok: Tamam
+    submit-error-field-empty: 'Gerekli değeri doldurmanız gerekiyor'
