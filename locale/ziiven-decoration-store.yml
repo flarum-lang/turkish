@@ -3,40 +3,115 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 ziven-decoration-store:
+  admin:
+    data-add: Ekle
+    data-save: Kaydet
+    gallery-image-in-use: '{count} ürün kullanılıyor'
+    item-activate: Aktif
+    item-activate-confirmation: 'Bu ürünü etkinleştirmek istediğinizden emin misiniz?'
+    item-activate-status: 'Aktiflik Durumu'
+    item-activate-status-all: 'Tüm Aktiflik Durumu'
+    item-activate-status-down: Pasifleştirildi
+    item-activate-status-up: Aktifleştirildi
+    item-add: 'Ürün Ekle'
+    item-assigned-at: Tarih
+    item-deactivate: Pasif
+    item-deactivate-confirmation: 'Bu ürünü devre dışı bırakmak istediğinizden emin misiniz?'
+    item-delete: Sil
+    item-delete-confirmation: 'Bu ürünü silmek istediğinizden emin misiniz?'
+    item-discount: İndirim
+    item-discount-days: 'İndirim Süresi (gün)'
+    item-discount-none: Hiçbiri
+    item-edit: Düzenle
+    item-filter-all: Tümü
+    item-id: ID
+    item-property-image: Görsel
+    item-property-image-select-from-gallery: 'Yerleşik Görsel'
+    item-property-image-upload: Yükle
+    item-property-style: Biçim
+    item-property-style-help-text: 'CSS''de kendi metin stilinizi ekleyebilir ve stil adını aşağıdaki alana girebilirsiniz.'
+    item-property-style-select-from-gallery: 'Yerleşik Biçim'
+    item-property-style-text-effect: 'Metin Önizlemesi'
+    item-type-selection: 'Ürün türünü seçin'
+    settings:
+      display-name: 'Görünen İsim'
+      display-name-default: 'Dekorasyon Mağazası'
+      timezone: 'Zaman dilimi'
+      timezone-default: Asya/Şanghay
+      timezone-help: 'Transfer zamanı için zaman dilimini ayarlayın. Varsayılan "Asya/Şanghay"'
   forum:
     display-name: 'Görünen İsim'
     display-name-default: 'Dekorasyon Mağazası'
+    equipment-modal-title: 'Ürün Listesi'
     item-already-have: 'Ürün zaten satın alındı'
     item-expired: 'Abonelikten Çıkıldı'
-    item-property-style-text-effect: 'Önizleme Metni'
+    item-property-style-text-effect: 'Metin Önizlemesi'
     item-purchase-cost: 'Satınalma fiyatı'
+    item-purchase-date: 'Satınalma tarihi'
+    item-purchase-item-status: 'Ürün durumu'
+    item-purchase-item-status-0: Kullanılmıyor
+    item-purchase-item-status-1: Kullanımda
     item-purchase-item-type: 'Ürün türü'
     item-purchase-item-type-avatarFrame: 'Avatar Çerçevesi'
+    item-purchase-item-type-profileBackground: 'Profil Arkaplanı'
+    item-purchase-item-type-usernameColor: 'Kullanıcı Adı Rengi'
     item-purchase-purchase-type: 'Satınalma türü'
     item-purchase-status-button-0: 'Ürünü Kullan'
     item-purchase-status-button-1: 'Ürünü Çıkar'
+    item-purchase-subscribe-item-status-0: 'Abone olundu. Kullanılmıyor'
+    item-purchase-subscribe-item-status-1: 'Abone olundu. Kullanılıyor'
     item-purchase-subscription-cost: 'Abone fiyatı'
     item-purchase-title: 'Ürün ismi'
     item-soldout: 'Ürün tükendi'
+    item-status-to-0-confirmation: 'Bu ürünü çıkarmak istediğinizden emin misiniz?'
+    item-status-to-1-confirmation: 'Bu ürünü takmak istediğinizden emin misiniz?'
     item-subscribe: Abone
+    item-subscription-deduction-days: 'Abonelik ücreti kesintisi {days} gün içinde'
     item-unsubscribe: 'Abonelikten Çık'
     my-decoration: Dekorasyonum
     navigate: Navigasyon
+    notification-receive-subscription: 'Abonelik ücreti indirimi'
+    notifications:
+      subscription-expired: '{title} aboneliğiniz sona erdi'
+      subscription-expired-excerpt: 'Abone olmak için {cost} ödemeniz gerekmiyor'
+      subscription-fee-deduction: '{title} için abonelik kesinti ücreti'
+      subscription-fee-deduction-excerpt: '{cost} maliyet'
     processing: İşleniyor...
+    purchase-add-cart: 'Sepete ekle'
+    purchase-confirmation: 'Satınalma Onayı'
+    purchase-error: 'Satınalma Hatası'
+    purchase-error-insufficient-fund: 'Ödeme Yetersiz'
+    purchase-error-item-alreay-have: 'Bu ürüne zaten sahipsiniz'
+    purchase-history: 'Satınalma Geçmişi'
+    purchase-now: 'Satınalmaya Git'
+    purchase-subscribe-confirmation: 'Bu ürüne abone olmak için {cost} tutarında ödeme yapmak istediğinizden emin misiniz?'
+    purchase-success: 'Satınalma Başarılı'
+    purchase-unsubscribe-confirmation: 'Bu ürünün aboneliğini iptal etmek istediğinizden emin misiniz?'
+    shopping-cart: Sepet
+    shopping-cart-close: Kapat
     user-money-amount: Sahipsin
     view-shopping-cart: Sepet
   lib:
     cancel: İptal
     close: Kapalı
-    confirm: Onaylamak
+    confirm: Onayla
+    delete-error: 'Silme Hatası'
     item-amount: Stokta
     item-cost: Fiyat
     item-cost-free: Ücretsiz
     item-desc: 'Ürün Açıklaması'
+    item-discount-days-left: ' ({days} gün kaldı)'
+    item-discount-days-text: 'İndirim süresi: {days} gün'
+    item-discount-ribbon: '%{discount} İNDİRİM'
     item-label: 'Ürün Etiketi'
     item-label-owned: Mevcut
     item-label-popular: Popüler
     item-label-recommend: Önerilen
+    item-purchase-type: 'Satınalma Türü'
+    item-purchase-type-all: 'Tüm Satınalma Türleri'
+    item-purchase-type-monthly: 'Aylık abonelik'
+    item-purchase-type-onetime: 'Tek seferlik ödeme'
+    item-purchase-type-yearly: 'Yıllık abonelik'
     item-sold: Satıldı
     item-stock-remaining: 'Mevcut Stok'
     item-title: 'Ürün İsmi'
@@ -45,6 +120,10 @@ ziven-decoration-store:
     item-type-avatarFrame: 'Avatar Çerçevesi'
     item-type-profileBackground: 'Profil Arkaplanı'
     item-type-usernameColor: 'Kullanıcı Adı Rengi'
+    list-empty: 'İçerik yok'
+    list-load-more: 'Daha Fazla'
     none: Hiçbiri
     ok: Tamam
+    save-error: 'Kaydetme Hatası'
+    save-error-item-expired: 'Ürünün süresi doldu'
     submit-error-field-empty: 'Gerekli değeri doldurmanız gerekiyor'

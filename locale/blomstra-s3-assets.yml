@@ -10,8 +10,8 @@ blomstra-s3-assets:
       s3-compatible-section: 'Bu ayarlar yalnızca S3 uyumlu paketler için gereklidir'
       s3-compatible-section-help: 'AWS S3 kullanıyorsanız bu ayarları boş bırakın'
       s3acl:
-        help: 'Bu bucket''a ait ACL''yi belirtin'
-        label: ACL
+        help: 'Bu bucket''a ait GEE (ACL)''yi belirtin'
+        label: 'GEE (ACL)'
       s3bucket:
         help: 'S3 bucket'
         label: Bucket
@@ -21,12 +21,15 @@ blomstra-s3-assets:
       s3key:
         help: yardım
         label: Anahtar
+      s3path-style-endpoint:
+        help: 'Path stili depolamaya geç'
+        label: 'S3 path stili endpoint'
       s3region:
         help: 'S3 bölge'
         label: Bölge
       s3secret:
-        help: 'S3 access secret'
-        label: Secret
+        help: 'S3 gizli erişim anahtarı'
+        label: Gizli
       s3url:
         help: 'S3 Bağlantı'
         label: Bağlantı

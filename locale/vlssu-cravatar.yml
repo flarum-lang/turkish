@@ -7,10 +7,29 @@ vlssu-flarum-cravatar:
     settings:
       defaults:
         helptext: 'Bir e-posta adresinde eşleşen Cravatar resmi yoksa ne olur? Cravatar, varsayılan olarak kullanabileceğiniz bir dizi yerleşik seçeneğe sahiptir. Bunların çoğu, istenen e-posta karmasını alıp o e-posta adresine özel temalı bir resim oluşturmak için kullanarak çalışır.'
+        identicon_label: 'identicon: geometrik bir desen eposta karma değerine dayalı'
+        monsterid_label: 'monsterid: farklı renkler, yüzler vb. ile oluşturulmuş bir ''canavar'''
+        mp_label: 'mp: (gizemli-kişi) bir kişinin basit, karikatür tarzında silüetli dış hatları (eposta karma değerine göre değişmez)'
+        retro_label: 'retro: 8-bit arcade tarzında pikselleştirilmiş harika yüzler'
+        robohash_label: 'robohash: farklı renkler, yüzler vb. ile oluşturulmuş bir robot'
         title: Varsayılanlar
+        wavatar_label: 'wavatar: farklı özellikler ve arkaplanlarla oluşturulmuş yüzler'
+      force-default:
+        helptext: 'E-posta karma değeri özel bir kullanıcı tarafından yüklenen bir avatarla ilişkilendirilse bile, varsayılan bir setin kullanılmasını zorlar'
+        title: 'Varsayılanı zorla'
       proxy:
         helptext: 'Varsayılan olarak, cravatar URL''leri doğrudan cravatar.cn''den alınır. Bu, tüm cravatar isteklerinin doğrudan forum tarafından karşılanmasını sağlar.'
         title: 'Proxy cravatar'
+      rating:
+        g_label: 'g: her tür izleyici kitlesi için tüm web sitelerinde görüntülenmeye uygun'
+        helptext: 'Cravatar, kullanıcıların görsellerini kendi derecelendirmelerine olanak tanır, böylece bir görselin belirli bir izleyici kitlesi için uygun olup olmadığını belirtebilirler. Varsayılan olarak, yalnızca ''G'' dereceli görseller gösterilir, ancak daha yüksek dereceleri görmek istediğinizi belirtmedikçe bu şekilde devam eder. Aşağıdaki derecelendirmelerden birini belirterek, o derecelendirmeye kadar olan görselleri talep edebilirsiniz.'
+        pg_label: 'pg: kaba jestler, provokatif şekilde giyinmiş bireyler, hafif küfürler veya hafif şiddet içerebilir'
+        r_label: 'r: sert küfürler, yoğun şiddet, çıplaklık veya sert uyuşturucu kullanımı gibi unsurlar içerebilir'
+        title: Derecelendirme
+        x_label: 'x: sert cinsel imgeler veya son derece rahatsız edici şiddet içerebilir'
       replace-flarum-custom:
         helptext: 'Foruma zaten yüklenmiş olan özel avatarları bir Cravatar ile değiştir'
         title: 'Foruma yüklenen özel avatarları değiştir'
+  forum:
+    settings:
+      edit-cravatar: 'cravatar.cn üzerinde avatar yönetimi'
