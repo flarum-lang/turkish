@@ -58,6 +58,7 @@ CHANGELOG
 * [`litalino/flarum-more-bbcode`](https://github.com/Litalino/flarum-more-bbcode)
 * [`maicol07/flarum-oidc-client`](https://flarum.org/extension/maicol07/flarum-oidc-client)
 * [`spookygames/flarum-ext-auth-keycloak`](https://github.com/spookygames/flarum-ext-auth-keycloak)
+* [`ziiven/flarum-decoration-store`](https://flarum.org/extension/ziiven/flarum-decoration-store)
 * [`ziiven/flarum-money-leaderboard`](https://github.com/Ziiven/flarum-money-leaderboard)
 
 
