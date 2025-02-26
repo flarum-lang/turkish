@@ -5,4 +5,4 @@
 ignore-hidden-tags:
   admin:
     permissions:
-      select-group-ignore: 'Gizlenenlerin yoksayılacağı grubu seçin'
+      select-group-ignore: 'Görmezden gelinecek grubu seçiniz'

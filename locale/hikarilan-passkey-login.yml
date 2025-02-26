@@ -11,7 +11,7 @@ hikarilan-passkey-login:
           label: 'Bağlı Taraf Kimliği'
         name:
           help: 'Bağlı Taraf Adı, siteniz için insanlar tarafından okunabilen bir addır. Boş bırakılırsa forum başlığı kullanılacaktır.'
-          label: 'Bağlı Taraf Adı'
+          label: 'Güvenilir Taraf Adı'
       timeout:
         help: 'Geçiş anahtarı doğrulamasının zaman aşımı süresi (saniye cinsinden). Varsayılan değer 60 saniyedir.'
         label: 'Zaman aşımı'
