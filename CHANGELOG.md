@@ -5,6 +5,11 @@ CHANGELOG
 1.34.0 (XXXX-XX-XX)
 -------------------
 
+**Genel değişiklikler**:
+
+* Flarum çekirdek çevirileri güncellendi.
+
+
 **Yeni uzantılar için destek eklendi**:
 
 * [`blt950/oauth-generic`](https://github.com/blt950/flarum-ext-oauth-generic)
@@ -45,6 +50,7 @@ CHANGELOG
 * [`blomstra/s3-assets`](https://github.com/blomstra/flarum-ext-s3-assets)
 * [`blomstra/web3`](https://github.com/blomstra/flarum-ext-web3)
 * [`clarkwinkelmann/flarum-ext-emojionearea`](https://github.com/clarkwinkelmann/flarum-ext-emojionearea)
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
 * [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
 * [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
 * [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
