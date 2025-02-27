@@ -10,7 +10,7 @@ maicol07-oidc-client:
       callback_title: 'Geri arama URI''leri (Callback URIs)'
       client:
         id: 'Client ID'
-        secret: 'Client secret'
+        secret: 'İstemci gizli anahtarı'
         subtitle: "Buraya, OpenID Connect sağlayıcınız tarafından verilen istemci bilgilerinizi ekleyin. Daha fazla yardım için belgeleri kontrol edin.\n"
         title: 'İstemci ayarları'
       client_id: 'Client ID'
