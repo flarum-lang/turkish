@@ -145,7 +145,7 @@ flarum-extension-manager:
     attributes:
       bearer: 'HTTP Taşıyıcısı'
       'bearer.*': 'HTTP Taşıyıcısı'
-      extension_id: 'Eklenti ID''si'
+      extension_id: 'uzantı ID''si'
       github_oauth: 'GitHub OAuth'
       'github_oauth.*': 'GitHub OAuth'
       gitlab_oauth: 'GitLab OAuth'
