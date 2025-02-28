@@ -2,6 +2,84 @@ CHANGELOG
 =========
 
 
+1.34.0 (2025-02-28)
+-------------------
+
+**Genel değişiklikler**:
+
+* Flarum çekirdek çevirileri güncellendi.
+
+
+**Yeni uzantılar için destek eklendi**:
+
+* [`blt950/oauth-generic`](https://github.com/blt950/flarum-ext-oauth-generic)
+* [`dalez/flarum-identityagent`](https://github.com/DellZHackintosh/flarum-identityagent)
+* [`ffans/geetest`](https://github.com/FFans/geetest)
+* [`foskym/flarum-issue-tracking-youtrack`](https://github.com/FoskyM/flarum-issue-tracking-youtrack)
+* [`foskym/flarum-oauth-center`](https://github.com/FoskyM/flarum-oauth-center)
+* [`gbcl/oauth-logto`](https://github.com/GBCLStudio/flarum-oauth-logto)
+* [`gtdxyz/flarum-ext-login`](https://github.com/daocatt/flarum-ext-login)
+* [`justoverclock/profile-stories`](https://github.com/justoverclockl/profile-stories)
+* [`justoverclock/reputation-score`](https://flarum.org/extension/justoverclock/reputation-score)
+* [`krombox/flarum-ext-oauth-wordpress`](https://github.com/krombox/flarum-ext-oauth-wordpress)
+* [`litalino/flarum-country-flags`](https://github.com/Litalino/flarum-country-flags)
+* [`madeyedeer/avatar-tools`](https://github.com/MadEyeDeer/avatar-tools)
+* [`mattoid/flarum-ext-store-auto-check-in`](https://github.com/Mattoids/flarum-ext-store-auto-check-in)
+* [`mattoid/flarum-ext-store-check-in`](https://github.com/Mattoids/flarum-ext-store-check-in)
+* [`michaelbelgium/flarum-umami`](https://github.com/MichaelBelgium/flarum-umami)
+* [`nodeloc/flarum-ext-my-emoji`](https://github.com/nodeloc/flarum-ext-my-emoji)
+* [`nodeloc/flarum-ext-referral`](https://github.com/nodeloc/flarum-ext-referral)
+* [`nodeloc/whisper`](https://github.com/nodeloc/whisper)
+* [`ordinaryjellyfish/automod`](https://flarum.org/extension/ordinaryjellyfish/automod)
+* [`sas_sam/flarum-regrole`](https://github.com/SasSam/flarum-regrole)
+* [`tohsakarat/post-camera`](https://github.com/tohsakrat/post-camera)
+* [`umhelper/oauth-clerk`](https://github.com/UMHelper/flarum-ext-oauth-clerk)
+* [`walsgit/recycle-bin`](https://github.com/WalsGit/recycle-bin)
+* [`xypp/sticky-card`](https://github.com/zxy19/flarum-sticky-card)
+* [`xypp/store-auto-checkin`](https://github.com/zxy19/flarum-store-auto-checkin)
+* [`xypp/store-doorman`](https://github.com/zxy19/flarum-store-doorman)
+* [`xypp/store-group`](https://github.com/zxy19/flarum-store-group)
+
+
+**Uzantılar için çeviriler güncellendi**:
+
+* [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache)
+* [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab)
+* [`afrux/online-users-widget`](https://github.com/afrux/online-users-widget)
+* [`blomstra/horizon`](https://github.com/blomstra/flarum-ext-horizon)
+* [`blomstra/s3-assets`](https://github.com/blomstra/flarum-ext-s3-assets)
+* [`blomstra/web3`](https://github.com/blomstra/flarum-ext-web3)
+* [`clarkwinkelmann/flarum-ext-emojionearea`](https://github.com/clarkwinkelmann/flarum-ext-emojionearea)
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
+* [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
+* [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
+* [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory)
+* [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks)
+* [`glowingblue/localizd`](https://flarum.org/extension/glowingblue/localizd)
+* [`hehongyuanlove/flarum-auth-qq`](https://github.com/Hehongyuanlove/flarum-auth-qq)
+* [`hikarilan/flarum-passkey-login`](https://github.com/shaokeyibb/flarum-passkey-login)
+* [`ianm/translate`](https://flarum.org/extension/ianm/translate)
+* [`imdong/flarum-ext-visible-to-op-only`](https://github.com/imdong/flarum-ext-visible-to-op-only)
+* [`justoverclock/newsletter`](https://github.com/justoverclockl/newsletter)
+* [`justoverclock/related-discussions`](https://flarum.org/extension/justoverclock/related-discussions)
+* [`kilowhat/flarum-ext-audit-pro`](https://flarum.org/extension/kilowhat/flarum-ext-audit-pro)
+* [`kilowhat/flarum-ext-cimaise`](https://flarum.org/extension/kilowhat/flarum-ext-cimaise)
+* [`kilowhat/flarum-ext-formulaire`](https://flarum.org/extension/kilowhat/flarum-ext-formulaire)
+* [`kilowhat/flarum-ext-rich-embeds`](https://flarum.org/extension/kilowhat/flarum-ext-rich-embeds)
+* [`kilowhat/flarum-ext-wordpress`](https://flarum.org/extension/kilowhat/flarum-ext-wordpress)
+* [`litalino/flarum-more-bbcode`](https://github.com/Litalino/flarum-more-bbcode)
+* [`maicol07/flarum-oidc-client`](https://flarum.org/extension/maicol07/flarum-oidc-client)
+* `nodeloc-ignore-hidden-tags`
+* [`spookygames/flarum-ext-auth-keycloak`](https://github.com/spookygames/flarum-ext-auth-keycloak)
+* [`vlssu/flarum-cravatar`](https://github.com/vlssu/flarum-cravatar)
+* [`ziiven/flarum-decoration-store`](https://flarum.org/extension/ziiven/flarum-decoration-store)
+* [`ziiven/flarum-money-leaderboard`](https://github.com/Ziiven/flarum-money-leaderboard)
+
+
+Tüm değişiklikler: [1.33.0...1.34.0](https://github.com/flarum-lang/turkish/compare/1.33.0...1.34.0).
+
+
 1.33.0 (2025-02-20)
 -------------------
 
