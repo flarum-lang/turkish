@@ -2,6 +2,27 @@ CHANGELOG
 =========
 
 
+1.35.0 (XXXX-XX-XX)
+-------------------
+
+**Genel değişiklikler**:
+
+* Flarum çekirdek çevirileri güncellendi.
+
+
+**Yeni uzantılar için destek eklendi**:
+
+* [`xypp/flarum-answer-bounty`](https://github.com/zxy19/flarum-answer-bounty)
+
+
+**Uzantılar için çeviriler güncellendi**:
+
+* [`flarum/flags`](https://github.com/flarum/flags)
+
+
+Tüm değişiklikler: [1.34.0...1.35.0](https://github.com/flarum-lang/turkish/compare/1.34.0...1.35.0).
+
+
 1.34.0 (2025-02-28)
 -------------------
 
