@@ -14,7 +14,7 @@ core:
       custom_footer_text: '=> core.ref.custom_footer_text'
       custom_header_heading: 'Özel Üstbilgi'
       custom_header_text: '=> core.ref.custom_header_text'
-      custom_styles_cannot_use_less_features: 'Özel LESS''te @import ve data-uri özelliklerine izin verilmez.'
+      custom_styles_cannot_use_less_features: '@import ve data-uri özellikleri, özel LESS''te kullanılamaz.'
       custom_styles_heading: 'Özel Stiller'
       custom_styles_text: 'Flarum''un varsayılan stillerinin üzerine uygulanacak kendi Less/CSS kodunuzu ekleyerek forumunuzun görünümünü özelleştirin.'
       dark_mode_label: 'Karanlık Mod'
@@ -46,13 +46,13 @@ core:
       welcome_banner_heading: 'Hoşgeldiniz Mesajı'
       welcome_banner_text: 'Tüm Tartışmalar sayfasında görünecek karşılama yazısını ayarla. Ziyaretçileri karşılamak için bunu kullan.'
     create_user:
-      email_confirmed_label: 'Kullanıcının bu e-postayı onaylamasını zorunlu kıl'
+      email_confirmed_label: 'E-postayı onaylaması gereksin'
       email_placeholder: '=> core.ref.email'
       password_placeholder: '=> core.ref.password'
-      submit_and_create_another_button: 'Oluştur ve başka bir tane ekle'
-      submit_button: 'Kullanıcı oluşturun'
-      title: 'Yeni kullanıcı oluşturun'
-      use_random_password: 'Rastgele şifre oluşturun'
+      submit_and_create_another_button: 'Oluştur ve eklemeye devam et'
+      submit_button: 'Kullanıcıyı oluştur'
+      title: 'Yeni kullanıcı oluştur'
+      use_random_password: 'Rastgele şifre oluştur'
       username_placeholder: '=> core.ref.username'
     dashboard:
       clear_cache_button: 'Önbelleği Temizle'
@@ -65,8 +65,8 @@ core:
           session-driver: 'Oturum Sürücüsü'
         scheduler:
           active: Aktif
-          inactive: 'Aktif değil'
-          never-run: 'Asla gitme'
+          inactive: Pasif
+          never-run: 'Hiç çalışmadı'
       title: 'Gösterge Paneli'
       tools_button: Araçlar
     debug-warning:
@@ -187,7 +187,7 @@ core:
       edit_users_groups_label: 'Kullanıcı gruplarını düzenle'
       edit_users_label: 'Kullanıcıları düzenle'
       global_heading: Genel
-      moderate_access_tokens_label: 'Erişim Belirtecini Modere Et'
+      moderate_access_tokens_label: 'Erişim Belirteçlerini Yönet'
       moderate_heading: Yönetim
       new_group_button: 'Yeni Grup'
       participate_heading: Katılma
