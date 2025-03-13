@@ -12,13 +12,19 @@ CHANGELOG
 
 **Yeni uzantılar için destek eklendi**:
 
+* [`ordinaryjellyfish/sentra`](https://github.com/OrdinaryJellyfish/sentra)
 * [`xypp/flarum-answer-bounty`](https://github.com/zxy19/flarum-answer-bounty)
 
 
 **Uzantılar için çeviriler güncellendi**:
 
+* [`askvortsov/flarum-rich-text`](https://github.com/askvortsov1/flarum-rich-text)
+* [`blomstra/s3-assets`](https://github.com/blomstra/flarum-ext-s3-assets)
+* [`datitisev/flarum-backup`](https://flarum.org/extension/datitisev/flarum-backup)
 * [`flarum/flags`](https://github.com/flarum/flags)
 * [`flarum/likes`](https://github.com/flarum/likes)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+* [`imdong/flarum-ext-visible-to-op-only`](https://github.com/imdong/flarum-ext-visible-to-op-only)
 
 
 Tüm değişiklikler: [1.34.0...1.35.0](https://github.com/flarum-lang/turkish/compare/1.34.0...1.35.0).
