@@ -18,6 +18,7 @@ CHANGELOG
 **Uzantılar için çeviriler güncellendi**:
 
 * [`flarum/flags`](https://github.com/flarum/flags)
+* [`flarum/likes`](https://github.com/flarum/likes)
 
 
 Tüm değişiklikler: [1.34.0...1.35.0](https://github.com/flarum-lang/turkish/compare/1.34.0...1.35.0).
