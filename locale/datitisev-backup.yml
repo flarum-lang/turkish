@@ -52,7 +52,7 @@ datitisev-backup:
           description: 'Azure taşıyıcı'
           label: Taşıyıcı
         endpoint:
-          description: 'Depolama uç noktanızın URL''si.'
+          description: 'Depolama uç noktanızın bağlantısı.'
           label: 'Uç nokta'
       dropbox:
         access-token:

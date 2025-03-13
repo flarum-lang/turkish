@@ -51,7 +51,7 @@ fof-upload:
         advanced_title: 'Gelişmiş S3 depolama ayarları'
         bucket: Bucket
         custom_url: 'Özel S3 Bağlantısı'
-        endpoint: Endpoint
+        endpoint: 'Uç nokta'
         key: Key
         region: Region
         secret: Secret

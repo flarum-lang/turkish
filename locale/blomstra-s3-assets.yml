@@ -16,14 +16,14 @@ blomstra-s3-assets:
         help: 'S3 bucket'
         label: Bucket
       s3endpoint:
-        help: 'S3 Endpoint'
-        label: Endpoint
+        help: 'S3 Uç Noktası'
+        label: 'Uç nokta'
       s3key:
         help: yardım
         label: Anahtar
       s3path-style-endpoint:
-        help: 'Path stili depolamaya geç'
-        label: 'S3 path stili endpoint'
+        help: 'Yol tarzı depolamaya geç'
+        label: 'S3 yol tarzı uç nokta'
       s3region:
         help: 'S3 bölge'
         label: Bölge
