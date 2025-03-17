@@ -5,5 +5,32 @@
 ordinaryjellyfish-sentra:
   admin:
     api_key: 'API Anahtarı'
+    enable: Etkinleştir
     endpoint: 'Uç nokta'
+    modules:
+      heading: Modüller
+      post_shield: 'Gönderi Kalkanı'
+      post_shield_help: 'Gönderi Kalkanı, gönderilerde potansiyel olarak rahatsız edici veya istenmeyen içeriği tespit etmek için kullanılan bir modüldür. Tam gönderi içeriğini, Azure AI İçerik Güvenliği ayarlarında etkinleştirilmişse görselleri de analiz eder.'
+      post_shield_settings:
+        harm_categories: 'Zarar Kategorileri'
+        severity_level: 'Şiddet Tetikleme Seviyesi'
+        severity_level_high: Yüksek
+        severity_level_low: Düşük
+        severity_level_medium: Orta
+        severity_level_unknown: Bilinmiyor
+      requires: '<b>{services}</b> gereklidir'
+      requires_error: 'Lütfen bu modülü kullanabilmek için tüm gerekli hizmetleri etkinleştirin ve yapılandırın.'
+    permissions:
+      bypass: 'Sentra''yı Atla'
+    services:
+      content_safety: 'Azure AI İçerik Güvenliği'
+      content_safety_help: 'Azure AI İçerik Güvenliği, metin ve görsellerde potansiyel olarak rahatsız edici veya istenmeyen içeriği tespit eden bir hizmettir.'
+      content_safety_settings:
+        analyze_images: 'Görselleri Analiz Et'
+      heading: Hizmetler
     view_documentation: 'Belgeleri İncele'
+  lib:
+    post_shield:
+      Hate: 'Nefret ve Eşitlik'
+      Hate_help: 'Belirli grupların ayırt edici özelliklerine dayalı olarak bir kişi veya kimlik grubuna saldıran veya ayrımcı dil kullanan içerik.'
+      Sexual: Seksüel

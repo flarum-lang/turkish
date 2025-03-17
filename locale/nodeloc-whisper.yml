@@ -4,5 +4,43 @@
 
 nodeloc-whisper:
   admin:
+    permissions:
+      start_label: 'Özel sohbet başlat'
     settings:
       return_key: 'Enter tuşu mesaj gönderir'
+      title: 'Mesaj Ayarları'
+  forum:
+    chat:
+      cant_start: 'Sohbet Başlatılamıyor'
+      chat_with: 'Mesaj Gönder'
+      messages_multiple: '{count} toplam mesaj'
+      messages_single: 'Yeni sohbet'
+      read: Okundu
+      send: 'Mesaj Gönder'
+      send_success: 'Mesaj başarıyla gönderildi'
+      start: 'Sohbet Başlat'
+      start_of_conversation: 'Sohbet Başlangıcı'
+      text_placeholder: 'Mesajınızı yazın'
+    dropdown:
+      tooltip: Sohbetler
+    modal:
+      already: 'Zaten {username} ile bir sohbetiniz var.'
+      copied: 'Mesajınız panoya kopyalandı.'
+      help: 'Sohbeti başlatmak için bir kullanıcı adı yazmaya başlayın.'
+      help_start: '{username} kullanıcısına mesaj gönder.'
+      more_users: 'Aradığınız kullanıcıyı görmüyorsanız, özel mesajlaşma ayarları yapılmamış demektir.'
+      search_recipients: 'Kullanıcı adı girin...'
+      submit: Gönder
+      title: 'Mesaj Gönder'
+    notifications:
+      email:
+        new_private_message:
+          manageEmailSettings: 'E-posta ayarlarını yönet'
+          subject: '{user}''dan mesaj'
+          viewMessage: 'Mesajı Görüntüle'
+          youHaveReceivedNewMessage: '{user} adlı kişiden yeni bir mesaj aldınız!'
+      message_received: Deneme
+      new_private_message: 'Biri sana mesaj attı'
+      web:
+        new_private_message:
+          body: '{fromUser}''dan mesaj'

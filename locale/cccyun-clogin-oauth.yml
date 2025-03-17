@@ -8,3 +8,31 @@ cccyun-clogin-oauth:
     appkey_label: APPKEY
     appurl_help: 'http:// veya https:// ile başlamalı ve / ile bitmelidir'
     appurl_label: 'API URL'
+    openqq_label: 'QQ Girişini Aç'
+    opensina_label: 'Weibo Girişini Aç'
+    openwx_label: 'WeChat Girişini Aç'
+  forum:
+    alerts:
+      already_linked: 'Üçüncü Hesap zaten bağlanmış!'
+      already_used: 'Üçüncü Hesap zaten başka bir kullanıcıya bağlı!'
+      error: 'Bir şeyler yolunda gitmedi, lütfen daha sonra tekrar deneyin!'
+      link_success: 'Üçüncü Hesap başarıyla bağlandı.'
+      unlink_success: 'Üçüncü Hesap başarıyla kaldırıldı.'
+      unlinked: 'Üçüncü Hesap, bu siteye ait hesaba bağlı değil. Lütfen önce kaydolun ve ardından bağlayın.'
+    modals:
+      buttons:
+        cancel: Hayır!
+        confirm: 'Evet, bağlantıyı kaldır'
+      confirm_qq: 'QQ hesabınızı bağlantısını kaldırmak istediğinizden emin misiniz?'
+      confirm_sina: 'WeChat hesabınızın bağlantısını kaldırmak istediğinizden emin misiniz?'
+      confirm_wx: 'WeChat hesabınızın bağlantısını kaldırmak istediğinizden emin misiniz?'
+      link_qq: 'QQ Hesabını Bağla'
+      link_sina: 'Weibo Hesabını Bağla'
+      link_wx: 'WeChat Hesabını Bağla'
+      no_providers: 'Başka giriş sağlayıcınız yok! Muhtemelen şifrenizi sıfırlamanız gerekecek.'
+      unlink_qq: 'QQ Hesabını Kaldır'
+      unlink_sina: 'Weibo Hesabını Kaldır'
+      unlink_wx: 'WeChat Hesabını Kaldır'
+    with_qq_button: 'QQ Girişi'
+    with_sina_button: 'Weibo Girişi'
+    with_wx_button: 'WeChat Girişi'

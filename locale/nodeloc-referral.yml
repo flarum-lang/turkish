@@ -4,5 +4,36 @@
 
 nodeloc-referral:
   admin:
+    items:
+      add: Ekle
+    permissions:
+      referral_key: 'Davet etme yetkisi'
     settings:
+      expires: 'Son kullanım'
+      key_count: 'Yeni üyelerin ücretsiz davetiye sayısı'
+      max_number: 'Maksimum sayı'
       price: Fiyat
+      reward: Ödül
+  forum:
+    actives: Aktifler
+    claim_failed: 'Alım başarısız oldu.'
+    claim_now: 'Şimdi Talep Et'
+    cost: Maliyet
+    count: 'Kalan miktar'
+    create_time: 'Oluşturma Zamanı'
+    free_help_tip: 'Her {days} günde {amount} davet kodu alabilirsiniz.'
+    free_invite_code: 'Ücretsiz Davet Kodu'
+    invite_code: 'Davet Kodu'
+    inviter: 'Davet Eden {inviter}'
+    is_expire: 'Süresi Dolan?'
+    next_available: 'Yeni ücretsiz davet kodu oluşturmak için {hours} saat beklemeniz gerekiyor.'
+    purchase_expire_tip: 'Davet kodunun {invite_code_expires} gün içinde süresi dolacak'
+    purchase_help_tip: 'Her davet kodu {invite_code_price} enerjiye mal olur. Başarıyla davet edilen her kullanıcı için {invite_code_reward} enerji ile ödüllendirilirsiniz.'
+    purchase_invite_code: 'Davet Kodu Al'
+    purchase_max_tip: 'Satın AlımMiktarı (bir seferde en fazla {invite_code_max_number})'
+    referral: Davet
+    registers: Kayıtlar
+    sign_up:
+      get_invite_link_text: 'Davet almak için buraya tıklayın'
+      no_invite_text: 'Davet kodu yok mu?'
+    wait_to_claim: 'Talep Etmek İçin Bekle'
