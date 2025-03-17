@@ -38,8 +38,20 @@ maicol07-oidc-client:
       manage_account_btn_open_in_new_tab: 'Hesap yönetimi sayfasını yeni bir sekmede açın'
       manage_account_url: 'Hesap yönetimi URL''si'
       nonce: 'Nonce doğrulamasını devre dışı bırakın'
+      other:
+        linker_claim: 'Bağlantı talebi'
+        logout_from_provider: 'Sağlayıcıdan çıkış yap (SSO modu etkinleştirildiğinde)'
+        manage_account_btn_open_in_new_tab: 'Hesap yönetimi sayfasını yeni bir sekmede aç'
+        manage_account_url: 'Hesap yönetimi bağlantısı'
+        provider_name: 'OIDC ile ilgili butonlarda görüntülenecek sağlayıcı adı'
+        remove_signup_btn: 'Kayıt ol düğmesini kaldır'
+        sso_mode: 'SSO modu'
+        sync_avatars: 'Kullanıcı avatarını senkronize et'
+        time_drift: 'JWT Zaman kayması'
+        title: 'Diğer ayarlar'
       other_settings_title: 'Diğer ayarlar'
       provider:
+        authorization_response_iss_parameter_supported: 'Yetkilendirme yanıtı iss parametresi destekleniyor'
         code_challenge_method: 'Kod zorluk yöntemi'
         endpoints:
           authorize: 'Yetkilendirme uç noktası bağlantısı'
@@ -52,6 +64,7 @@ maicol07-oidc-client:
         response_type: 'Sağlayıcının yetkilendirmeye yanıt türü'
         subtitle: "Buraya sağlayıcı bilgilerinizi ekleyin. Eğer sağlayıcınız otomatik keşif kullanıyorsa, uç noktaları ve bazı diğer alanları eklemeniz gerekmez (isteğe bağlı olarak bunları değiştirebilirsiniz!). Eğer sağlayıcınız henüz bunu uygulamadıysa, aşağıya gerekli ayarları manuel olarak ekleyebilirsiniz. Yardım için belgeleri kontrol edin.\n"
         title: 'Sağlayıcı ayarları'
+        token_endpoint_auth_method: 'Token uç noktası kimlik doğrulama yöntemi'
         url: 'Sağlayıcı Bağlantısı'
       provider_name: 'OpenID Connect sağlayıcı adı'
       provider_settings_title: 'Sağlayıcı ayarları'
