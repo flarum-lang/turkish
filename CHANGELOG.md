@@ -12,8 +12,10 @@ CHANGELOG
 
 **Yeni uzantılar için destek eklendi**:
 
+* [`kk14569/flarum-anti-gmail-alias`](https://github.com/kk14569/flarum-anti-gmail-alias)
 * [`ordinaryjellyfish/sentra`](https://github.com/OrdinaryJellyfish/sentra)
 * [`xypp/flarum-answer-bounty`](https://github.com/zxy19/flarum-answer-bounty)
+* [`xypp/pay-to-read`](https://github.com/zxy19/flarum-pay-to-read)
 
 
 **Uzantılar için çeviriler güncellendi**:
@@ -25,6 +27,7 @@ CHANGELOG
 * [`flarum/likes`](https://github.com/flarum/likes)
 * [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
 * [`imdong/flarum-ext-visible-to-op-only`](https://github.com/imdong/flarum-ext-visible-to-op-only)
+* [`ziiven/flarum-fireworks`](https://github.com/Ziiven/flarum-fireworks)
 
 
 Tüm değişiklikler: [1.34.0...1.35.0](https://github.com/flarum-lang/turkish/compare/1.34.0...1.35.0).
