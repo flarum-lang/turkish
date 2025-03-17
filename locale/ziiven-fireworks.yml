@@ -4,4 +4,24 @@
 
 ziven-fireworks:
   admin:
+    option-acceleration: İvme
+    option-brightness: Parlaklık
+    option-decay: Dağılma
+    option-delay: Gecikme
+    option-explosion: Patlama
+    option-flickering: Titreşme
+    option-frication: Sürtünme
+    option-gravity: Yerçekimi
+    option-hue: Ton
+    option-intensity: Yoğunluk
+    option-line-width-explosion: 'Çizgi Genişliği (Patlama)'
+    option-line-width-trace: 'Çizgi Genişliği (İz)'
+    option-lineStyle: 'Çizgi Biçimi'
+    option-lineStyle-round: Yuvarlak
+    option-lineStyle-square: Kare
+    option-opacity: Opaklık
+    option-particles: Parçacıklar
+    option-rockets-point: 'Roket Noktası'
+    option-trace-length: 'İz Uzunluğu'
+    option-trace-speed: 'İz Hızı'
     show-fireworks: 'Havai fişek gösterisi'
