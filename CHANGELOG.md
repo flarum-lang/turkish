@@ -12,11 +12,15 @@ CHANGELOG
 
 **Yeni uzantılar için destek eklendi**:
 
+* [`foskym/flarum-issue-tracking`](https://github.com/FoskyM/flarum-issue-tracking)
 * [`kk14569/flarum-anti-gmail-alias`](https://github.com/kk14569/flarum-anti-gmail-alias)
 * [`litalino/flarum-auto-post-count-badge`](https://github.com/Litalino/flarum-auto-post-count-badge)
+* [`neoncube/flarum-private-messages`](https://github.com/neoncube2/flarum-private-messages)
 * [`ordinaryjellyfish/sentra`](https://github.com/OrdinaryJellyfish/sentra)
 * [`xypp/flarum-answer-bounty`](https://github.com/zxy19/flarum-answer-bounty)
 * [`xypp/pay-to-read`](https://github.com/zxy19/flarum-pay-to-read)
+* [`yippy/flarum-ext-auth-ldap`](https://github.com/Yippy/flarum-ext-auth-ldap)
+* [`yippy/flarum-tag-with-themes`](https://github.com/Yippy/flarum-tag-with-themes)
 
 
 **Uzantılar için çeviriler güncellendi**:
@@ -27,11 +31,14 @@ CHANGELOG
 * [`datitisev/flarum-backup`](https://flarum.org/extension/datitisev/flarum-backup)
 * [`flarum/flags`](https://github.com/flarum/flags)
 * [`flarum/likes`](https://github.com/flarum/likes)
+* [`fof/links`](https://github.com/FriendsOfFlarum/links)
 * [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+* [`foskym/flarum-oauth-center`](https://github.com/FoskyM/flarum-oauth-center)
 * [`imdong/flarum-ext-visible-to-op-only`](https://github.com/imdong/flarum-ext-visible-to-op-only)
 * [`maicol07/flarum-oidc-client`](https://flarum.org/extension/maicol07/flarum-oidc-client)
 * [`nodeloc/flarum-ext-referral`](https://github.com/nodeloc/flarum-ext-referral)
 * [`nodeloc/whisper`](https://github.com/nodeloc/whisper)
+* [`ordinaryjellyfish/automod`](https://flarum.org/extension/ordinaryjellyfish/automod)
 * [`ziiven/flarum-fireworks`](https://github.com/Ziiven/flarum-fireworks)
 
 
