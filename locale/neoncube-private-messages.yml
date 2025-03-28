@@ -4,10 +4,51 @@
 
 neoncube-private-messages:
   admin:
+    permissions:
+      allow_users_to_receive_email_notifications: 'Kullanıcıların özel mesaj aldıklarında e-posta bildirimleri almalarına izin verin'
+      start_label: 'Özel sohbet başlat'
     settings:
+      enable_custom_colors: 'Özel renkleri etkinleştir'
       recipient_background_color: 'Alınan mesajların arka plan rengi:'
+      recipient_text_color: 'Alınan mesajların metin rengi:'
       return_key: 'Giriş tuşu mesaj gönderir'
       return_key_help: 'Giriş tuşuna (Enter tuşuna) basıldığında mesaj gönderilecek şekilde ayarlayın. Bu devre dışı bırakılırsa, Giriş tuşuna basıldığında yeni bir satır başlatılır ve kullanıcının mesajı göndermek için "Mesaj gönder" düğmesini tıklaması gerekir.'
       sender_background_color: 'Gönderilen mesajların arka plan rengi:'
+      sender_text_color: 'Gönderilen mesajların metin rengi:'
       show_read_receipts: 'Okundu bilgisi göster'
       show_read_receipts_help: 'Alıcı mesajı okuduğunda mesajın yanında bir onay kutusu göster.'
+  forum:
+    chat:
+      cant_start: 'Sohbet Başlatılamıyor'
+      chat_with: '{username} ile sohbet edin'
+      message_read: 'Mesaj okundu'
+      messages_multiple: '{count} toplam mesaj'
+      messages_single: 'Yeni sohbet'
+      read: Oku
+      send: 'Mesaj Gönder'
+      start: 'Sohbet Başlat'
+      start_of_conversation: 'Konuşmanın Başlangıcı'
+      text_placeholder: 'Mesajını yaz'
+    dropdown:
+      tooltip: Sohbetler
+    modal:
+      already: 'Zaten {username} ile bir konuşmanız var.'
+      copied: 'Mesajınız panoya kopyalandı.'
+      help: 'Sohbet başlatmak için bir kullanıcı adı yazmaya başlayın.'
+      help_start: 'İlk mesajınızı yazın. Bu, {username} yanıt verene kadar gönderebileceğiniz tek mesaj olacaktır. Farklı bir alıcı seçmek için kullanıcıya tıklayın.'
+      more_users: 'Aradığınız kullanıcıyı göremiyorsanız, özel mesajlaşma ayarlanmamış demektir.'
+      search_recipients: 'Kullanıcı adını girin...'
+      submit: 'Gönder & Sohbet Başlat'
+      title: 'Sohbet Başlatın'
+    notifications:
+      email:
+        new_private_message:
+          manageEmailSettings: 'E-posta ayarlarını yönet'
+          subject: '{user} mesaj gönderdi'
+          viewMessage: 'Mesajı gör'
+          youHaveReceivedNewMessage: '{user} size bir mesaj gönderdi!'
+      message_received: Test
+      new_private_message: 'Biri mesaj gönderdiğinde'
+      web:
+        new_private_message:
+          body: '{fromUser} mesaj gönderdi'
