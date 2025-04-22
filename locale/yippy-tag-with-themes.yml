@@ -5,6 +5,8 @@
 yippy-tag-with-themes:
   admin:
     designs:
+      add: 'Etiketler için Tasarım Ekle'
+      banner: 'Tasarım Teması {index}'
       data:
         child_background_color: 'Alt Arka Plan Rengini Düzenle'
         child_font_class: 'Alt Yazı Tipini Düzenle'
@@ -13,7 +15,15 @@ yippy-tag-with-themes:
         primary_background_color: 'Birincil Arka Plan Rengini Düzenleme'
         primary_font_class: 'Birincil Yazı Tipini Düzenle'
         secondary_font_class: 'İkincil Yazı Tipini Düzenle'
+        tags: 'Seçili Birincil Etiketler'
+        tags_help: 'Bu özelleştirilmiş tasarım teması için bir veya daha fazla etiket seçin'
+        themeName: 'Tema Seçin'
         unread_color: 'Okunmamış Arka Plan Rengini Düzenle'
+      description: 'Belirli etiketler için farklı temaların görüntülenmesiyle ilgili kuralların bir listesini sağlayın'
+      header:
+        color_theme: 'Varsayılan Renk Şemasını Özelleştir'
+        theme: 'Özel Tema'
+      title: 'Etiketler için Özel Tasarım Teması'
     helps:
       design_default: 'Varsayılan bir tasarım düzeni seçin'
     labels:
@@ -29,6 +39,12 @@ yippy-tag-with-themes:
         basic_tab: 'Temel (Birincil Sekme)'
         basic_tag: 'Temel (Birincil Etiket)'
         flat: Düz
+        flat_banner: 'Düz (Ana Afiş)'
+        flat_border: 'Düz Kenar'
+        flat_border_banner: 'Düz Kenar (Ana Afiş)'
+        flat_border_tab: 'Düz Kenar (Ana Sekme)'
+        flat_border_tag: 'Düz Kenar (Ana Etiket)'
+        flat_tab: 'Düz (Ana Sekme)'
         flat_tag: 'Düz (Birincil Etiket)'
         sticky_note: 'Yapışkan Not'
         sticky_note_banner: 'Yapışkan Not (Birincil Afiş)'

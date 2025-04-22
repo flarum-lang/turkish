@@ -25,15 +25,32 @@ foskym-issue-tracking:
     enable_import_by_username_label: 'Kullanıcı adına göre sorunları içe aktar'
     provider_heading: 'Platform Sağlayıcı'
   forum:
+    cannot_create_issue: 'Sadece Okunur'
+    composer:
+      body_placeholder: 'Sorun Açıklaması'
+      discard_confirmation: 'Bu sorunu iptal etmek istediğinize emin misiniz?'
+      submit_button: 'Sorunu Gönder'
+      title: 'Yeni bir sorun oluştur'
+      title_placeholder: 'Sorun Başlığı'
+    discussion:
+      issue_link: Görüntüle
+    header:
+      back_to_issues_tooltip: 'Sorunlara Dön'
     hero:
       complete: '{progress} Tamamlandı'
       last_updated: '=> foskym-issue-tracking.forum.last_updated'
       resolved: Çözülmüş
       tasks_done: '{number} / {total}'
       unresolved: Çözülmemiş
+    issue_opened_by: 'Sorun {time} tarihinde {username} tarafından açıldı'
+    last_updated: 'Son güncelleme {time}'
+    new_issue: 'Yeni Sorun'
+    progress: İlerleme
     provider:
       error:
         title: 'Sağlayıcı Hatası'
     sort:
+      latest_button: 'En son'
       newest_button: 'En Yeni'
+      oldest_button: 'En eski'
     title: 'Sorun Takibi'

@@ -25,18 +25,27 @@ ordinaryjellyfish-automod:
     flag_reason: 'Otomod bu gönderiyi şundan raporladı: {reason}'
   lib:
     moderate_categories:
+      death: 'Ölüm, Zarar ve Trajedi'
+      death_help: 'İnsan ölümleri, trajediler, kazalar, felaketler ve kendine zarar verme.'
       derogatory: Aşağılayıcı
       derogatory_help: 'Kimliği ve/veya korunan nitelikleri hedef alan olumsuz veya zararlı yorumlar.'
       drugs: 'Yasadışı Uyuşturucu'
       drugs_help: 'Eğlence amaçlı ve yasadışı uyuşturucular; uyuşturucu gereçleri ve yetiştiriciliği, "head shop"lar vb. Genellikle eğlence amaçlı kullanılan ilaçların tıbbi kullanımını (örneğin esrar) içerir.'
       finance: Finans
       finance_help: 'Tüketici ve işletme finansal hizmetleri, örneğin bankacılık, krediler, kredi, yatırım ve sigorta.'
+      health: Sağlık
+      health_help: 'İnsan sağlığı, şunları içeren: Sağlık durumları, hastalıklar ve bozukluklar, tıbbi tedaviler, ilaçlar, aşılar, tıbbi uygulamalar ve iyileşme için kaynaklar, destek grupları dahil.'
       insult: Hakaret
       insult_help: 'Bir kişi veya bir grup insana yönelik hakaret, tahrik edici veya olumsuz yorum.'
       legal: Hukuk
       legal_help: 'Hukuk firmaları, hukuki bilgiler, temel hukuki materyaller, avukat yardımcılığı hizmetleri, hukuki yayınlar ve teknoloji, bilirkişiler, dava danışmanları ve diğer hukuki hizmet sağlayıcıları dahil olmak üzere hukukla ilgili içerik.'
       politics: Politika
       politics_help: 'Siyasi haberler ve medya; sosyal, hükümet ve kamu politikalarının tartışılması.'
+      profanity: Küfür
+      profanity_help: 'Küfürlü gibi argo veya edebe aykırı dil.'
+      public_safety: 'Kamusal Güvenlik'
+      public_safety_help: 'Yardım sağlayan ve kamusal güvenliği temin eden hizmetler ve organizasyonlar.'
+      religion: 'Din ve İnanç'
       religion_help: 'Doğaüstü yasa ve varlık olasılığı ile ilgilenen inanç sistemleri; din, inanç, itikat, ruhani uygulama, kiliseler ve ibadethaneler. Astroloji ve okültizmi içerir.'
       sexual: Cinsel
       sexual_help: 'Cinsel eylemler veya diğer müstehcen içeriklere referans içerir.'
@@ -46,3 +55,5 @@ ordinaryjellyfish-automod:
       violent_help: 'Bir bireye veya gruba yönelik şiddeti veya genel vahşet tasvirlerini açıklar.'
       war: Savaş
       war_help: 'Savaş, askeri çatışmalar ve çok sayıda insanın karıştığı büyük fiziksel çatışmalar. Doğrudan bir savaş veya çatışmayla ilgili olmasa bile askeri hizmetlerin tartışılmasını içerir.'
+      weapons: 'Ateşli Silahlar ve Silahlar'
+      weapons_help: 'Bıçaklar, tabancalar, kişisel silahlar ve mühimmat, kılıf gibi aksesuarları belirten içerik.'

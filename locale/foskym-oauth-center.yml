@@ -4,13 +4,19 @@
 
 foskym-oauth-center:
   admin:
+    action:
+      delete_all_records_button: 'Tüm kayıtları sil'
+      delete_all_records_confirm: 'Tüm kayıtları silmeyi onayla'
+      delete_all_records_success: 'Tüm kayıtlar başarıyla silindi'
     clients:
+      add_button: 'İstemci Ekle'
       client_desc: Açıklama
       client_home: Anasayfa
       client_icon: Simge
       client_id: 'İstemci Kimliği'
       client_name: İsim
       client_secret: 'İstemci Gizli Anahtarı'
+      edit_client: 'İstemciyi Düzenle'
       grant_types: 'İzin Türleri'
       redirect_uri: 'Yönlendirme Bağlantısı'
       scope: Kapsam
@@ -21,6 +27,17 @@ foskym-oauth-center:
       tokens: 'Belirteçleri Yönet'
     permission:
       use_oauth: 'OAuth''u kullan'
+    scopes:
+      add_button: 'Kapsam Ekle'
+      edit_scope: 'Kapsamı Düzenle'
+      is_default: Varsayılan
+      method: Metot
+      resource_path: 'Kaynak Yolu'
+      scope: Kapsam
+      scope_desc: Açıklama
+      scope_icon: Simge
+      scope_name: Ad
+      visible_fields: 'Görünür Alanlar'
     settings:
       access_lifetime: 'Erişim Belirteci Ömrü (saniye)'
       allow_delete_records: 'Yetkilendirme Kayıtlarının Silinmesine İzin Ver'
@@ -29,3 +46,24 @@ foskym-oauth-center:
       display_mode: 'Görüntüleme Modu'
       enforce_state: 'Durum Doğrulamasını Zorla (durum parametresi)'
       require_exact_redirect_uri: 'Tam Yönlendirme Bağlantısı Gerektir'
+    tokens:
+      add_token: 'Belirteç Ekle'
+      delete_token: 'Belirteci Sil'
+  forum:
+    authorize:
+      access: Erişim
+      agree: 'Kabul Et'
+      deny: Reddet
+      require_these_scopes: 'Bu kapsamları gerektir'
+    authorized:
+      delete_all_button: 'Tüm kayıtları sil'
+      delete_all_confirm: 'Tüm kayıtları silmeyi onayla'
+      delete_button: 'Bu kaydı sil'
+      load_more: 'Daha Fazla Yükle'
+      no_more_records: 'Daha fazla kayıt yok'
+      no_records: 'Kayıt yok'
+    page:
+      label:
+        authorized: 'Yetkilendirilmiş Kayıtlar'
+      title:
+        authorize: Yetkilendir
