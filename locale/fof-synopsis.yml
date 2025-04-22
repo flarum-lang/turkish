@@ -10,7 +10,7 @@ fof-synopsis:
         label: 'Arama yaparken özeti devre dışı bırak'
       excerpt-label: 'Özet metninin karakter sayısı'
       excerpt-length:
-        help: 'Gönderiden kaç karakter görüntülenmelidir?'
+        help: 'Gönderiden kaç karakter görüntülenmeli.'
         label: 'Özet alıntısının karakter uzunluğu'
       excerpt-type: 'Özette hangi içerik gösterilsin?'
       excerpt-type.help: 'Özet içeriği için ilk gönderi mi yoksa son gönderi mi kullanılacağını seçin'
