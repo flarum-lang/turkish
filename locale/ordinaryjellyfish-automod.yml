@@ -31,12 +31,15 @@ ordinaryjellyfish-automod:
       drugs_help: 'Eğlence amaçlı ve yasadışı uyuşturucular; uyuşturucu gereçleri ve yetiştiriciliği, "head shop"lar vb. Genellikle eğlence amaçlı kullanılan ilaçların tıbbi kullanımını (örneğin esrar) içerir.'
       finance: Finans
       finance_help: 'Tüketici ve işletme finansal hizmetleri, örneğin bankacılık, krediler, kredi, yatırım ve sigorta.'
+      insult: Hakaret
+      insult_help: 'Bir kişi veya bir grup insana yönelik hakaret, tahrik edici veya olumsuz yorum.'
       legal: Hukuk
       legal_help: 'Hukuk firmaları, hukuki bilgiler, temel hukuki materyaller, avukat yardımcılığı hizmetleri, hukuki yayınlar ve teknoloji, bilirkişiler, dava danışmanları ve diğer hukuki hizmet sağlayıcıları dahil olmak üzere hukukla ilgili içerik.'
       politics: Politika
       politics_help: 'Siyasi haberler ve medya; sosyal, hükümet ve kamu politikalarının tartışılması.'
       religion_help: 'Doğaüstü yasa ve varlık olasılığı ile ilgilenen inanç sistemleri; din, inanç, itikat, ruhani uygulama, kiliseler ve ibadethaneler. Astroloji ve okültizmi içerir.'
       sexual: Cinsel
+      sexual_help: 'Cinsel eylemler veya diğer müstehcen içeriklere referans içerir.'
       toxic: Toksik
       toxic_help: 'Kaba, saygısız veya mantıksız içerik.'
       violent: Şiddet

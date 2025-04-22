@@ -7,6 +7,8 @@ yippy-auth-ldap:
     settings:
       display_detailed_error: 'Başarısız oturum açma girişimleri için ayrıntılı LDAP hatalarını görüntüle'
       domains:
+        add: 'Alan Ekle'
+        banner: 'Alan {index}'
         data:
           admin_dn: 'Ayırt Edilmiş Adlar (DN''ler)'
           admin_dn_help: 'Anonim bağlama için boş bırakın'
@@ -17,6 +19,7 @@ yippy-auth-ldap:
           filter: 'Uygulanacak filtre'
           filter_help: 'Tercihe bağlı, ''Arama alanları'' filtreden hariç tutulmalıdır. Örneğin, filtreyi ''(objectclass=user)'' olarak girmek ve ''Arama alanları'' içinde ''uid'' seçmek, filtreyi şu şekilde değiştirecektir: ''(&(objectclass=user)(uid=[Kullanıcı Girdisi]))"'
           follow_referrals: 'LDAP sunucusuna bağlanmak için yönlendirmeleri izleyin'
+          host: 'Alanlar veya sunucu IP adresleri'
           host_help: 'Virgülle ayrılmış'
           port: 'Bağlantı Noktası'
           port_help: 'SSL olmayan (Bağlantı Noktası 389) veya SSL (Bağlantı Noktası 636).'
@@ -31,7 +34,18 @@ yippy-auth-ldap:
           user_username: 'Kullanıcı adı alanını ata'
           version: 'LDAP Sürümü'
           version_help: 'Yalnızca 2 veya 3 olarak ayarlanabilir (varsayılan 3''tür).'
+        description: 'Tüm kullanılabilir LDAP alanlarını girin, böylece Flarum girişi için kullanabilir'
+        header:
+          admin: 'LDAP Yöneticisi'
+          flarum: 'Flarum Kullanıcı Profili'
+          flarum_description: 'LDAP hesabı bulunduğunda, ilgili alanları kayıt sırasında Flarum Kullanıcı Profili''ne atayabilirsiniz.'
+          search_fields: 'LDAP Hesap Araması'
+          search_fields_description: 'Kullanıcının sağladığı Kullanıcı Adı ile karşılaştırılacak LDAP alanlarının bir listesini oluşturun.'
+          server: 'LDAP Sunucu Ayarları'
+        title: 'LDAP Alanları'
+      method_name: 'LDAP sunucu adı ("Giriş Yap" sonrasında görünecek)'
       onlyUse: 'Flarum standart giriş yöntemini gizle'
+      title: 'LDAP Ayarları'
   forum:
     account_found: '{server} içinde hesap bulundu'
     errors:
@@ -40,6 +54,7 @@ yippy-auth-ldap:
         expired: 'Hesabınızın süresi doldu, {server} yöneticinizle iletişime geçin.'
         incorrect_details: 'Yanlış şifre girildi.'
         invalid_inputs: 'Giriş alanları boş olamaz'
+        locked: 'Hesabınız kilitlenmiş, {server} yönetimiyle iletişime geçin.'
         not_found: '{server} içinde hesabınız bulunamadı.'
         password_expired: 'Şifrenizin süresi doldu.'
       core_csrf_token_mismatch: '=> core.views.error.csrf_token_mismatch'

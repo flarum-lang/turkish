@@ -28,11 +28,14 @@ fof-horizon:
         max-runtime: 'Maksimum Çalışma Süresi'
         max-throughput: 'Maksimum Verim'
         max-wait-time: 'Maksimum Bekleme Süresi'
+        redis-blocked-clients: 'Engellenmiş İstemciler'
+        redis-connected-clients: 'Bağlı İstemciler'
         redis-cpu-sys: 'Redis CPU Sistem'
         redis-cpu-user: 'Redis CPU Kullanıcı'
         redis-max-memory: 'Redis Maks Bellek'
         redis-memory-policy: 'Redis Bellek Politikası'
         redis-memory-policy-tooltip: "Bellek politikası, Redis'in maxmemory sınırına ulaşıldığında neyi\nkaldıracağına nasıl karar vereceğini belirler. Varsayılanı `noeviction`:\nBellek sınırı aşıldığında yeni değerler kaydedilmez. Belgeler için tıklayın.\n"
+        redis-ops-per-sec: 'Saniye Başına İşlem'
         redis-peak-memory: 'Redis Bellek Zirvesi'
         redis-used-memory: 'Kullanılan Redis Belleği'
         status:

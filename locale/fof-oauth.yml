@@ -43,10 +43,13 @@ fof-oauth:
           client_secret_label: '=> fof-oauth.ref.settings.client_secret'
           description: '{link} bağlantısında bir uygulama oluşturun.'
           hosted_domain_label: 'Barındırılan Alan Adı (G Suite/Google Apps İşletme Sürümü, isteğe bağlı)'
+        group_help: 'Bu sağlayıcıyı kullanarak kayıt olan kullanıcılara otomatik olarak atanacak grubu seçin.'
+        group_label: 'Grup Ataması'
         linkedin:
           client_id_label: '=> fof-oauth.ref.settings.client_id'
           client_secret_label: '=> fof-oauth.ref.settings.client_secret'
           description: '{link} adresinde bir uygulama oluştur.'
+        no_group_label: 'Grup ataması yok'
         twitter:
           api_key_label: 'API Anahtarı'
           api_secret_label: 'API Secret'
