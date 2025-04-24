@@ -2,6 +2,34 @@ CHANGELOG
 =========
 
 
+1.36.0 (2025-04-24)
+-------------------
+
+**Yeni uzantılar için destek eklendi**:
+
+* [`foskym/flarum-activity-graph`](https://github.com/FoskyM/flarum-activity-graph)
+* [`foskym/flarum-custom-levels`](https://github.com/FoskyM/flarum-custom-levels)
+* [`foskym/flarum-sorts-for-user-directory`](https://github.com/FoskyM/flarum-sorts-for-user-directory)
+* [`mattoid/flarum-ext-store-invite`](https://github.com/Mattoids/flarum-ext-store-invite)
+* [`mattoid/flarum-ext-store`](https://github.com/Mattoids/flarum-ext-store)
+* [`nodeloc/lottery`](https://github.com/nodeloc/lottery)
+* [`ramon/colored`](https://github.com/ram0ng1/colored)
+* [`shebaoting/money`](https://github.com/shebaoting/money)
+* [`walsgit/flarum-discussion-cards`](https://github.com/WalsGit/flarum-discussion-cards)
+* [`xypp/forum-quests`](https://github.com/zxy19/flarum-forum-quests)
+* [`xypp/flarum-invite-user`](https://github.com/zxy19/flarum-invite-user)
+* [`xypp/store`](https://github.com/zxy19/store)
+* [`xypp/user-decoration`](https://github.com/zxy19/user-decoration)
+
+
+**Uzantılar için çeviriler güncellendi**:
+
+* [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman)
+
+
+Tüm değişiklikler: [1.35.0...1.36.0](https://github.com/flarum-lang/turkish/compare/1.35.0...1.36.0).
+
+
 1.35.0 (2025-04-24)
 -------------------
 
