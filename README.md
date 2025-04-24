@@ -1,5 +1,5 @@
 # 🇹🇷 Turkish Experience Pack for Flarum
-[![Latest Stable Version](https://img.shields.io/packagist/v/flarum-lang/turkish?color=success&label=stable)](https://packagist.org/packages/flarum-lang/turkish)  [![License](https://img.shields.io/packagist/l/flarum-lang/turkish)](https://packagist.org/packages/flarum-lang/turkish) [![Total Downloads](https://img.shields.io/packagist/dt/flarum-lang/turkish)](https://packagist.org/packages/flarum-lang/turkish/stats) [![Monthly Downloads](https://img.shields.io/packagist/dm/flarum-lang/turkish)](https://packagist.org/packages/flarum-lang/turkish/stats) 
+[![Latest Stable Version](https://img.shields.io/packagist/v/flarum-lang/turkish?color=success&label=stable)](https://packagist.org/packages/flarum-lang/turkish)  [![License](https://img.shields.io/packagist/l/flarum-lang/turkish)](https://packagist.org/packages/flarum-lang/turkish) [![Total Downloads](https://img.shields.io/packagist/dt/flarum-lang/turkish)](https://packagist.org/packages/flarum-lang/turkish/stats) [![Monthly Downloads](https://img.shields.io/packagist/dm/flarum-lang/turkish)](https://packagist.org/packages/flarum-lang/turkish/stats) [![Çeviri durumu](https://weblate.rob006.net/widgets/flarum/tr/svg-badge.svg)](https://weblate.rob006.net/engage/flarum/tr/) 
 
 **Always up-to-date, always improving Flarum language experience!**
 
