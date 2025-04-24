@@ -2,6 +2,23 @@ CHANGELOG
 =========
 
 
+1.36.0 (XXXX-XX-XX)
+-------------------
+
+**Yeni uzantılar için destek eklendi**:
+
+* [`foskym/flarum-custom-levels`](https://github.com/FoskyM/flarum-custom-levels)
+* [`foskym/flarum-sorts-for-user-directory`](https://github.com/FoskyM/flarum-sorts-for-user-directory)
+
+
+**Uzantılar için çeviriler güncellendi**:
+
+* [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman)
+
+
+Tüm değişiklikler: [1.35.0...1.36.0](https://github.com/flarum-lang/turkish/compare/1.35.0...1.36.0).
+
+
 1.35.0 (2025-04-24)
 -------------------
 
