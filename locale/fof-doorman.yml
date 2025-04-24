@@ -6,6 +6,32 @@ fof-doorman:
   admin:
     doorkey_required: 'Bir davet kodu oluşturmalısınız'
     invalid_doorkey: 'Girdiğiniz davet kodu geçersiz.'
+    list:
+      columns:
+        activates_user: '=> fof-doorman.admin.ref.fields.activates_user.label'
+        created_by: Oluşturan
+        group: '=> fof-doorman.admin.ref.fields.group.label'
+        id: ID
+        key: '=> fof-doorman.admin.ref.fields.key.label'
+        manage: Yönet
+        max_uses: '=> fof-doorman.admin.ref.fields.max_uses.label'
+        uses: 'Kullanım Sayısı'
+      content:
+        delete: '"{key}" davet kodunu silmek istediğinizden emin misiniz?'
+        invalid_column: '=> core.admin.users.grid.invalid_column_content'
+        no_created_by: 'Bilinmeyen Kullanıcı'
+        no_group: '=> core.admin.users.grid.columns.group_badges.no_badges'
+        uses:
+          total_uses: '{totalUses, plural, one {1 kez kullanıldı} other {{totalUses} kez kullanıldı}}'
+          used_times: '{remaining, plural, =0 {Sınırsız kullanım} one {{remainingUses} kullanım kaldı} other {{remainingUses} kullanım kaldı}}'
+        warning: 'Bu davet kodu maksimum kullanım sayısına ulaştı.'
+      pagination:
+        back_button: '=> core.admin.users.pagination.back_button'
+        first_page_button: '=> core.admin.users.pagination.first_page_button'
+        go_to_page_textbox_a11y_label: '=> core.admin.users.pagination.go_to_page_textbox_a11y_label'
+        last_page_button: '=> core.admin.users.pagination.last_page_button'
+        next_button: '=> core.admin.users.pagination.next_button'
+        page_counter: '=> core.admin.users.pagination.page_counter'
     modal:
       group: '{group} grubu için davetiye gönderiliyor'
       help: 'Virgül, boşluk veya virgülle ayrılmış bir listeyi kabul eder. Tek bir e-posta yazın veya bir liste yapıştırın ve ardından/onları eklemek için boşluk tuşuna basın.'
@@ -15,6 +41,47 @@ fof-doorman:
       send: 'Mailleri gönder'
       success: 'E-postalar başarıyla gönderildi'
       title: 'Davetiye Kodu Gönder'
+    modals:
+      create_doorkey:
+        activates_user:
+          help: '=> fof-doorman.admin.ref.fields.activates_user.help'
+          label: '=> fof-doorman.admin.ref.fields.activates_user.label'
+        group:
+          help: '=> fof-doorman.admin.ref.fields.group.help'
+          label: '=> fof-doorman.admin.ref.fields.group.label'
+        key:
+          help: '=> fof-doorman.admin.ref.fields.key.help'
+          label: '=> fof-doorman.admin.ref.fields.key.label'
+        max_uses:
+          help: '=> fof-doorman.admin.ref.fields.max_uses.help'
+          label: '=> fof-doorman.admin.ref.fields.max_uses.label'
+        submit_and_create_another_button: 'Oluştur ve bir tane daha ekle'
+        submit_button: 'Davet Kodu Oluştur'
+        title: 'Yeni Davet Kodu Oluştur'
+      edit_doorkey:
+        activates_user:
+          help: '=> fof-doorman.admin.ref.fields.activates_user.help'
+          label: '=> fof-doorman.admin.ref.fields.activates_user.label'
+        group:
+          help: '=> fof-doorman.admin.ref.fields.group.help'
+          label: '=> fof-doorman.admin.ref.fields.group.label'
+        key:
+          help: '=> fof-doorman.admin.ref.fields.key.help'
+          label: '=> fof-doorman.admin.ref.fields.key.label'
+        max_uses:
+          help: '=> fof-doorman.admin.ref.fields.max_uses.help'
+          label: '=> fof-doorman.admin.ref.fields.max_uses.label'
+        submit_button: 'Değişiklikleri Kaydet'
+        title: 'Davet Kodunu Düzenle'
+      send_invites:
+        group: '{group} grubu için davetler gönderiliyor'
+        help: 'Virgül, boşluk veya virgül+boşluk ile ayrılmış listeyi kabul eder. Tek bir e-posta yazın veya bir liste yapıştırın, ardından eklemek için boşluk tuşuna basın.'
+        invalid_emails: 'Aşağıdaki e-posta(lar) geçersiz: {emails}'
+        max_use_conflict: 'E-posta sayısı, bu kodun maksimum kullanım sayısını aşıyor.'
+        placeholder: 'E-postaları buraya girin'
+        send: 'E-postaları Gönder'
+        success: 'E-postalar başarıyla gönderildi'
+        title: 'Davet Kodları Gönder'
     nav:
       desc: 'Kullanıcıların kayıt olması ve bir gruba atanması için davet kodları oluşturun'
     page:
@@ -39,6 +106,28 @@ fof-doorman:
         used_times: '{remaining, plural, one {{remaining} kullanım kaldı} other {{remaining} kullanım kaldı}}'
         warning: 'Bu davet kodu maksimum sayıda kullanılmış.'
       title: Doorman
+    ref:
+      fields:
+        activates_user:
+          help: 'Kullanıcı kaydolduğunda otomatik olarak aktif eder.'
+          label: 'Kullanıcıyı Aktif Et'
+        group:
+          help: 'Davet kodunu kullanarak kaydolduğunda kullanıcının ekleneceği grup.'
+          label: Grup
+        key:
+          help: 'Kullanıcının kaydolurken gireceği kod.'
+          label: Anahtar
+        max_uses:
+          help: 'Kodun kullanılabileceği maksimum sayı. Sınırsız kullanım için 0 olarak ayarlayın'
+          label: 'Maks Kullanım'
+    settings:
+      create_doorkey_button: 'Davet Kodu Oluştur'
+      optional_usage: 'Kaydolurken davet kodunu isteğe bağlı yap'
+      search: 'Davet kodlarını ara'
+      total_doorkeys: 'Toplam davet kodu: {count}'
+  email:
+    body: "Merhaba,\n\n{forum} adresine kaydolmaya davet edildiniz.\n\nHesabınızı oluşturmaya hazır olduğunuzda, aşağıdaki bağlantıya tıklayın ve kaydolurken kodu girin:\n\nUrl: {url}\nDavet kodu: {code}\n\nEğer bu e-postayı yanlışlıkla aldıysanız, lütfen dikkate almayın.\n"
+    subject: 'Katılmaya Davet'
   forum:
     email:
       body: "Merhaba,\n\n{forum} sitesi için bir davetiye aldın.\n\nKayıt olmak için hazır olduğunda aşağıdaki bağlantıyı kullanabilir ve kayıt olurken kodu kullanabilirsin:\n\nBağlantı: {url}\nDavet kodu: {code}\n\nEğer bu mesajı yanlışlıkla aldığınızı düşünüyorsanız görmezden gelebilirsiniz.\n"
