@@ -18,6 +18,7 @@ CHANGELOG
 * [`kk14569/flarum-anti-gmail-alias`](https://github.com/kk14569/flarum-anti-gmail-alias)
 * [`litalino/flarum-auto-post-count-badge`](https://github.com/Litalino/flarum-auto-post-count-badge)
 * [`neoncube/flarum-private-messages`](https://github.com/neoncube2/flarum-private-messages)
+* [`ordinaryjellyfish/flarum-dicebear`](https://github.com/OrdinaryJellyfish/flarum-dicebear)
 * [`ordinaryjellyfish/sentra`](https://github.com/OrdinaryJellyfish/sentra)
 * [`xypp/flarum-answer-bounty`](https://github.com/zxy19/flarum-answer-bounty)
 * [`xypp/pay-to-read`](https://github.com/zxy19/flarum-pay-to-read)
