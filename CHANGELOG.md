@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+1.36.1 (XXXX-XX-XX)
+-------------------
+
+**Uzantılar için çeviriler güncellendi**:
+
+* [`flarum/flags`](https://github.com/flarum/flags)
+* [`justoverclock/first-visit-indexpage`](https://github.com/justoverclockl/first-visit-indexpage)
+
+
+Tüm değişiklikler: [1.36.0...1.36.1](https://github.com/flarum-lang/turkish/compare/1.36.0...1.36.1).
+
+
 1.36.0 (2025-04-24)
 -------------------
 
