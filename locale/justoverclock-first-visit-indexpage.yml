@@ -5,7 +5,7 @@
 first-visit-indexpage:
   forum:
     accept-rules: 'Kuralları okudum ve kabul ediyorum'
-    agree-button: 'Kabul Ediyorum'
+    agree-button: 'Kabul Ediyorum...'
     alert-message: 'Devam etmek için kuralları kabul edin'
     app-title: 'Forum Kuralları'
     copyright: 'Telif hakkı ve "rahatsız edici" gönderiler, bağlantılar veya resimler'
@@ -15,9 +15,9 @@ first-visit-indexpage:
     posting-rules: 'Gönderi ve Tartışmalar'
     posting-rules-text: "<p><strong>TANIMLAYICI</strong> olun ve \"genel\" tartışma başlığı kullanmayın.</p>\n<p><strong>LÜTFEN</strong> açıklayıcı bir tartışma başlığı girin! Konuyla ilgili probleminizin kısa bir özetini verin.\n(Dikkat çeken başlıklar kullanmayın, bu başlıklar dikkat çekmezler ve sadece insanları rahatsız ederler).</p>\n<p>İşte  <strong>HATALI</strong> başlıkların harika bir listesi:\nYardım edin, Merhaba, Çok acil, Bir sorum var, bir sorunum var ve benzeri.</p>\n"
     rule-break: 'Bir kuralı çiğnersem ne olur?'
-    rule-break-text: "<p>Bir kuralı çiğnerseniz, uyarılırsınız veya yasaklanırsınız.\nKullanıcı hesabınızın yasaklanması geçici veya kalıcı olabilir.\nYöneticiler ve moderatörler ayrıca önceden uyarıda bulunmadan gerekli\ngördükleri herhangi bir ileti dizisini veya gönderiyi düzenleme, silme, taşıma veya kapatma hakkına sahiptir.</p>\n"
+    rule-break-text: "<p>Bir kuralı çiğnerseniz, uyarılırsınız veya yasaklanırsınız. Kullanıcı hesabınızın yasaklanması geçici\nveya kalıcı olabilir. Yöneticiler ve moderatörler ayrıca önceden uyarıda bulunmadan gerekli gördükleri\nherhangi bir ileti dizisini veya gönderiyi düzenleme, silme, taşıma veya kapatma hakkına sahiptir.</p>\n"
     spam: 'İstenmeyen ve tanıtıcı içerik'
     spam-text: "<p>Forumda istenmeyen ve reklam içerikler yayınlamayın.</p>\n<p>Bu forumlar istenmeyen içerikler; mallar, hizmetler ve/veya diğer web siteleri için istenmeyen reklamlar veya \nçok az veya tamamen alakasız içeriğe sahip gönderiler olarak tanımlar. Sitenize veya ürününüze bağlantılar içeren\nistenmeyen gönderiler göndermeyin veya web sitenizi, işletmenizi veya forumlarınızı vb. tanıtmaya çalışmayın.\nİstenmeyen, çok sayıda farklı kullanıcıya özel mesaj göndermeyi de içerir.</p>\n<p>Web sitenizin bağlantılarına yalnızca profilinizdeki biyografide izin verilir.</p>\n"
-    title: 'Forum Kuralları'
+    title: 'Forum Kuralları...'
     warning-text: 'Bu kurallar, burada tüm topluluk üyelerinin çeşitli sorumluluklarını netleştirmek için açıklanmıştır. İşleyişin sorunsuz ilerlemesini ve tüm topluluk üyelerimiz ile ziyaretçilerimiz için eğlenceli ve üretken bir deneyim sağlamasını sağlamak amacıyla herkes tarafından bunlara uyulacaktır.'
-    warning-title: 'Uyarı - Foruma devam etmek için forum kurallarını kabul etmek zorundasınız!'
+    warning-title: 'Uyarı - Foruma devam etmek için forum kurallarını kabul etmek zorundasınız!.'
