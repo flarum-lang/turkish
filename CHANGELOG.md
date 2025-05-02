@@ -9,6 +9,7 @@ CHANGELOG
 
 * [`flarum/flags`](https://github.com/flarum/flags)
 * [`justoverclock/first-visit-indexpage`](https://github.com/justoverclockl/first-visit-indexpage)
+* [`ordinaryjellyfish/sentra`](https://github.com/OrdinaryJellyfish/sentra)
 
 
 Tüm değişiklikler: [1.36.0...1.36.1](https://github.com/flarum-lang/turkish/compare/1.36.0...1.36.1).
