@@ -2,8 +2,13 @@ CHANGELOG
 =========
 
 
-1.36.1 (XXXX-XX-XX)
+1.37.0 (XXXX-XX-XX)
 -------------------
+
+**Yeni uzantılar için destek eklendi**:
+
+* [`fof/discussion-views`](https://github.com/FriendsOfFlarum/discussion-views)
+
 
 **Uzantılar için çeviriler güncellendi**:
 
@@ -12,7 +17,7 @@ CHANGELOG
 * [`ordinaryjellyfish/sentra`](https://github.com/OrdinaryJellyfish/sentra)
 
 
-Tüm değişiklikler: [1.36.0...1.36.1](https://github.com/flarum-lang/turkish/compare/1.36.0...1.36.1).
+Tüm değişiklikler: [1.36.0...1.37.0](https://github.com/flarum-lang/turkish/compare/1.36.0...1.37.0).
 
 
 1.36.0 (2025-04-24)
