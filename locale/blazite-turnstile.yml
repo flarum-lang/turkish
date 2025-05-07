@@ -13,5 +13,7 @@ blazite-turnstile:
       site_key: 'Site anahtarı'
   forum:
     not_loaded_error: 'Cloudflare Turnstile yüklenemedi. Lütfen sayfayı yenileyin veya reklam engelleyicinizi kontrol edin.'
+    validation_error: 'Lütfen Turnstile doğrulamasını tamamlayın.'
 validation:
+  required: 'Lütfen Turnstile doğrulamasını tamamlayın.'
   turnstile: 'Robot olup olmadığınızı doğrulayamadık. Lütfen sayfayı yenileyin ve tekrar deneyin.'
