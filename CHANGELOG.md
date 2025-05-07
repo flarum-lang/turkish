@@ -2,6 +2,25 @@ CHANGELOG
 =========
 
 
+1.37.0 (XXXX-XX-XX)
+-------------------
+
+**Yeni uzantılar için destek eklendi**:
+
+* [`blazite/flarum-turnstile`](https://github.com/blazite/flarum-ext-turnstile)
+* [`fof/discussion-views`](https://github.com/FriendsOfFlarum/discussion-views)
+
+
+**Uzantılar için çeviriler güncellendi**:
+
+* [`flarum/flags`](https://github.com/flarum/flags)
+* [`justoverclock/first-visit-indexpage`](https://github.com/justoverclockl/first-visit-indexpage)
+* [`ordinaryjellyfish/sentra`](https://github.com/OrdinaryJellyfish/sentra)
+
+
+Tüm değişiklikler: [1.36.0...1.37.0](https://github.com/flarum-lang/turkish/compare/1.36.0...1.37.0).
+
+
 1.36.0 (2025-04-24)
 -------------------
 
