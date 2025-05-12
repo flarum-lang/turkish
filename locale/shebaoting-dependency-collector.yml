@@ -11,17 +11,17 @@ shebaoting-dependency-collector:
     confirm:
       approve: 'Bağımlılığı onayla'
       delete: 'Bağımlılığı sil'
-      delete_tag: 'Etiket "{name}" silinsin mi? Bu işlem, etiketi tüm ilişkili bağımlılıklardan kaldırır.'
+      delete_tag: '"{name}" etiketi silinsin mi? Bu işlem, etiketi tüm ilişkili bağımlılıklardan kaldırır.'
       reject: 'Bağımlılığı reddet'
     modal:
       create_tag_title: 'Yeni Etiket Oluştur'
-      edit_tag_title: 'Etiketi Düzenle - {name}'
+      edit_tag_title: '{name} - Etiketi Düzenle'
       tag_color_label: 'Renk (örneğin,'
       tag_description_label: 'Açıklama (İsteğe Bağlı)'
-      tag_icon_help: '<a>Font Awesome</a> üzerinden simgelere göz atın.'
+      tag_icon_help: '<a>Font Awesome</a>''da simgelere göz atın.'
       tag_icon_label: 'Simge (örneğin, fas fa-code)'
       tag_name_label: İsim
-      tag_slug_label: 'Kısa Ad'
+      tag_slug_label: 'Adres Kısa Adı'
     nav:
       description: 'Gönderilen bağımlılıkları ve eklenti etiketlerini yönetin.'
       title: 'Bağımlılık Toplayıcı'
@@ -39,7 +39,7 @@ shebaoting-dependency-collector:
       moderate_label: 'Bağımlılıkları denetle (onayla, reddet, düzenle, sil)'
       submit_label: 'Bağımlılık gönder'
     table:
-      actions: İşlemler
+      actions: Eylemler
       approved_at: 'Onaylanma Tarihi'
       approved_by: Onaylayan
       submitted_at: 'Gönderilme Tarihi'
@@ -49,7 +49,7 @@ shebaoting-dependency-collector:
       tag_icon: Simge
       tag_item_count: Öğeler
       tag_name: İsim
-      tag_slug: 'Kısa Ad'
+      tag_slug: 'Adres Kısa Adı'
       tags: Etiketler
       title: Başlık
   forum:
