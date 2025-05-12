@@ -9,11 +9,13 @@ CHANGELOG
 
 * [`blazite/flarum-turnstile`](https://github.com/blazite/flarum-ext-turnstile)
 * [`fof/discussion-views`](https://github.com/FriendsOfFlarum/discussion-views)
+* [`shebaoting/dependency-collector`](https://github.com/shebaoting/dependency-collector)
 
 
 **Uzantılar için çeviriler güncellendi**:
 
 * [`flarum/flags`](https://github.com/flarum/flags)
+* [`fof/prevent-necrobumping`](https://github.com/FriendsOfFlarum/prevent-necrobumping)
 * [`justoverclock/first-visit-indexpage`](https://github.com/justoverclockl/first-visit-indexpage)
 * [`ordinaryjellyfish/sentra`](https://github.com/OrdinaryJellyfish/sentra)
 
