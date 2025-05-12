@@ -11,12 +11,16 @@ fof-prevent-necrobumping:
       message_description_label: 'Mesaj Açıklaması'
       message_title_help: '<code>[time]</code> alanına örneğin "14 gün" yazın.'
       message_title_label: 'Özel Mesaj Başlığı'
+      show_discussion_cta_help: 'Belirlenen süreden daha eski tartışmalara yanıt verilirken, özel bir açıklama tanımlanmadıysa; kullanıcıya eylem çağrısını göster.'
+      show_discussion_cta_label: 'Eylem Çağrısını Göster'
       tags_help: 'Belirli bir etiket için yanıtlamaları geçersiz kıl. Bu alanı boş bırakırsanız varsayılan değer geçerli sayılır. Bir tartışma için farklı etiketlerde alt limit varsa en küçük değer temel alınır.'
       tags_title: Etiketler
   forum:
     composer:
       warning:
         checkbox_label: 'Bu tartışmanın oldukça eski olduğunu ancak yine de yanıt vermek istediğimi onaylıyorum.'
+        cta: 'Yeni bir tartışma başlatmak ister misiniz?'
+        cta_button: '=> core.ref.start_a_discussion'
         description: 'Bu tartışma oldukça eskimiş ve muhtemelen daha fazla tartışılmaya uygun değil.'
         error: 'Bu tartışma yanıtlayamayacağınız kadar eski.'
         title: 'Bu tartışma <b>{time}</b>''den eski.'
