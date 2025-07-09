@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+1.37.1 (XXXX-XX-XX)
+-------------------
+
+**Uzantılar için çeviriler güncellendi**:
+
+* [`yippy/flarum-ext-auth-ldap`](https://github.com/Yippy/flarum-ext-auth-ldap)
+* [`yippy/flarum-tag-with-themes`](https://github.com/Yippy/flarum-tag-with-themes)
+
+
+Tüm değişiklikler: [1.37.0...1.37.1](https://github.com/flarum-lang/turkish/compare/1.37.0...1.37.1).
+
+
 1.37.0 (2025-05-13)
 -------------------
 
