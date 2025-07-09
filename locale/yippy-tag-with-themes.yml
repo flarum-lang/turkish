@@ -6,7 +6,7 @@ yippy-tag-with-themes:
   admin:
     designs:
       add: 'Etiketler için Tasarım Ekle'
-      banner: 'Tasarım Teması {index}'
+      banner: 'Tasarım Teması {index} - [{isEnabled}]'
       data:
         child_background_color: 'Alt Arka Plan Rengini Düzenle'
         child_font_class: 'Alt Yazı Tipini Düzenle'

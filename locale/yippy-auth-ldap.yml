@@ -8,7 +8,7 @@ yippy-auth-ldap:
       display_detailed_error: 'Başarısız oturum açma girişimleri için ayrıntılı LDAP hatalarını görüntüle'
       domains:
         add: 'Alan Ekle'
-        banner: 'Alan {index}'
+        banner: 'Alan {index} - [{isEnabled}]'
         data:
           admin_dn: 'Ayırt Edilmiş Adlar (DN''ler)'
           admin_dn_help: 'Anonim bağlama için boş bırakın'
