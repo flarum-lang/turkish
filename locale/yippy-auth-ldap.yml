@@ -21,6 +21,9 @@ yippy-auth-ldap:
           follow_referrals: 'LDAP sunucusuna bağlanmak için yönlendirmeleri izleyin'
           host: 'Alanlar veya sunucu IP adresleri'
           host_help: 'Virgülle ayrılmış'
+          is_enabled: 'LDAP Sunucusunu Etkinleştir'
+          permission_groups: 'Belirli İzinleri Ata'
+          permission_groups_help: 'Bu, kayıt sırasında uygulanır'
           port: 'Bağlantı Noktası'
           port_help: 'SSL olmayan (Bağlantı Noktası 389) veya SSL (Bağlantı Noktası 636).'
           search_user_fields: 'Arama alanları'
@@ -42,6 +45,9 @@ yippy-auth-ldap:
           search_fields: 'LDAP Hesap Araması'
           search_fields_description: 'Kullanıcının sağladığı Kullanıcı Adı ile karşılaştırılacak LDAP alanlarının bir listesini oluşturun.'
           server: 'LDAP Sunucu Ayarları'
+        is_enabled:
+          disabled: 'Devre dışı'
+          enabled: Etkinleştir
         title: 'LDAP Alanları'
       method_name: 'LDAP sunucu adı ("Giriş Yap" sonrasında görünecek)'
       onlyUse: 'Flarum standart giriş yöntemini gizle'

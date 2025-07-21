@@ -7,11 +7,14 @@ fof-polls:
     permissions:
       change_vote: 'Oyu değiştir'
       moderate: 'Anketi düzenle veya sil'
+      moderate_group: 'Anket gruplarını düzenle veya kaldır'
       self_edit: 'Oluşturulan anketleri düzenleyin (düzenleme sonrası izin gerektirir)'
       self_post_edit: 'Kendi gönderilerindeki *tüm* anketleri düzenleyin (düzenleme sonrası izin gerektirir)'
       start: 'Anket oluştur'
       start_global: 'Genel bir anket başlat'
+      start_group: 'Anket grupları oluşturun'
       upload_images: 'Kullanıcıların anketler için resim yüklemesine izin ver'
+      view_group: 'Anket gruplarını görüntüle'
       view_results_without_voting: 'Sonuçları oy vermeden göster'
       vote: 'Ankete oy ver'
     settings:
@@ -20,6 +23,8 @@ fof-polls:
       allow_option_image: 'Her anket seçeneği için bir resim URL''sinin sağlanmasına izin ver'
       enable_global_polls: 'Genel anketleri etkinleştir'
       enable_global_polls_help: 'Genel anketler belirli bir gönderiye bağlı değildir ve bunlara özel bir anket sayfasından erişilebilir.'
+      enabled_poll_groups: 'Anket gruplarını etkinleştir'
+      enabled_poll_groups_help: 'Anket grupları, genel anketleri bir araya getirmenize ve bunları özel bir sayfada görüntülemenize olanak tanır.'
       general:
         heading: 'Genel Ayarlar'
         help: 'Bu ayarlar Anketler uzantısının temel özelliklerini kontrol eder.'
@@ -94,6 +99,7 @@ fof-polls:
     page:
       nav: Anketler
       nav-all: 'Tüm Genel Anketler'
+      nav-groups: 'Anket Grupları'
     poll:
       cannot_change_vote: 'Oy kullandıktan sonra oyunuzu değiştiremezsiniz.'
       cannot_start_poll_button: 'Genel Anket Başlatılamıyor'
@@ -111,6 +117,31 @@ fof-polls:
     poll_form:
       delete: 'Anketi Sil'
       error: 'Anket kaydedilirken bir hata oluştu. Lütfen herhangi bir yöneticiyle iletişime geçin.'
+    poll_groups:
+      composer:
+        add_title: 'Anket Grubu Ekle'
+        delete: 'Anket Grubunu Sil'
+        edit_title: 'Anket Grubunu Düzenle'
+        groups_manager: 'Anket Grupları Yöneticisi'
+        save_changes: '=> core.ref.save_changes'
+        success: 'Anket grubu başarıyla kaydedildi.'
+        view_group: 'Anket Grubunu Görüntüle'
+      controls:
+        add_poll_label: 'Anket Ekle'
+        delete_confirmation: 'Bu anket grubunu silmek istediğinizden emin misiniz?'
+        delete_error_message: 'Anket grubunu silerken bir sorun oluştu.'
+        delete_label: '=> core.ref.delete'
+        delete_success_message: 'Anket grubu başarıyla silindi.'
+        edit_label: '=> core.ref.edit'
+        view_label: 'Anket Grubunu Görüntüle'
+      list_page:
+        add_poll_button: 'Gruba Anket Ekle'
+        cannot_start_poll_group_button: 'Anket Grubu Başlatılamıyor'
+        empty_text: 'Burada anket grubu yok gibi görünüyor.'
+        load_more_button: '=> core.ref.load_more'
+        no_polls: 'Bu grupta anket yok.'
+        start_poll_group_button: 'Bir Anket Grubu Oluşturun'
+        title: 'Anket Grupları'
     poll_never_ends: 'Anket sona ermez'
     polls_count: '{count, plural, one { {count} oy} other {{count} oy}}'
     polls_list:
