@@ -2,16 +2,25 @@ CHANGELOG
 =========
 
 
-1.37.1 (XXXX-XX-XX)
+1.38.0 (XXXX-XX-XX)
 -------------------
+
+**Yeni uzantılar için destek eklendi**:
+
+* [`xypp/flarum-pay-cccyun`](https://flarum.org/extension/xypp/flarum-pay-cccyun)
+
 
 **Uzantılar için çeviriler güncellendi**:
 
+* [`afrux/top-posters-widget`](https://github.com/afrux/top-posters-widget)
+* [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`walsgit/flarum-discussion-cards`](https://github.com/WalsGit/flarum-discussion-cards)
 * [`yippy/flarum-ext-auth-ldap`](https://github.com/Yippy/flarum-ext-auth-ldap)
 * [`yippy/flarum-tag-with-themes`](https://github.com/Yippy/flarum-tag-with-themes)
 
 
-Tüm değişiklikler: [1.37.0...1.37.1](https://github.com/flarum-lang/turkish/compare/1.37.0...1.37.1).
+Tüm değişiklikler: [1.37.0...1.38.0](https://github.com/flarum-lang/turkish/compare/1.37.0...1.38.0).
 
 
 1.37.0 (2025-05-13)
