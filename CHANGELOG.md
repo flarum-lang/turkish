@@ -2,6 +2,24 @@ CHANGELOG
 =========
 
 
+1.39.0 (XXXX-XX-XX)
+-------------------
+
+**Yeni uzantılar için destek eklendi**:
+
+* [`zhihe/primary-posts`](https://github.com/echolocked/zhihe-primary-posts)
+
+
+**Uzantılar için çeviriler güncellendi**:
+
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+* [`maicol07/flarum-ext-sso`](https://github.com/maicol07/flarum-ext-sso)
+* [`xypp/flarum-pay-cccyun`](https://flarum.org/extension/xypp/flarum-pay-cccyun)
+
+
+Tüm değişiklikler: [1.38.0...1.39.0](https://github.com/flarum-lang/turkish/compare/1.38.0...1.39.0).
+
+
 1.38.0 (2025-08-02)
 -------------------
 
