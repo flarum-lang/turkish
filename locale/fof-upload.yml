@@ -93,6 +93,11 @@ fof-upload:
         max_width: 'Maksimum görsel genişliği/yüksekliği'
         title: 'Görüntüleri yeniden boyutlandır'
         toggle: 'Görüntüleri yeniden boyutlandır'
+      svg-sanitizer:
+        allow_animate: 'SVG animasyonlarına izin ver'
+        allow_animate_help: 'SVG animasyonlarını etkinleştirmek güvenlik açıklarına yol açabilir çünkü animasyonlu SVG’ler kötü amaçlı kod içerebilir. Bu ayarı kendi sorumluluğunuzda etkinleştirin ve yalnızca kullanıcılarınıza güveniyorsanız kullanın.'
+        help: 'SVG dosyalarının yüklendiğinde nasıl işlendiğini ve temizlendiğini yapılandırın. SVG dosyaları potansiyel olarak zararlı betikler içerebilir ve dikkatle ele alınmalıdır. Yüklenen SVG''ler yükleme sırasında temizlenir ve zararlı betikler ile etiketler kaldırılır.'
+        title: 'SVG Temizleyici'
       watermark:
         file: 'Filigran yükleyin'
         position: 'Filigran konumu'

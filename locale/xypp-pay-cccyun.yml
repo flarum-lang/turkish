@@ -72,7 +72,7 @@ xypp-pay-cccyun:
       open_window: 'Pop-up pencere açılmazsa, buraya tıklayın.'
       qr: 'Ödemeyi tamamlamak için QR kodunu tarayın'
       qr-fail: 'QR Kodu yüklenemedi'
-      tip: '{u} kullanıcısına {money} yükleyeceksiniz.'
+      tip: '{u} kullanıcısına {money} yükleyeceksiniz'
       title: Öde
       wechat: 'WeChat aracılığıyla ödeme yap'
       window: 'Lütfen yeni pencerede ödemeyi tamamlayın'
