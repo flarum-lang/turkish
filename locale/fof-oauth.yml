@@ -12,6 +12,8 @@ fof-oauth:
         heading: Gelişmiş
         log-oauth-errors-help: 'Etkinleştirilirse OAuth hataları Flarum günlüğüne kaydedilecektir. Bu, OAuth sorunlarının ayıklanmasına yardımcı olabilir ancak aynı zamanda hassas bilgiler de içerebilir.'
         log-oauth-errors-label: 'OAuth hatalarını günlüğe kaydet'
+      disable_avatars_help: "Etkinleştirilirse, kullanıcının avatarı kayıt sırasında sağlayıcının avatarıyla eşleşmeyecektir. Bunun yalnızca gelecekteki kayıtları etkilediğini ve mevcut kullanıcıların avatarlarını değiştirmeyeceğini unutmayın.\n"
+      disable_avatars_label: 'Sağlayıcıdan avatarları devre dışı bırak'
       fullscreen_popup_help: 'Etkinleştirildiğinde, OAuth girişi tam ekran bir açılır pencerede açılacaktır. Bu etkinleştirilirse genişlik ve yükseklik ayarları dikkate alınmaz.'
       fullscreen_popup_label: 'OAuth için Tam Ekran Açılır Penceresini Kullan'
       only_icons_label: 'Yalnızca Oturum Aç Düğmesi simgelerini göster (alternatif düzen)'
