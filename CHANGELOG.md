@@ -2,6 +2,30 @@ CHANGELOG
 =========
 
 
+1.39.0 (2025-09-04)
+-------------------
+
+**Yeni uzantılar için destek eklendi**:
+
+* [`huseyinfiliz/guest`](https://github.com/huseyinfiliz/guest)
+* [`huseyinfiliz/sort-changer`](https://github.com/huseyinfiliz/sort-changer)
+* [`huseyinfiliz/sticky-title`](https://github.com/huseyinfiliz/sticky-title)
+* [`zhihe/primary-posts`](https://github.com/echolocked/zhihe-primary-posts)
+
+
+**Uzantılar için çeviriler güncellendi**:
+
+* [`fof/filter`](https://github.com/FriendsOfFlarum/filter)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
+* [`fof/sitemap`](https://github.com/FriendsOfFlarum/sitemap)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+* [`maicol07/flarum-ext-sso`](https://github.com/maicol07/flarum-ext-sso)
+* [`xypp/flarum-pay-cccyun`](https://flarum.org/extension/xypp/flarum-pay-cccyun)
+
+
+Tüm değişiklikler: [1.38.0...1.39.0](https://github.com/flarum-lang/turkish/compare/1.38.0...1.39.0).
+
+
 1.38.0 (2025-08-02)
 -------------------
 
