@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.40.0 (XXXX-XX-XX)
+-------------------
+
+**Yeni uzantılar için destek eklendi**:
+
+* [`huseyinfiliz/traderfeedback`](https://github.com/huseyinfiliz/traderfeedback)
+
+
+Tüm değişiklikler: [1.39.0...1.40.0](https://github.com/flarum-lang/turkish/compare/1.39.0...1.40.0).
+
+
 1.39.0 (2025-09-04)
 -------------------
 
