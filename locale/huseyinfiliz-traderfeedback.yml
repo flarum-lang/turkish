@@ -85,9 +85,9 @@ huseyinfiliz-traderfeedback:
   api:
     validation:
       already_given: 'Bu tartışma için zaten geri bildirim verdiniz.'
-      already_reported: 'Bu geri bildirimi zaten rapor ettiniz.'
+      already_reported: 'Bu geri bildirimi zaten raporladınız.'
       discussion_not_found: 'Belirtilen tartışma bulunamadı.'
-      discussion_required: 'Geri bildirim için tartışma URL’si veya kimliği gereklidir.'
+      discussion_required: 'Geri bildirim için tartışma bağlantısı veya kimliği gereklidir.'
       min_days: 'Geri bildirim verebilmek için en az {days} gün üye olmalısınız.'
       min_posts: 'Geri bildirim verebilmek için en az {posts} gönderiniz olmalıdır.'
       negative_not_allowed: 'Olumsuz geri bildirimlere izin verilmiyor.'
@@ -138,11 +138,11 @@ huseyinfiliz-traderfeedback:
       comment_label: Yorum
       comment_placeholder: 'Bu kullanıcıyla ticaret deneyiminizi açıklayın'
       discussion_help: 'Bu ticarete ilişkin tartışma bağlantısını veya kimliğini girin'
-      discussion_label: 'Tartışma URL’si / Kimliği'
+      discussion_label: 'Tartışma Bağlantısı / Kimliği'
       discussion_placeholder: 'örnek: https://forum.com/d/155 veya 155'
-      error_discussion_required: 'Tartışma URL’si veya kimliği gereklidir.'
+      error_discussion_required: 'Tartışma bağlantısı veya kimliği gereklidir.'
       error_submit: 'Geri bildirim gönderilirken hata oluştu.'
-      error_too_long: 'Yorum en fazla {max} karakter olabilir.'
+      error_too_long: 'Yorum en fazla {max} karakter olmalıdır.'
       error_too_short: 'Yorum en az {min} karakter olmalıdır.'
       role_buyer: Alıcı
       role_label: Rolünüz
