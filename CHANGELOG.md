@@ -7,7 +7,11 @@ CHANGELOG
 
 **Yeni uzantılar için destek eklendi**:
 
+* [`club-1/flarum-ext-content-permissions`](https://github.com/club-1/flarum-ext-content-permissions)
+* [`huseyinfiliz/custom-profile-page`](https://github.com/huseyinfiliz/custom-profile-page)
 * [`huseyinfiliz/traderfeedback`](https://github.com/huseyinfiliz/traderfeedback)
+* [`ianm/online-guests`](https://github.com/imorland/flarum-ext-online-guests-widget)
+* [`startracex/flarum-dark`](https://github.com/startracex/flarum-dark)
 
 
 Tüm değişiklikler: [1.39.0...1.40.0](https://github.com/flarum-lang/turkish/compare/1.39.0...1.40.0).
