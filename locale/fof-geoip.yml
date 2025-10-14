@@ -13,6 +13,8 @@ fof-geoip:
       see_country: 'IP adresinin ülkesini her zaman görüntüle'
     settings:
       access_key_label: 'Erişim Anahtarı'
+      error_code_prefix: 'Kod:'
+      error_prefix: 'Hata:'
       general:
         heading: 'Genel Ayarlar'
         help: 'Bu ayarlar uzantının genel davranışını kontrol eder.'
@@ -20,6 +22,10 @@ fof-geoip:
         heading: 'IP Arama Hizmeti'
         help: 'IP aramaları için kullanılacak bir hizmet seçin. Bazı hizmetlerin hız sınırlamaları vardır, bu nedenle daha fazla bilgi için hizmetin belgelerini kontrol ettiğinizden emin olun.'
       quota_label: 'Arama kotası'
+      raw_http_response_label: 'Ham HTTP Yanıt Gövdesi'
+      request_options_label: 'İstek Seçenekleri'
+      request_url_label: 'İstek Bağlantısı'
+      response_headers_label: 'Yanıt Başlıkları'
       security_label: 'Güvenlik Modülü (profesyonel+ gerektirir)'
       service_freegeoip_description: 'Saatte 15.000''e kadar IP ülke kodunu ücretsiz olarak almak için <b>https://freegeoip.app/</b> kullanın.'
       service_freegeoip_label: FreeGeoIP
@@ -29,6 +35,8 @@ fof-geoip:
       service_ipapi_label: 'IP Api'
       service_ipdata_description: 'Günde 1.500''e kadar ücretsiz arama yapmak için <b>https://ipdata.co</b>''yu kullanın. Daha yüksek kullanım limitleri için ücretli planlar da mevcuttur.'
       service_ipdata_label: IPData
+      service_ipinfo-lite_description: '<b>https://ipinfo.io</b> adresini kullanarak IP bilgilerini herhangi bir oran sınırlaması veya kısıtlama olmadan alabilirsiniz. Ücretsiz bir API anahtarı için kayıt olmanız gerekir.'
+      service_ipinfo-lite_label: 'IPInfo Lite'
       service_iplocation_description: 'Ülke ve ISP verilerini almak için <b>https://www.iplocation.net/</b> adresini kullanın. Arama oranı sınırları bilinmiyor.'
       service_iplocation_label: 'IP Konumu'
       service_ipsevenex_description: 'Dakikada 20 isteğe kadar ücretsiz API anahtarı almak için <b>https://7x.ax</b> adresini kullanın. Daha yüksek kullanım limitleri için ücretli planlar da mevcuttur.'
@@ -38,6 +46,26 @@ fof-geoip:
       service_label: Hizmet
       show_flag_help: 'Kullanıcı tercihleri üzerinden katılım sağladığında, IP adresini açıklamadan, gönderi yazarının IP adresinin ülke bayrağını göster.'
       show_flag_label: 'Her gönderi için ülke bayrağını göster'
+      status_error: '✗ Hata'
+      status_success: '✓ Başarılı'
+      status_unknown: Bilinmiyor
+      test:
+        heading: 'Servis Yapılandırmasını Test Et'
+        help: 'IP sorgulama servisinizin yapılandırmasını örnek bir IP adresiyle test edin. Test etmeden önce ayarlarınızı kaydettiğinizden emin olun.'
+      test_button: 'Servisi Test Et'
+      test_error: 'Servis test edilirken bir hata oluştu.'
+      test_error_details_label: 'Hata Ayrıntıları:'
+      test_http_status_code_label: 'HTTP Durum Kodu:'
+      test_ip_required: 'Test etmek için lütfen bir IP adresi girin.'
+      test_processed_service_response_label: 'İşlenmiş Servis Yanıtı:'
+      test_response_time_label: 'Yanıt Süresi:'
+      test_result_title: 'Test Sonuçları'
+      test_service_help: 'Mevcut servis yapılandırmanızı test etmek için bir IPv4 veya IPv6 adresi girin.'
+      test_service_label: 'IP Sorgulama Servisini Test Et'
+      test_service_label_result: 'Servis:'
+      test_status_label: 'Durum:'
+      test_timestamp_label: 'Zaman Damgası:'
+      testing: 'Test ediliyor...'
       title: 'FriendsOfFlarum GeoIP'
   forum:
     alerts:
