@@ -16,7 +16,13 @@ CHANGELOG
 * [`capybash/magicbb`](https://github.com/capybash/magicbb)
 * [`capybash/magicread`](https://github.com/capybash/magicread)
 * [`datlechin/flarum-ai-summarize`](https://github.com/datlechin/flarum-ai-summarize)
+* [`datlechin/flarum-ai`](https://github.com/datlechin/flarum-ai)
+* [`foskym/flarum-pagination`](https://github.com/FoskyM/flarum-pagination)
+* [`justoverclock/profile-comments`](https://github.com/justoverclockl/flarum-profile-comments)
+* [`klxf/flarum-maintenance`](https://github.com/klxf/flarum-maintenance)
 * [`michaelbelgium/flarum-ai-autoreply`](https://github.com/MichaelBelgium/flarum-ai-autoreply)
+* [`mshuo/reply-to-see`](https://github.com/MShuoo/reply-to-see)
+* [`xypp/collector`](https://github.com/zxy19/flarum-collector)
 * [`xypp/store-virtual-item`](https://github.com/zxy19/store-virtual-item)
 
 
