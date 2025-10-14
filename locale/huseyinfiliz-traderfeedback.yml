@@ -143,10 +143,13 @@ huseyinfiliz-traderfeedback:
     discussion_actions:
       continue: 'Devam Et'
       give_feedback: 'Geri Bildirim Ver'
+      no_matching_users: 'Eşleşen kullanıcı bulunamadı'
       no_users_found: 'Bu tartışmada başka kullanıcı bulunamadı'
       search_user_placeholder: 'Kullanıcı ara...'
       select_user_label: 'Kullanıcı Seç'
       select_user_title: 'Geri bildirim verilecek kullanıcıyı seçin'
+      showing_limited_results: '{total} eşleşen kullanıcıdan ilk {shown} tanesi gösteriliyor. Aramanızı daraltın.'
+      showing_limited_users: '{total} kullanıcıdan {shown} tanesi gösteriliyor. Diğerleri için arama yapın.'
     feedback_item:
       as_buyer: 'Alıcı olarak'
       as_seller: 'Satıcı olarak'
