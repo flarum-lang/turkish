@@ -2,15 +2,32 @@ CHANGELOG
 =========
 
 
-1.40.1 (XXXX-XX-XX)
+1.41.0 (XXXX-XX-XX)
 -------------------
+
+**Genel değişiklikler**:
+
+* Flarum çekirdek çevirileri güncellendi.
+* Doğrulama çevirileri güncellendi.
+
+
+**Yeni uzantılar için destek eklendi**:
+
+* [`capybash/magicbb`](https://github.com/capybash/magicbb)
+* [`capybash/magicread`](https://github.com/capybash/magicread)
+* [`datlechin/flarum-ai-summarize`](https://github.com/datlechin/flarum-ai-summarize)
+* [`michaelbelgium/flarum-ai-autoreply`](https://github.com/MichaelBelgium/flarum-ai-autoreply)
+* [`xypp/store-virtual-item`](https://github.com/zxy19/store-virtual-item)
+
 
 **Uzantılar için çeviriler güncellendi**:
 
+* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
+* [`huseyinfiliz/custom-profile-page`](https://github.com/huseyinfiliz/custom-profile-page)
 * [`huseyinfiliz/traderfeedback`](https://github.com/huseyinfiliz/traderfeedback)
 
 
-Tüm değişiklikler: [1.40.0...1.40.1](https://github.com/flarum-lang/turkish/compare/1.40.0...1.40.1).
+Tüm değişiklikler: [1.40.0...1.41.0](https://github.com/flarum-lang/turkish/compare/1.40.0...1.41.0).
 
 
 1.40.0 (2025-10-09)
