@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.40.1 (XXXX-XX-XX)
+-------------------
+
+**Uzantılar için çeviriler güncellendi**:
+
+* [`huseyinfiliz/traderfeedback`](https://github.com/huseyinfiliz/traderfeedback)
+
+
+Tüm değişiklikler: [1.40.0...1.40.1](https://github.com/flarum-lang/turkish/compare/1.40.0...1.40.1).
+
+
 1.40.0 (2025-10-09)
 -------------------
 
