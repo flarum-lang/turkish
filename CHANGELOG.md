@@ -2,6 +2,40 @@ CHANGELOG
 =========
 
 
+1.41.0 (2025-10-14)
+-------------------
+
+**Genel değişiklikler**:
+
+* Flarum çekirdek çevirileri güncellendi.
+* Doğrulama çevirileri güncellendi.
+
+
+**Yeni uzantılar için destek eklendi**:
+
+* [`capybash/magicbb`](https://github.com/capybash/magicbb)
+* [`capybash/magicread`](https://github.com/capybash/magicread)
+* [`datlechin/flarum-ai-summarize`](https://github.com/datlechin/flarum-ai-summarize)
+* [`datlechin/flarum-ai`](https://github.com/datlechin/flarum-ai)
+* [`foskym/flarum-pagination`](https://github.com/FoskyM/flarum-pagination)
+* [`justoverclock/profile-comments`](https://github.com/justoverclockl/flarum-profile-comments)
+* [`klxf/flarum-maintenance`](https://github.com/klxf/flarum-maintenance)
+* [`michaelbelgium/flarum-ai-autoreply`](https://github.com/MichaelBelgium/flarum-ai-autoreply)
+* [`mshuo/reply-to-see`](https://github.com/MShuoo/reply-to-see)
+* [`xypp/collector`](https://github.com/zxy19/flarum-collector)
+* [`xypp/store-virtual-item`](https://github.com/zxy19/store-virtual-item)
+
+
+**Uzantılar için çeviriler güncellendi**:
+
+* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
+* [`huseyinfiliz/custom-profile-page`](https://github.com/huseyinfiliz/custom-profile-page)
+* [`huseyinfiliz/traderfeedback`](https://github.com/huseyinfiliz/traderfeedback)
+
+
+Tüm değişiklikler: [1.40.0...1.41.0](https://github.com/flarum-lang/turkish/compare/1.40.0...1.41.0).
+
+
 1.40.0 (2025-10-09)
 -------------------
 
