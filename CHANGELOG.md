@@ -2,6 +2,24 @@ CHANGELOG
 =========
 
 
+1.42.0 (2025-10-20)
+-------------------
+
+**Yeni uzantılar için destek eklendi**:
+
+* [`capybash/magicslider`](https://github.com/capybash/magicslider)
+
+
+**Uzantılar için çeviriler güncellendi**:
+
+* [`capybash/magicbb`](https://github.com/capybash/magicbb)
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
+* [`huseyinfiliz/traderfeedback`](https://github.com/huseyinfiliz/traderfeedback)
+
+
+Tüm değişiklikler: [1.41.0...1.42.0](https://github.com/flarum-lang/turkish/compare/1.41.0...1.42.0).
+
+
 1.41.0 (2025-10-14)
 -------------------
 
