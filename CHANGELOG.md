@@ -12,6 +12,8 @@ CHANGELOG
 
 **Uzantılar için çeviriler güncellendi**:
 
+* [`capybash/magicbb`](https://github.com/capybash/magicbb)
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
 * [`huseyinfiliz/traderfeedback`](https://github.com/huseyinfiliz/traderfeedback)
 
 
