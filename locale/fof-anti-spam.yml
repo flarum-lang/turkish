@@ -29,7 +29,7 @@ fof-anti-spam:
         delete_user_help: 'Bu, kullanıcıyı kalıcı olarak silecektir. Devre dışı bırakıldığında kullanıcı askıya alınır.'
         delete_user_label: 'Kullanıcıyı sil'
         heading: 'Varsayılan moderatör eylemleri'
-        introduction: "Bir kullanıcı spam gönderen olarak işaretlendiğinde moderatörler, belirli kullanım durumuyla nasıl başa çıkacaklarına ilişkin çeşitli eylemler arasından seçim yapabilir. Bu ayarlar, süreci hızlandırmak için normalde gerçekleştireceğiniz eylemleri önceden ayarlamanıza olanak tanır, ancak aynı zamanda gerektiğinde değişikliklere de izin verir.\n"
+        introduction: 'Bir kullanıcı spam gönderen olarak işaretlendiğinde moderatörler, belirli kullanım durumuyla nasıl başa çıkacaklarına ilişkin çeşitli eylemler arasından seçim yapabilir. Bu ayarlar, süreci hızlandırmak için normalde gerçekleştireceğiniz eylemleri önceden ayarlamanıza olanak tanır, ancak aynı zamanda gerektiğinde değişikliklere de izin verir.'
         move_discussions_to_tags_help: 'Bu, bu kullanıcı tarafından başlatılan tüm tartışmaları belirttiğiniz etiketlere taşıyacaktır. Tartışmaları asıl etiketlerinde bırakmak için etiket seçimini temizleyin. ''Tartışmaları sil'' seçeneği etkinse hiçbir etkisi olmaz.'
         move_discussions_to_tags_label: 'Tartışmaları etiket(lere) taşıyın'
       stopforumspam:

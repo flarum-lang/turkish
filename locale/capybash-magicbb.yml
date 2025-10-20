@@ -25,6 +25,8 @@ capybash-magicbb:
       bb_justify: 'İki yana yasla'
       bb_spoiler: Tatkaçıran
       bb_table: Tablo
+      toolbar_group: 'MagicBB düğmelerini grupla'
+      toolbar_group_help: 'Etkinleştirildiğinde, düzenleyicideki tüm MagicBB düğmeleri tek bir düğme halinde gruplanacaktır.'
   forum:
     composer:
       center_button: Ortala
@@ -32,5 +34,6 @@ capybash-magicbb:
       image_button: 'Görsel ekle'
       info_button: 'Uyarı ekle'
       justify_button: 'İki yana yasla'
+      more_button: 'Daha Fazla'
       spoiler_button: 'Tatkaçıran ekle'
       table_button: 'Tablo ekle'
