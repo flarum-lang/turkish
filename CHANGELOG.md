@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+1.42.1 (XXXX-XX-XX)
+-------------------
+
+**Uzantılar için çeviriler güncellendi**:
+
+* [`capybash/magicbb`](https://github.com/capybash/magicbb)
+* [`capybash/magicslider`](https://github.com/capybash/magicslider)
+
+
+Tüm değişiklikler: [1.42.0...1.42.1](https://github.com/flarum-lang/turkish/compare/1.42.0...1.42.1).
+
+
 1.42.0 (2025-10-20)
 -------------------
 
