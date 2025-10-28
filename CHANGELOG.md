@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.43.1 (XXXX-XX-XX)
+-------------------
+
+**Uzantılar için çeviriler güncellendi**:
+
+* [`michaelbelgium/flarum-ai-autoreply`](https://github.com/MichaelBelgium/flarum-ai-autoreply)
+
+
+Tüm değişiklikler: [1.43.0...1.43.1](https://github.com/flarum-lang/turkish/compare/1.43.0...1.43.1).
+
+
 1.43.0 (2025-10-24)
 -------------------
 
