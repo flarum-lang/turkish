@@ -2,15 +2,20 @@ CHANGELOG
 =========
 
 
-1.43.1 (XXXX-XX-XX)
+1.44.0 (XXXX-XX-XX)
 -------------------
+
+**Yeni uzantılar için destek eklendi**:
+
+* [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile)
+
 
 **Uzantılar için çeviriler güncellendi**:
 
 * [`michaelbelgium/flarum-ai-autoreply`](https://github.com/MichaelBelgium/flarum-ai-autoreply)
 
 
-Tüm değişiklikler: [1.43.0...1.43.1](https://github.com/flarum-lang/turkish/compare/1.43.0...1.43.1).
+Tüm değişiklikler: [1.43.0...1.44.0](https://github.com/flarum-lang/turkish/compare/1.43.0...1.44.0).
 
 
 1.43.0 (2025-10-24)
