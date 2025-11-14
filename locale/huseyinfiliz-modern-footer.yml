@@ -7,13 +7,13 @@ huseyinfiliz-modern-footer:
     settings:
       about: Hakkında
       about_us: Hakkımızda
-      about_us_help: 'Metin Alanı: Bu alan HTML biçimlendirmesini desteklemez. Yeni bir satır oluşturmak için Enter tuşuna basmanız yeterlidir.'
+      about_us_help: 'Metin Alanı: Bu alan HTML biçimlendirmesini desteklemez. Yeni satır oluşturmak için Enter tuşuna basın.'
       all_pages: 'Tüm sayfalarda göster'
       block: Blok
       blocks: Bloklar
       bottom: 'Alt Bölüm'
       bottom_help: 'Örnek: © 2025, Tüm Hakları Saklıdır'
-      bottom_section: 'Alt Kısım'
+      bottom_section: 'Alt Bölüm'
       custom: Özel
       custom_html: 'Özel HTML Kodu'
       custom_js: 'Özel JS'
@@ -21,16 +21,20 @@ huseyinfiliz-modern-footer:
       display_mode: 'Footer Görüntüleme Modu'
       font_awesome_icon: 'Font Awesome Simgesi'
       forum_logo: 'Forum Logosu'
-      forum_logo_help: 'Forum logosu için URL''yi ekleyin. Geçerli bir URL girilirse logo görüntülenir. Alternatif olarak, diğer blok başlıkları gibi davranması için şöyle bir kod ekleyebilirsiniz:'
+      forum_logo_help: 'Forum logosu için bağlantı ekleyin. Geçerli bir bağlantı eklenirse logo görüntülenir. Alternatif olarak diğer blok başlıkları gibi davranması için bir kod ekleyebilirsiniz:'
       general: Genel
       hide_everywhere: 'Tüm sayfalarda gizle'
       hide_except_index: 'Anasayfa hariç tüm sayfalarda gizle'
       hide_on_discussions: 'Tartışmalarda gizle'
       link: Bağlantı
-      manage_footer_sections: 'Footer Kısımlarını Yönet'
-      mobile_tab_height: 'Mobile Tab Yüksekliği'
-      mobile_tab_height_help: 'Eğer Mobile Tab eklentisi yüklüyse, değer olarak şunu kullanabilirsiniz: var(--mobile-tab-height)'
+      manage_footer_sections: 'Footer Bölümlerini Yönet'
+      mobile_tab_height: 'Mobil Sekme Yüksekliği'
+      mobile_tab_height_help: 'Mobile Tab uzantısı kuruluysa şu değeri kullanabilirsiniz: var(--mobile-tab-height)'
+      show_to_everyone: 'Herkese Göster'
+      show_to_guests_only: 'Sadece Misafirlere Göster'
+      show_to_members_only: 'Sadece Üyelere Göster'
       social_link: 'Sosyal Bağlantı'
-      social_media_button: 'Sosyal Medya Butonu'
+      social_media_button: 'Sosyal Medya Düğmesi'
       text: Metin
       title: Başlık
+      visibility_mode: 'Footer Görünürlük Modu'

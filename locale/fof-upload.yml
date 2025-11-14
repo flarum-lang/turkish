@@ -65,6 +65,7 @@ fof-upload:
           media-btn: 'Yalnızca medya yöneticisi düğmesi'
           upload-btn: 'Yalnızca yükleme düğmesi'
         title: 'Düzenleyici düğmeleri'
+      configured_by_environment: 'Depolama ayarlarınız ortam değişkenleri aracılığıyla önceden yapılandırılmıştır.'
       disable-download-logging:
         title: 'İndirme kayıtlarını etkisizleştir'
         toggle: Etkisizleştir

@@ -12,6 +12,7 @@ flectar-turnstile:
       signup: '=> core.forum.sign_up.title'
       site_key: 'Site anahtarı'
   forum:
+    error: 'İnsan olduğunuzu doğrularken bir hata oluştu. Lütfen tekrar deneyin.'
     not_loaded_error: 'Cloudflare Turnstile yüklenemedi. Lütfen sayfayı yenileyin veya reklam engelleyicinizi kontrol edin.'
     validation_error: 'Lütfen Turnstile doğrulamasını tamamlayın.'
 validation:
