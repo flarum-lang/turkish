@@ -12,6 +12,8 @@ CHANGELOG
 
 **Uzantılar için çeviriler güncellendi**:
 
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+* [`huseyinfiliz/modern-footer`](https://github.com/huseyinfiliz/modern-footer)
 * [`michaelbelgium/flarum-ai-autoreply`](https://github.com/MichaelBelgium/flarum-ai-autoreply)
 
 
