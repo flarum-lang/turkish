@@ -2,6 +2,26 @@ CHANGELOG
 =========
 
 
+1.44.0 (2025-11-21)
+-------------------
+
+**Yeni uzantılar için destek eklendi**:
+
+* [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile)
+
+
+**Uzantılar için çeviriler güncellendi**:
+
+* [`fof/horizon`](https://github.com/FriendsOfFlarum/horizon)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+* [`glowingblue/redis-setup`](https://github.com/glowingblue/flarum-ext-redis-setup)
+* [`huseyinfiliz/modern-footer`](https://github.com/huseyinfiliz/modern-footer)
+* [`michaelbelgium/flarum-ai-autoreply`](https://github.com/MichaelBelgium/flarum-ai-autoreply)
+
+
+Tüm değişiklikler: [1.43.0...1.44.0](https://github.com/flarum-lang/turkish/compare/1.43.0...1.44.0).
+
+
 1.43.0 (2025-10-24)
 -------------------
 
