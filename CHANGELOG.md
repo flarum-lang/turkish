@@ -12,7 +12,9 @@ CHANGELOG
 
 **Uzantılar için çeviriler güncellendi**:
 
+* [`fof/horizon`](https://github.com/FriendsOfFlarum/horizon)
 * [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+* [`glowingblue/redis-setup`](https://github.com/glowingblue/flarum-ext-redis-setup)
 * [`huseyinfiliz/modern-footer`](https://github.com/huseyinfiliz/modern-footer)
 * [`michaelbelgium/flarum-ai-autoreply`](https://github.com/MichaelBelgium/flarum-ai-autoreply)
 
