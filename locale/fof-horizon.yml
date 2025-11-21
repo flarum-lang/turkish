@@ -23,10 +23,12 @@ fof-horizon:
       auto_refresh: 'Otomatik Yenile'
       data:
         failed-last-seconds: 'Birkaç Saniyeden Sonra Başarısız Olan İşler'
+        failure-rate: 'Başarısızlık Oranı'
         jobs-past-hour: 'Saat Başına İş Sayısı'
         jobs-per-minute: 'Dakika Başına İş Sayısı'
         max-runtime: 'Maksimum Çalışma Süresi'
         max-throughput: 'Maksimum Verim'
+        max-wait-queue: 'Kuyruk: {queue}'
         max-wait-time: 'Maksimum Bekleme Süresi'
         redis-blocked-clients: 'Engellenmiş İstemciler'
         redis-connected-clients: 'Bağlı İstemciler'
@@ -35,6 +37,7 @@ fof-horizon:
         redis-max-memory: 'Redis Maks Bellek'
         redis-memory-policy: 'Redis Bellek Politikası'
         redis-memory-policy-tooltip: "Bellek politikası, Redis'in maxmemory sınırına ulaşıldığında neyi\nkaldıracağına nasıl karar vereceğini belirler. Varsayılanı `noeviction`:\nBellek sınırı aşıldığında yeni değerler kaydedilmez. Belgeler için tıklayın.\n"
+        redis-memory-usage: 'Önbellek deposu Bellek Kullanımı'
         redis-ops-per-sec: 'Saniye Başına İşlem'
         redis-peak-memory: 'Redis Bellek Zirvesi'
         redis-used-memory: 'Kullanılan Redis Belleği'
@@ -42,7 +45,19 @@ fof-horizon:
           inactive: 'Etkin Olmayanlar'
           label: Durum
           running: Çalışanlar
+        success-rate: 'Başarı Oranı'
         total-processes: 'Toplam Süreç'
+      error:
+        fetch_failed: 'Horizon istatistikleri alınamıyor. Lütfen Redis yapılandırmanızı kontrol edin.'
+        setup_docs: 'Redis Kurulum Dokümantasyonunu Görüntüle'
+        title: 'Bağlantı Hatası'
       full_dashboard: 'Horizon Kontrol Paneli'
       heading: 'Kuyruğa Genel Bakış'
+      health:
+        critical: Kritik
+        excellent: Mükemmel
+        good: İyi
+        poor: Zayıf
+        tooltip: 'Sistem sağlık puanı: {score}/100'
+      last_refresh: 'Güncellendi {time}'
       refresh: Yenile

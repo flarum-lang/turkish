@@ -9,4 +9,4 @@ glowingblue-redis-setup:
       enable_queue: 'Redis queue etkinleştir'
       enable_redis_sessions: 'Redis oturumlarını etkinleştirin (bu ayar değiştirildikten sonra tüm kullanıcıların oturumu kapatılacaktır)'
       horizon_config: 'Ufuk yapılandırması (biçim: JSON).'
-      horizon_help_text: 'Bu, <code>(new \Blomstra\Horizon\Extend\Horizon)->config(...))</code>''a iletilecektir'
+      horizon_help_text: 'Bu, <code>(new \FoF\Horizon\Extend\Horizon)->config(...))</code>''a iletilecektir'
