@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.45.0 (XXXX-XX-XX)
+-------------------
+
+**Yeni uzantılar için destek eklendi**:
+
+* [`huseyinfiliz/pickem`](https://github.com/huseyinfiliz/pickem)
+
+
+Tüm değişiklikler: [1.44.0...1.45.0](https://github.com/flarum-lang/turkish/compare/1.44.0...1.45.0).
+
+
 1.44.0 (2025-11-21)
 -------------------
 
