@@ -13,6 +13,8 @@ huseyinfiliz-pickem:
       recalc_confirm: 'Emin misiniz? Bu işlem arka planda çalışacaktır.'
       recalc_help: 'Maç sonuçlarına göre tüm puanları yeniden hesaplar. Arka planda çalışır.'
       recalc_queued: 'Yeniden hesaplama kuyruğa alındı.'
+      reverse_display_help: 'Etkinleştirildiğinde, Deplasman takımı solda (veya üstte), Ev sahibi takım ise sağda (veya altta) gösterilir. ABD spor formatıyla (Deplasman @ Ev Sahibi) eşleşir.'
+      reverse_display_label: 'Ev/Deplasman Gösterimini Tersine Çevir'
   forum:
     notification: 'Sonuç: {home} {hScore} - {aScore} {away}'
     picks:
@@ -60,8 +62,10 @@ huseyinfiliz-pickem:
       logo_url: 'Logo URL'
       name: İsim
       no_week: 'Hafta Yok'
+      search_team: 'Takım Ara...'
       select_season: 'Sezon Seç'
       select_team: 'Takım Seç'
+      select_week: 'Hafta Seç'
       slug: 'Kısa Ad (Slug)'
       start_date: 'Başlangıç Tarihi'
       week_number: 'Hafta Numarası'
