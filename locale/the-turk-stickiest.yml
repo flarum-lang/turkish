@@ -26,7 +26,7 @@ the-turk-stickiest:
       tag_sticky_button: '=> the-turk-stickiest.ref.tag_sticky'
       unsticky_button: '=> flarum-sticky.forum.discussion_controls.unsticky_button'
     post_stream:
-      discussion_common_stickied_text: '{username} bu tartışmayının süper sabitlenmesini kaldırdı.'
+      discussion_common_stickied_text: '{username} bu tartışmanın süper sabitlenmesini kaldırdı.'
       discussion_stickied_text: '=> flarum-sticky.forum.post_stream.discussion_stickied_text'
       discussion_super_stickied_text: '{username} bu tartışmayı süper sabitledi.'
       discussion_unstickied_text: '=> flarum-sticky.forum.post_stream.discussion_unstickied_text'
