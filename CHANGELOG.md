@@ -8,6 +8,7 @@ CHANGELOG
 **Uzantılar için çeviriler güncellendi**:
 
 * [`huseyinfiliz/pickem`](https://github.com/huseyinfiliz/pickem)
+* [`the-turk/flarum-stickiest`](https://github.com/the-turk/flarum-stickiest)
 
 
 Tüm değişiklikler: [1.45.0...1.45.1](https://github.com/flarum-lang/turkish/compare/1.45.0...1.45.1).
