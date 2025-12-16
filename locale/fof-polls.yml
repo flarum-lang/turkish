@@ -147,6 +147,13 @@ fof-polls:
     polls_list:
       empty_text: 'Görünüşe göre burada topluluk çapında bir anket yok.'
       load_more_button: '=> core.ref.load_more'
+      sort_dropdown:
+        least_voted: 'En Az Oy Alan'
+        most_voted: 'En Çok Oy Alan'
+        newest: 'En Yeni'
+        oldest: Eskiler
+        sort_dropdown:
+          default: '=> fof-polls.forum.polls_list.sort_dropdown.newest'
     polls_page:
       title: Anketler
     public_poll: 'Oy verenler'

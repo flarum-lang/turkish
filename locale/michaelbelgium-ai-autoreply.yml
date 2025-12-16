@@ -19,6 +19,9 @@ michaelbelgium-ai-autoreply:
       model_label: Model
       platform_help: 'Kullanılacak yapay zeka platformunu seçin.'
       platform_label: Platform
+      system_prompt_help: 'Asistan''a, belirli bir amaç veya rol belirtmek gibi bağlam ve talimatlar sağlayın.'
+      system_prompt_label: 'Sistem İstemi'
+      system_prompt_placeholder: 'Flarum forumunda yardımcı bir asistansınız.'
       temperature_help: 'Rastgeleliği kontrol eder. Aralık genellikle 0–2 arasındadır; ancak bazı platformlarda farklı aralıklar kullanılabilir.'
       temperature_label: Sıcaklık
       user_prompt_badge_help: 'Asistan kullanıcının altında görüntülenecek metin.'
