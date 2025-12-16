@@ -2,7 +2,7 @@ CHANGELOG
 =========
 
 
-1.45.1 (XXXX-XX-XX)
+1.45.1 (2025-12-16)
 -------------------
 
 **Yeni uzantılar için destek eklendi**:
