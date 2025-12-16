@@ -2,6 +2,26 @@ CHANGELOG
 =========
 
 
+1.45.1 (2025-12-16)
+-------------------
+
+**Yeni uzantılar için destek eklendi**:
+
+* [`songnguxyz/oauth-mediawiki`](https://github.com/songnguxyz/flarum-ext-oauth-mediawiki)
+
+
+**Uzantılar için çeviriler güncellendi**:
+
+* [`fof/default-user-preferences`](https://github.com/FriendsOfFlarum/default-user-preferences)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`huseyinfiliz/pickem`](https://github.com/huseyinfiliz/pickem)
+* [`michaelbelgium/flarum-ai-autoreply`](https://github.com/MichaelBelgium/flarum-ai-autoreply)
+* [`the-turk/flarum-stickiest`](https://github.com/the-turk/flarum-stickiest)
+
+
+Tüm değişiklikler: [1.45.0...1.45.1](https://github.com/flarum-lang/turkish/compare/1.45.0...1.45.1).
+
+
 1.45.0 (2025-11-24)
 -------------------
 
