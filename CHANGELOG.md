@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.45.2 (XXXX-XX-XX)
+-------------------
+
+**Yeni uzantılar için destek eklendi**:
+
+* [`fof/moderator-warnings`](https://github.com/FriendsOfFlarum/moderator-warnings)
+
+
+Tüm değişiklikler: [1.45.1...1.45.2](https://github.com/flarum-lang/turkish/compare/1.45.1...1.45.2).
+
+
 1.45.1 (2025-12-16)
 -------------------
 
