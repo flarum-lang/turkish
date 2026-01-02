@@ -7,6 +7,7 @@ CHANGELOG
 
 **Yeni uzantılar için destek eklendi**:
 
+* [`fof/discussion-templates`](https://github.com/FriendsOfFlarum/discussion-templates)
 * [`fof/moderator-warnings`](https://github.com/FriendsOfFlarum/moderator-warnings)
 
 
