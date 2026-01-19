@@ -8,8 +8,12 @@ fof-github-sponsors:
       organization: Organizasyon
       user: Kullanıcı
     settings:
+      account_type_help: 'Kişisel bir GitHub kullanıcı hesabı için mi yoksa bir organizasyon hesabı için mi sponsor takibi yaptığınızı seçin.'
       account_type_label: 'Hesap Tipi'
+      api_token_help: '<a>https://github.com/settings/tokens/new</a> adresinde <code>user</code> ve <code>read:org</code> kapsamlarına sahip kişisel bir erişim belirteci oluşturun. Bu belirteç, GitHub''dan sponsor bilgilerinizi çekmek için kullanılır.'
       api_token_label: 'API Jetonu'
       desc: 'API jetonunuzu <a>https://github.com/settings/tokens/new</a> adresinden alın. Bu uzantı, <code>user</code> ve <code>read:org</code> kapsamlarını gerektirir.'
+      group_help: 'Sponsorların hangi Flarum kullanıcı grubuna ekleneceğini seçin. Kullanıcılar sponsor olduklarında otomatik olarak eklenecek, sponsorluğu bıraktıklarında ise çıkarılacaktır.'
       group_label: 'Atanacak Grup'
+      login_help: 'GitHub kullanıcı adınızı (kullanıcı hesapları için) veya kuruluş adınızı (kuruluşlar için) girin. Bu, sponsorları senkronize edilecek olan hesaptır.'
       login_label: 'Oturum aç'
