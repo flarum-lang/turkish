@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.45.3 (2026-01-25)
+-------------------
+
+**Uzantılar için çeviriler güncellendi**:
+
+* [`huseyinfiliz/awards`](https://github.com/huseyinfiliz/awards)
+
+
+Tüm değişiklikler: [1.45.2...1.45.3](https://github.com/flarum-lang/turkish/compare/1.45.2...1.45.3).
+
+
 1.45.2 (2026-01-19)
 -------------------
 
