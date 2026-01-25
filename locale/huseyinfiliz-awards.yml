@@ -119,7 +119,7 @@ huseyinfiliz-awards:
       vote_quota_exhausted: 'Bu kategorideki tüm oy/öneri hakkınızı kullandınız.'
       voting_closed: 'Oylama kapalı.'
     hero:
-      countdown: 'Oylama bitimine kalan: {time}'
+      countdown: 'Oylama bitimine kalan: {days}g {hours}s {minutes}d {seconds}s'
       draft_preview: 'Taslak Önizleme'
       results_preview: 'Sonuç Önizleme'
       results_published: 'Sonuçlar Yayınlandı'
