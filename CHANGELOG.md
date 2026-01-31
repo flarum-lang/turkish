@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.45.4 (XXXX-XX-XX)
+-------------------
+
+**Yeni uzantılar için destek eklendi**:
+
+* [`glowingblue/author-filter`](https://github.com/glowingblue/flarum-ext-author-filter)
+
+
+Tüm değişiklikler: [1.45.3...1.45.4](https://github.com/flarum-lang/turkish/compare/1.45.3...1.45.4).
+
+
 1.45.3 (2026-01-25)
 -------------------
 
