@@ -7,7 +7,17 @@ CHANGELOG
 
 **Yeni uzantılar için destek eklendi**:
 
+* [`fof/badges`](https://github.com/FriendsOfFlarum/badges)
 * [`glowingblue/author-filter`](https://github.com/glowingblue/flarum-ext-author-filter)
+* [`ordinaryjellyfish/sentra-prime`](https://flarum.org/extension/ordinaryjellyfish/sentra-prime)
+
+
+**Uzantılar için çeviriler güncellendi**:
+
+* [`datitisev/flarum-maintenance`](https://flarum.org/extension/datitisev/flarum-maintenance)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/sitemap`](https://github.com/FriendsOfFlarum/sitemap)
+* [`kilowhat/flarum-ext-wordpress`](https://flarum.org/extension/kilowhat/flarum-ext-wordpress)
 
 
 Tüm değişiklikler: [1.45.3...1.45.4](https://github.com/flarum-lang/turkish/compare/1.45.3...1.45.4).
