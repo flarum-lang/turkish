@@ -6,6 +6,10 @@ fof-sitemap:
   admin:
     settings:
       advanced_options_label: 'Gelişmiş seçenekler'
+      build_button: 'Site Haritalarını Şimdi Yeniden Oluşturun'
+      build_button_help: 'Tüm site haritası dosyalarının hemen yeniden oluşturulmasını tetikler. İş, yapılandırılmışsa kuyruğa gönderilir, aksi takdirde hemen çalıştırılır.'
+      build_error: 'Site haritası yeniden oluşturma işlemi kuyruğa alınamadı. Lütfen log kayıtlarını ve kuyruk yapılandırmanızı kontrol edin.'
+      build_success: 'Site haritası yeniden oluşturma işlemi başarıyla sıraya alındı. İlerlemeyi izlemek için günlüklerinizi kontrol edin.'
       exclude_tags: 'Tüm etiket sayfalarını site haritasından hariç tut'
       exclude_tags_help: 'Varsayılan olarak, misafirlere görünen herhangi bir etiket indekslenecektir'
       exclude_users: 'Tüm kullanıcı profillerini site haritasından hariç tut'
@@ -19,6 +23,7 @@ fof-sitemap:
       include_changefreq_help: 'Değişiklik sıklığı değerleri Google tarafından göz ardı edilir, ancak diğer arama motorları tarafından tarama zamanlaması için kullanılabilir'
       include_priority: 'Site haritasına öncelik değerlerini dahil et'
       include_priority_help: 'Öncelik değerleri Google tarafından göz ardı edilir, ancak Bing ve Yandex gibi diğer arama motorları tarafından kullanılabilir'
+      last_build_time: 'Son Oluşturma Zamanı'
       mode_help: 'Forum hacmine bağlı olarak doğru modu seçmek hayati derecede önemlidir.'
       mode_help_cache_disk: 'Küçük veya orta ölçekli forumlar için en iyisi, büyük olasılıkla cronjob''lara izin veren ve Flarum zamanlayıcıyı etkinleştiren barındırma ortamlarında (aşağıya bakın) ve 50.000''den az öğe olarak özetlenen tartışmalar, kullanıcılar, etiketler ve sayfalar.'
       mode_help_cache_disk_label: 'Önbellek Modu/Disk Modu'
