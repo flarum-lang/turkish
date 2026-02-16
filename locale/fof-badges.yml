@@ -4,46 +4,46 @@
 
 fof-badges:
   admin:
-    actions: 'Kazanılan Rozetle İlgili Eylemler'
+    actions: 'Rozet Kazanıldığında Eylemler'
     active: Aktif
-    add_to_group: 'Kullanıcıyı bir gruba ekle'
-    add_to_group_help: 'Kullanıcı rozeti kazandığında otomatik olarak bu gruba ekle.'
+    add_to_group: 'Kullanıcıyı gruba ekle'
+    add_to_group_help: 'Kullanıcı rozeti kazandığında otomatik olarak bu gruba ekler.'
     appearance: Görünüm
-    assign: 'Atama yap'
-    assign_badge: 'Atayın: {badge}'
+    assign: Ver
+    assign_badge: 'Ver: {badge}'
     assign_reason: 'Sebep (isteğe bağlı)'
-    assign_reason_help: 'Bu neden kullanıcının rozetinde görünecektir.'
-    assign_reason_placeholder: 'Bu rozet neden veriliyor?'
+    assign_reason_help: 'Bu sebep kullanıcının rozetinde görünecektir.'
+    assign_reason_placeholder: 'Bu rozetin verilme sebebi nedir?'
     automatic: Otomatik
-    background_color: 'Arkaplan Rengi'
-    badge_assigned: '"{badge}" rozeti {username} adlı üyeye atandı!'
+    background_color: 'Arka Plan Rengi'
+    badge_assigned: '"{badge}" rozeti {username} kullanıcısına atandı!'
     badge_category: Kategori
-    badge_count: '{count, plural, one {# rozet} other {# rozetler}}'
+    badge_count: '{count, plural, one {# rozet} other {# rozet}}'
     badge_description: Açıklama
     badge_description_placeholder: 'Bu rozetin nasıl kazanılacağını açıklayın...'
     badge_name: İsim
-    badge_name_placeholder: 'örn, "100 Gönderi Ustası"'
+    badge_name_placeholder: 'örnek: "100 Gönderi Ustası"'
     badge_revoked: '"{badge}" rozeti {username} kullanıcısından geri alındı.'
-    badge_slug: Takma-ad
-    badge_slug_help: 'URL dostu tanımlayıcı. Boş bırakılırsa isimden otomatik olarak oluşturulur.'
-    badge_slug_placeholder: 'örn, "100-gonderi-ustasi"'
-    cancel: 'İptal et'
+    badge_slug: 'Kısa Ad'
+    badge_slug_help: 'Bağlantı adresi olarak kullanılır. Boş bırakılırsa isimden otomatik oluşturulur.'
+    badge_slug_placeholder: 'örnek: "100-gonderi-ustasi"'
+    cancel: İptal
     category_description: Açıklama
-    category_description_placeholder: 'Bu rozet kategorisini tanımlayın...'
+    category_description_placeholder: 'Bu rozet kategorisini açıklayın...'
     category_enabled: Etkin
-    category_enabled_help: 'Pasif kategoriler ve bu kategorilerin rozetleri, rozet listesinde görünmeyecektir.'
+    category_enabled_help: 'Devre dışı bırakılan kategoriler ve rozetleri rozet listesinde görünmez.'
     category_name: İsim
-    category_name_placeholder: 'örn, "Başarı Rozetleri"'
-    category_slug: Takma-ad
-    category_slug_help: 'Kategori için URL dostu tanımlayıcı.'
-    category_slug_placeholder: 'örn, "basarilar"'
+    category_name_placeholder: 'örnek: "Başarı Rozetleri"'
+    category_slug: 'Kısa Ad'
+    category_slug_help: 'Kategori için bağlantı adresi olarak kullanılır.'
+    category_slug_placeholder: 'örnek: "basarilar"'
     clear_selection: 'Seçimi temizle'
     create_badge: 'Rozet Oluştur'
     create_category: 'Kategori Oluştur'
     delete: Sil
-    delete_badge_confirm: '“{name}” rozetini silmek istediğinizden emin misiniz? Bu işlem, rozeti kazanan tüm kullanıcılardan da kaldırılacaktır.'
+    delete_badge_confirm: '"{name}" rozetini silmek istediğinizden emin misiniz? Bu işlem kazanan tüm kullanıcılardan da rozeti kaldıracaktır.'
     delete_category_confirm: '"{name}" kategorisini silmek istediğinizden emin misiniz?'
-    delete_category_confirm_with_badges: '"{name}" kategorisini silmek istediğinizden emin misiniz? {count, plural, one {# rozet} other {# rozetler}} kategori dışı kalacaktır.'
+    delete_category_confirm_with_badges: '"{name}" kategorisini silmek istediğinizden emin misiniz? {count, plural, one {# rozet} other {# rozet}} kategorisiz olacaktır.'
     disabled: 'Etkin değil'
     earned_count: '{count} kazanıldı'
     edit: Düzenle
@@ -52,199 +52,199 @@ fof-badges:
     enabled: Etkin
     granted_by_system: Sistem
     headers:
-      badges: Uzantılar
+      badges: Rozetler
       description: Açıklama
-      earned: Kazanılmış
+      earned: Kazanılan
       icon: Simge
       name: İsim
-      order: Sırala
+      order: Sıra
       rarity: Nadirlik
       status: Durum
-      type: Türü
+      type: Tür
     icon_color: 'Simge Rengi'
     icon_picker:
-      collapse: 'Simge seçicisini gizle'
-      expand: 'Simge seçicisini göster'
-      hint: 'Bir simgeye tıklayarak seçim yapın veya yukarıya bir Font Awesome class-name yazın.'
+      collapse: 'Simge seçiciyi gizle'
+      expand: 'Simge seçiciyi göster'
+      hint: 'Seçmek için bir simgeye tıklayın veya yukarıya bir Font Awesome sınıf adı yazın.'
     inactive: Pasif
     install_defaults: 'Varsayılan Rozetleri Yükle'
     install_defaults_error: 'Varsayılan rozetler yüklenemedi.'
     install_defaults_success: 'Varsayılan rozetler başarıyla yüklendi!'
     is_active: Aktif
-    is_active_help: 'Aktif olmayan kullanıcılara rozetler otomatik olarak verilmeyecektir.'
-    is_visible: 'Rozet listesinde görünür'
-    is_visible_help: 'Gizli rozetler herkese açık rozet listesinde görünmeyecek ancak kullanıcılar yine de bu rozetleri kazanabilecekler.'
+    is_active_help: 'Aktif olmayan rozetler kullanıcılara otomatik olarak verilmez.'
+    is_visible: 'Rozet listesinde göster'
+    is_visible_help: 'Gizli rozetler herkese açık rozet listesinde görünmez ancak kullanıcılar yine de kazanabilir.'
     manual: Manuel
     metrics:
       best_answers_received: 'Alınan En İyi Cevaplar'
       discussion_count: 'Tartışma Sayısı'
-      downvotes_given: 'Verilen Aşağı Oylamalar'
-      downvotes_received: 'Alınan Aşağı Oylamalar'
+      downvotes_given: 'Verilen Aşağı Oylar'
+      downvotes_received: 'Alınan Aşağı Oylar'
       edit_count: 'Düzenlenen Gönderiler'
-      files_uploaded: 'Dosya Yükleme'
-      has_avatar: 'Avatarı Var Mı?'
-      has_bio: 'Biyografisi Var Mı?'
-      has_nickname: 'Kullanıcı Adı Var Mı?'
-      likes_given: 'Beğenilen Sayısı'
-      likes_received: 'Beğenilme Sayısı'
-      member_days: 'Üye olarak geçen günler'
-      polls_created: 'Anket Oluşturma'
-      polls_voted: 'Anketi Oylama'
+      files_uploaded: 'Yüklenen Dosyalar'
+      has_avatar: 'Avatarı Var'
+      has_bio: 'Biyografisi Var'
+      has_nickname: 'Takma Adı Var'
+      likes_given: 'Verilen Beğeniler'
+      likes_received: 'Alınan Beğeniler'
+      member_days: 'Üyelik Süresi (Gün)'
+      polls_created: 'Oluşturulan Anketler'
+      polls_voted: 'Oy Verilen Anketler'
       post_count: 'Gönderi Sayısı'
-      private_discussions_created: 'Gizli Tartışmalar Oluşturma'
+      private_discussions_created: 'Oluşturulan Özel Tartışmalar'
       reactions_given: 'Verilen Tepkiler'
       reactions_received: 'Alınan Tepkiler'
       tag_posts: 'Etiketteki Gönderiler'
-      upvotes_given: 'Verilen Yukarı Oylamalar'
-      upvotes_received: 'Alınan Yukarı Oylamalar'
-    move_down: 'Aşağı kaydır'
-    move_up: 'Yukarı kaydır'
-    next: Sonrası
+      upvotes_given: 'Verilen Yukarı Oylar'
+      upvotes_received: 'Alınan Yukarı Oylar'
+    move_down: 'Aşağı taşı'
+    move_up: 'Yukarı taşı'
+    next: Sonraki
     no_badges: 'Henüz rozet yok. İlk rozetinizi oluşturun!'
-    no_categories: 'Henüz kategori yok. İlk kategorini oluştur!'
-    no_category: 'Kategori yok'
-    no_group: 'Kullanıcıyı gruba eklemeyin'
+    no_categories: 'Henüz kategori yok. İlk kategorinizi oluşturun!'
+    no_category: Kategorisiz
+    no_group: 'Gruba ekleme'
     no_holders: 'Henüz kimse bu rozeti kazanmadı.'
-    no_holders_found: 'Arama kriterlerinize uyan hiçbir kayıt bulunamadı.'
+    no_holders_found: 'Aramanızla eşleşen sahip bulunamadı.'
     no_users_found: 'Kullanıcı bulunamadı'
     permissions:
-      give_manually: 'Rozetleri manuel olarak atayın'
+      give_manually: 'Manuel rozet atama'
       moderate: 'Rozetleri yönet'
       view_list: 'Rozet listesini göster'
-      view_user_badges: 'Kullanıcı rozetlerini göster'
-    preview: Önizle
-    previous: Öncesi
-    rarity: '{percent}% nadirlik'
+      view_user_badges: 'Kullanıcı rozetlerini görüntüle'
+    preview: Önizleme
+    previous: Önceki
+    rarity: '%{percent} nadirlik'
     recalculate: 'Yeniden Hesapla'
     recalculate_confirm: 'Bu işlem, tüm kullanıcılar için otomatik rozetleri yeniden hesaplayacaktır. İşlem arka planda çalışacaktır. Devam edilsin mi?'
-    recalculate_error: 'Rozetlerin yeniden hesaplanması başarısız oldu. Lütfen tekrar deneyin.'
+    recalculate_error: 'Rozetler yeniden hesaplanamadı. Lütfen tekrar deneyin.'
     recalculate_success: 'Yeniden hesaplama tamamlandı! Verilen: {awarded}, İptal edilen: {revoked}, İşlem gören kullanıcılar: {users}'
     recalculate_tab:
       all_badges: 'Tüm otomatik rozetler'
-      badge_help: 'Belirli bir rozeti seçin veya tüm otomatik rozetleri yeniden hesaplayın.'
-      badge_label: 'Yeniden hesaplama için rozet'
+      badge_help: 'Belirli bir rozet seçin veya tüm otomatik rozetleri yeniden hesaplayın.'
+      badge_label: 'Yeniden hesaplanacak rozet'
       badges_to_check: 'Kontrol edilecek rozetler'
-      chunk_size_help: 'İş başına işlenecek kullanıcı sayısı. Daha küçük işlem parçaları daha güvenilirdir ancak genel olarak daha uzun sürer.'
-      chunk_size_label: 'İşlem boyutu'
+      chunk_size_help: 'Her görev başına işlenecek kullanıcı sayısı. Daha küçük parçalar daha güvenilirdir ancak toplam süre daha uzun olur.'
+      chunk_size_label: 'Parça boyutu'
       default: varsayılan
-      estimated_chunks: 'Tahmini işlem parçaları'
-      info: 'Yeniden hesaplama işlemi, kuyruk zaman aşımını önlemek için kullanıcıları işlemler halinde işler. Her işlem ayrı bir arka plan görevi olarak çalışır.'
-      jobs_empty: 'Henüz yeniden hesaplama işi yok.'
-      jobs_title: 'İşlem Geçmişi'
-      no_automatic_badges: 'Otomatik rozet yapılandırılmamış. Önce tetikleme koşulları olan bir rozet oluşturun.'
-      no_revoke_help: 'Etkinleştirilirse, artık kriterleri karşılamayan kullanıcılar rozetlerini koruyacaklardır.'
-      no_revoke_label: 'Mevcut rozetleri iptal etme'
-      reapply_actions_help: 'Etkinleştirildiğinde, rozet eylemleri (bir gruba ekleme gibi) rozete zaten sahip olan kullanıcılara yeniden uygulanır. Mevcut bir rozete yeni eylemler eklediğinizde kullanışlıdır.'
-      reapply_actions_label: 'Mevcut rozet sahiplerine eylemleri yeniden uygulayın'
-      show_more: '{count} daha fazla göster'
+      estimated_chunks: 'Tahmini parça sayısı'
+      info: 'Yeniden hesaplama, kuyruk zaman aşımlarını önlemek için kullanıcıları parçalar halinde işler. Her parça ayrı bir arka plan görevi olarak çalışır.'
+      jobs_empty: 'Henüz yeniden hesaplama görevi yok.'
+      jobs_title: 'Görev Geçmişi'
+      no_automatic_badges: 'Yapılandırılmış otomatik rozet yok. Önce tetikleme koşullarına sahip bir rozet oluşturun.'
+      no_revoke_help: 'Etkinleştirilirse, artık kriterleri karşılamayan kullanıcıların rozetleri korunacaktır.'
+      no_revoke_label: 'Mevcut rozetleri geri alma'
+      reapply_actions_help: 'Etkinleştirilirse, rozet eylemleri (gruba ekleme gibi) rozete zaten sahip olan kullanıcılara yeniden uygulanır. Mevcut bir rozete yeni eylemler eklediğinizde kullanışlıdır.'
+      reapply_actions_label: 'Mevcut rozet sahiplerine eylemleri yeniden uygula'
+      show_more: '{count} tane daha göster'
       start: 'Yeniden Hesaplamayı Başlat'
-      sync_counts: 'Rozet Sayısını Senkronize Et'
-      sync_counts_error: 'Rozet sayılarının senkronizasyonu başarısız oldu.'
-      sync_counts_info: 'Gerçek user_badges kayıtlarına göre tüm rozetlerin “kazanılan sayısını” yeniden hesaplayın. Yeniden hesaplamadan sonra sayılar yanlış olursa bunu kullanın.'
-      sync_counts_success: 'Rozet sayıları senkronize edildi! {total} rozetten {corrected} tanesi düzeltildi.'
-      sync_counts_title: 'Rozet Sayısını Senkronize Et'
+      sync_counts: 'Rozet Sayılarını Eşitle'
+      sync_counts_error: 'Rozet sayıları eşitlenemedi.'
+      sync_counts_info: 'Tüm rozetlerin "kazanılma sayısını" gerçek user_badges kayıtlarına göre yeniden hesaplar. Yeniden hesaplamadan sonra sayılar hatalı olursa bunu kullanın.'
+      sync_counts_success: 'Rozet sayıları eşitlendi! {total} rozetten {corrected} tanesi düzeltildi.'
+      sync_counts_title: 'Rozet Sayılarını Eşitle'
       title: 'Yeniden Hesaplamayı Başlat'
       total_users: 'Toplam kullanıcılar'
     recalculation:
       already_running: 'Rozetlerin yeniden hesaplanması işlemi halihazırda devam etmektedir.'
       auto_refresh_off: 'Otomatik yenileme'
       auto_refresh_on: 'Otomatik yenileme açık'
-      cancel: 'İptal et'
-      cancel_confirm: 'Yeniden hesaplamayı iptal etmek istediğinizden emin misiniz? İlerlemeniz kaybolacak.'
+      cancel: İptal
+      cancel_confirm: 'Yeniden hesaplamayı iptal etmek istediğinizden emin misiniz? İlerleme kaybolacaktır.'
       cancel_error: 'Yeniden hesaplama iptal edilemedi.'
       cancelled: 'Yeniden hesaplama iptal edildi'
-      chunks: 'İşlemler: {processed} / {total}'
+      chunks: 'Parçalar: {processed} / {total}'
       completed: 'Yeniden hesaplama tamamlandı!'
-      dismiss: Reddet
+      dismiss: Kapat
       failed: 'Yeniden hesaplama başarısız oldu'
       pending: 'Yeniden hesaplama hazırlanıyor...'
-      progress: '{processed} / {total} değerlendirme ({percentage}%)'
+      progress: '{processed} / {total} değerlendirme (%{percentage})'
       running: 'Rozetler yeniden hesaplanıyor...'
       started: 'Rozet yeniden hesaplama işlemi başladı. Bu işlem arka planda çalışacaktır.'
-      stats: 'Ödüllendirildi: {awarded} | İptal edildi: {revoked}'
+      stats: 'Verilen: {awarded} | İptal edilen: {revoked}'
     recalculation_jobs:
-      button: İşler
-      cancel: 'İptal et'
-      cancel_error: 'İşlem iptal edilemedi.'
-      cancelled: 'İş başarıyla iptal edildi.'
-      empty: 'Yeniden hesaplama işi bulunamadı.'
-      force_cancel: 'İptal etmeye zorla'
-      mark_failed: 'Başarısız olarak işaretle'
-      mark_failed_error: 'İşlem başarısız olarak işaretlenemedi.'
-      marked_failed: 'İş başarısız olarak işaretlendi.'
-      results: 'Ödüllendirildi: {awarded} | İptal edildi: {revoked}'
+      button: Görevler
+      cancel: İptal
+      cancel_error: 'Görev iptal edilemedi.'
+      cancelled: 'Görev başarıyla iptal edildi.'
+      empty: 'Yeniden hesaplama görevi bulunamadı.'
+      force_cancel: 'Zorla İptal Et'
+      mark_failed: 'Başarısız Olarak İşaretle'
+      mark_failed_error: 'Görev başarısız olarak işaretlenemedi.'
+      marked_failed: 'Görev başarısız olarak işaretlendi.'
+      results: 'Verilen: {awarded} | İptal edilen: {revoked}'
       status:
-        cancelled: 'İptal edildi'
+        cancelled: 'İptal Edildi'
         completed: Tamamlandı
         failed: Başarısız
-        pending: Beklemede
-        running: İşlemde
-      stuck: 'Tıkanan İşler'
-      title: 'Yeniden Hesaplama İşleri'
+        pending: Bekliyor
+        running: Çalışıyor
+      stuck: Takılmış
+      title: 'Yeniden Hesaplama Görevleri'
       users: '{processed} / {total} değerlendirme'
-    revoke: 'Geri al'
-    revoke_confirm: '"{badge}" rozetini "{username}" kullanıcısından geri almak istediğinizden emin misiniz?'
+    revoke: 'Geri Al'
+    revoke_confirm: '{username} kullanıcısından "{badge}" rozetini geri almak istediğinizden emin misiniz?'
     revoke_error: 'Rozet geri alınamadı.'
     save: Kaydet
-    search_holders_placeholder: 'Sahipleri arayın...'
-    search_user_placeholder: 'Kullanıcı adına veya ismine göre arayın...'
-    select_user: 'Kullanıcı Seçin'
+    search_holders_placeholder: 'Sahiplerde ara...'
+    search_user_placeholder: 'Kullanıcı adı veya görünen adla arayın...'
+    select_user: 'Kullanıcı Seç'
     send_notification: 'Kullanıcıya bildirim gönder'
     settings:
       display_title: 'Görünüm Ayarları'
-      integrations_help: 'Diğer eklentilere bağlı rozet ölçümleri. İlgili ölçümlerin kilidini açmak için eklentiyi yükleyin.'
+      integrations_help: 'Diğer uzantılara bağlı rozet metrikleri. İlgili metriklerin kilidini açmak için uzantıyı yükleyin.'
       integrations_title: 'Uzantı Entegrasyonları'
       new_badge_highlight: 'Yeni kazanılan rozetlerde "YENİ" etiketini göster'
-      new_badge_highlight_help: 'Son 7 gün içinde kazanılan rozetlerde "YENİ" etiketi görüntüle.'
-      post_badge_display_limit: 'Gönderi rozeti görüntüleme sınırı'
-      post_badge_display_limit_help: 'Gönderilerin altında gösterilecek rozetlerin maksimum sayısı. Devre dışı bırakmak için 0 olarak ayarlayın.'
-      primary_badge_display: 'Birincil rozet ekranı'
-      primary_badge_display_help: 'Kullanıcının birincil rozetinin kullanıcı adının yanında nasıl göründüğü.'
+      new_badge_highlight_help: 'Son 7 gün içinde kazanılan rozetlerde "YENİ" etiketi görüntüler.'
+      post_badge_display_limit: 'Gönderilerdeki rozet sayısı'
+      post_badge_display_limit_help: 'Gönderilerin altında en fazla gösterilecek rozet sayısı. Devre dışı bırakmak için 0 olarak ayarlayın.'
+      primary_badge_display: 'Birincil rozet görünümü'
+      primary_badge_display_help: 'Kullanıcının birincil rozetinin kullanıcı adının yanında nasıl görüneceğini belirler.'
       primary_badge_hidden: Gizle
       primary_badge_icon: 'Yalnızca simge'
-      primary_badge_icon_name: 'Simge ve isim'
+      primary_badge_icon_name: 'Simge ve ad'
       save: 'Ayarları Kaydet'
       save_error: 'Ayarlar kaydedilemedi.'
       saved: 'Ayarlar başarıyla kaydedildi.'
       show_badges_on_user_card: 'Kullanıcı kartında rozetleri göster'
-      show_badges_on_user_card_help: 'Kullanıcının en sevdiği veya en nadir rozetini kullanıcı kartlarında ve profil sayfalarında görüntüle.'
-    showing_holders: '{total} değerinin {from}-{to} aralığı gösteriliyor'
+      show_badges_on_user_card_help: 'Kullanıcı kartlarında ve profil sayfalarında kullanıcının favori veya en nadir rozetini görüntüler.'
+    showing_holders: '{from}-{to} / {total} gösteriliyor'
     status: Durum
-    tab_assign: Atayın
+    tab_assign: Ver
     tab_holders: 'Sahipler ({count})'
     tabs:
       badges: Rozetler
       categories: Kategoriler
-      recalculation: Hesapla
+      recalculation: 'Yeniden Hesapla'
       settings: Ayarlar
     trigger_builder:
-      add_condition: 'Koşul ekle'
-      and: 'TÜMÜ eşleşmelidir (and)'
-      and_help: 'Kullanıcının bu rozeti kazanabilmesi için tüm koşulları aynı anda yerine getirmesi gerekir.'
+      add_condition: 'Koşul Ekle'
+      and: 'TÜMÜ eşleşmeli (VE)'
+      and_help: 'Kullanıcının bu rozeti kazanabilmesi için tüm koşulları aynı anda karşılaması gerekir.'
       date_end: 'Bitiş Tarihi'
-      date_range_help: 'Sadece bu tarih aralığındaki etkinlikleri sayın. Etkinlik rozetleri için kullanışlıdır.'
+      date_range_help: 'Yalnızca bu tarih aralığındaki etkinlikleri say. Etkinlik rozetleri için kullanışlıdır.'
       date_start: 'Başlangıç Tarihi'
       loading_tags: 'Etiketler yükleniyor...'
-      logic: 'Birden fazla koşul'
-      no_conditions_info: 'Herhangi bir koşul belirlenmedi. Bu rozet yalnızca moderatörler tarafından manuel olarak atanabilir.'
-      or: 'HERHANGİ BİRİ eşleşmelidir (OR)'
-      or_help: 'Kullanıcının bu rozeti kazanabilmesi için en az bir koşulu yerine getirmesi gerekir.'
-      remove_condition: 'Koşulu kaldır'
+      logic: 'Birden fazla koşul olduğunda'
+      no_conditions_info: 'Koşul belirlenmedi. Bu rozet yalnızca moderatörler tarafından manuel verilebilir.'
+      or: 'HERHANGİ BİRİ eşleşmeli (VEYA)'
+      or_help: 'Kullanıcının bu rozeti kazanabilmesi için en az bir koşulu karşılaması yeterlidir.'
+      remove_condition: 'Koşulu Kaldır'
       select_tag: 'Etiket seçin...'
       tag_filter: 'Etiket Filtresi'
-      tag_filter_help: '"Etiketteki Gönderiler" ölçütünü kullanırken gereklidir.'
-      use_date_range: 'Tarih aralığıyla sınırlandır'
-    trigger_config: 'Otomatik Tetikleyici'
-    trigger_config_help: 'Otomatik rozet verme koşullarını yapılandırın. Yalnızca manuel rozet verilmesi için boş bırakın.'
-    uncategorized: 'Kategorize edilmemiş'
+      tag_filter_help: '"Etiketteki Gönderiler" metriği kullanılırken gereklidir.'
+      use_date_range: 'Tarih aralığıyla sınırla'
+    trigger_config: 'Otomatik Tetikleme'
+    trigger_config_help: 'Otomatik rozet verme koşullarını yapılandırın. Manuel verilecek rozetler için boş bırakın.'
+    uncategorized: Kategorisiz
     validation:
-      tag_required: '"Etiket İçindeki Gönderiler" ölçütünü kullanırken mutlaka bir etiket seçmelisiniz.'
+      tag_required: '"Etiketteki Gönderiler" metriğini kullanırken bir etiket seçmelisiniz.'
   forum:
     all_badges: 'Tüm Rozetler'
     badges_subtitle: 'Topluluğa katılarak rozetler kazanın!'
     badges_title: Rozetler
-    earned_by: '{count, plural, one {# üye} other {# üyeler}}'
-    earned_users: Kazanan
+    earned_by: '{count, plural, one {# kullanıcı} other {# kullanıcı}}'
+    earned_users: Kazananlar
     loading: Yükleniyor...
     more_users_earned: 'Ve daha fazla kullanıcı...'
     my_badges: Rozetlerim
@@ -252,62 +252,62 @@ fof-badges:
       badges: Rozetler
     new_tag: YENİ
     no_badges: 'Henüz rozet mevcut değil.'
-    no_users_earned: 'Bu rozeti henüz kimse kazanmadı. İlk siz olun!'
+    no_users_earned: 'Henüz kimse bu rozeti kazanmadı. İlk siz olun!'
     notification:
-      a_badge: rozetini
-      badge_earned: '{badge} kazandın!'
+      a_badge: 'Yeni bir rozet'
+      badge_earned: '{badge} kazandınız'
     other_badges: 'Diğer Rozetler'
-    owned_badge: 'Bu rozetin sahibisiniz'
+    owned_badge: 'Bu rozete sahipsiniz'
     toggle_category_dropdown: 'Kategori açılır menüsünü aç/kapat'
     user:
-      assign_badge: 'Rozet Atayın'
-      assign_badge_title: '{username} adlı üyeye Rozet atayın'
-      assign_button: 'Rozet Atayın'
+      assign_badge: 'Rozet Ver'
+      assign_badge_title: '{username} Kullanıcısına Rozet Ver'
+      assign_button: 'Rozeti Ver'
       assign_reason: 'Sebep (isteğe bağlı)'
       assign_reason_help: 'Bu sebep kullanıcının rozetinde görünecektir.'
-      assign_reason_placeholder: 'Bu rozet neden veriliyor?'
+      assign_reason_placeholder: 'Bu rozetin verilme sebebi nedir?'
       badge_actions: 'Rozet eylemleri'
-      badge_assigned: '"{badge}" rozeti {username} adlı üyeye atandı!'
+      badge_assigned: '"{badge}" rozeti {username} kullanıcısına verildi!'
       badge_revoked: '"{badge}" rozeti geri alındı.'
-      badges_count: '{count, plural, one {# Rozet} other {# Rozetler}}'
+      badges_count: '{count, plural, one {# Rozet} other {# Rozet}}'
       badges_tab: Rozetler
-      badges_title: '{username} adlı üyenin Rozetleri'
-      cancel: 'İptal et'
+      badges_title: '{username} - Rozetler'
+      cancel: İptal
       earned_on: '{date} tarihinde kazanıldı'
-      favorite_badge: 'Rozeti favorile'
-      hidden_badge: 'Profilden gizle'
+      favorite_badge: 'Favori rozet'
+      hidden_badge: 'Profilden gizlendi'
       hide_badge: 'Profilde gizle'
       load_more: 'Daha Fazla Yükle'
-      manually_awarded: 'Manuel ödüllendirildi'
+      manually_awarded: 'Manuel verildi'
       no_badges: 'Bu kullanıcı henüz hiçbir rozet kazanmadı.'
-      no_badges_available: 'Rozet mevcut değil.'
+      no_badges_available: 'Kullanılabilir rozet yok.'
       recalculate: 'Rozetleri Yeniden Hesapla'
       recalculate_error: 'Rozetler yeniden hesaplanamadı. Lütfen tekrar deneyin.'
       recalculate_modal:
         all_badges: 'Tüm otomatik rozetler'
-        badge_label: 'Yeniden hesaplamak için rozet'
+        badge_label: 'Yeniden hesaplanacak rozet'
         manual: manuel
-        no_revoke_help: 'Etkinleştirilirse, kullanıcı kriterleri artık karşılamasa bile rozetlerini koruyacaktır.'
-        no_revoke_label: 'Mevcut rozetleri geri almayın'
-        reapply_actions_help: 'Kullanıcı zaten rozete sahipse, rozet eylemlerini (gruba ekleme gibi) yeniden uygulayın.'
+        no_revoke_help: 'Etkinleştirilirse, artık kriterleri karşılamayan kullanıcının rozetleri korunacaktır.'
+        no_revoke_label: 'Mevcut rozetleri geri alma'
+        reapply_actions_help: 'Kullanıcı rozete zaten sahipse rozet eylemlerini (gruba ekleme gibi) yeniden uygular.'
         reapply_actions_label: 'Mevcut rozetlere eylemleri yeniden uygula'
-        submit: 'Yeniden hesapla'
+        submit: 'Yeniden Hesapla'
         title: 'Rozetleri Yeniden Hesapla'
-      recalculate_reapplied: '{reapplied} rozetleri için yeniden uygulanan eylemler'
-      recalculate_success: 'Rozetler yeniden hesaplandı! Verilenler: {awarded}, İptal Edilenler: {revoked}, Yeniden başvurulanlar: {reapplied}'
-      remove_favorite: 'Favorilerden kaldır'
+      recalculate_reapplied: '{reapplied} rozet için eylemler yeniden uygulandı'
+      recalculate_success: 'Rozetler yeniden hesaplandı! Verilen: {awarded}, İptal Edilen: {revoked}, Yeniden uygulanan: {reapplied}'
+      remove_favorite: 'Favoriyi kaldır'
       revoke_badge: 'Rozeti geri al'
-      revoke_confirm: 'Bu kullanıcının "{badge}" rozetini geri almak istediğinizden emin misiniz?'
+      revoke_confirm: '"{badge}" rozetini bu kullanıcıdan geri almak istediğinizden emin misiniz?'
       revoke_error: 'Rozet geri alınamadı.'
       select_badge: 'Rozet seçin...'
-      select_badge_label: 'Rozet Seçin'
-      set_favorite: 'Favorilere ekle'
+      select_badge_label: 'Rozet Seç'
+      set_favorite: 'Favori olarak ayarla'
       show_badge: 'Profilde göster'
-      view_all_badges: 'Tüm rozetleri göster'
+      view_all_badges: 'Tüm rozetleri görüntüle'
   lib:
     rarity_common: Yaygın
     rarity_epic: Destansı
-    rarity_explain: 'Kullanıcıların %{percent} oranı, bu rozete sahiptir.'
-    rarity_legendary: Efsane
+    rarity_explain: '%{percent} kullanıcı bu rozete sahip'
+    rarity_legendary: Efsanevi
     rarity_rare: Nadir
-    rarity_uncommon: 'Sıra dışı'
+    rarity_uncommon: 'Sıra Dışı'
