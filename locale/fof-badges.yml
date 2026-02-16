@@ -215,7 +215,7 @@ fof-badges:
     tabs:
       badges: Rozetler
       categories: Kategoriler
-      recalculation: 'Yeniden hesaplama'
+      recalculation: Hesapla
       settings: Ayarlar
     trigger_builder:
       add_condition: 'Koşul ekle'
