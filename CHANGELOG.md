@@ -9,6 +9,7 @@ CHANGELOG
 
 * [`fof/badges`](https://github.com/FriendsOfFlarum/badges)
 * [`glowingblue/author-filter`](https://github.com/glowingblue/flarum-ext-author-filter)
+* [`huseyinfiliz/private-profile-plus`](https://github.com/huseyinfiliz/private-profile-plus)
 * [`ordinaryjellyfish/sentra-prime`](https://flarum.org/extension/ordinaryjellyfish/sentra-prime)
 
 
