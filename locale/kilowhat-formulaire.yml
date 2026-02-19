@@ -39,6 +39,10 @@ kilowhat-formulaire:
       noByobuFields: 'Byobu eklentisinin özel tartışmalarında, tartışma alanlarını dahil etmeyin'
       noByobuFieldsHelp: 'Varsayılan olarak; etiketle sınırlandırılmayan tartışma alanları, özel tartışmalar da dahil olmak üzere tüm tartışmalara uygulanacaktır.'
       radio-style: 'Tek seçenek stili'
+      replacementPatternLocale: 'Değiştirme kalıbı uygulanırken kullanılan dil'
+      replacementPatternLocaleHelp: "Varsayılan \"otomatik\" seçeneği, herhangi bir kuyruk etkin olmadığında formu gönderen kullanıcının dilinin kullanılacağı anlamına gelir. Eğer bir kuyruk etkinse, varsayılan forum dili kullanılır. Bu ayar hem bildirim e-postalarını hem de otomatik tartışma oluşturma işlemini etkiler.\n"
+      replacementPatternLocaleOptions:
+        auto: Otomatik
       side-nav-on-submission: 'Gönderim sayfasında yan menüyü göster'
       style-options:
         far-circle: 'FontAwesome Normal Daire Simgesi'
@@ -48,6 +52,10 @@ kilowhat-formulaire:
         native: 'Yerel tarayıcı kontrolü'
         switch: 'Flarum anahtarı'
       title: 'Form genel ayarları'
+      translateManually: 'Manuel form çevirisini etkinleştir'
+      translateManuallyHelp: "Bu ayar etkin olduğunda, alan adları form yöneticisi arayüzünde çevrilebilir. Forumda birden fazla dilin etkin olması gerekir.\n"
+      translateWithTranslator: 'Flarum Translator API ile form çevirisini etkinleştir'
+      translateWithTranslatorHelp: "Bu ayar etkin olduğunda, alan adları yerel genişleticiler (extenders) ve dil paketleri aracılığıyla özelleştirilebilir. Bu özelliğin nasıl kullanılacağını öğrenmek için dokümantasyona bakın.\n"
       uniformComposerLayout: 'Tek tip tartışma oluşturucu düzeni'
       uniformComposerLayoutHelp: "Etiketlerin, başlık ve içerik alanlarının stilini Formulaire ile eşleşecek şekilde değiştirir. Bu düzen daha da fazla yer kaplayacağından, <a>Composer Page</a> uzantısını yükleyip etkinleştirmeniz önerilir.\n"
   api:
@@ -64,7 +72,9 @@ kilowhat-formulaire:
         user_activated: '=> kilowhat-formulaire.ref.submission-meta.user_activated'
         user_displayname: '=> kilowhat-formulaire.ref.submission-meta.user_displayname'
         user_email: '=> kilowhat-formulaire.ref.submission-meta.user_email'
+        user_groups: '=> kilowhat-formulaire.ref.submission-meta.user_groups'
         user_id: '=> kilowhat-formulaire.ref.submission-meta.user_id'
+        user_joined_at: '=> kilowhat-formulaire.ref.submission-meta.user_joined_at'
         user_username: '=> kilowhat-formulaire.ref.submission-meta.user_username'
     file-already-belongs-form: '{id} dosyası başka bir forma ait'
     file-already-belongs-submission: '{id} dosyası başka bir gönderiye ait'
@@ -135,7 +145,9 @@ kilowhat-formulaire:
         user_activated: '=> kilowhat-formulaire.ref.submission-meta.user_activated'
         user_displayname: '=> kilowhat-formulaire.ref.submission-meta.user_displayname'
         user_email: '=> kilowhat-formulaire.ref.submission-meta.user_email'
+        user_groups: '=> kilowhat-formulaire.ref.submission-meta.user_groups'
         user_id: '=> kilowhat-formulaire.ref.submission-meta.user_id'
+        user_joined_at: '=> kilowhat-formulaire.ref.submission-meta.user_joined_at'
         user_username: '=> kilowhat-formulaire.ref.submission-meta.user_username'
       more-meta: 'Daha fazla meta seçeneği'
       option-keys: 'Onay kutuları, radio ve seçim için başlıklar yerine seçenek tuşlarını dışa aktarın'
@@ -175,19 +187,21 @@ kilowhat-formulaire:
         slug: 'Özel URL (opsiyonel)'
       hide: Sil
       restore: 'Geri al'
+      show-advanced-attributes: 'Gelişmiş özellikleri göster...'
       tabs:
         access: Erişim
         notifications: Bildirimler
         placement: Yerleşim
         submissions: Başvurumlar
         template: Şablon
+        translate: Çevir
       template-export: 'Şablon içe aktar/dışa aktar'
     form-edit:
       auto-discussion-options: 'Yeni tartışmalar için seçenekler'
       email-confirmation-options: 'Onay e-postası şablonu'
       email-notification-options: 'Bildirim e-posta şablonu'
       exiting-with-unsaved-data: 'Kaydedilmemiş değişiklikleriniz mevcut. Sayfayı gerçekten bırakmak istiyor musun?'
-      expert-mode-warning: "Uzman modu etkinleştirildi. Bu, alan tanımlayıcılarını ve alan başına izinleri özelleştirmenize olanak tanır. Bir şeyleri bozabileceğiniz için bu özellikle ilgili belgeleri okuduğunuzdan emin olun!\n"
+      expert-mode-warning: "Gelişmiş alan özellikleri görünür durumda. Bu özellikler hakkındaki dokümantasyonu okuduğunuzdan emin olun, aksi takdirde sistemin işleyişini bozabilirsiniz!\n"
       field:
         accept-submissions: 'Yeni gönderimleri kabul et'
         allow-modification: 'Kullanıcıların mevcut gönderilerini düzenlemesine izin ver'
@@ -201,6 +215,9 @@ kilowhat-formulaire:
         permission-edit-own: 'Kendi gönderimini düzenle'
         permission-see-any: 'Herhangi bir gönderiyi görün'
         permission-see-own: 'Kendi gönderimini gör'
+        require-submission:
+          switch: 'Forumu kullanmak için gönderim zorunluluğu'
+          warning: 'Kaydettikten sonra, eksik formu olan tüm kullanıcılar formu tekrar gönderene kadar forumdan uzaklaştırılacaktır. Devam edilsin mi?'
         send-confirmation-to-participants: 'Katılımcılara onay e-postası gönder'
         show-on-creation:
           discussion: 'Düzenleyicide göster'
@@ -222,6 +239,7 @@ kilowhat-formulaire:
       warnings:
         auto-link-permission-warning: "\"Tartışmayı otomatik olarak oluştur\" seçeneğine sahip formlar, bağımsız olarak erişildiğinde genel doldurma iznini kullanır.\n"
         linked-form-is-draft: "Bu form şu anda taslak modunda. Alanların forumda görünmesi için \"Erişim\" altında etkinleştirin.\n"
+        require-submission-invalid-permissions: "\"Forumu kullanmak için gönderim zorunluluğu\" özelliğini kullanabilmek için, onaylanmamış üyelere \"kendi verilerini görme\" ve \"kendi verilerini düzenleme\" izinlerini vermeniz gerekir.\n"
         show-on-composer-invalid-permissions: "\"Composer'de göster\"i kullanmak için seçilen etiket(ler)le tartışma başlatabilecek \"kendini gör\" ve \"kendini düzenle\" izinlerinin eşleşmesini sağlayın. Emin değilseniz \"üyeler\" olarak ayarlayın. Ayarlarınız doğru olsa bile bu mesaj görünebilir.\n"
         show-on-signup-invalid-permissions: "\"Kayıt sırasında göster\" özelliğini kullanmak için onaylanmamış üyelere \"kendini gör\" ve \"kendini düzenle\" iznini ayarlamanız gerekir.\n"
     form-index:
@@ -270,8 +288,10 @@ kilowhat-formulaire:
       forms: '=> kilowhat-formulaire.ref.manager'
     options-editor:
       columns:
+        defaultValue: 'Varsayılan olarak'
         key: '(Uzman) Benzersiz Anahtar'
         title: Başlık
+        titleTranslationKey: '(Uzman) Çeviri anahtarı'
       new-placeholder: 'Yeni seçenek...'
       remove: 'Kaldır seçeneği'
     permission-controls:
@@ -279,6 +299,9 @@ kilowhat-formulaire:
       everyone_button: '=> core.admin.permissions_controls.everyone_button'
       inherit: 'Varsayılanları kullan'
       members_button: 'Aktif üyeler'
+    require-submission-alert:
+      action: 'Forma Git'
+      message: '"{title}" formunu gönderene kadar hesabınıza erişimi geçici olarak kısıtladık.'
     rich-text:
       preview-placeholder: 'Önizleme için yazmaya başlayın'
     save-controls:
@@ -290,6 +313,14 @@ kilowhat-formulaire:
       validation-errors: 'Gönderinizde bazı hatalar bulduk'
     select:
       choose: 'Bir seçenek belirleyin'
+    show-advanced-attributes-modal:
+      attribute:
+        fillPermission: 'Doldurma izni'
+        key: Anahtar
+        translationKey: 'Çeviri anahtarı'
+      close: Kapat
+      title: 'Gelişmiş alan özelliklerini göster'
+      toggle: 'Tümünü aç/kapat'
     submission-index:
       columns:
         actions: Eylemler
@@ -321,8 +352,11 @@ kilowhat-formulaire:
       unlock: 'Kilidini aç'
     template-editor:
       add-field: 'Alan ekle'
+      contentTranslationKey: '(Uzman) İçerik çeviri anahtarı'
+      defaultValue: 'Varsayılan değer'
       delete: 'Alanı sil'
       description: Açıklama
+      descriptionTranslationKey: '(Uzman) Başlık çeviri anahtarı'
       duplicate: 'Yinelenen alan'
       email: E-posta
       fill-permission: '(Uzman) Doldurma izinleri'
@@ -338,6 +372,7 @@ kilowhat-formulaire:
       required: Gerekli
       rich: 'Zengin metin (TextFormatter)'
       title: Başlık
+      titleTranslationKey: '(Uzman) Başlık çeviri anahtarı'
       type:
         checkbox: 'Onay kutuları'
         content: İçerik
@@ -349,6 +384,9 @@ kilowhat-formulaire:
         select: 'Aşağı Açılır Menü'
         short: 'Kısa metin'
         upload: Yüklemek
+    translate:
+      option-heading: 'Seçenek #{number}'
+      switch-tab-to-edit: 'Alan yapılandırmasını değiştirmek için Şablon sekmesine geçin'
     upload-editor:
       remove: 'Dosyayı kaldır'
       uploading: Yükleniyor...
@@ -381,7 +419,9 @@ kilowhat-formulaire:
       user_activated: 'Aktif Hesap'
       user_displayname: 'Kullanıcı Görünen Adı'
       user_email: 'Kullanıcı e-postası'
+      user_groups: 'Kullanıcı Grupları'
       user_id: 'Kullanıcı Kimliği (ID)'
+      user_joined_at: 'Kullanıcı Katılım Tarihi'
       user_username: 'Kullanıcı adı'
     type:
       discussion: 'Tartışma alanları'

@@ -7,6 +7,7 @@ ianm-translate:
     glossary:
       button: Sözlük
       create_button: 'Yeni terim oluştur'
+      refresh_button: Yenile
       section:
         heading: 'Sözlük Yapılandırması'
         help: 'Sözlük kelimeleri veya terimleri, çeviri hizmetinin bunları çevirmemesi için tanımlanır. Bu, özel isimler, teknik terimler veya çevrilmemesi gereken diğer kelimeler için faydalıdır.'
