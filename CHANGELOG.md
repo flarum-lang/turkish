@@ -8,8 +8,12 @@ CHANGELOG
 **Yeni uzantılar için destek eklendi**:
 
 * [`fof/badges`](https://github.com/FriendsOfFlarum/badges)
+* [`fof/categories`](https://github.com/FriendsOfFlarum/categories)
 * [`glowingblue/author-filter`](https://github.com/glowingblue/flarum-ext-author-filter)
 * [`huseyinfiliz/private-profile-plus`](https://github.com/huseyinfiliz/private-profile-plus)
+* [`import-ai/flarum-oauth-passport`](https://github.com/import-ai/flarum-oauth-passport)
+* [`import-ai/flarum-webhook-notification`](https://github.com/import-ai/flarum-webhook-notification)
+* [`import-ai/flarum-webhook`](https://github.com/import-ai/flarum-webhook)
 * [`ordinaryjellyfish/sentra-prime`](https://flarum.org/extension/ordinaryjellyfish/sentra-prime)
 
 
