@@ -2,6 +2,35 @@ CHANGELOG
 =========
 
 
+1.45.4 (2026-02-19)
+-------------------
+
+**Yeni uzantılar için destek eklendi**:
+
+* [`fof/badges`](https://github.com/FriendsOfFlarum/badges)
+* [`fof/categories`](https://github.com/FriendsOfFlarum/categories)
+* [`glowingblue/author-filter`](https://github.com/glowingblue/flarum-ext-author-filter)
+* [`huseyinfiliz/private-profile-plus`](https://github.com/huseyinfiliz/private-profile-plus)
+* [`import-ai/flarum-oauth-passport`](https://github.com/import-ai/flarum-oauth-passport)
+* [`import-ai/flarum-webhook-notification`](https://github.com/import-ai/flarum-webhook-notification)
+* [`import-ai/flarum-webhook`](https://github.com/import-ai/flarum-webhook)
+* [`ordinaryjellyfish/sentra-prime`](https://flarum.org/extension/ordinaryjellyfish/sentra-prime)
+
+
+**Uzantılar için çeviriler güncellendi**:
+
+* [`datitisev/flarum-maintenance`](https://flarum.org/extension/datitisev/flarum-maintenance)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/sitemap`](https://github.com/FriendsOfFlarum/sitemap)
+* [`ianm/translate`](https://flarum.org/extension/ianm/translate)
+* [`kilowhat/flarum-ext-formulaire`](https://flarum.org/extension/kilowhat/flarum-ext-formulaire)
+* [`kilowhat/flarum-ext-rich-embeds`](https://flarum.org/extension/kilowhat/flarum-ext-rich-embeds)
+* [`kilowhat/flarum-ext-wordpress`](https://flarum.org/extension/kilowhat/flarum-ext-wordpress)
+
+
+Tüm değişiklikler: [1.45.3...1.45.4](https://github.com/flarum-lang/turkish/compare/1.45.3...1.45.4).
+
+
 1.45.3 (2026-01-25)
 -------------------
 
