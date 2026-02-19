@@ -3,5 +3,23 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 huseyinfiliz-private-profile-plus:
+  admin:
+    permissions:
+      bypass_profile_visibility: 'Profil görünürlüğü kısıtlamalarını aş'
+    settings:
+      default_visibility_help: 'Bu, tüm kullanıcı profilleri için varsayılan görünürlük seviyesidir. Kullanıcılar bunu kendi ayarlarından geçersiz kılabilir.'
+      default_visibility_label: 'Genel Varsayılan Profil Görünürlüğü'
+      option_everyone: Herkes
+      option_members: 'Sadece Üyeler'
+      option_private: Gizli
   forum:
+    profile_members_only: 'Bu profil sadece üyelere açıktır. Görüntülemek için lütfen giriş yapın.'
     profile_private: 'Bu profil gizli.'
+    user:
+      settings:
+        option_default: 'Varsayılan (Mevcut: {level})'
+        option_everyone: Herkes
+        option_members: 'Sadece Üyeler'
+        option_private: Gizli
+        profile_visibility_heading: 'Profil Görünürlüğü'
+        profile_visibility_help: 'Profil gönderilerinizi ve tartışmalarınızı kimlerin görebileceğini kontrol edin.'

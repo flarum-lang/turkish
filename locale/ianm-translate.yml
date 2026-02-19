@@ -7,10 +7,23 @@ ianm-translate:
     glossary:
       button: Sözlük
       create_button: 'Yeni terim oluştur'
+      create_not_implemented: 'Arayüz üzerinden terim oluşturma henüz uygulanmadı. PHP genişleticisini kullanın.'
+      delete_not_available: 'Bu terim kod içerisinde tanımlanmıştır ve arayüz üzerinden silinemez'
+      delete_term: 'Terimi sil'
+      edit_not_available: 'Bu terim kod içerisinde tanımlanmıştır ve arayüz üzerinden düzenlenemez'
+      edit_term: 'Terimi düzenle'
+      extender_info: 'Sözlük terimleri, extend.php dosyanızdaki eklentinin PHP genişleticisi (extender) kullanılarak eklenebilir.'
+      no_terms: 'Şu anda tanımlanmış bir sözlük terimi bulunmuyor.'
       refresh_button: Yenile
       section:
         heading: 'Sözlük Yapılandırması'
         help: 'Sözlük kelimeleri veya terimleri, çeviri hizmetinin bunları çevirmemesi için tanımlanır. Bu, özel isimler, teknik terimler veya çevrilmemesi gereken diğer kelimeler için faydalıdır.'
+      source:
+        code: 'Kodda tanımlı'
+        database: 'Veritabanında kayıtlı'
+        default: 'Yerleşik varsayılan'
+      terms:
+        current: 'Şu anda {count, plural, one {# terim} other {# terim}} tanımlı'
     permission:
       edit-translation: 'Çeviriyi elle düzenle'
       refresh-translation: 'Önbelleğe alınmış bir çevirinin yeniden çevirisini zorla'
@@ -37,6 +50,18 @@ ianm-translate:
             default: Varsayılan
             prefer_less: 'Daha az resmi'
             prefer_more: 'Çok resmi'
+        glossary:
+          options:
+            none: 'Sözlük yok'
+          pair:
+            help: '{source} dilinden {target} diline çeviri yaparken bir sözlük seçin veya bu dil çifti için sözlük gerekmiyorsa ''hiçbiri''ni seçin.'
+            label: '{source} -> {target} Sözlüğü'
+        model_type:
+          help: 'Çeviri için hangi DeepL modelinin kullanılacağını seçin.'
+          label: 'Model türü'
+          options:
+            latency_optimized: 'Hız için optimize edilmiş'
+            prefer_quality_optimized: 'Mümkünse kalite odaklı'
       general:
         heading: 'Genel Ayarlar'
         help: 'Bu ayarlar, çeviri sisteminin genel davranışını kontrol eder.'
@@ -56,6 +81,52 @@ ianm-translate:
           label: 'Sunucu Bağlantısı'
       multi-lang-search: 'Çok dilli çeviri'
       multi-lang-search-help: 'Etkinleştirildiğinde, arama içeriklerin tüm çevirilerini de içerecektir.'
+      openai:
+        api_key:
+          help: '{link} adresinden bir API anahtarı alın. Bu sürücü GPT-4o ve GPT-4o-mini modellerini destekler.'
+          label: '=> ianm-translate.lib.settings.api-key'
+        de_variant:
+          help: 'Almancaya çeviri yaparken hangi varyantın kullanılacağını seçin.'
+          label: 'Almanca varyantı'
+          options:
+            casual: 'Samimi Almanca'
+            swiss: 'İsviçre Almancası'
+        detection_model:
+          help: 'Dil algılama için hangi OpenAI modelinin kullanılacağını seçin. Dil algılama basit bir görev olduğu için GPT-3.5-turbo önerilir.'
+          label: 'Dil algılama modeli'
+          options:
+            gpt-3:
+              5-turbo: 'GPT-3.5 Turbo (Ekonomik)'
+              5-turbo-0125: 'GPT-3.5 Turbo Güncel (Ekonomik+)'
+            gpt-4o: 'GPT-4o (Premium)'
+            gpt-4o-mini: 'GPT-4o Mini (Dengeli)'
+        en_variant:
+          help: 'İngilizceye çeviri yaparken hangi varyantın kullanılacağını seçin.'
+          label: 'İngilizce varyantı'
+          options:
+            en-GB: 'İngiliz İngilizcesi'
+            en-US: 'Amerikan İngilizcesi'
+        max_tokens:
+          help: 'Çeviri çıktısı için maksimum token sınırı. Yüksek değerler daha uzun çevirilere izin verir ancak maliyeti artırır. 1024 token ≈ 750 kelime.'
+          label: 'Maksimum çıktı token''ı'
+          options:
+            1024: '1.024 token (~750 kelime)'
+            2048: '2.048 token (~1.500 kelime)'
+            4096: '4.096 token (~3.000 kelime)'
+            6144: '6.144 token (~4.500 kelime)'
+            8192: '8.192 token (~6.000 kelime)'
+        timeout:
+          help: 'Saniye cinsinden istek zaman aşımı. Zaman aşımı hataları alıyorsanız bu değeri artırın.'
+          label: 'Zaman aşımı (saniye)'
+        translation_model:
+          help: 'Çeviriler için hangi OpenAI modelinin kullanılacağını seçin. GPT-4o en yüksek kaliteyi, GPT-4o-mini iyi bir dengeyi, GPT-3.5-turbo ise en uygun maliyeti sunar.'
+          label: 'Çeviri modeli'
+          options:
+            gpt-3:
+              5-turbo: 'GPT-3.5 Turbo (Ekonomik)'
+              5-turbo-0125: 'GPT-3.5 Turbo Güncel (Ekonomik+)'
+            gpt-4o: 'GPT-4o (Premium)'
+            gpt-4o-mini: 'GPT-4o Mini (Dengeli)'
       provider: 'Çeviri sağlayıcı'
       providers:
         heading: 'Çeviri Sağlayıcı Ayarları'
@@ -69,6 +140,8 @@ ianm-translate:
         default-lang-help: 'Etkinleştirildiğinde, forumun varsayılan dili <code>x-default</code> hreflang etiketinin yoluna eklenecektir.'
         heading: 'SEO Ayarları'
         help: 'Bu ayarlar, çeviri sisteminin arama motoru optimizasyonuna ilişkin davranışını kontrol eder.'
+      short-content-length: 'Kısa İçerik'
+      short-content-length-help: 'Etkinleştirildiğinde, belirlenen uzunluktan daha kısa olan içerikler çevrilecek ve mevcut arayüz dilinde yazıldığı varsayılacaktır. 0 bu özelliği devre dışı bırakır.'
       translate-all-enabled: 'Tüm çeviri dillerini etkinleştir'
       translate-all-help: 'Etkinleştirildiğinde yönetici kullanıcılar ve izne sahip diğer kişiler, içeriği kurulu herhangi bir forum diline çevirebilir.'
       translate-polls: 'Anketleri çevir'
@@ -78,6 +151,8 @@ ianm-translate:
       use-native-locale-names: 'Yerel ayar adlarını kullanın'
       use-native-locale-names-help: 'Etkinleştirildiğinde, adın geçerli dil sürümü yerine varsayılan dil ayarı kullanılacaktır.'
   forum:
+    composer_edit:
+      language: '{language} dilindeki çevrilmiş içeriği güncelle'
     detected-language: 'Bu yayın {postLang} içinde'
     discussion:
       post:
@@ -91,6 +166,9 @@ ianm-translate:
       discussion:
         title: 'Tartışma başlığı çevirilerini yönet'
       original-language: 'Asıl Dil ({detectedLang})'
+      poll-group:
+        name: 'Grup adı'
+        title: 'Anket Grubu çevirilerini yönet'
       poll:
         image-alt: 'Görsel ALT metni (varsa)'
         option: 'Seçenek {number}'
@@ -111,6 +189,8 @@ ianm-translate:
     original-content:
       title: 'İçeriği aslı'
       view: 'İçeriğin aslını göster'
+    post:
+      translation-error: 'Bu gönderinin çevirisi görüntülenirken bir sorun oluştu. Hata {uuid} ID''si ile kaydedildi. Sorun devam ederse lütfen bildirin.'
     refresh-translation: 'Çevirileri yenile'
     translate-button-label: Çeviri
     unknown-language: '[algılanmadı]'
@@ -126,5 +206,6 @@ ianm-translate:
       google-cloud: 'Google Cloud Translate'
       google-free: 'Google Translate'
       libre: LibreTranslate
+      openai: OpenAI
     settings:
       api-key: 'API Anahtarı'
