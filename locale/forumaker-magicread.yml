@@ -7,7 +7,9 @@ forumaker-magicread:
     settings:
       enable_counter: 'Düzenleyicide canlı karakter sayacı'
       enable_pagination: 'Tartışma içi sayfalandırma'
+      enable_readmore: 'Profil sayfasında devamını oku önizlemesi'
       section_main: Ayarlar
   forum:
     counter:
       label: Karakter
+    read_more: 'Devamını oku'

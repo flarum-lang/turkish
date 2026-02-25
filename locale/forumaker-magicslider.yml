@@ -7,8 +7,12 @@ capy-magic-slider:
     settings:
       add_slide: 'Slayt ekle'
       autoplay: 'Geçiş süresi'
-      autoplay_help: '0 değeri otomatik geçişi devre dışı bırakır'
+      autoplay_help: 'Saniye cinsinden yazın. 0 girerseniz otomatik geçiş kapatılır'
       delete: Sil
+      disable_desktop: 'Slaytları masaüstünde gizle'
+      disable_desktop_help: '768px''den geniş ekranlarda gizle'
+      disable_mobile: 'Slaytları mobilde gizle'
+      disable_mobile_help: '768px ve altındaki ekranlarda gizle'
       fit_to_layout: 'Slaytları ana düzen genişliğine hizala'
       fit_to_layout_help: 'Etkinleştirildiğinde, slaytlar etiket veya tartışma listesinde ana içerik alanının genişliğine tam olarak kaplar'
       height: Yükseklik
