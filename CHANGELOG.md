@@ -2,6 +2,28 @@ CHANGELOG
 =========
 
 
+1.45.5 (2026-02-25)
+-------------------
+
+**Yeni uzantılar için destek eklendi**:
+
+* [`fof/rich-text`](https://github.com/FriendsOfFlarum/rich-text)
+* [`huseyinfiliz/flarum-diff`](https://github.com/huseyinfiliz/flarum-diff)
+
+
+**Uzantılar için çeviriler güncellendi**:
+
+* [`fof/share-social`](https://github.com/FriendsOfFlarum/share-social)
+* [`forumaker/magicread`](https://github.com/forumaker/magicread)
+* [`forumaker/magicslider`](https://github.com/forumaker/magicslider)
+* [`ianm/follow-users`](https://github.com/imorland/follow-users)
+* [`ianm/log-viewer`](https://github.com/imorland/flarum-ext-log-viewer)
+* [`ordinaryjellyfish/sentra-prime`](https://flarum.org/extension/ordinaryjellyfish/sentra-prime)
+
+
+Tüm değişiklikler: [1.45.4...1.45.5](https://github.com/flarum-lang/turkish/compare/1.45.4...1.45.5).
+
+
 1.45.4 (2026-02-19)
 -------------------
 
