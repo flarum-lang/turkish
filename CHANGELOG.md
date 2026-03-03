@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.45.6 (XXXX-XX-XX)
+-------------------
+
+**Yeni uzantılar için destek eklendi**:
+
+* [`huseyinfiliz/stickiest`](https://github.com/huseyinfiliz/stickiest)
+
+
+Tüm değişiklikler: [1.45.5...1.45.6](https://github.com/flarum-lang/turkish/compare/1.45.5...1.45.6).
+
+
 1.45.5 (2026-02-25)
 -------------------
 
