@@ -20,8 +20,11 @@ flarum-gdpr:
         heading: 'GDPR Ayarları'
         help_text: 'GDPR ayarlarını mı arıyorsunuz? Uzantı sayfasındalar.'
       user_table_data:
+        column: Sütun
         help_text: "Çoğunlukla, <code>kullanıcı</code> tablosuna eklenen tüm sütunlar hem verileri dışa aktarmak hem de silmek amacıyla otomatik olarak işlenecektir.\nAncak aşağıda sıralanan bazı özel durumlar vardır.\n"
+        nullable: 'Boş bırakılabilir'
         title: 'Kullanıcı Tablo Verisi'
+        type: Tür
     nav:
       gdpr_button: 'GDPR Entegrasyonları'
     permissions:
