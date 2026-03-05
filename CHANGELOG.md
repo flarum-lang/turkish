@@ -14,6 +14,7 @@ CHANGELOG
 **Uzantılar için çeviriler güncellendi**:
 
 * [`flarum/gdpr`](https://github.com/flarum/gdpr)
+* [`forumaker/magicbb`](https://github.com/forumaker/magicbb)
 
 
 Tüm değişiklikler: [1.45.5...1.45.6](https://github.com/flarum-lang/turkish/compare/1.45.5...1.45.6).
