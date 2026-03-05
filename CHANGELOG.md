@@ -2,6 +2,24 @@ CHANGELOG
 =========
 
 
+1.45.6 (2026-03-05)
+-------------------
+
+**Yeni uzantılar için destek eklendi**:
+
+* [`huseyinfiliz/leaderboard`](https://github.com/huseyinfiliz/leaderboard)
+* [`huseyinfiliz/stickiest`](https://github.com/huseyinfiliz/stickiest)
+
+
+**Uzantılar için çeviriler güncellendi**:
+
+* [`flarum/gdpr`](https://github.com/flarum/gdpr)
+* [`forumaker/magicbb`](https://github.com/forumaker/magicbb)
+
+
+Tüm değişiklikler: [1.45.5...1.45.6](https://github.com/flarum-lang/turkish/compare/1.45.5...1.45.6).
+
+
 1.45.5 (2026-02-25)
 -------------------
 
