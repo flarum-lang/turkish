@@ -21,10 +21,17 @@ flarum-gdpr:
         help_text: 'GDPR ayarlarını mı arıyorsunuz? Uzantı sayfasındalar.'
       user_table_data:
         column: Sütun
+        extension: Uzantı
         help_text: "Çoğunlukla, <code>kullanıcı</code> tablosuna eklenen tüm sütunlar hem verileri dışa aktarmak hem de silmek amacıyla otomatik olarak işlenecektir.\nAncak aşağıda sıralanan bazı özel durumlar vardır.\n"
+        'no': Hayır
         nullable: 'Boş bırakılabilir'
+        pii: KV
+        pii_tooltip: 'Bu sütun kişisel tanımlayıcı bilgi içerir ve anonim bağlamlarda (ör. anonimleştirilmiş olay yükleri) gizlenir.'
+        redacted_on_export: 'Dışa aktarımda gizlenir'
+        redacted_on_export_tooltip: 'Bu sütunun değeri, kullanıcı verisi dışa aktarılırken silinir. Sütun dışa aktarımda görünmeye devam eder ancak değeri null olur.'
         title: 'Kullanıcı Tablo Verisi'
         type: Tür
+        'yes': Evet
     nav:
       gdpr_button: 'GDPR Entegrasyonları'
     permissions:
@@ -114,6 +121,7 @@ flarum-gdpr:
       avatar:
         delete_description: 'Kullanıcının avatarını dosya sisteminden siler.'
         export_description: 'Kullanıcının avatarını dosya sisteminden alır ve dışa aktarma işlemine dahil eder.'
+      default_user_action: 'İşlem yok, varsayılan kullanıcı tablosu veri işleme tarafından yönetilir.'
       discussions:
         export_description: 'Kullanıcının başlattığı tüm tartışmaları dışa aktarır. Veriler başlık ve oluşturma tarihiyle sınırlıdır.'
       forum:

@@ -12,12 +12,13 @@ forumaker-magicbb:
       images: 'Görsel düğmeleri'
       text: 'Metin düğmeleri'
     settings:
+      bb_audio: Ses
       bb_center: Ortala
       bb_color: Renk
       bb_iframe: çerçeve
       bb_iframe_help: 'Herhangi bir kaynaktan iframe yerleştirilmesine izin verir. Dikkatli kullanın — gömülü içerik harici komut dosyaları içerebilir. 🧹 Bu ayarı değiştirdikten sonra lütfen Flarum önbelleğini temizleyin'
       bb_image: 'FoF Upload'
-      bb_image_help: 'Büyük ortalanmış görseller otomatik olarak gönderi genişliğinin %60''ına, yan hizalanmış olanlar ise %40''ına kadar yeniden boyutlandırılır'
+      bb_image_help: 'Yazı editörüne görsel hizalama için yeni bir buton ekler. Büyük ortalanmış görseller otomatik olarak gönderi genişliğinin %60''ına, yan hizalanmış olanlar ise %40''ına kadar yeniden boyutlandırılır'
       bb_info: Uyarılar
       bb_justify: Yasla
       bb_spoiler: Tatkaçıran
@@ -26,6 +27,7 @@ forumaker-magicbb:
       toolbar_group_help: 'Etkinleştirildiğinde, düzenleyicideki tüm MagicBB düğmeleri tek bir düğme halinde gruplanacaktır'
   forum:
     composer:
+      audio_button: 'Ses ekle'
       center_button: Ortala
       color_button: 'Renk ekle'
       image_button: 'Görsel ekle'
