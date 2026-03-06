@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.45.7 (XXXX-XX-XX)
+-------------------
+
+**Uzantılar için çeviriler güncellendi**:
+
+* [`huseyinfiliz/leaderboard`](https://github.com/huseyinfiliz/leaderboard)
+
+
+Tüm değişiklikler: [1.45.6...1.45.7](https://github.com/flarum-lang/turkish/compare/1.45.6...1.45.7).
+
+
 1.45.6 (2026-03-05)
 -------------------
 
