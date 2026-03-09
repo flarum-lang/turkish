@@ -16,6 +16,7 @@ fof-gamification:
         button: 'Beğenileri yukarı oya çevir'
         converted: '{number} beğeni başarıyla dönüştürüldü'
         converting: 'Beğenileriniz dönüştürülüyor. Sonucu görmek için sayfayı birkaç dakika sonra yenileyin. (Dönüşüm forum beğenilerinize bağlı olarak zaman alabilir)'
+        help: 'Flarum/likes uzantısındaki önceki beğenilerinizi yukarı oylara dönüştürün ve mevcut tüm tartışmalar için popülerlik puanını hesaplayın.'
       groups:
         add: 'Yeni kural ekle'
         column:
@@ -55,6 +56,8 @@ fof-gamification:
         first_post_only: 'Bir tartışmada yalnızca ilk gönderinin yukarı/aşağı oylanmasına izin verin'
         icon_help: 'İstediğiniz -up ve -down arka eki olan FontAwesome simgesini ekleyin. Örn: arrow, thumbs, chevron'
         icon_name: 'Yukarı oy/aşağı oy simgesi'
+        icon_preview_downvote: 'Aşağı Oy'
+        icon_preview_upvote: 'Yukarı Oy'
         points_placeholder: 'Points: '
         points_title: Puanlar
         rate_limit: 'Bir oy oranı limiti uygula (10 saniye)'
@@ -104,3 +107,7 @@ fof-gamification:
       label_none: 'Oylayan yok'
       none: 'Henüz oylayan yok'
     votes: Oylar
+lib:
+  gambits:
+    hot:
+      key: trend

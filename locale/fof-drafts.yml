@@ -8,6 +8,11 @@ flarum-gdpr:
       drafts:
         delete_description: 'Kullanıcı tarafından oluşturulan tüm taslakları silin.'
         export_description: 'Kullanıcı tarafından oluşturulan tüm taslaklar.'
+fof-default-user-preferences:
+  admin:
+    settings:
+      draftAutosaveEnable: 'Varsayılan Olarak Taslak Otomatik Kaydetmeyi Etkinleştir'
+      draftAutosaveInterval: 'Varsayılan Otomatik Kaydetme Aralığı (saniye)'
 fof-drafts:
   admin:
     permissions:

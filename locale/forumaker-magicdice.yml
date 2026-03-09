@@ -8,5 +8,15 @@ forumaker-magic-dice:
       clearOnEdit: 'Gönderi düzenlemede yeni numaralar oluştur'
       section_main: Ayarlar
   forum:
+    composer:
+      rollDie: Zar
+    settings:
+      diceSkin:
+        circle: Yörünge
+        classic: Klasik
+        gradient: 'Gün Batımı'
+        hc: Kontrast
+        heading: 'Zar stili'
+        neon: Neon
     tooltip:
-      preview: 'Rastgele sallama esnasında kaydet'
+      preview: 'Kaydederken rastgele zar at'

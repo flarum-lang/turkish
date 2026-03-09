@@ -6,3 +6,4 @@ fof-default-group:
   admin:
     settings:
       info: 'Aşağıda, hesabı etkinleştirildiğinde bir kullanıcının atanacağı grubu seçebilirsiniz.'
+      label: 'Varsayılan Grup'

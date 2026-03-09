@@ -10,6 +10,7 @@ fof-default-user-preferences:
       followAfterReply: 'Yanıtladıktan sonra takip et'
       followAfterReply-help: 'Etkinleştirildiğinde, yeni kullanıcılar yanıtladıkları tartışmaları otomatik olarak takip eder.'
       groupMentioned: 'Grup bahsetme e-postaları'
+      groupMentioned-help: 'Etkinleştirildiğinde, yeni kullanıcılar, ait oldukları bir gruptan bahsedildiğinde otomatik olarak bir e-posta bildirimi almayı seçer.'
       indexProfile: 'Profili Dizine Ekle'
       indexProfile-help: 'Etkinleştirildiğinde, diğer site veya uzantı ayarları tarafından engellenmedikçe, yeni kullanıcılar arama motorlarının profil sayfalarını dizine eklemesine izin verecektir.'
       postMentioned: 'Bahsedildiğinde e-posta gönder'

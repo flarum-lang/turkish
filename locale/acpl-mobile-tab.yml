@@ -28,6 +28,7 @@ acpl-mobile-tab:
     item:
       all_discussions: Tartışmalar
       categories: Kategoriler
+      fof-byobu: 'Özel Tartışma'
       home: Anasayfa
       log_in: 'Giriş Yap'
       messages: Mesajlar

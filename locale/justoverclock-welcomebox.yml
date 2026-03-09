@@ -13,6 +13,7 @@ flarum-ext-welcomebox:
     discussion: '=> core.ref.discussions'
     goToProfile: Profil
     lastSeen: 'Son Ziyaret'
+    neverSeen: 'Hiç görülmedi'
     notregistered: 'Henüz bu foruma üye olmadınız.'
     npost: '=> core.ref.posts'
     tooltipDisclist: Tartışmalarım
