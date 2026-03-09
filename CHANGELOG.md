@@ -2,6 +2,23 @@ CHANGELOG
 =========
 
 
+1.45.8 (XXXX-XX-XX)
+-------------------
+
+**Genel değişiklikler**:
+
+* Flarum çekirdek çevirileri güncellendi.
+
+
+**Uzantılar için çeviriler güncellendi**:
+
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
+* [`flarum/nicknames`](https://github.com/flarum/nicknames)
+
+
+Tüm değişiklikler: [1.45.7...1.45.8](https://github.com/flarum-lang/turkish/compare/1.45.7...1.45.8).
+
+
 1.45.7 (2026-03-09)
 -------------------
 
