@@ -95,7 +95,10 @@ flarum-gdpr:
       anonymization_button: 'Kullanıcıyı anonimleştir'
       comments_label: 'Yorumlar (isteğe bağlı)'
       confirm: '{name} adlı kişinin hesabını {mode} modunda silmek istediğinizden emin misiniz?'
+      confirmed_at: 'Onay: {date}'
       deletion_button: 'Kullanıcıyı sil'
+      eligible_at: 'Otomatik işleme uygunluk: {date}'
+      requested_at: 'Talep: {date}'
       text: '{name} hesabının silinmesini talep etti.'
       title: 'Silme isteğini işle'
     request_erasure:
