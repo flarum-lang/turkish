@@ -27,3 +27,9 @@ flarum-likes:
       notify_post_liked_label: 'Biri gönderilerimden birini beğendiğinde'
     user:
       likes_link: Beğeniler
+  lib:
+    gambits:
+      posts:
+        likedBy:
+          hint: 'Kullanıcının ID''si veya kullanıcı adı'
+          key: begenen

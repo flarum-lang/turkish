@@ -20,4 +20,7 @@ ianm-log-viewer:
       file_size: 'Boyut (bayt): {size}'
       last_updated: 'Son güncelleme: {updated}'
       no_file_selected: 'İçeriğini görüntülemek için bir günlük dosyası seçin.'
+      no_log_files: 'Günlük dosyası bulunamadı.'
+      scroll_to_bottom: 'En alta kaydır'
+      scroll_to_top: 'En üste kaydır'
       view_log: 'Günlük dosyasını görüntüle'

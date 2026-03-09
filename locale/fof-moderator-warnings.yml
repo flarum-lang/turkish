@@ -26,6 +26,8 @@ fof-moderator-warnings:
       warning_button: 'Kullanıcıyı Uyar'
     settings:
       warning_notification_label: 'Moderatör tarafından uyarıldığımda'
+    user:
+      warnings: Uyarılar
     validation:
       invalid_strike_count: 'Uyarı sayısı, 0 ile 5 arasında bir tam sayı olmalıdır.'
       public_comment_required: 'Çoğunlukla herkese açık bir yorum sunuyorsunuz.'
@@ -40,6 +42,8 @@ fof-moderator-warnings:
       warnings_no_strikes: 'Moderatör Uyarıları: Hiçbir Uyarı Alınmadı'
     warning_list_item:
       linked_post: 'Bağlantılı Gönderi'
+      list_item_heading: '{strikes, plural, one {# uyarı, {time}} other {# uyarı, {time}}}'
+      list_item_heading_hidden: '{strikes, plural, one {# uyarı, {time} (kaldırıldı)} other {# uyarı, {time} (kaldırıldı)}}'
       private_comment: 'Moderatörlere Görünür Yorumlar'
       public_comment: Uyarı
     warning_modal:
