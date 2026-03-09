@@ -5,8 +5,15 @@ CHANGELOG
 1.45.7 (XXXX-XX-XX)
 -------------------
 
+**Yeni uzantılar için destek eklendi**:
+
+* [`quasimo/flarum-ext-llms-txt`](https://github.com/Quasimo/flarum-ext-llms-txt)
+* [`quasimo/flarum-ext-tag-sidebar`](https://github.com/Quasimo/flarum-ext-tag-sidebar)
+
+
 **Uzantılar için çeviriler güncellendi**:
 
+* [`flarum/gdpr`](https://github.com/flarum/gdpr)
 * [`huseyinfiliz/leaderboard`](https://github.com/huseyinfiliz/leaderboard)
 
 
