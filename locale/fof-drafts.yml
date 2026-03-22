@@ -24,6 +24,7 @@ fof-drafts:
       schedule_on_one_server: 'Görev zamanlayıcı için ''onOneServer()'' direktifini kullanın (Redis/Memcache gerektirir)'
       title: 'Taslak Ayarları'
   console:
+    no_title_error: 'Taslak atlandı: Tartışma başlığı eksik.'
     scheduled_drafts_disabled: 'Zamanlanmış taslaklar şu anda ayarlardan etkisizleştirilmiştir.'
   forum:
     composer:
@@ -44,6 +45,7 @@ fof-drafts:
       title: Taslaklar
       tooltip: '=> fof-drafts.forum.dropdown.title'
     schedule_draft_modal:
+      no_title_error: 'Planlama yapmadan önce bir tartışma başlığı girilmesi zorunludur.'
       reschedule_button: 'Yeniden Zamanla'
       schedule_button: Zamanla
       schedule_time_preview: 'Bu taslak otomatik olarak <b>{datetime}</b> tarihinde yayınlanacaktır.'

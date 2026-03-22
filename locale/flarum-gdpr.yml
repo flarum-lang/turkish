@@ -21,9 +21,11 @@ flarum-gdpr:
         help_text: 'GDPR ayarlarını mı arıyorsunuz? Uzantı sayfasındalar.'
       user_table_data:
         help_text: "Çoğunlukla, <code>kullanıcı</code> tablosuna eklenen tüm sütunlar hem verileri dışa aktarmak hem de silmek amacıyla otomatik olarak işlenecektir.\nAncak aşağıda sıralanan bazı özel durumlar vardır.\n"
+        not_yet_implemented: 'Henüz hayata geçirilmedi'
         title: 'Kullanıcı Tablo Verisi'
     nav:
       gdpr_button: 'GDPR Entegrasyonları'
+      gdpr_title: '=> flarum-gdpr.admin.gdpr_page.description'
     permissions:
       process_erasure: 'Silme isteklerini işleyin'
       process_export_for_others: 'Diğer kullanıcılar için veri aktarımlarını talep etme ve alma'
@@ -43,17 +45,28 @@ flarum-gdpr:
       gdpr_page:
         help_text: 'Forumunuzda hangi eylemleri kullanacağınıza karar vermeden önce, hangi verilerin entegre edildiğini ve hem anonimleştirme hem de silme için nasıl işlendiğini anlamak hayati önem taşır. Verilerin nasıl işlendiğini ve hangi isteğe bağlı uzantıların verilerini bu uzantı tarafından işlenmek üzere kaydettiğini anlamak için GDPR genel bakışını ziyaret edin.'
         title: 'Veri Entegrasyonu ve eylemler'
+    userlist:
+      columns:
+        user_actions:
+          data_export:
+            button: 'Dışa aktar'
+            tooltip: '{username} için verileri dışa aktar'
   email:
     confirm_erasure:
+      body: "Birisi (umarım siz) `{display_name}` hesabının silinmesini talep etti.\n\nBu işlemi onaylamak için lütfen aşağıdaki bağlantıyı takip edin; ardından talebiniz ekibimiz tarafından işleme alınacaktır.\n\n{erasure_confirm_url}\n"
       subject: 'Hesap silme isteğinizi onaylayın'
     erasure_cancelled:
+      body: "Bu, hesap silme işlemini iptal etme talebinizin işleme alındığını bildiren otomatik bir bildirimdir.\n\nHesabınız artık silinmeyecektir.\n"
       subject: 'Hesap silme talebi iptal edildi'
     erasure_completed:
       anonymization:
+        body: "Bu, hesabınızın anonim hale getirildiğine dair otomatik ve son bildirimdir.\n"
         subject: 'Hesap anonimleştirme tamamlandı'
       deletion:
+        body: "Bu, hesabınızın silindiğine dair otomatik ve son bildirimdir.\n"
         subject: 'Hesap silme işlemi tamamlandı'
     export_available:
+      body: "{username} kullanıcısına ait hesap verilerinin dışa aktarılmasını talep ettiniz. Bu dışa aktarma başarıyla oluşturuldu ve artık kullanılabilir durumda:\n\n{url}\n\nBu dışa aktarma {destroys_at} tarihine kadar kullanılabilir kalacaktır.\n"
       subject: 'Veri aktarımı mevcut'
   forum:
     badges:

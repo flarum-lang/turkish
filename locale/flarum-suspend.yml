@@ -9,8 +9,16 @@ flarum-suspend:
   email:
     no_reason_given: 'Bu askıya alma için herhangi bir sebep gösterilmedi.'
     suspended:
+      html:
+        body: 'Aşağıdaki nedenden dolayı {forumTitle} forumundan uzaklaştırıldınız:'
+      plain:
+        body: "Aşağıdaki nedenden dolayı hesabınız askıya alınmıştır:\n\n---\n{suspension_message}\n---\n"
       subject: 'Hesabınız askıya alındı'
     unsuspended:
+      html:
+        body: 'Askıya alma işleminiz kaldırıldı. Hazır olduğunuzda [{forumTitle}]({forum_url}) adresine geri dönebilirsiniz.'
+      plain:
+        body: "Üyeliğinizin askıya alınması kaldırıldı. Aşağıdaki bağlantıya tıklayarak foruma geri dönebilirsiniz:\n\n{forum_url}\n"
       subject: 'Hesabınızın askıya alınma durumu kaldırıldı'
   forum:
     notifications:
@@ -37,3 +45,8 @@ flarum-suspend:
       suspended_tooltip: 'Askıya alındı'
     user_controls:
       suspend_button: Askıda
+  lib:
+    gambits:
+      users:
+        suspended:
+          key: suspended

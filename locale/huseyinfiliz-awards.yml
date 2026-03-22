@@ -56,6 +56,7 @@ huseyinfiliz-awards:
       image: Görsel
       image_url: 'Görsel Bağlantısı'
       image_url_help: 'Adayın görseline bağlantı (örn: oyun kapağı, kişi fotoğrafı)'
+      load_more: 'Daha Fazla Yükle'
       name: 'Aday Adı'
       real_votes: 'Gerçek Oy'
       reset: Sıfırla

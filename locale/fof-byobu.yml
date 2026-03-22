@@ -29,6 +29,12 @@ fof-byobu:
         help: 'Bu ayarlar Byobu''nun forumda kullandığı ikonları kontrol eder.'
       post-event-icon: 'Byobu Gönderi Etkinlikleri'
   email:
+    body:
+      made_public: "{actor_display_name} tüm alıcıları kaldırdı ve tartışmayı herkese açık hale getirdi: {discussion_title}.\n\nBuradan görüntüleyebilirsiniz:\n{discussion_url}\n\nBu bağlantıya erişebilmek için önce giriş yapmanız gerekebilir.\n"
+      private_discussion_added: "{actor_display_name} sizi mevcut bir özel tartışmaya ekledi: {discussion_title}.\n\nBuradan görüntüleyebilirsiniz:\n{discussion_url}\n\nBu bağlantıya erişebilmek için önce giriş yapmanız gerekebilir.\n"
+      private_discussion_created: "{actor_display_name}, sizi alıcı olarak ekleyerek {discussion_title} başlıklı yeni bir özel tartışma başlattı.\n\nBuradan görüntüleyebilirsiniz:\n{discussion_url}\n\nBu bağlantıya erişebilmek için önce oturum açmanız gerekebilir.\n"
+      private_discussion_replied: "{actor_display_name}, sizinle özel bir tartışmada şu mesajı paylaştı: {discussion_title}.\n\nBuradan görüntüleyebilirsiniz:\n{post_url}\n\nBu bağlantıya erişebilmek için önce giriş yapmanız gerekebilir.\n"
+      recipient_removed: "{actor_display_name}, {discussion_title} adlı özel tartışmadan ayrıldı. Artık içeriğinin hiçbirini görüntüleyemeyecek.\n\nBuradan görüntüleyebilirsiniz:\n{discussion_url}\n\nBu bağlantıya erişebilmek için önce giriş yapmanız gerekebilir.\n"
     subject:
       private_discussion_added: '[Özel Tartışma]{display_name} seni bir özel tartışmaya ekledi'
       private_discussion_created: '[Özel Tartışma] {display_name}sizinle yeni bir özel tartışma başlattı'
@@ -96,3 +102,11 @@ fof-byobu:
       dropdown_label: 'Özel Tartışmalar'
       settings:
         block_pd: 'Özel tartışmaları engelle'
+  lib:
+    gambits:
+      allows-pd:
+        key: allows-pd
+      byobu:
+        key: byobu
+      private:
+        key: private

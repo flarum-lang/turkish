@@ -18,10 +18,12 @@ fof-upload:
       disable-download-logging: "Forum kullanıcıları tarafından yapılan her indirme işleminin kaydını etkisizleştir. Etkinleştirilmesi, gelecekte indirenlerin sayısını ve diğer ölçümleri görmenizi sağlar.\n"
       disable-hotlink-protection: "Hotlink koruması, diğer sitelerden indirme yapılmasına engel olur. Geçerli bir csrf token ve post id'si gereklidir.\n"
       download_templates: "İndirme şablonları, dosyaların forumunuzda nasıl görüneceğini ayarlamanızı sağlar, örneğin önizleme veya düğme gibi. Mevcut olanlar:\n"
+      mime_types: "Lütfen eşleme ayarlarınızı buradan yapın. Her bir MIME türü düzenli ifadesi, belirli bir yükleme adaptörü ve indirme şablonu tarafından işlenecektir.\nİsteğe bağlı olarak, izin tablosunda özel bir izin oluşturmak için her bir girişe bir izin etiketi (ör. “Görseller”, “Videolar”) atayabilirsiniz.\nBu, her zaman gerekli olan temel “Dosya yükleme” iznine ek olarak, belirli dosya türlerini hangi grupların yükleyebileceğini kısıtlamanıza olanak tanır.\n"
       resize: "Resimlerin yüklenmeden önce yeniden boyulandırılıp boyutlandırılmayacağını seçin. Piksel cinsinden maksimum genişlik ve yükseklik belirtebilirsiniz. Yeniden boyutlandırma işlemi görüntülerin enini ve boyunu korur.\n"
       s3_acl: "Yüklenen nesneye uygulanması gereken ACL (varsayılan: özel). Olası değerler için bkz. https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n"
       s3_compatible_storage: "Aşağıdaki ayarlar yalnızca S3 uyumlu depolama kullanılırken gereklidir. AWS kullanıyorsanız, bunları boş bırakabilirsiniz.\n"
       s3_instance_profile: "Örnek profilinde kimlik bilgilerini kullanmak için anahtarı ve sırrı (secret) boş bırakın.\n"
+      thumbnails: "Yükleme sırasında resimler için küçültülmüş bir küçük resim oluşturun. Küçük resim sayfa içinde gösterilir; üzerine tıklandığında orijinal, tam çözünürlüklü dosya yeni bir sekmede açılır.\nKüçük resimler, çok sayıda büyük resim içeren forumlarda bant genişliğini ve sayfa boyutunu önemli ölçüde azaltır.\n"
       watermark: "Yükleme sırasında resimlere filigran (watermark) eklenip eklenmeyeceğini seçin. Filigranlar gif olmayan dosyalara eklenebilir.\n"
     inspect-mime:
       description: "FoF Upload, yaygın MIME türleri için <a>PHP Mime Detector</a> kitaplığını ve yedek olarak PHP Fileinfo'yu kullanır. \nFileinfo tarafından döndürülen MIME değeri sunucudan sunucuya farklı olabilir!\n"
@@ -72,6 +74,9 @@ fof-upload:
         title: 'Yerel depolama ayarları'
       preferences:
         max_file_size: 'Maksimum dosya boyutu (kilobyte cinsinden)'
+        mime_type_permission_placeholder: 'İzin etiketi (isteğe bağlı, ör. Images)'
+        mime_type_regex_invalid: 'Geçersiz regex ifadesi (ör. || gibi boş alternatifler)'
+        mime_type_regex_placeholder: 'ör. ^image/(jpeg|png|gif)$'
         mime_types: 'Mime türünüzü yapılandırın, uyarlayıcı eşlemesini yükleyin'
         php_ini_values: '<code>php.ini</code> değerleriniz <code>post_max_size={post}</code> ve <code>upload_max_filesize={upload}</code> şeklindedir. Burada ayarlanan değerin bu eşiklerin altında olduğundan emin olun veya uygun şekilde ayarlayın. <code>Nginx</code> kullanıyorsanız, <code>client_max_body_size</code> öğesinin seçtiğiniz maksimum limit için yeterli boyutta olduğundan emin olun.'
         title: 'Genel tercihler'
@@ -89,9 +94,17 @@ fof-upload:
         allow_animate_help: 'SVG animasyonlarını etkinleştirmek güvenlik açıklarına yol açabilir çünkü animasyonlu SVG’ler kötü amaçlı kod içerebilir. Bu ayarı kendi sorumluluğunuzda etkinleştirin ve yalnızca kullanıcılarınıza güveniyorsanız kullanın.'
         help: 'SVG dosyalarının yüklendiğinde nasıl işlendiğini ve temizlendiğini yapılandırın. SVG dosyaları potansiyel olarak zararlı betikler içerebilir ve dikkatle ele alınmalıdır. Yüklenen SVG''ler yükleme sırasında temizlenir ve zararlı betikler ile etiketler kaldırılır.'
         title: 'SVG Temizleyici'
+      thumbnails:
+        max_width: 'Küçük resmin maksimum genişliği (px)'
+        title: 'Resim küçük resimleri'
+        toggle: 'Yükleme sırasında küçük resimler oluştur'
+        webp_toggle: 'Küçük resimleri WebP olarak kodlayın (önerilir, yaklaşık %30 daha küçük)'
       watermark:
         file: 'Filigran yükleyin'
+        opacity: 'Filigran saydamlığı (0–100)'
+        padding: 'Kenardan içe doğru boşluk (px)'
         position: 'Filigran konumu'
+        size_percent: 'Filigran boyutu (resim genişliğinin %''si)'
         title: 'Filigran görseli'
         toggle: 'Filigran görseli'
     nav:
@@ -103,6 +116,8 @@ fof-upload:
       access_shared_label: 'Medya Yöneticisi''nde paylaşılan dosyalara erişim'
       delete_uploads_of_others_label: 'Kullanıcı yüklemelerini silin'
       download_label: 'Dosya indirme'
+      upload_label: 'Dosya yükle (temel izin, tüm yüklemeler için gereklidir)'
+      upload_mime_label: '{label} Yükle'
       upload_shared_label: 'Paylaşılan dosyaları yükle'
       view_user_uploads_label: 'Kullanıcı yüklemelerini göster'
     shared-uploads:
@@ -132,6 +147,8 @@ fof-upload:
       local: Yerel
       ovh-svfs: 'OVH SVFS'
       qiniu: QiNiu
+    warnings:
+      fileinfo_missing: "Bu sunucuda PHP <strong>fileinfo</strong> uzantısı yüklü değil. FoF Yüklemesi yine de çalışacaktır, ancak MIME türü çapraz doğrulaması devre dışı bırakılmıştır, bu da sahte dosya türlerine karşı korumayı azaltır. En iyi güvenlik için uzantıyı PHP yapılandırmanızda etkinleştirin.\n"
   api:
     upload_errors:
       cannot_write_to_disk: 'Diske yazılamıyor.'
@@ -139,6 +156,7 @@ fof-upload:
       forbidden_type: 'Bu türdeki dosyaların yüklenmesine izin verilmiyor.'
       max_upload_file_size_form: 'Formdan yükleme maksimum dosya boyutu sınırına ulaşıldı.'
       max_upload_file_size_ini: 'Php.ini''den yükleme maksimum dosya boyutu sınırına ulaşıldı.'
+      mime_permission_denied: 'Bu dosya türünü yükleme izniniz yok.'
       no_file_uploaded: 'Hiçbir dosya yüklenmedi.'
       no_files_made_it_to_upload: 'Lütfen {max} kb''den büyük olmayan dosyalar yükleyin.'
       no_upload_tmp_folder: 'Dosya yüklemek için tmp klasörü yok.'
@@ -161,6 +179,7 @@ fof-upload:
       unauthorized: 'Dosyaları indirmenize izin verilmiyor'
     text_preview:
       collapse: 'Önizlemeyi daralt'
+      download: 'Dosyayı indir'
       error: "Dosya önizlenirken hata oluştu. Silinmiş olabilir veya sağlanan dosya kimliği geçersiz.\n"
       expand: 'Önizlemeyi genişlet'
       no_snippet: '<önizleme snippet''i yok>'

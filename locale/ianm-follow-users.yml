@@ -16,6 +16,25 @@ ianm-follow-users:
     settings:
       button-on-profile-label: 'Takip et düğmesini doğrudan kullanıcı profili başlığında göster'
       stats-on-profile-label: 'Kullanıcı profillerinde takipçi ve takip sayılarını göster'
+  email:
+    new_discussion_by_user:
+      html:
+        body: '{user_display_name} yeni bir tartışma başlattı: [{discussion_title}]({discussion_url}).'
+      plain:
+        body: "{user_display_name} yeni bir tartışma başlattı: {discussion_title}\n\n{discussion_url}\n\n---\n\n{post_content}\n"
+      subject: '{user_display_name} bir tartışma başlattı'
+    new_follower:
+      html:
+        body: '{follower_display_name} sizi takip etmeye başladı, yeni bir tartışma başlattığınızda bildirim alacak.'
+      plain:
+        body: "{follower_display_name} sizi takip etmeye başladı, yeni bir tartışma başlattığınızda bildirim alacak.\n\n{profile_url}\n"
+      subject: '{follower_display_name} sizi takip etti'
+    new_post:
+      html:
+        body: '{user_display_name}, [{discussion_title}]({post_url}) başlığı altında paylaşım yaptı.'
+      plain:
+        body: "{user_display_name}, {discussion_title} başlığı altında bir gönderi paylaştı.\n\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nGüncel olana kadar bu tartışmayla ilgili başka bildirim almayacaksınız.\n"
+      subject: '{user_display_name} tarafından {discussion_title} gönderildi'
   forum:
     badge:
       label:
@@ -72,4 +91,7 @@ ianm-follow-users:
         description: "<em>{username}</em> kullanıcısının eylemlerinden bildirim alma.\n"
         name: 'Takip etme'
     following_link: 'Takip Edilen Kullanıcılar'
+    gambits:
+      followeduser:
+        key: followeduser
     unfollow: 'Takibi Bırak'

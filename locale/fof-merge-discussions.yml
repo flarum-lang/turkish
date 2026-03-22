@@ -18,6 +18,7 @@ fof-merge-discussions:
       updating_failed: 'Tartışma ayrıntıları güncellenirken bir hata oluştu.'
   email:
     merged:
+      body: "Tartışmanız {merged_discussion_title}, {actor_display_name} tarafından {discussion_title} ile birleştirildi.\n\nBuradan görüntüleyin: {discussion_url} .\n"
       subject: '"{merged_discussion_title}" tartışmanız birleştirildi'
   forum:
     discussion:
@@ -29,13 +30,19 @@ fof-merge-discussions:
       ordering_heading: 'Sıralamayı birleştir'
       ordering_suffix_help: 'Hayatta kalan tartışmayla birleştirilen gönderiler, tartışmanın sonuna eklenecektir'
       ordering_suffix_label: 'Tartışmanın sonuna birleştirilmiş gönderiler ekleyin'
+      search_discussions_placeholder: 'Tartışmaları ara...'
       submit_button: '=> fof-merge-discussions.ref.merge'
       title: 'Tartışmaları Birleştir'
+      type_from_help_text: '{title} öğesini birleştirmek istediğiniz hedef tartışmayı seçin.'
       type_from_label: 'Bu tartışmayı başka bir tartışmayla birleştir'
       type_heading: 'Birleştirme türü'
+      type_target_help_text: '{title} ile birleştirilecek tartışmaları seçin.'
       type_target_label: 'Bu tartışmaya birleştir'
     notification:
+      discussion_merged: '{oldTitle} başlıklı tartışmanız, {username} tarafından bu tartışmaya birleştirildi.'
       preferences:
         discussion_merged: 'Birisi tartışmalarımdan birini başka biriyle birleştiriyor'
+    post:
+      merged: '{count, plural, one {{titles} öğesinden 1 gönderi birleştirildi.} other {{titles} öğesinden {count} gönderi birleştirildi.}}'
   ref:
     merge: Birleştir

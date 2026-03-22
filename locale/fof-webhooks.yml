@@ -78,6 +78,11 @@ fof-webhooks:
         tags: 'Web kancalarını belirli etiketlerle sınırlayabilirsiniz. Herhangi bir etiket seçerseniz, webhook yalnızca etkinlik seçilen etiketlerden herhangi birine sahip bir kaynakta tetiklenirse tetiklenir.'
         url: 'Webhook''un yürütülecek uç noktası'
       item:
+        create_button: Oluştur
+        delete_confirm_alert: 'Bu {service} webhook''unu silmek istediğinizden emin misiniz?'
+        delete_tooltip: 'Webhook''u sil'
+        edit_tags_button: 'Etiketleri düzenle'
+        edit_tooltip: 'Webhook ayarlarını düzenle'
         tag_any_label: 'Herhangi Bir Etiket'
       modal:
         description: 'Burada, webhookun hangi olaylarda tetikleneceğini değiştirirsiniz.'

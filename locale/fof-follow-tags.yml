@@ -14,6 +14,25 @@ fof-follow-tags:
       following_none_label: '=> fof-follow-tags.ref.filtering_options.none'
       following_page_default_label: 'Varsayılan Takip Etilenler Filtrelemesi'
       following_tags_label: '=> fof-follow-tags.ref.filtering_options.tags'
+  email:
+    newDiscussionInTag:
+      html:
+        body: "{actor_display_name}, takip ettiğiniz etikette tartışma başlattı: [{discussion_title}]({discussion_url})\n"
+      plain:
+        body: "{actor_display_name}, takip ettiğiniz bir etikette bir tartışma başlattı: {discussion_title}\n\nYeni tartışmayı görüntülemek için aşağıdaki bağlantıyı kontrol edin:\n{discussion_url}\n\n---\n\n{content}\n"
+      subject: '[Etiket | Yeni Tartışma] {title}'
+    newDiscussionTag:
+      html:
+        body: "{actor_display_name}, {author_display_name} tarafından başlatılan bir tartışmanın etiketini, sizin takip ettiğiniz bir etiketle değiştirdi: [{discussion_title}]({discussion_url})\n"
+      plain:
+        body: "{actor_display_name}, {author_display_name} tarafından başlatılan bir tartışmadaki etiketi, sizin takip ettiğiniz bir etiketle değiştirdi: {discussion_title}\n\nTartışmayı görüntülemek için aşağıdaki bağlantıyı kontrol edin:\n{discussion_url}\n\n---\n\n{content}\n"
+      subject: '[Etiket | Değiştirilen Etiket] {title}'
+    newPostInTag:
+      html:
+        body: "{actor_display_name}, takip ettiğiniz etiketteki tartışmaya şu mesajı gönderdi: [{discussion_title}]({post_url})\n"
+      plain:
+        body: "{actor_display_name}, takip ettiğiniz bir etiketteki tartışmaya katıldı: {discussion_title}\n\nYeni etkinliği görüntülemek için aşağıdaki bağlantıyı inceleyin:\n{post_url}\n\n---\n\n{content}\n"
+      subject: '[Etiket | Yeni Gönderi] {title}'
   forum:
     badge:
       following_tag_tooltip: 'Takip Edilen'

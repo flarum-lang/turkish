@@ -60,6 +60,10 @@ fof-oauth:
       update_email_from_provider_label: 'Sağlayıcıdan gelen e-posta adresini güncelle'
     settings_accessibility_label: '{name} ayarları'
   forum:
+    account_linked:
+      body: '{forum} hesabınız <strong>{username}</strong> artık {provider} ile bağlandı. Bundan sonra hem forum şifrenizle hem de {provider} hesabınızla giriş yapabilirsiniz.'
+      dismiss_button: Anladım
+      title: 'Bağlı hesap'
     error:
       already_linked: 'Bu hesap zaten başka bir kullanıcıya bağlı.'
       bad_verification_code: 'Geçersiz veya süresi dolmuş doğrulama jetonu. Lütfen tekrar deneyin.'
