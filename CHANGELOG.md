@@ -10,10 +10,26 @@ CHANGELOG
 * Flarum çekirdek çevirileri güncellendi.
 
 
+**Yeni uzantılar için destek eklendi**:
+
+* [`ekumanov/flarum-ext-inline-audio`](https://github.com/ekumanov/flarum-ext-inline-audio)
+* [`ekumanov/flarum-ext-new-posts-notice`](https://github.com/ekumanov/flarum-ext-new-posts-notice)
+* [`fof/move-posts`](https://github.com/FriendsOfFlarum/move-posts)
+* [`ralkage/flarum-ext-civility-filter`](https://github.com/Ralkage/flarum-ext-civility-filter)
+* [`ralkage/flarum-ext-word-censor`](https://github.com/Ralkage/flarum-ext-word-censor)
+* [`resofire/blog-cards`](https://github.com/ResofireV2/blog-cards)
+* [`resofire/discussion-participants`](https://github.com/ResofireV2/discussion-participants)
+* [`resofire/menu-control`](https://github.com/ResofireV2/menu-control)
+
+
 **Uzantılar için çeviriler güncellendi**:
 
 * [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
 * [`flarum/nicknames`](https://github.com/flarum/nicknames)
+* [`fof/sitemap`](https://github.com/FriendsOfFlarum/sitemap)
+* [`fof/subscribed`](https://github.com/FriendsOfFlarum/subscribed)
+* [`quasimo/flarum-ext-tag-sidebar`](https://github.com/Quasimo/flarum-ext-tag-sidebar)
+* [`vlssu/flarum-cravatar`](https://github.com/vlssu/flarum-cravatar)
 
 
 Tüm değişiklikler: [1.45.7...1.45.8](https://github.com/flarum-lang/turkish/compare/1.45.7...1.45.8).
