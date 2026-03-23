@@ -7,7 +7,7 @@ core:
     badge:
       frontpage_tooltip: 'Ana Sayfa olarak işaretlendi'
     index_sort:
-      front_button: ÖnSayfa
+      front_button: 'Ana Sayfa'
     post_controls:
       pull_from_front_button: 'Ana sayfadan al'
       push_to_front_button: 'Ana sayfaya taşı'
@@ -18,4 +18,4 @@ fof-frontpage:
   lib:
     gambits:
       frontpage:
-        key: frontpage
+        key: 'ana sayfa'

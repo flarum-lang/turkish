@@ -103,7 +103,7 @@ fof-oauth:
     gambits:
       sso:
         hint: 'bir giriş sağlayıcı'
-        key: sso
+        key: 'tek oturum açma'
     providers:
       discord: Discord
       facebook: Facebook

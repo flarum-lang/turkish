@@ -32,4 +32,4 @@ flarum-likes:
       posts:
         likedBy:
           hint: 'Kullanıcının ID''si veya kullanıcı adı'
-          key: begenen
+          key: beğenen

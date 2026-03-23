@@ -49,4 +49,4 @@ flarum-suspend:
     gambits:
       users:
         suspended:
-          key: suspended
+          key: 'askıya alınmış'

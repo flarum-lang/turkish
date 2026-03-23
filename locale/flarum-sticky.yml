@@ -23,6 +23,6 @@ flarum-sticky:
     gambits:
       discussions:
         sticky:
-          key: sticky
+          key: yapışkan
   ref:
     sticky: Sabitle

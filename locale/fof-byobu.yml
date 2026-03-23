@@ -105,7 +105,7 @@ fof-byobu:
   lib:
     gambits:
       allows-pd:
-        key: allows-pd
+        key: 'özel sohbetlere olanak tanı'
       byobu:
         key: byobu
       private:

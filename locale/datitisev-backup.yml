@@ -126,6 +126,7 @@ datitisev-backup:
         timeout: '=> datitisev-backup.admin.adapter-settings-modal.ftp.timeout'
         use-agent:
           description: 'Bağlantı kimlik doğrulaması için SSH agent kullanılıp kullanılmayacağı (varsayılan: false).'
+          toggle: 'Agent kullan'
         username: '=> datitisev-backup.admin.adapter-settings-modal.ftp.username'
       timestamp_help: "Yedekleme dosyası adlarındaki zaman damgaları için biçimi belirtin. Varsayılan değer <code>U</code>'dur (Unix zaman damgası). <a>PHP tarih biçimlendirmesini</a> kullanır. Güvenli olmayan dosya adı karakterleri temizlenecektir. Dosya adı <code>{forum}-[biçimlendirilmiş zaman damgası].zip</code> biçiminde olacaktır.\n"
       timestamp_label: 'Dosya Adı Zaman Damgası Biçimi'

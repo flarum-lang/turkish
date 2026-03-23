@@ -93,5 +93,5 @@ ianm-follow-users:
     following_link: 'Takip Edilen Kullanıcılar'
     gambits:
       followeduser:
-        key: followeduser
+        key: 'takip edilen kullanıcı'
     unfollow: 'Takibi Bırak'

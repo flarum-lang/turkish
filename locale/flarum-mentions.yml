@@ -63,4 +63,4 @@ flarum-mentions:
       posts:
         mentioned:
           hint: 'Bahsi geçen kullanıcının kimliği veya kullanıcı adı'
-          key: mentioned
+          key: bahsedilen

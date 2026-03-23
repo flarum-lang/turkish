@@ -716,7 +716,7 @@ core:
       users:
         email:
           hint: ornek@makine.local
-          key: eposta
+          key: e-posta
         group:
           hint: 'tekil veya çoğul grup adları'
           key: grup
