@@ -109,4 +109,4 @@ fof-byobu:
       byobu:
         key: byobu
       private:
-        key: private
+        key: gizli
