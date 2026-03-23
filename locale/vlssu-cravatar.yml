@@ -5,6 +5,9 @@
 vlssu-flarum-cravatar:
   admin:
     settings:
+      allow-user-toggle:
+        helptext: 'Bu özellik etkinleştirildiğinde, kullanıcılar Cravatar resimlerini ya da foruma yükledikleri avatarı kullanmayı seçebilirler.'
+        title: 'Kullanıcıların Cravatar ile yüklenen avatarlar arasında geçiş yapabilmelerini sağlayın'
       defaults:
         helptext: 'Bir e-posta adresinde eşleşen Cravatar resmi yoksa ne olur? Cravatar, varsayılan olarak kullanabileceğiniz bir dizi yerleşik seçeneğe sahiptir. Bunların çoğu, istenen e-posta karmasını alıp o e-posta adresine özel temalı bir resim oluşturmak için kullanarak çalışır.'
         identicon_label: 'identicon: geometrik bir desen eposta karma değerine dayalı'
@@ -33,3 +36,5 @@ vlssu-flarum-cravatar:
   forum:
     settings:
       edit-cravatar: 'cravatar.cn üzerinde avatar yönetimi'
+      use-cravatar: 'Cravatar avatarını kullan'
+      use-uploaded: 'Yüklenen avatarı kullan'

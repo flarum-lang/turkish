@@ -10,6 +10,8 @@ fof-sitemap:
       build_button_help: 'Tüm site haritası dosyalarının hemen yeniden oluşturulmasını tetikler. İş, yapılandırılmışsa kuyruğa gönderilir, aksi takdirde hemen çalıştırılır.'
       build_error: 'Site haritası yeniden oluşturma işlemi kuyruğa alınamadı. Lütfen log kayıtlarını ve kuyruk yapılandırmanızı kontrol edin.'
       build_success: 'Site haritası yeniden oluşturma işlemi başarıyla sıraya alındı. İlerlemeyi izlemek için günlüklerinizi kontrol edin.'
+      column_pruning: 'Sütun budamasını etkinleştir'
+      column_pruning_help: 'SELECT * yerine yalnızca URL oluşturmak için gereken sütunları (ör. id, slug, kullanıcı adı, tarihler) çeker. Büyük forumlarda model başına bellek kullanımını önemli ölçüde azaltır. Varsayılan olarak etkindir — yalnızca özel bir ''slug driver'' veya görünürlük kapsamı (visibility scope) varsayılan seçimde olmayan sütunlara ihtiyaç duyuyorsa devre dışı bırakın.'
       exclude_tags: 'Tüm etiket sayfalarını site haritasından hariç tut'
       exclude_tags_help: 'Varsayılan olarak, misafirlere görünen herhangi bir etiket indekslenecektir'
       exclude_users: 'Tüm kullanıcı profillerini site haritasından hariç tut'
