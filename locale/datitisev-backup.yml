@@ -68,6 +68,9 @@ datitisev-backup:
         host:
           description: 'FTP ile bağlanılacak ana bilgisayar adı, örneğin: <em> ftp.yourdomain.local </em>.'
           label: 'Uzak ana bilgisayar adı'
+        passive:
+          description: 'FTP bağlantısı için pasif modun kullanılıp kullanılmayacağı.'
+          toggle: 'Pasif mod'
         password:
           description: 'FTP sunucusunda kimlik doğrulaması yapılacak kullanıcı şifresi.'
           label: Şifre
@@ -107,6 +110,23 @@ datitisev-backup:
           description: 'Yedeklemelerin kaydedileceği yerel dizini belirtin.'
           label: 'Hedef yol'
       name_label: 'Konum Adı'
+      sftp:
+        host: '=> datitisev-backup.admin.adapter-settings-modal.ftp.host'
+        passphrase:
+          description: 'Varsa, özel anahtarın (private key) anahtar parolası.'
+          label: 'Anahtar Parolası'
+        password: '=> datitisev-backup.admin.adapter-settings-modal.ftp.password'
+        port:
+          description: 'SFTP portu (varsayılan 22).'
+          label: Port
+        private-key:
+          description: 'SFTP bağlantısının kimlik doğrulamasında kullanılacak özel anahtarın yolu (tercihen mutlak yol).'
+          label: 'Özel Anahtar'
+        root: '=> datitisev-backup.admin.adapter-settings-modal.ftp.root'
+        timeout: '=> datitisev-backup.admin.adapter-settings-modal.ftp.timeout'
+        use-agent:
+          description: 'Bağlantı kimlik doğrulaması için SSH agent kullanılıp kullanılmayacağı (varsayılan: false).'
+        username: '=> datitisev-backup.admin.adapter-settings-modal.ftp.username'
       timestamp_help: "Yedekleme dosyası adlarındaki zaman damgaları için biçimi belirtin. Varsayılan değer <code>U</code>'dur (Unix zaman damgası). <a>PHP tarih biçimlendirmesini</a> kullanır. Güvenli olmayan dosya adı karakterleri temizlenecektir. Dosya adı <code>{forum}-[biçimlendirilmiş zaman damgası].zip</code> biçiminde olacaktır.\n"
       timestamp_label: 'Dosya Adı Zaman Damgası Biçimi'
       title: '{adapter} yapılandırın'

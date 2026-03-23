@@ -4,5 +4,18 @@
 
 core:
   forum:
+    badge:
+      frontpage_tooltip: 'Ana Sayfa olarak işaretlendi'
     index_sort:
       front_button: ÖnSayfa
+    post_controls:
+      pull_from_front_button: 'Ana sayfadan al'
+      push_to_front_button: 'Ana sayfaya taşı'
+fof-frontpage:
+  admin:
+    permissions:
+      can_push_to_frontpage_label: 'Ana sayfaya taşınabilir mi?'
+  lib:
+    gambits:
+      frontpage:
+        key: frontpage

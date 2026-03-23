@@ -4,6 +4,15 @@
 
 datlechin-link-preview:
   admin:
+    sections:
+      external_api_description: 'Doğrudan veri alımı başarısız olduğunda (örneğin, bot korumalı siteler) harici bir hizmet kullanın.'
+      external_api_label: 'Harici API Fallback'
+      general_description: 'Bağlantı önizlemeleri için temel görüntüleme tercihleri.'
+      general_label: Genel
+      performance_description: 'Bağlantı önizlemelerinin alınma ve önbelleğe alınma sürecini optimize edin.'
+      performance_label: Performans
+      url_filtering_description: 'Hangi URL''lerin bağlantı önizlemesi oluşturacağını belirleyin.'
+      url_filtering_label: 'URL Filtreleme'
     settings:
       blacklist_help: 'Bağlantı önizlemeleri oluşturmaması gereken alan adlarını veya URL''leri belirtin. Birden fazla girişi ayırmak için virgül kullanın.'
       blacklist_label: 'Alan adı kara liste'
@@ -14,6 +23,10 @@ datlechin-link-preview:
       convert_media_urls_label: 'Önizleme Medya URL''leri'
       enable_batch_requests_help: 'Birden fazla bağlantı önizlemesini aynı anda işleyerek performansı artırın. Devre dışı bırakıldığında, bağlantılar tek tek işlenir.'
       enable_batch_requests_label: 'Toplu İşlemeyi Etkinleştir'
+      external_api_fallback_help: 'Doğrudan veri alma işlemi başarısız olduğunda (örneğin, Reuters gibi bot korumalı siteler), bağlantı meta verilerini almak için harici bir oEmbed API''si kullanın.'
+      external_api_fallback_label: 'Harici API Fallback'
+      external_api_url_help: 'Özel oEmbed API uç noktası. Varsayılanı (Iframely açık API) kullanmak için boş bırakın. URL, sorgu parametresi olarak eklenecektir.'
+      external_api_url_label: 'Harici API URL'
       open_links_in_new_tab_help: 'Önizlemedeki bağlantıları her zaman yeni bir tarayıcı sekmesinde açın.'
       open_links_in_new_tab_label: 'Bağlantıları Yeni Sekmede Aç'
       use_google_favicons_help: 'Görsel tanınırlığı artırmak için Google''ın Favicon hizmetini kullanarak web sitesi favicon''larını gösterin.'

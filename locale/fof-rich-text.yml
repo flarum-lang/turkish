@@ -5,6 +5,7 @@
 fof-rich-text:
   admin:
     settings:
+      force_compact_paragraphs: 'Tüm kullanıcılar için paragrafları sıkıştır (Enter tuşu yeni bir paragraf yerine satır sonu oluşturur)'
       toggle_on_editor: 'Düzenleyicide zengin metin moduna geçiş gösterilsin mi?'
   forum:
     settings:
@@ -14,7 +15,10 @@ fof-rich-text:
   lib:
     composer:
       additional_items_tooltip: 'Ek Kontroller'
+      bold_tooltip: 'Kalın metin ({modifierKey}-b)'
       code_block_tooltip: 'Kod bloğu ekle'
+      code_tooltip: 'Satır içi kod ({modifierKey}-`)'
+      header_tooltip: '{level}. seviye başlığa dönüştür ({modifierKey}-shift-{level})'
       horizontal_rule_tooltip: 'Yatay çizgi ekle'
       image_tooltip: 'Görsel ekle'
       insert_button: Ekle
@@ -26,7 +30,16 @@ fof-rich-text:
         remove_button: Kaldır
         text_placeholder: Metin
         title_placeholder: 'Başlık (üzerine gelindiğinde gözükür)'
+      italic_tooltip: 'İtalik metin ({modifierKey}-i)'
       link_tooltip: 'Bağlantı ekle'
+      ordered_list_tooltip: 'Numaralı liste ({modifierKey}-Shift-9)'
+      paragraph_tooltip: 'Paragrafa geç ({modifierKey}-shift-0)'
+      quote_tooltip: 'Alıntı ekle ({modifierKey}-q)'
       spoiler_block_tooltip: 'Tatkaçıran/Açılır Blok'
+      spoiler_inline_tooltip: 'Tatkaçıran ({modifierKey}-;)'
+      strike_tooltip: 'Üstü çizili (alt-shift-5)'
+      sub_tooltip: 'Alt simge ({modifierKey}-,)'
+      sup_tooltip: 'Üst simge ({modifierKey}-.)'
       text_type_tooltip: 'Metin Tipi Seç'
       toggle_button: 'Zengin Metin Moduna Geç'
+      unordered_list_tooltip: 'Noktalı liste ({modifierKey}-Shift-8)'
