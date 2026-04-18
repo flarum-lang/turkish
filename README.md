@@ -18,7 +18,7 @@ Flarum metninin yerel dilinizde daha iyi olmasına yardımcı olmak ister misini
 ## Installation
 
 ```bash
-composer require flarum-lang/turkish
+composer require "flarum-lang/turkish:*"
 ```
 
 ## Core list
