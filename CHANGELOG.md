@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+2.0.1 (XXXX-XX-XX)
+------------------
+
+**Yeni uzantılar için destek eklendi**:
+
+* [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha)
+
+
+Tüm değişiklikler: [2.0.0...2.0.1](https://github.com/flarum-lang/turkish/compare/2.0.0...2.0.1).
+
+
 2.0.0 (2026-04-19)
 ------------------
 
