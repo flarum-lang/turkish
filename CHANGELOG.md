@@ -8,6 +8,7 @@ CHANGELOG
 **Yeni uzantılar için destek eklendi**:
 
 * [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha)
+* [`michaelbelgium/flarum-ai-autoreply`](https://github.com/MichaelBelgium/flarum-ai-autoreply)
 
 
 Tüm değişiklikler: [2.0.0...2.0.1](https://github.com/flarum-lang/turkish/compare/2.0.0...2.0.1).
