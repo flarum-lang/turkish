@@ -8,6 +8,8 @@ CHANGELOG
 **Yeni uzantılar için destek eklendi**:
 
 * [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha)
+* [`ianm/oauth-reddit`](https://github.com/imorland/flarum-ext-oauth-reddit)
+* [`ianm/syndication`](https://github.com/imorland/syndication)
 * [`michaelbelgium/flarum-ai-autoreply`](https://github.com/MichaelBelgium/flarum-ai-autoreply)
 
 
