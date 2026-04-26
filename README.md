@@ -43,7 +43,7 @@ composer require "flarum-lang/turkish:*"
 |✅ Validation|[![Çeviri durumu](https://weblate.rob006.net/widgets/flarum2/tr/validation/svg-badge.svg)](https://weblate.rob006.net/engage/flarum/tr/?utm_source=widget)|
 
 ## 3rd Party Extensions
-[Check out here.](https://rob006-software.github.io/flarum-translations/status/tr.html)
+[Check out here.](https://rob006-software.github.io/flarum-translations/flarum2/status/tr.html)
 
 ## Usage
 
