@@ -11,6 +11,7 @@ CHANGELOG
 * [`ianm/oauth-reddit`](https://github.com/imorland/flarum-ext-oauth-reddit)
 * [`ianm/syndication`](https://github.com/imorland/syndication)
 * [`michaelbelgium/flarum-ai-autoreply`](https://github.com/MichaelBelgium/flarum-ai-autoreply)
+* [`walsgit/flarum-discussion-cards`](https://github.com/WalsGit/flarum-discussion-cards)
 
 
 Tüm değişiklikler: [2.0.0...2.0.1](https://github.com/flarum-lang/turkish/compare/2.0.0...2.0.1).
