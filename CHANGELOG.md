@@ -25,7 +25,9 @@ CHANGELOG
 
 **Uzantılar için çeviriler güncellendi**:
 
+* [`fof/forum-statistics-widget`](https://github.com/FriendsOfFlarum/forum-statistics-widget)
 * [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
+* [`ralkage/flarum-hcaptcha`](https://github.com/Ralkage/flarum-hcaptcha)
 * [`walsgit/recycle-bin`](https://github.com/WalsGit/recycle-bin)
 
 
