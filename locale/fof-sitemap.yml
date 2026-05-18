@@ -42,8 +42,8 @@ fof-sitemap:
         cache_disk: Dosya
         multi_file: 'Çoklu dosya'
         runtime: 'Çalışma yöntemi'
-      risky_performance_improvements: 'Riskli performans iyileştirmelerini etkinleştirin'
-      risky_performance_improvements_help: 'Bu iyileştirmeler, CRON işinin milyon satırlık veri kümelerinde daha hızlı çalışmasını sağlar ancak bazı uzantılarla uyumluluğu bozabilir.'
+      risky_performance_improvements: 'Büyük parça boyutunu etkinleştir (riskli)'
+      risky_performance_improvements_help: 'Veritabanı veri çekme parça boyutunu 75.000''den 150.000 satıra çıkarır. Milyon satırlık veri kümelerinde oluşturmayı hızlandırır ancak parça başına maksimum Eloquent model RAM kullanımını iki katına çıkarır. Yalnızca yeterli sunucu belleği olduğunu doğruladıysanız etkinleştirin. Ayrıca sütun budamayı da etkinleştirir (yukarıya bakın).'
       soft_404:
         heading: 'Yumuşak 404 önleme'
         help: 'Bir tartışma sayfasında alakalı içerik yoksa veya çok az varsa, Google ve diğer tarayıcılar bunları "soft 404" sayfaları olarak işaretleyebilir. Bunu ortadan kaldırmak için, burada her nitelikli öğe için gereken minimum öğe sayısını belirleyin.'

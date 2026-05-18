@@ -4,6 +4,19 @@
 
 core:
   admin:
+    announcements:
+      about: 'discuss.flarum.org adresindeki resmi Flarum topluluğundan çekilen en son haberler ve duyurular.'
+      comments_label: '{count, plural, one {# yorum} other {# yorum}}'
+      description: 'Flarum Ekibi''nden en son haberler ve duyurular.'
+      empty: 'Duyuru bulunamadı.'
+      hide: 'Duyuruları gizle'
+      load_error: 'Duyurular yüklenemedi. Lütfen daha sonra tekrar deneyin.'
+      read_more: 'Daha fazla oku'
+      refresh: 'Duyuruları yenile'
+      retry: 'Tekrar dene'
+      show: 'Duyuruları göster'
+      title: Duyurular
+      view_all: 'Tümünü discuss.flarum.org üzerinde görüntüle'
     appearance:
       colored_header_label: 'Renkli Üstbilgi'
       colors_heading: Renkler
@@ -29,6 +42,12 @@ core:
       logo_text: 'Forum başlığının yerine görüntülenecek bir görsel yükle.'
       title: Görünüm
     basics:
+      abandoned_extensions_heading: 'Terk Edilmiş Uzantılar'
+      abandoned_extensions_notify_admins_label: 'Haftalık kontrol sırasında yeni terk edilmiş bir uzantı tespit edildiğinde yöneticilere e-posta gönder'
+      abandoned_extensions_sync_button: 'Şimdi Kontrol Et'
+      abandoned_extensions_sync_error: 'Terk edilmiş uzantılar listesi alınamadı. Lütfen daha sonra tekrar deneyin.'
+      abandoned_extensions_sync_success: 'Terk edilmiş uzantılar listesi güncellendi. Eşleşen {count} yüklü uzantı bulundu.'
+      abandoned_extensions_text: 'Flarum, <a>terk edilmiş uzantıların bir topluluk listesini</a> tutar. Yüklü bir uzantı listede göründüğünde yönetim panelinde işaretlenir.'
       all_discussions_label: '=> core.ref.all_discussions'
       default_language_heading: 'Varsayılan Dil'
       description: 'Forumunun başlığını, dilini ve diğer temel ayarlarını yapılandır.'
@@ -168,6 +187,7 @@ core:
         discussion: Tartışma
         feature: Özellikler
         formatting: Biçimlendirme
+        forum-widget: 'Forum Bileşenleri'
         language: Diller
         moderation: Moderasyon
         other: 'Diğer Uzantılar'
@@ -275,6 +295,11 @@ core:
       must_not_be_multidimensional_array_message: '{filter} filtresi çok boyutlu bir dizi olmamalıdır.'
     invalid_username_message: 'Kullanıcı adı sadece harfler, rakamlar ve kısa çizgiler içerebilir.'
   email:
+    abandoned_extensions:
+      body: "Merhaba {username},\n\nAşağıdaki yüklü uzantılar terk edilmiş olarak işaretlendi:\n\n{extensions}\n\nLütfen bu uzantıları gözden geçirin ve mümkünse alternatiflerine geçiş yapmayı değerlendirin.\n"
+      line_no_replacement: '- {package} (alternatif mevcut değil)'
+      line_with_replacement: '- {package} (önerilen alternatif: {replacement})'
+      subject: 'İşlem gerekiyor: terk edilmiş uzantı tespit edildi'
     activate_account:
       body: "Hey {username}!\n\nBirisi (umarım sensindir!) bu e-posta hesabı ile {forum} sitesine kayıt oldu.\n\nBu sen isen, hesabını aktifleştirmek için aşağıdaki bağlantıyı tıkla:\n{url}\n\nEğer sen kayıt olmadıysan, bu e-postayı dikkate alma.\n"
       subject: 'Yeni Hesabını Etkinleştir'
