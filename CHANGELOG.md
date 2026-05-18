@@ -5,6 +5,11 @@ CHANGELOG
 2.0.1 (XXXX-XX-XX)
 ------------------
 
+**Genel değişiklikler**:
+
+* Flarum çekirdek çevirileri güncellendi.
+
+
 **Yeni uzantılar için destek eklendi**:
 
 * [`datlechin/flarum-title-length`](https://github.com/datlechin/flarum-title-length)
@@ -16,6 +21,12 @@ CHANGELOG
 * [`michaelbelgium/flarum-profile-views`](https://github.com/MichaelBelgium/flarum-profile-views)
 * [`rob006/flarum-ext-last-post-avatar`](https://github.com/rob006-software/flarum-ext-last-post-avatar)
 * [`walsgit/flarum-discussion-cards`](https://github.com/WalsGit/flarum-discussion-cards)
+
+
+**Uzantılar için çeviriler güncellendi**:
+
+* [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
+* [`walsgit/recycle-bin`](https://github.com/WalsGit/recycle-bin)
 
 
 Tüm değişiklikler: [2.0.0...2.0.1](https://github.com/flarum-lang/turkish/compare/2.0.0...2.0.1).
