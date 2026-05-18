@@ -5,13 +5,20 @@
 blomstra-search:
   admin:
     analyzer:
-      help: "Çözümleyici, aramanın durma sözcüklerini anlamasını sağlar ve dizin\noluşturma için dile özgü iyileştirmeler gerçekleştirir.\n"
+      help: "Çözümleyici, aramanın işlevsiz sözcüklerini anlamasını sağlar ve dizin\noluşturma için dile özgü iyileştirmeler gerçekleştirir. İndeks yeniden oluşturulmalıdır.\n"
       label: 'Çözümleyici dili'
     elastic-endpoint: 'Elastic Endpoint'
     elastic-index: Index
     elastic-password: '=> core.ref.password'
     elastic-username: '=> core.ref.username'
+    index-settings-changed: 'Arama indeks ayarları değişti. Şu komutu çalıştırın: php flarum blomstra:search:index build'
     match-sentences: 'Arama terimini tam cümleyle eşleştir'
     match-words: 'Arama terimini tam kelimelerle eşleştir'
+    min-search-length:
+      help: "Aramanın tetiklenmesi için gereken minimum karakter sayısı. Tek bir karakterin tam bir anlam\ntaşıyabildiği CJK (Çince, Japonca, Korece) toplulukları için bu değeri 1 veya 2'ye düşürün.\nDeğişikliğin geçerli olması için indeksin tamamen yeniden oluşturulmasını gerektirir.\n"
+      label: 'Minimum arama sorgusu uzunluğu'
+    reindex-required:
+      detail: 'Arama indeksi bu uzantı sürümüyle uyumlu değil. Şu komutu çalıştırın: php flarum blomstra:search:index build'
+      title: 'Arama indeksinin yeniden oluşturulması gerekiyor'
     search-discussion-subjects: 'Tartışma başlıklarında ara'
     search-post-bodies: 'Yorumların içinde ara'
