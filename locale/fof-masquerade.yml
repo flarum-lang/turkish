@@ -17,6 +17,7 @@ fof-masquerade:
       edit-field: 'Değişiklikleri kaydet'
     fields:
       add: 'Alan ekle {field}'
+      delete-confirmation: '{field} alanını silmek istediğinize emin misiniz? Bu işlem geri alınamaz.'
       description: 'Alan açıklaması'
       description-help: "Bu alanın kullanımı için isteğe bağlı açıklama.\n"
       edit: 'Alan düzenle {field}'
