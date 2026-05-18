@@ -2,6 +2,24 @@ CHANGELOG
 =========
 
 
+1.45.9 (XXXX-XX-XX)
+-------------------
+
+**Genel değişiklikler**:
+
+* Flarum çekirdek çevirileri güncellendi.
+
+
+**Uzantılar için çeviriler güncellendi**:
+
+* [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
+* [`fof/sitemap`](https://github.com/FriendsOfFlarum/sitemap)
+* [`walsgit/recycle-bin`](https://github.com/WalsGit/recycle-bin)
+
+
+Tüm değişiklikler: [1.45.8...1.45.9](https://github.com/flarum-lang/turkish/compare/1.45.8...1.45.9).
+
+
 1.45.8 (2026-03-24)
 -------------------
 
