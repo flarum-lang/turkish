@@ -12,6 +12,7 @@ CHANGELOG
 
 **Yeni uzantılar için destek eklendi**:
 
+* [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money)
 * [`datlechin/flarum-title-length`](https://github.com/datlechin/flarum-title-length)
 * [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha)
 * [`ianm/oauth-reddit`](https://github.com/imorland/flarum-ext-oauth-reddit)
