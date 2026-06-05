@@ -14,6 +14,7 @@ CHANGELOG
 
 * [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money)
 * [`datlechin/flarum-title-length`](https://github.com/datlechin/flarum-title-length)
+* [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
 * [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha)
 * [`ianm/oauth-reddit`](https://github.com/imorland/flarum-ext-oauth-reddit)
 * [`ianm/syndication`](https://github.com/imorland/syndication)
