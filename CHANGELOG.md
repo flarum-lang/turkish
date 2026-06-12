@@ -19,6 +19,7 @@ CHANGELOG
 * [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha)
 * [`huseyinfiliz/sticky-title`](https://github.com/huseyinfiliz/sticky-title)
 * [`ianm/oauth-reddit`](https://github.com/imorland/flarum-ext-oauth-reddit)
+* [`ianm/online-guests`](https://github.com/imorland/flarum-ext-online-guests-widget)
 * [`ianm/syndication`](https://github.com/imorland/syndication)
 * [`maicol07/flarum-ext-sso`](https://github.com/maicol07/flarum-ext-sso)
 * [`michaelbelgium/flarum-ai-autoreply`](https://github.com/MichaelBelgium/flarum-ai-autoreply)
