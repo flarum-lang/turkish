@@ -2,6 +2,34 @@ CHANGELOG
 =========
 
 
+1.45.9 (XXXX-XX-XX)
+-------------------
+
+**Genel değişiklikler**:
+
+* Flarum çekirdek çevirileri güncellendi.
+
+
+**Yeni uzantılar için destek eklendi**:
+
+* [`fof/blog`](https://github.com/FriendsOfFlarum/blog)
+
+
+**Uzantılar için çeviriler güncellendi**:
+
+* [`blomstra/search`](https://github.com/blomstra/flarum-ext-search)
+* [`fof/forum-statistics-widget`](https://github.com/FriendsOfFlarum/forum-statistics-widget)
+* [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
+* [`fof/sitemap`](https://github.com/FriendsOfFlarum/sitemap)
+* [`ralkage/flarum-hcaptcha`](https://github.com/Ralkage/flarum-hcaptcha)
+* [`walsgit/flarum-discussion-cards`](https://github.com/WalsGit/flarum-discussion-cards)
+* [`walsgit/recycle-bin`](https://github.com/WalsGit/recycle-bin)
+* [`xrh0905/oauth-microsoft`](https://github.com/xrh0905/flarum-ext-oauth-microsoft)
+
+
+Tüm değişiklikler: [1.45.8...1.45.9](https://github.com/flarum-lang/turkish/compare/1.45.8...1.45.9).
+
+
 1.45.8 (2026-03-24)
 -------------------
 
