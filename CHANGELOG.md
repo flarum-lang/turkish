@@ -10,6 +10,11 @@ CHANGELOG
 * Flarum çekirdek çevirileri güncellendi.
 
 
+**Yeni uzantılar için destek eklendi**:
+
+* [`fof/blog`](https://github.com/FriendsOfFlarum/blog)
+
+
 **Uzantılar için çeviriler güncellendi**:
 
 * [`blomstra/search`](https://github.com/blomstra/flarum-ext-search)
