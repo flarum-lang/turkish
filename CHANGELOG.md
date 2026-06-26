@@ -28,6 +28,9 @@ CHANGELOG
 * [`michaelbelgium/mybb-to-flarum`](https://github.com/MichaelBelgium/mybb_to_flarum)
 * [`michaelbelgium/flarum-profile-views`](https://github.com/MichaelBelgium/flarum-profile-views)
 * [`rob006/flarum-ext-last-post-avatar`](https://github.com/rob006-software/flarum-ext-last-post-avatar)
+* [`shebaoting/flarum-dependency-collector`](https://github.com/shebaoting/flarum-dependency-collector)
+* [`shebaoting/flarum-money`](https://github.com/shebaoting/flarum-money)
+* [`shebaoting/flarum-repost`](https://github.com/shebaoting/flarum-repost)
 * [`walsgit/flarum-discussion-cards`](https://github.com/WalsGit/flarum-discussion-cards)
 
 
