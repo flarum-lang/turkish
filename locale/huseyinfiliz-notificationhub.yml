@@ -4,9 +4,14 @@
 
 huseyinfiliz-notificationhub:
   admin:
+    modal_notification:
+      recipients_placeholder: '=> huseyinfiliz-notificationhub.forum.modal_notification.recipients_placeholder'
     permissions:
       send_all: 'Üye gruplarına bildirim gönderebilir'
       send_user: 'Üyelere bildirim gönderebilir'
+    recipient_kinds:
+      group: '=> huseyinfiliz-notificationhub.forum.recipient_kinds.group'
+      user: '=> huseyinfiliz-notificationhub.forum.recipient_kinds.user'
     settings:
       add_button: 'Bildirim Türü Ekle'
       add_notification_type: 'Bildirim Türü Ekle'
@@ -16,6 +21,7 @@ huseyinfiliz-notificationhub:
         actions: Eylemler
         active: Aktif
         color: 'Bildirim Türünün Rengi'
+        color_invalid: 'Renk, geçerli bir HEX kodu olmalıdır. Örneğin: #ff0000 veya #f00.'
         default_message_key: 'Varsayılan Mesaj'
         default_recipients: 'Varsayılan Alıcılar'
         default_url: 'Varsayılan Bağlantı'
@@ -24,15 +30,29 @@ huseyinfiliz-notificationhub:
         icon: 'Varsayılan Simge'
         name: 'Bildirim Türünün Adı'
         permission: 'Bildirim Türünün İzinleri'
+        permission_help: 'Bu bildirimi göndermeye yetkili üye gruplarını seçin. Boş bırakılırsa yetkili tüm moderatörler ve yöneticiler gönderebilir.'
+        permission_placeholder: 'Bir grup adı yazın...'
+        preview: Önizleme
+        preview_placeholder: 'Bildirim türü adı'
         sort_order: Sıralaması
       no_data: 'Henüz bildirim türü eklenmemiş.'
       save: Kaydet
     title:
       page_title: 'Bildirim Türleri'
   api:
+    field_too_long: 'Bu alan çok uzun.'
+    invalid_color: 'Renk, geçerli bir HEX kodu olmalıdır (ör. #ff0000 veya #f00).'
+    invalid_url: 'Geçersiz bağlantı protokolü algılandı.'
+    invalid_url_scheme: 'Geçersiz bağlantı şeması. Yalnızca HTTP, HTTPS, mailto, tel veya göreli bağlantılara izin verilir.'
     message_required: 'Mesaj gereklidir.'
+    message_too_long: 'Mesaj 5000 karakterden uzun olamaz.'
+    multiple_recipients_not_allowed: 'Aynı anda birden fazla alıcıya bildirim gönderme yetkiniz yok.'
+    name_required: 'Bildirim türü adı zorunludur.'
+    name_too_long: 'Adı 255 karakterden uzun olamaz.'
     no_valid_recipients: 'Geçerli alıcı bulunamadı.'
+    sort_order_invalid: 'Sıralama değeri negatif olmayan bir sayı olmalıdır.'
     subject_id_required: 'Bildirim Türü gereklidir.'
+    url_too_long: 'Bağlantı 2048 karakterden uzun olamaz.'
     user_ids_required: 'Kullanıcı kimlikleri gereklidir.'
   forum:
     links:
@@ -43,6 +63,7 @@ huseyinfiliz-notificationhub:
       no_notification_types: 'Aktif bildirim türü bulunamadı.'
       notification_sent_message: '{recipientsCount} kullanıcıya bildirim gönderildi!'
       notification_type_label: 'Bildirim Türü'
+      preview_all_members: 'Tüm Üyeler'
       preview_message_placeholder: 'Bildirim mesajı..'
       preview_title: 'Bildirim Önizlemesi'
       recipients_label: Alıcılar
