@@ -11,6 +11,11 @@ CHANGELOG
 * [`fof/checklist`](https://github.com/FriendsOfFlarum/checklist)
 * [`fof/forum-stats-widget`](https://github.com/FriendsOfFlarum/forum-stats-widget)
 * [`fof/forum-widgets-core`](https://github.com/FriendsOfFlarum/forum-widgets-core)
+* [`fof/mailing`](https://github.com/FriendsOfFlarum/mailing)
+* [`fof/news-widget`](https://github.com/FriendsOfFlarum/news-widget)
+* [`fof/online-users-widget`](https://github.com/FriendsOfFlarum/online-users-widget)
+* [`fof/photoswipe`](https://github.com/FriendsOfFlarum/photoswipe)
+* [`fof/seo`](https://github.com/FriendsOfFlarum/seo)
 
 
 **Uzantılar için çeviriler güncellendi**:
