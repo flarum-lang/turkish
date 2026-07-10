@@ -23,6 +23,7 @@ fof-seo:
     modals:
       crawl_post:
         intro: '<b>Bu pencereyi dikkatlice okuyun.</b> Bu işlev yalnızca bir tartışma sayfasını yenilediğinizde yürütülecektir. Bu seçeneği daha sonra dilediğiniz zaman değiştirebilirsiniz.'
+        question: 'Bu özelliği etkinleştirmek istiyor musunuz?'
         title: 'Gönderi tarama ayarları'
     permissions:
       category_label: SEO
