@@ -2,6 +2,14 @@
 # Use https://weblate.rob006.net/projects/flarum/fof-masquerade/tr/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      masquerade:
+        field_created: 'Profil alanı oluşturuldu'
+        field_deleted: 'Profil alanı silindi'
+        field_updated: 'Profil alanı güncellendi'
+        profile_updated: '{username} adlı kullanıcının profil alanları güncellendi'
 flarum-gdpr:
   lib:
     data:

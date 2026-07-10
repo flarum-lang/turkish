@@ -23,6 +23,8 @@ fof-seo:
     modals:
       crawl_post:
         intro: '<b>Bu pencereyi dikkatlice okuyun.</b> Bu işlev yalnızca bir tartışma sayfasını yenilediğinizde yürütülecektir. Bu seçeneği daha sonra dilediğiniz zaman değiştirebilirsiniz.'
+        mode_all_help: 'Arama motorları tartışmaları anlayacak ve hatta arama sonuçlarının altında bazı ilgili gönderileri gösterebilecektir. Forumunuzda ''<a>best answer</a>'' uzantısı yüklü ve etkin olduğunda, arama sonuçlarında tartışmayı ''cevaplandı'' olarak işaretleyecek ve kullanıcıyı doğrudan o gönderiye yönlendirecektir. Ayrıca her yanıt, beğeni ve artı oy sayılarıyla birlikte sunulur; böylece arama motorları, best answers uzantısı olmasa bile en faydalı yanıtları tespit edebilir. <b>Ancak sunucu ayarlarınıza bağlı olarak bu işlem daha ağır olabilir</b>. Biraz performans maliyeti getirebilir, bu nedenle bu özelliği etkinleştirmek sunucunuzun ne kadar hızlı olduğuna bağlıdır.'
+        question: 'Bu özelliği etkinleştirmek istiyor musunuz?'
         title: 'Gönderi tarama ayarları'
     permissions:
       category_label: SEO
