@@ -8,6 +8,7 @@ CHANGELOG
 **Yeni uzantılar için destek eklendi**:
 
 * [`flarum/audit`](https://github.com/flarum/audit)
+* [`fof/author-change`](https://github.com/FriendsOfFlarum/author-change)
 * [`fof/checklist`](https://github.com/FriendsOfFlarum/checklist)
 * [`fof/forum-stats-widget`](https://github.com/FriendsOfFlarum/forum-stats-widget)
 * [`fof/forum-widgets-core`](https://github.com/FriendsOfFlarum/forum-widgets-core)
@@ -16,11 +17,20 @@ CHANGELOG
 * [`fof/online-users-widget`](https://github.com/FriendsOfFlarum/online-users-widget)
 * [`fof/photoswipe`](https://github.com/FriendsOfFlarum/photoswipe)
 * [`fof/seo`](https://github.com/FriendsOfFlarum/seo)
+* [`fof/signature`](https://github.com/FriendsOfFlarum/signature)
+* [`fof/top-posters-widget`](https://github.com/FriendsOfFlarum/top-posters-widget)
+* [`fof/upgrade-advisor`](https://github.com/FriendsOfFlarum/upgrade-advisor)
+* [`fof/usercard-stats`](https://github.com/FriendsOfFlarum/usercard-stats)
+* [`ralkage/flarum-ext-word-counter`](https://github.com/Ralkage/flarum-ext-word-counter)
+* [`tapao/custom-landing-page`](https://github.com/Tapao-NonSen/Custom-Landing-Page)
 
 
 **Uzantılar için çeviriler güncellendi**:
 
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
 * [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
+* [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
+* [`walsgit/flarum-discussion-cards`](https://github.com/WalsGit/flarum-discussion-cards)
 
 
 Tüm değişiklikler: [1.45.9...1.45.10](https://github.com/flarum-lang/turkish/compare/1.45.9...1.45.10).
