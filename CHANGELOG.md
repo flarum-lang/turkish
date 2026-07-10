@@ -7,7 +7,16 @@ CHANGELOG
 
 **Yeni uzantılar için destek eklendi**:
 
+* [`flarum/audit`](https://github.com/flarum/audit)
+* [`fof/checklist`](https://github.com/FriendsOfFlarum/checklist)
+* [`fof/forum-stats-widget`](https://github.com/FriendsOfFlarum/forum-stats-widget)
+* [`fof/forum-widgets-core`](https://github.com/FriendsOfFlarum/forum-widgets-core)
 * [`huseyinfiliz/notificationhub`](https://github.com/huseyinfiliz/notificationhub)
+
+
+**Uzantılar için çeviriler güncellendi**:
+
+* [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
 
 
 Tüm değişiklikler: [2.0.1...2.0.2](https://github.com/flarum-lang/turkish/compare/2.0.1...2.0.2).
