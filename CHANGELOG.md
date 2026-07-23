@@ -9,6 +9,7 @@ CHANGELOG
 
 * [`flarum/audit`](https://github.com/flarum/audit)
 * [`fof/author-change`](https://github.com/FriendsOfFlarum/author-change)
+* [`fof/blog`](https://github.com/FriendsOfFlarum/blog)
 * [`fof/checklist`](https://github.com/FriendsOfFlarum/checklist)
 * [`fof/forum-stats-widget`](https://github.com/FriendsOfFlarum/forum-stats-widget)
 * [`fof/forum-widgets-core`](https://github.com/FriendsOfFlarum/forum-widgets-core)
