@@ -2,6 +2,41 @@ CHANGELOG
 =========
 
 
+2.0.2 (XXXX-XX-XX)
+------------------
+
+**Yeni uzantılar için destek eklendi**:
+
+* [`flarum/audit`](https://github.com/flarum/audit)
+* [`fof/author-change`](https://github.com/FriendsOfFlarum/author-change)
+* [`fof/blog`](https://github.com/FriendsOfFlarum/blog)
+* [`fof/checklist`](https://github.com/FriendsOfFlarum/checklist)
+* [`fof/forum-stats-widget`](https://github.com/FriendsOfFlarum/forum-stats-widget)
+* [`fof/forum-widgets-core`](https://github.com/FriendsOfFlarum/forum-widgets-core)
+* [`fof/mailing`](https://github.com/FriendsOfFlarum/mailing)
+* [`fof/news-widget`](https://github.com/FriendsOfFlarum/news-widget)
+* [`fof/online-users-widget`](https://github.com/FriendsOfFlarum/online-users-widget)
+* [`fof/photoswipe`](https://github.com/FriendsOfFlarum/photoswipe)
+* [`fof/seo`](https://github.com/FriendsOfFlarum/seo)
+* [`fof/signature`](https://github.com/FriendsOfFlarum/signature)
+* [`fof/top-posters-widget`](https://github.com/FriendsOfFlarum/top-posters-widget)
+* [`fof/usercard-stats`](https://github.com/FriendsOfFlarum/usercard-stats)
+* [`huseyinfiliz/notificationhub`](https://github.com/huseyinfiliz/notificationhub)
+* [`ralkage/flarum-ext-word-counter`](https://github.com/Ralkage/flarum-ext-word-counter)
+* [`tapao/custom-landing-page`](https://github.com/Tapao-NonSen/Custom-Landing-Page)
+
+
+**Uzantılar için çeviriler güncellendi**:
+
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
+* [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
+* [`walsgit/flarum-discussion-cards`](https://github.com/WalsGit/flarum-discussion-cards)
+
+
+Tüm değişiklikler: [2.0.1...2.0.2](https://github.com/flarum-lang/turkish/compare/2.0.1...2.0.2).
+
+
 2.0.1 (2026-07-03)
 ------------------
 
