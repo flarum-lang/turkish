@@ -11,6 +11,7 @@ CHANGELOG
 * [`fof/author-change`](https://github.com/FriendsOfFlarum/author-change)
 * [`fof/blog`](https://github.com/FriendsOfFlarum/blog)
 * [`fof/checklist`](https://github.com/FriendsOfFlarum/checklist)
+* [`fof/filter`](https://github.com/FriendsOfFlarum/filter)
 * [`fof/forum-stats-widget`](https://github.com/FriendsOfFlarum/forum-stats-widget)
 * [`fof/forum-widgets-core`](https://github.com/FriendsOfFlarum/forum-widgets-core)
 * [`fof/mailing`](https://github.com/FriendsOfFlarum/mailing)
