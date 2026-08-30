@@ -8,6 +8,7 @@ CHANGELOG
 **Yeni uzantılar için destek eklendi**:
 
 * [`datlechin/flarum-keyboard-shortcuts`](https://github.com/datlechin/flarum-keyboard-shortcuts)
+* [`ffans/geetest`](https://github.com/FFans/geetest)
 * [`flarum/audit`](https://github.com/flarum/audit)
 * [`fof/author-change`](https://github.com/FriendsOfFlarum/author-change)
 * [`fof/blog`](https://github.com/FriendsOfFlarum/blog)
