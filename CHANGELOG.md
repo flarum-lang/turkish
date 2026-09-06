@@ -8,6 +8,7 @@ CHANGELOG
 **Yeni uzantılar için destek eklendi**:
 
 * [`datlechin/flarum-keyboard-shortcuts`](https://github.com/datlechin/flarum-keyboard-shortcuts)
+* [`datlechin/flarum-simple-tour-guide`](https://github.com/datlechin/flarum-simple-tour-guide)
 * [`ffans/geetest`](https://github.com/FFans/geetest)
 * [`flarum/audit`](https://github.com/flarum/audit)
 * [`fof/author-change`](https://github.com/FriendsOfFlarum/author-change)
@@ -28,6 +29,7 @@ CHANGELOG
 * [`fof/usercard-stats`](https://github.com/FriendsOfFlarum/usercard-stats)
 * [`glowingblue/author-filter`](https://github.com/glowingblue/flarum-ext-author-filter)
 * [`huseyinfiliz/notificationhub`](https://github.com/huseyinfiliz/notificationhub)
+* [`jslirola/flarum-ext-login2seeplus`](https://github.com/jslirola/flarum-ext-login2seeplus)
 * [`ralkage/flarum-ext-word-counter`](https://github.com/Ralkage/flarum-ext-word-counter)
 * [`tapao/custom-landing-page`](https://github.com/Tapao-NonSen/Custom-Landing-Page)
 
