@@ -36,6 +36,7 @@ CHANGELOG
 
 **Uzantılar için çeviriler güncellendi**:
 
+* [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile)
 * [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
 * [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
 * [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
