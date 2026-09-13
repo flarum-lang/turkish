@@ -7,6 +7,7 @@ CHANGELOG
 
 **Yeni uzantılar için destek eklendi**:
 
+* [`datitisev/flarum-post-galleries`](https://github.com/dsevillamartin/flarum-post-galleries)
 * [`datlechin/flarum-keyboard-shortcuts`](https://github.com/datlechin/flarum-keyboard-shortcuts)
 * [`datlechin/flarum-simple-tour-guide`](https://github.com/datlechin/flarum-simple-tour-guide)
 * [`ffans/geetest`](https://github.com/FFans/geetest)
