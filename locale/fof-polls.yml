@@ -21,6 +21,8 @@ fof-polls:
       discussion_polls:
         heading: 'Tartışma Anketleri'
         help: 'Bu ayarlar, tartışma gönderilerine eklenen anketleri denetler.'
+      enable_discussion_polls: 'Tartışma anketlerini etkinleştir'
+      enable_discussion_polls_help: 'Etkinleştirildiğinde, kullanıcılar tartışma gönderileri içinde anket oluşturabilir. Yalnızca genel anketleri kullanmak istiyorsanız bunu devre dışı bırakın.'
       enable_global_polls: 'Genel anketleri etkinleştir'
       enable_global_polls_help: 'Genel anketler belirli bir gönderiye bağlı değildir ve bunlara özel bir anket sayfasından erişilebilir.'
       enabled_poll_groups: 'Anket gruplarını etkinleştir'
@@ -33,6 +35,12 @@ fof-polls:
         help: 'Bu ayarlar genel anketler özelliğini kontrol eder.'
       image:
         heading: 'Görsel Ayarları'
+        help: 'Görsel yükleme sınırlarını ve boyutlarını yapılandırın. Görseller otomatik olarak WebP formatına dönüştürülür ve duyarlı türevleri oluşturulur.'
+      image_dimensions_help: 'Depolanan görseller için temel boyutlar. Kaynak görsel yeterince büyük olduğunda HiDPI türevleri (@2x, @3x) otomatik olarak oluşturulur.'
+      image_height: 'Görsel yüksekliğini yeniden boyutlandır (px)'
+      image_width: 'Görsel genişliğini yeniden boyutlandır (px)'
+      max_image_upload_size: 'Maksimum görsel yükleme boyutu (KB)'
+      max_image_upload_size_help: 'Kilobayt cinsinden görsel yüklemeleri için maksimum dosya boyutu. Görseller yüklendikten sonra otomatik olarak WebP formatına dönüştürülür ve yeniden boyutlandırılır; bu nedenle depolanan nihai boyut genellikle çok daha küçük olacaktır. Varsayılan değer 10240 KB''dir (10 MB).'
       max_options: 'Anket başına maksimum seçenek sayısı'
       options_color_blend: 'Anket seçeneklerinde renk karışımı metni'
       options_color_blend_help: 'Anket seçeneklerini daha okunabilir hale getirmek için renk karıştırmayı kullanmak için bunu kullanın. Bu özellik, forumunuzun görünümüyle ilgili sorunlara neden olarak okunabilirliği azaltıyorsa devre dışı bırakın.'
@@ -66,6 +74,7 @@ fof-polls:
       add_title: 'Anket Oluştur'
       allow_change_vote_label: 'Kullanıcıların oylarını değiştirmesine izin ver'
       allow_multiple_votes_label: 'Kullanıcıların birden fazla seçeneği oylamasına izin ver'
+      date_clear: 'Bitiş tarihini temizle'
       date_placeholder: 'Anket sona erme süresi (İsteğe bağlı)'
       delete: '=> core.ref.delete'
       edit_title: 'Anketi Düzenle'
@@ -87,6 +96,7 @@ fof-polls:
         alt_label: 'Görsel Alternatif Metni'
         help: 'Anketin yanında görüntülenecek bir resim yükleyin (isteğe bağlı).'
         label: 'Anket Görseli'
+        url_deprecated: 'Bu anket harici bir görsel bağlantısı kullanıyor. Harici bağlantı desteği kullanımdan kaldırıldı ve sonraki bir sürümde kaldırılacak. Lütfen yükleme düğmesini kullanarak görseli tekrar yükleyin.'
       poll_option_image:
         help: 'Anket yanıtının yanında görüntülenecek bir resim yükleyin (isteğe bağlı).'
         label: 'Anket Yanıtı Resmi'
@@ -97,6 +107,7 @@ fof-polls:
       tooltip:
         options:
           add-button: 'Yanıt Ekle'
+          remove-button: 'Seçeneği kaldır'
     moderation:
       add: 'Anket Ekle'
       delete: 'Anketi Sil'
@@ -128,6 +139,7 @@ fof-polls:
       publish_label: 'Şimdi yayınla'
       publish_success: 'Anket yayınlandı.'
       schedule_publish_label: 'Yayınlanmasını planla'
+      toggle_dropdown_accessible_label: 'Anket kontrol menüsünü aç/kapat'
       unpublish_confirmation: 'Bu anket taslağa geri alınsın mı? Yayından kaldırılacaktır.'
       unpublish_error_has_votes: 'Yayından kaldırılamıyor — ankette zaten oy kullanılmış. Bunun yerine anketi silin.'
       unpublish_label: 'Taslağa geri al'

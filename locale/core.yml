@@ -12,8 +12,17 @@ core:
         config_override:
           help: 'FontAwesome ayarları şu anda config.php dosyanızda tanımlı olduğundan buradan değiştirilemez.'
           label: 'Yapılandırma Geçersiz Kılma'
+        forced_style_help: 'Tüm simgeleri belirli bir FontAwesome stiline zorlar (örn. "fa-duotone fa-light" veya "fa-regular"). Çekirdek ve uzantılar tarafından belirtilen stili geçersiz kılar (marka ikonları asla değiştirilmez). Simge kaynağınızın seçilen stili desteklemesi gerekir: Dahili gelen simgeler FontAwesome Free sürümüdür ve solid stili haricinde yalnızca birkaç yüz ikonu kapsar; bu yüzden farklı bir stile zorlamak ikonların çoğunun boş kalmasına yol açar. FontAwesome Pro CDN veya Kit kullanıldığında tüm stiller geçerlidir. Devre dışı bırakmak için boş bırakın.'
+        forced_style_label: 'Zorunlu Simge Stili'
         kit_url_help: 'FontAwesome Kit betik bağlantınız (kit.fontawesome.com adresinden)'
         kit_url_label: 'Kit Bağlantısı'
+        preview:
+          button: 'Simgeleri Önizle'
+          fa5_fa6_label: 'FA5/FA6 takma adları'
+          fa7_label: 'FA7 sınıfları'
+          help: 'FontAwesome kurulumunuzu doğrulayın. Görüntülenen bir simge, ilgili katmanın kullanılabilir olduğu anlamına gelir; bozuk bir kutu ise yüklenmediğini gösterir.'
+          label: 'Simge Önizlemesi'
+          pro_label: 'Yalnızca Pro'
         section_label: 'FontAwesome Simgeleri'
         source_cdn: CDN
         source_help: 'FontAwesome simgelerinin nasıl yükleneceğini seçin. Yerel, paketlenmiş yazı tiplerini kullanır; CDN, bir CDN''den yükler; Kit ise özel simgelerle FontAwesome Kit''lerini kullanır.'
@@ -59,6 +68,10 @@ core:
         custom_driver: 'Forumunuz, bir uzantı tarafından sağlanan {driver} kuyruk sürücüsünü kullanıyor.'
         memory_help: 'Kuyruk işçisinin yeniden başlatılmadan önce kullanabileceği en fazla bellek miktarı. Varsayılan değer 128 MB''dir.'
         memory_label: 'Bellek Sınırı (MB)'
+        pause_all_label: 'Tüm kuyrukları duraklat'
+        pause_help: 'Duraklatıldığında, işçiler etkilenen kuyruklardan yeni işler almayı durdurur; işler, işleme yeniden başlatılana kadar birikir. Halihazırda çalışan işler etkilenmez.'
+        pause_label: 'Kuyruk işlemesini duraklat'
+        pause_queue_label: '{queue} kuyruğunu duraklat'
         rest_help: 'İşler arasında beklenecek süre. Varsayılan değer 0 saniyedir.'
         rest_label: 'Bekleme Süresi (saniye)'
         retries_help: 'Bir işi başarısız olarak işaretlemeden önce en fazla kaç kez deneneceği. Varsayılan değer 1''dir.'
@@ -69,6 +82,8 @@ core:
         timeout_help: 'Tek bir işin zaman aşımına uğramadan önce çalışabileceği en uzun süre. Varsayılan değer 60 saniyedir.'
         timeout_label: 'İş Zaman Aşımı (saniye)'
       search:
+        cjk_mode_help: 'Forumunuz ağırlıklı olarak Çince, Japonca veya Korece dillerindeyse etkinleştirin. Veritabanının kelime bazlı araması CJK metinlerinin parçalarını eşleştiremez; bu ayar, bunu yapabilen bir alt dize eşleştirmesine geçiş sağlar. Çok büyük ölçekli forumlarda daha yavaş kalabilir; böyle durumlarda veritabanı seviyesinde CJK destekli bir fulltext parser (MySQL/MariaDB''nin ngram parser''ı gibi) yapılandırmak daha performanslı bir çözümdür.'
+        cjk_mode_label: 'CJK dilleri için aramayı optimize et'
         driver_heading: 'Arama Sürücüsü: {model}'
         driver_options:
           default: 'Varsayılan veritabanı araması'

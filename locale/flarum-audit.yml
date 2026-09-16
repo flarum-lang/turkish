@@ -46,12 +46,15 @@ flarum-audit:
         filterUser: 'Bu kullanıcıyı etkileyen günlükleri göster'
         hideRaw: 'Ham günlüğü gizle'
         showRaw: 'Ham günlüğü göster'
+        title: Seçenekler
+      core: çekirdek
       deletedResource:
         discussion: 'Tartışma #{id}'
         group: 'Grup #{id}'
         post: 'Gönderi #{id}'
         tag: 'Etiket #{id}'
         user: 'Kullanıcı #{id}'
+      developer_token_created: '{username} için "{title}" adlı geliştirici erişim belirteci oluşturuldu'
       discussion:
         created: '{discussion} tartışmasını başlattı'
         deleted: '{discussion} tartışmasını sildi'
@@ -72,11 +75,15 @@ flarum-audit:
         client: 'İsteğin hangi istemci üzerinden yapıldığı.'
         discussion: 'Belirli bir tartışmayı etkileyen eylemler (tartışma ID''sine göre).'
         ip: 'Eylemin geldiği IP adresi.'
-        user: 'Eylemin etkilediği kullanıcı (kullanıcı adına göre).'
+        user: 'Eylemin etkilediği kullanıcı (kullanıcı adına göre)'
       filtersHint: 'Filtreler:'
       genericResource:
         comment: Yorum
         post: Gönderi
+      group:
+        created: '{name} grubu oluşturuldu'
+        deleted: '{name} grubu silindi'
+        renamed: 'Grup adı {old_name} değerinden {new_name} olarak değiştirildi'
       help:
         multiple: 'Herhangi biriyle eşleşmesi için değerleri virgülle birleştirin, ör. action:post.created,post.deleted'
         negate: 'Eşleşmeleri hariç tutmak için filtrenin önüne eksi işareti koyun, ör. -client:cli'
@@ -94,9 +101,13 @@ flarum-audit:
         hidden: '{discussion} tartışmasında {postuser} kullanıcısının {post} gönderisini gizledi'
         restored: '{discussion} tartışmasında {postuser} kullanıcısının {post} gönderisini geri yükledi'
         revised: '{discussion} tartışmasında {postuser} kullanıcısının {post} gönderisini revize etti'
+      queue:
+        paused: '{queue} ({connection}) kuyruk işlemesi duraklatıldı'
+        resumed: '{queue} ({connection}) kuyruk işlemesi devam ettirildi'
       refresh: Yenile
       setting_changed: '{key} ayarını düzenledi'
       setting_changed_with_values: '{key} ayarını {old_value} yerine {new_value} olarak düzenledi'
+      settings_reset: '{extension} eklentisinin {keys} ayarları sıfırlandı'
       user:
         activated: '{username} adlı kullanıcının hesabını manuel olarak etkinleştirdi'
         activated_with_email: '{username} adlı kullanıcının hesabını onay bağlantısı üzerinden etkinleştirdi'
