@@ -5,6 +5,11 @@ CHANGELOG
 1.45.10 (XXXX-XX-XX)
 --------------------
 
+**Genel değişiklikler**:
+
+* Flarum çekirdek çevirileri güncellendi.
+
+
 **Yeni uzantılar için destek eklendi**:
 
 * [`flarum/audit`](https://github.com/flarum/audit)
@@ -22,6 +27,7 @@ CHANGELOG
 * [`fof/top-posters-widget`](https://github.com/FriendsOfFlarum/top-posters-widget)
 * [`fof/upgrade-advisor`](https://github.com/FriendsOfFlarum/upgrade-advisor)
 * [`fof/usercard-stats`](https://github.com/FriendsOfFlarum/usercard-stats)
+* [`huoxin/filter-rule-manager`](https://github.com/huoxin233/flarum-ext-filter-rule-manager)
 * [`ralkage/flarum-ext-word-counter`](https://github.com/Ralkage/flarum-ext-word-counter)
 * [`tapao/custom-landing-page`](https://github.com/Tapao-NonSen/Custom-Landing-Page)
 
