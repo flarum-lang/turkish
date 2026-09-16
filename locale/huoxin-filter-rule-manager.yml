@@ -40,14 +40,14 @@ huoxin-filter-rule-manager:
       banner_help: 'Tüm düzenleyicinin (.App-composer > .container içinde, #composer öncesinde) üzerinde oluşturulan tam genişlikte şerit. Düzenleyici ile görsel olarak hizalanır.'
       header_banner: 'Başlık afişi'
       header_banner_help: 'Düzenleyici başlığının içinde, doğrudan metin düzenleyicinin üzerinde oluşturulan daha dar şerit.'
-      modal: 'Kalıcı Pencere (Modal)'
+      modal: 'Açılır Pencere'
       modal_help: 'Kullanıcının işlemini kesintiye uğratan açılır pencere. Kural kümesi tetiklenmesi başına bir kez gösterilir — yalnızca kural temizlenip tekrar tetiklendiğinde yeniden açılır.'
       none: 'Yok (Gizli)'
       none_help: 'Ön yüzde hiçbir kullanıcı arayüzü gösterilmez.'
       sidebar: 'Kenar Çubuğu'
       sidebar_help: 'Düzenleyicinin sağına sabitlenmiş dikey kart (mobilde satır içine daralır).'
-      toast: 'Bildirim (Toast)'
-      toast_help: 'Sayfanın üst kısmında geçici bildirim. Kural hâlâ tetikleniyorken kullanıcı kapatırsa yeniden görünür.'
+      toast: Bildirim
+      toast_help: 'Sayfanın üst kısmında geçici bildirim. Kural hal tetikleniyorken kullanıcı kapatırsa yeniden görünür.'
     duplicate: Çoğalt
     edit: Düzenle
     edit_ruleset: 'Kural kümesini düzenle'
@@ -106,7 +106,7 @@ huoxin-filter-rule-manager:
       strip_mentions_help: 'Kullanıcı adlarının yanlış pozitifleri tetiklemesini önlemek için bu kurala karşı kontrol etmeden önce metindeki tüm kullanıcı ve gönderi bahsetmelerini kaldırır.'
       strip_upload_tags: 'FoF Upload Etiketlerini Temizle'
       strip_upload_tags_help: 'Bu kurala karşı kontrol etmeden önce [upl-image-preview] ve diğer fof/upload kısa kod etiketlerini metinden kaldırır.'
-      strip_urls: 'Bağlantıları (URL) Temizle'
+      strip_urls: 'Bağlantıları Temizle'
       strip_urls_help: 'Bu kurala karşı kontrol etmeden önce metindeki tüm http/https bağlantılarını kaldırır.'
     more_actions: 'Diğer Eylemler'
     move_down: 'Aşağı taşı'
@@ -207,9 +207,9 @@ huoxin-filter-rule-manager:
     ruleset_toast_theme_success: 'Başarılı (Yeşil)'
     ruleset_toast_theme_warning: 'Uyarı (Sarı)'
     runs:
-      backend: 'Sunucu Tarafı (Backend)'
+      backend: 'Sunucu Tarafı'
       both: 'Ön Uç + Sunucu Tarafı'
-      frontend: 'Ön Uç (Frontend)'
+      frontend: 'Ön Uç'
       global: Genel
     save: Kaydet
     save_error: 'Kural kümesi kaydedilemedi. Formdaki hataları kontrol edin.'
@@ -269,10 +269,10 @@ huoxin-filter-rule-manager:
     token_word_count_desc: 'Gönderinin hesaplanan kelime sayısı'
     tokens_available: 'Kullanılabilir belirteçler — eklemek için tıklayın'
     tokens_none: 'Kullanılabilir belirteç yok — sunduğu belirteçleri görmek için bir kural ekleyin.'
-    type_contains_word: 'Kelime(ler) içeriyor'
-    type_group: 'Kullanıcı grupta/gruplarda'
-    type_regex: 'Regex deseni/desenleri ile eşleşiyor'
-    type_rule_triggered: 'Tetiklenen kural(lar) var'
+    type_contains_word: 'Kelime içeriyor'
+    type_group: 'Kullanıcı grupta'
+    type_regex: 'Regex deseni ile eşleşiyor'
+    type_rule_triggered: 'Tetiklenen kural var'
     type_word_count: 'Kelime Sayısı Sınırı'
     unsaved_changes_message: 'Kaydedilmemiş değişiklikleriniz var. Bunları silmek istediğinizden emin misiniz?'
     unsaved_changes_title: 'Kaydedilmemiş Değişiklikler'

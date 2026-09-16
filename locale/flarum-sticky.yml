@@ -6,6 +6,9 @@ flarum-sticky:
   admin:
     permissions:
       sticky_discussions_label: 'Sabitlenmiş tartışmalar'
+    settings:
+      pin_sticky_on_all_discussions_help: 'Etkinleştirildiğinde (varsayılan), okunmamış sabitlenmiş tartışmalar Tüm Tartışmalar sayfasının en üstüne tutturulur. Devre dışı bırakıldığında, sabitlenmiş tartışmalar en son etkinliğe göre doğal konumlarında görünür. Etiket sayfaları, bu ayardan bağımsız olarak sabitlenmiş tartışmaları her zaman en üste tutturur.'
+      pin_sticky_on_all_discussions_label: 'Sabitlenmiş tartışmaları Tüm Tartışmalar sayfasında başa tuttur'
   forum:
     badge:
       sticky_tooltip: '=> flarum-sticky.ref.sticky'

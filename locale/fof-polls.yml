@@ -44,10 +44,20 @@ fof-polls:
     compose:
       add_title: 'Anket Ekle'
       continue_editing: 'Düzenlemeye Devam Et'
+      draft_saved: 'Taslak kaydedildi'
       edit_title: 'Anketi Düzenle'
       polls_manager: 'Anket Yöneticisi'
       polls_preview: 'Anketi Görüntüle'
+      publish: Yayınla
+      save_as_draft: 'Taslak olarak kaydet'
+      schedule: Planla
+      schedule_datetime_label: 'Yayınlanma tarihi:'
+      schedule_publication: 'Yayınlanmasını planla'
+      schedule_publication_edit: 'Planlanmış yayınlamayı düzenle'
+      schedule_submit: Planla
+      submit: Gönder
       success: 'Anket başarıyla kaydedildi.'
+      update_draft: 'Taslağı güncelle'
     composer_discussion:
       add_poll: '=> fof-polls.forum.moderation.add'
       edit_poll: '=> fof-polls.forum.moderation.edit'
@@ -62,6 +72,7 @@ fof-polls:
       date_placeholder: 'Anket sona erme süresi (İsteğe bağlı)'
       delete: '=> core.ref.delete'
       edit_title: 'Anketi Düzenle'
+      empty_answers: '{count, plural, one {# cevap boş — lütfen doldurun veya kaldırın.} other {# cevap boş — lütfen doldurun veya kaldırın.}}'
       error: '=> core.lib.error.generic_message'
       hide_votes_label: 'Anket bitene kadar oyları gizle'
       hide_votes_label_help: 'Anketi başlatan kullanıcı her zaman oyları görebilecek.'
@@ -103,15 +114,28 @@ fof-polls:
     poll:
       cannot_change_vote: 'Oy kullandıktan sonra oyunuzu değiştiremezsiniz.'
       cannot_start_poll_button: 'Genel Anket Başlatılamıyor'
+      draft_label: Taslak
+      scheduled_error_tooltip: 'Bu planlanmış yayın başarısız oldu. Nedenini görmek için anketi açın.'
+      scheduled_label: '{date} için planlandı'
       start_poll_button: 'Genel Anket Başlat'
       submit_button: Oyla
       total_votes: '{count, plural, one {# oy verildi} other {# oy verildi}}'
     poll_controls:
+      cancel_schedule_label: 'Planlanmış yayınlanmayı iptal et'
+      cancel_schedule_success: 'Planlanmış yayınlanma iptal edildi.'
       delete_confirmation: 'Bu anketi silmek istediğinize emin misiniz?'
       delete_error_message: 'Anket silinirken bir şeyler ters gitti.'
       delete_label: '=> core.ref.delete'
       delete_success_message: 'Anket başarıyla silindi.'
       edit_label: '=> core.ref.edit'
+      edit_schedule_publish_label: 'Planlanmış yayınlamayı düzenle'
+      publish_label: 'Şimdi yayınla'
+      publish_success: 'Anket yayınlandı.'
+      schedule_publish_label: 'Yayınlanmasını planla'
+      unpublish_confirmation: 'Bu anket taslağa geri alınsın mı? Yayından kaldırılacaktır.'
+      unpublish_error_has_votes: 'Yayından kaldırılamıyor — ankette zaten oy kullanılmış. Bunun yerine anketi silin.'
+      unpublish_label: 'Taslağa geri al'
+      unpublish_success: 'Anket taslağa geri alındı.'
       view_label: '=> core.ref.view'
     poll_ended: 'Bu anket sona ermiştir.'
     poll_form:
@@ -154,6 +178,10 @@ fof-polls:
         oldest: Eskiler
         sort_dropdown:
           default: '=> fof-polls.forum.polls_list.sort_dropdown.newest'
+      status_filter:
+        all: Tümü
+        draft: Taslaklar
+        published: Yayınlandı
     polls_page:
       title: Anketler
     public_poll: 'Oy verenler'
