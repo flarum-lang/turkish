@@ -6,10 +6,24 @@ forumaker-magicread:
   admin:
     settings:
       enable_counter: 'Düzenleyicide canlı karakter sayacı'
-      enable_pagination: 'Tartışma içi sayfalandırma'
+      enable_counter_help: 'İleti giriş alanının sağ üst köşesine bir karakter sayacı ekler'
+      enable_discussion_pager: 'Kaydırma çubuğu yerine sayfa navigasyonunu göster'
+      enable_discussion_pager_help: 'Tartışma kaydırma çubuğunu kaldırır, sayfanın üstüne ve altına sayfa navigasyonu ekler ve otomatik kaydırmayı devre dışı bırakır'
+      enable_pagination: 'Kaydırma çubuğunun altına sayfa navigasyonu ekle'
+      enable_pagination_help: 'Tartışma kaydırma çubuğunu görünür tutar ve altına bir sayfa seçici ekler'
       enable_readmore: 'Profil sayfasında devamını oku önizlemesi'
+      enable_readmore_help: 'Profil sayfalarındaki uzun gönderileri gizler ve bunları genişletmek için bir düğme ekler'
       section_main: Ayarlar
+      section_pagination: Sayfalama
   forum:
     counter:
       label: Karakter
+    pager:
+      first: 'Başa dön'
+      go: Git
+      input_label: 'Sayfaya git'
+      last: 'Son sayfaya git'
+      next: 'Sonraki Sayfa'
+      page: Sayfa
+      prev: 'Önceki sayfa'
     read_more: 'Devamını oku'
