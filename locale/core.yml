@@ -195,6 +195,9 @@ core:
         copy_success: 'Sistem bilgileri panoya kopyalandı'
         title: 'Sistem Bilgileri'
       io_error_message: 'Dosya sistemine yazılamadı. Dosya sistemi izinlerinizi kontrol edin ve tekrar deneyin veya komut satırından çalıştırmayı deneyin.'
+      queue_paused_all_warning: 'Tüm kuyruk işleme duraklatıldı. İşler, yeniden başlatılana kadar birikecektir.'
+      queue_paused_manage: Yönet
+      queue_paused_warning: 'Kuyruk işleme duraklatıldı (kuyruk: {queues}). İşler, yeniden başlatılana kadar birikecektir.'
       status:
         headers:
           queue-driver: 'Kuyruk Sürücüsü'
@@ -294,8 +297,17 @@ core:
         title: '{extName} belgeleri'
       replaced: Değiştirildi
       safe_mode_warning: 'Güvenli mod şu anda etkin. Uzantılar yüklenmediğinden ayarlarına erişilemiyor.'
+    extensions-health-widget:
+      abandoned_no_replacement: 'Önerilen bir alternatif yok'
+      abandoned_with_replacement: 'Yerine önerilen: {replacement}'
+      all_healthy: 'Tüm uzantılar sorunsuz.'
     failed_jobs:
+      delete: Sil
+      details: Detaylar
+      meta: '{queue} kuyruğu · başarısız {time}'
       none: 'Gerçekleşemeyen iş yok.'
+      retry: Tekrar
+      retry_all: 'Tümünü tekrarla'
       title: 'Gerçekleşemeyen İşlemler'
     header:
       get_help: 'Yardım Al'
