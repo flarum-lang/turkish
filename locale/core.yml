@@ -677,6 +677,7 @@ core:
       dismiss_a11y_label: 'Uyarıyı kapat'
     badge:
       hidden_tooltip: Gizli
+    connection_restored_message: 'Bağlantınız yeniden kuruldu.'
     data_segment:
       label: '{label}:'
     datetime_formats:
@@ -710,7 +711,9 @@ core:
       generic_cross_origin_message: 'Oops! Kaynaklar arası istek sırasında bir şeyler ters gitti. Lütfen sayfayı yeniden yükleyin ve tekrar deneyin.'
       generic_message: 'Oops! Bir şeyler yanlış gitti. Lütfen sayfayı yenileyin ve tekrar deneyin.'
       missing_dependencies_message: '{extension} şu uzantı aktif edilmeden önce aktif edilemez: {extensions}'
+      network_message: 'Bağlantınızda bir sorun var gibi görünüyor. Lütfen ağınızı kontrol edip tekrar deneyin.'
       not_found_message: 'İstenen kaynak bulunamadı.'
+      offline_message: 'Çevrimdışı görünüyorsunuz. Lütfen bağlantınızı kontrol edip tekrar deneyin.'
       payload_too_large_message: 'İstek yükü çok büyük.'
       permission_denied_message: 'Bunu yapmaya yetkiniz bulunmuyor.'
       rate_limit_exceeded_message: 'Biraz fazla hızlı gidiyorsun. Lütfen birkaç saniye içinde tekrar dene.'
