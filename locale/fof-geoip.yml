@@ -13,6 +13,8 @@ fof-geoip:
       see_country: 'IP adresinin ülkesini her zaman görüntüle'
     settings:
       access_key_label: 'Erişim Anahtarı'
+      allow_custom_flag_help: 'Etkinleştirildiğinde, kullanıcılar gönderilerinde gösterilmek üzere profil ayarlarından bir ülke bayrağı seçebilir. Kullanıcının seçtiği bayrak herkese gösterilir ve IP tabanlı bayrağın yerine geçer. "Her gönderi için ülke bayrağını göster" ayarının etkinleştirilmiş olmasını gerektirir.'
+      allow_custom_flag_label: 'Kullanıcıların özel bir ülke bayrağı seçmesine izin ver'
       error_code_prefix: 'Kod:'
       error_prefix: 'Hata:'
       general:
@@ -81,4 +83,26 @@ fof-geoip:
       zip_code: 'Posta Kodu'
     user:
       settings:
+        custom_flag_help: 'Gönderilerinizde gösterilecek bir ülke bayrağı seçin. Bu bayrak herkes tarafından görülebilir ve IP adresinize göre belirlenen bayrağın yerine gösterilir.'
+        custom_flag_label: 'Özel ülke bayrağı'
         ip_country: 'IP adresime göre, gönderdiğim ülkenin bayrağını göster'
+  lib:
+    alerts:
+      ip_copied: 'IP Adresi Kopyalandı'
+    copy_ip_label: 'IP''yi panoya kopyala'
+    custom_flag:
+      none: 'Özel bayrak yok'
+    map_button_label: 'IP Bilgisi'
+    map_modal:
+      as: ASN
+      country_code: 'Ülke Kodu'
+      error: Hata
+      ip_address: 'IP Adresi'
+      isp: İSS
+      mobile: 'Hücresel ağ'
+      not_enough_data: 'Harita için yeterli veri yok'
+      organization: Kurum
+      threat_level: 'Tehdit Seviyesi'
+      threat_types: 'Tehdit Türleri'
+      title: 'IP Bilgisi'
+      zip_code: 'Posta Kodu'

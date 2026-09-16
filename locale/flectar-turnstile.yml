@@ -16,4 +16,9 @@ flectar-turnstile:
     not_loaded_error: 'Cloudflare Turnstile yüklenemedi. Lütfen sayfayı yenileyin veya reklam engelleyicinizi kontrol edin.'
     validation_error: 'Lütfen Turnstile doğrulamasını tamamlayın.'
 validation:
+  custom:
+    turnstile:
+      required: 'Lütfen Turnstile doğrulamasını tamamlayın.'
+    turnstileToken:
+      required: 'Lütfen Turnstile doğrulamasını tamamlayın.'
   turnstile: 'Robot olup olmadığınızı doğrulayamadık. Lütfen sayfayı yenileyin ve tekrar deneyin.'

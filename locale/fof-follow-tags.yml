@@ -10,10 +10,25 @@ flarum-gdpr:
         export_description: 'Bir etiketin abonelik düzeyi varsa, bu düzeyin ayrıntılarını dışa aktarır.'
 fof-follow-tags:
   admin:
+    basics:
+      following_label: '=> flarum-subscriptions.forum.index.following_link'
     settings:
+      all_discussions_on_following_page_for_guests_label: 'Takip edilen sayfadaki tüm tartışmaları misafirler için göster'
       following_none_label: '=> fof-follow-tags.ref.filtering_options.none'
       following_page_default_label: 'Varsayılan Takip Etilenler Filtrelemesi'
       following_tags_label: '=> fof-follow-tags.ref.filtering_options.tags'
+      prompt_button_on_following_page_label: 'Takip Edilenler sayfasında "Takip edilecek etiketleri seç" düğmesini göster'
+      prompt_new_users_help: "Seçimlerini henüz onaylamamış olan kullanıcılara, etiketleri takip etmelerini isteyen bir pencere gösterilecektir. Bu pencere, kullanıcılar \"Foruma devam et\" butonuna basana kadar her ziyarette tekrar görünmeye devam edecektir.\n"
+      prompt_new_users_label: 'Yeni kullanıcılardan takip edecekleri etiketleri seçmelerini iste'
+      prompt_tag_ids_label: 'Önerilecek etiketler'
+      prompt_tag_strategy_label: 'İstemde önerilecek etiketler'
+      prompt_tag_strategy_options:
+        all: 'Tüm etiketler'
+        list: 'Aşağıda seçilen etiketler'
+        primary: 'Birinci düzey birincil etiketler'
+        primaryAndChildren: 'Herhangi bir seviyedeki tüm birincil etiketler'
+        primaryAndSecondary: 'Birinci düzey birincil etiketler ve ikincil etiketler'
+        secondary: 'Yalnızca ikincil etiketler'
   email:
     newDiscussionInTag:
       html:
@@ -49,6 +64,11 @@ fof-follow-tags:
       new_discussion_tag_text: '{username} etiketi değiştirdi'
       new_discussion_text: '{username} başlattı'
       new_post_text: '{username} gönderdi'
+    prompt:
+      choose_button: 'Takip edilecek etiketleri seçin'
+      continue_button: 'Foruma devam et'
+      later_button: 'Bana daha sonra hatırlat'
+      modal_title: 'Takip edilecek etiketleri seçin'
     settings:
       notify_new_discussion_label: 'Birisi takip ettiğim bir etikette tartışma başlattığında'
       notify_new_discussion_tag_label: 'Birisi takip ettiğim bir tartışmanın etiketini değiştirdiğinde'

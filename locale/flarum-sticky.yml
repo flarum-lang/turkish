@@ -10,6 +10,7 @@ flarum-sticky:
       enable_display_excerpt: 'Sabitlenmiş bir tartışma okunmamış durumdayken ilk gönderinin bir özetini göster'
       only_sticky_unread_discussions_help: '“Tüm Tartışmalar” sayfasında, okunmamış sabitlenmiş tartışmalar en üste sabitlenirken, okunmuş sabitlenmiş tartışmalar normal sırayla görüntülenir.'
       only_sticky_unread_discussions_label: 'Yalnızca okunmamış sabit tartışmalar'
+      pin_sticky_on_all_discussions_label: 'Sabitlenmiş tartışmaları Tüm Tartışmalar sayfasında başa tuttur'
   forum:
     badge:
       sticky_tooltip: '=> flarum-sticky.ref.sticky'
