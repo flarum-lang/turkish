@@ -5,6 +5,11 @@ CHANGELOG
 2.0.2 (XXXX-XX-XX)
 ------------------
 
+**Genel değişiklikler**:
+
+* Flarum çekirdek çevirileri güncellendi.
+
+
 **Yeni uzantılar için destek eklendi**:
 
 * [`datitisev/flarum-post-galleries`](https://github.com/dsevillamartin/flarum-post-galleries)
@@ -29,6 +34,7 @@ CHANGELOG
 * [`fof/top-posters-widget`](https://github.com/FriendsOfFlarum/top-posters-widget)
 * [`fof/usercard-stats`](https://github.com/FriendsOfFlarum/usercard-stats)
 * [`glowingblue/author-filter`](https://github.com/glowingblue/flarum-ext-author-filter)
+* [`huoxin/filter-rule-manager`](https://github.com/huoxin233/flarum-ext-filter-rule-manager)
 * [`huseyinfiliz/notificationhub`](https://github.com/huseyinfiliz/notificationhub)
 * [`jslirola/flarum-ext-login2seeplus`](https://github.com/jslirola/flarum-ext-login2seeplus)
 * [`ralkage/flarum-ext-word-counter`](https://github.com/Ralkage/flarum-ext-word-counter)
