@@ -132,8 +132,12 @@ core:
       enter_hex_message: 'Lütfen onaltılık bir renk kodu gir.'
       favicon_heading: 'Kısayol Simgesi'
       favicon_text: 'Forumun kısayol simgesi olarak görüntülenecek bir görsel yükleyin.'
+      logo_dark_mode_heading: 'Koyu mod logosu'
+      logo_dark_mode_text: 'Koyu mod etkinken gösterilecek alternatif bir logo yükleyin.'
       logo_heading: Logo
       logo_text: 'Forum başlığının yerine görüntülenecek bir görsel yükle.'
+      show_theme_selector_help: 'Kullanıcıların üstbilgideki bir düğmeden mevcut renk şemaları arasında geçiş yapmasına izin verin.'
+      show_theme_selector_label: 'Tema seçiciyi göster'
       title: Görünüm
     basics:
       abandoned_extensions_heading: 'Terk Edilmiş Uzantılar'
@@ -143,6 +147,10 @@ core:
       abandoned_extensions_sync_success: 'Terk edilmiş uzantılar listesi güncellendi. Eşleşen {count} yüklü uzantı bulundu.'
       abandoned_extensions_text: 'Flarum, <a>terk edilmiş uzantıların bir topluluk listesini</a> tutar. Yüklü bir uzantı listede göründüğünde yönetim panelinde işaretlenir.'
       all_discussions_label: '=> core.ref.all_discussions'
+      avatar_driver_heading: 'Kullanıcı Avatarı'
+      avatar_driver_options:
+        default: Varsayılan
+      avatar_driver_text: 'Kullanıcı tarafından yüklenmiş bir avatar bulunmadığında, kullanıcı avatarları için kullanılacak bir sürücü seçin. Varsayılan olarak, bir kullanıcı avatar yüklemediğinde hiçbir avatar gösterilmez.'
       default_language_heading: 'Varsayılan Dil'
       description: 'Forumunun başlığını, dilini ve diğer temel ayarlarını yapılandır.'
       display_name_driver_options:
@@ -150,7 +158,7 @@ core:
       display_name_heading: 'Görünen Kullanıcı Adı'
       display_name_text: 'Kullanıcıların görünen adları için kullanılması gereken tercihi seçin. Varsayılan olarak kullanıcı adı gösterilir.'
       forum_description_heading: 'Forum Açıklaması'
-      forum_description_text: 'Topluluğunu tanımlayan kısa bir veya iki cümle gir. Bu meta etiketine eklenecek ve arama motorlarında görünecektir.'
+      forum_description_text: 'Forumunuzu açıklayan bir veya iki kısa cümle yazın. Bu alan meta etiketine eklenecek ve arama motorlarında gösterilecektir.'
       forum_title_heading: 'Forum Başlığı'
       home_page_heading: 'Ana Sayfa'
       home_page_text: 'Kullanıcıların forumunu ziyaret ettiklerinde ilk görecekleri sayfayı seçin.'
@@ -163,6 +171,7 @@ core:
         users:
           default: 'Kullanıcı adı'
           id: ID
+          id_with_display_name: 'ID ile Görünen Ad'
       slug_driver_text: 'Adres kısa adı için bir sürücü modeli seçin.'
       title: 'Temel Öğeler'
       welcome_banner_heading: 'Hoşgeldiniz Mesajı'
@@ -285,6 +294,9 @@ core:
         title: '{extName} belgeleri'
       replaced: Değiştirildi
       safe_mode_warning: 'Güvenli mod şu anda etkin. Uzantılar yüklenmediğinden ayarlarına erişilemiyor.'
+    failed_jobs:
+      none: 'Gerçekleşemeyen iş yok.'
+      title: 'Gerçekleşemeyen İşlemler'
     header:
       get_help: 'Yardım Al'
       log_out_button: '=> core.ref.log_out'
@@ -367,6 +379,12 @@ core:
       members_button: '=> core.group.members'
       signup_closed_button: Kapalı
       signup_open_button: Açık
+    queue_widget:
+      failed: Başarısız
+      pending: Bekleyen
+      refresh: Yenile
+      reserved: İşleniyor
+      title: Kuyruk
     search_source:
       general:
         heading: Genel
