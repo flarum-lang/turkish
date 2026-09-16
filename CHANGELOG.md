@@ -35,6 +35,7 @@ CHANGELOG
 * [`fof/usercard-stats`](https://github.com/FriendsOfFlarum/usercard-stats)
 * [`glowingblue/author-filter`](https://github.com/glowingblue/flarum-ext-author-filter)
 * [`huoxin/filter-rule-manager`](https://github.com/huoxin233/flarum-ext-filter-rule-manager)
+* [`huseyinfiliz/language-detection`](https://github.com/huseyinfiliz/language-detection)
 * [`huseyinfiliz/notificationhub`](https://github.com/huseyinfiliz/notificationhub)
 * [`jslirola/flarum-ext-login2seeplus`](https://github.com/jslirola/flarum-ext-login2seeplus)
 * [`ralkage/flarum-ext-word-counter`](https://github.com/Ralkage/flarum-ext-word-counter)
@@ -52,6 +53,7 @@ CHANGELOG
 * [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
 * [`forumaker/magicbb`](https://github.com/forumaker/magicbb)
+* [`forumaker/magicread`](https://github.com/forumaker/magicread)
 * [`walsgit/flarum-discussion-cards`](https://github.com/WalsGit/flarum-discussion-cards)
 
 
