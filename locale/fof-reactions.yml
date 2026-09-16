@@ -61,6 +61,8 @@ fof-reactions:
     mod_item: 'İfadeleri Göster'
     modal:
       anonymous_count: '{count, plural, one {# bilinmeyen kullanıcı} other {# bilinmeyen kullanıcılar}}'
+      confirm_remove_all_reaction_type: 'Bu gönderideki tüm {reaction} tepkilerini kaldırmak istediğinizden emin misiniz? Bu işlem geri alınamaz.'
+      confirm_remove_user_reaction: 'Bu gönderiden {username} kullanıcısının {reaction} tepkisini kaldırmak istediğinizden emin misiniz? Bu işlem geri alınamaz.'
       load_more: 'Daha fazla yükle'
       no_reactions: 'Henüz tepki yok'
       others_count: '+ {count, plural, one {# diğer} other {# diğer}}'

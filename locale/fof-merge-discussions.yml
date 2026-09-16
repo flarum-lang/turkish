@@ -2,6 +2,12 @@
 # Use https://weblate.rob006.net/projects/flarum2/fof-merge-discussions/tr/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      discussion:
+        merged_away: '{discussion} tartışması {new_discussion} tartışmasıyla birleştirildi'
+        merged_into: '{original_discussion_ids_count} tartışmadan {post_count} gönderi {discussion} tartışmasıyla birleştirildi'
 fof-merge-discussions:
   admin:
     permissions:

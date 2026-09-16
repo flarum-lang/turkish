@@ -43,5 +43,7 @@ fof-user-directory:
       newest: 'En yeni'
       not_specified: 'Flarum''u varsayılan olarak kullan'
       oldest: 'En eski'
+      seen_oldest: 'Uzun süredir girmeyenler'
+      seen_recent: 'Son çevrimiçi olanlar'
       username_az: 'Kullanıcı Adı (a-z)'
       username_za: 'Kullanıcı Adı (z-a)'

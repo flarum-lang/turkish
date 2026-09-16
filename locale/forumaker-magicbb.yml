@@ -45,7 +45,7 @@ forumaker-magicbb:
       hide_like_button: 'Gizli — beğenmek gerekli'
       hide_login_button: 'Gizli — giriş yapmak gerekli'
       hide_reply_button: 'Gizli — yanıt yapmak gerekli'
-      image_button: 'Akıllı görsel ekle'
+      image_button: 'Görseli hizala'
       info_button: 'Uyarı ekle'
       jump_button: 'Atlama bağlantısı ekle'
       justify_button: 'İki yana yasla'

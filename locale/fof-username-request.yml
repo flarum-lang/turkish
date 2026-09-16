@@ -2,6 +2,16 @@
 # Use https://weblate.rob006.net/projects/flarum2/fof-username-request/tr/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      user:
+        nickname_request_approved: '{username} adlı kullanıcının takma adını {old_nickname} yerine {new_nickname} olarak değiştirme isteğini onayladı'
+        nickname_request_rejected: '{username} adlı kullanıcının takma ad değiştirme isteğini reddetti'
+        nickname_requested: '{username} adlı kullanıcı için {new_nickname} takma adı istendi'
+        username_request_approved: '{username} adlı kullanıcının kullanıcı adını {old_username} yerine {new_username} olarak değiştirme isteğini onayladı'
+        username_request_rejected: '{username} adlı kullanıcının kullanıcı adını değiştirme isteğini reddetti'
+        username_requested: '{username} adlı kullanıcı için {new_username} kullanıcı adı istendi'
 fof-username-request:
   admin:
     permissions:

@@ -2,6 +2,12 @@
 # Use https://weblate.rob006.net/projects/flarum2/flarum-suspend/tr/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      user:
+        suspended: '{username} kullanıcısını {until} tarihine kadar uzaklaştırdı'
+        unsuspended: '{username} kullanıcısının uzaklaştırmasını kaldırdı'
 flarum-suspend:
   admin:
     permissions:

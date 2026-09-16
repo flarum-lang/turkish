@@ -13,6 +13,8 @@ ianm-follow-users:
   admin:
     permissions:
       be_followed_label: 'Kullanıcıların takip etmesine izin ver'
+      follow_label: 'Diğer kullanıcıları takip edebilir'
+      view_followed_users_label: 'Bir üyenin hangi kullanıcıları takip ettiğini görüntüleyebilir'
     settings:
       button-on-profile-label: 'Takip et düğmesini doğrudan kullanıcı profili başlığında göster'
       stats-on-profile-label: 'Kullanıcı profillerinde takipçi ve takip sayılarını göster'

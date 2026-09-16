@@ -92,6 +92,7 @@ fof-geoip:
     copy_ip_label: 'IP''yi panoya kopyala'
     custom_flag:
       none: 'Özel bayrak yok'
+      placeholder: 'Ülke ara…'
     map_button_label: 'IP Bilgisi'
     map_modal:
       as: ASN

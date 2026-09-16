@@ -18,6 +18,9 @@ fof-polls:
       view_results_without_voting: 'Sonuçları oy vermeden göster'
       vote: 'Ankete oy ver'
     settings:
+      discussion_polls:
+        heading: 'Tartışma Anketleri'
+        help: 'Bu ayarlar, tartışma gönderilerine eklenen anketleri denetler.'
       enable_global_polls: 'Genel anketleri etkinleştir'
       enable_global_polls_help: 'Genel anketler belirli bir gönderiye bağlı değildir ve bunlara özel bir anket sayfasından erişilebilir.'
       enabled_poll_groups: 'Anket gruplarını etkinleştir'

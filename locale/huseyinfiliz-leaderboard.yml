@@ -11,6 +11,8 @@ huseyinfiliz-leaderboard:
       save: Kaydet
       select_groups: 'Grup Seç'
       select_tags: 'Etiket Seç'
+    permissions:
+      view_leaderboard: 'Liderlik Sayfasını Görüntüleyebilir'
     settings:
       already_running: 'Bir yeniden hesaplama işlemi zaten devam ediyor. Lütfen tamamlanmasını bekleyin.'
       excluded_groups_help: 'Seçilen gruplardaki kullanıcılar lider tablosunda gösterilmez.'
@@ -83,6 +85,7 @@ huseyinfiliz-leaderboard:
       quarterly: 'Üç Aylık'
       weekly: Haftalık
       yearly: Yıllık
+    permission_denied: 'Liderlik sayfasını görüntüleme yetkiniz yok.'
     podium:
       first: '1.'
       second: '2.'

@@ -105,8 +105,10 @@ fof-byobu:
   lib:
     gambits:
       allows-pd:
+        hint: evet
         key: 'özel sohbetlere olanak tanı'
       byobu:
+        hint: 'alıcının kullanıcı adı veya görünen adı'
         key: byobu
       private:
         key: gizli

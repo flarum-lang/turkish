@@ -16,8 +16,10 @@ huseyinfiliz-modern-footer:
       bottom_section: 'Alt Bölüm'
       custom: Özel
       custom_html: 'Özel HTML Kodu'
+      custom_html_help: 'Bu HTML her ziyaretçi için olduğu gibi işlenir. Yalnızca güvendiğiniz kodları ekleyin.'
       custom_js: 'Özel JS'
       custom_js_code: 'Özel JavaScript Kodu'
+      custom_js_help: 'Bu kod doğrudan her ziyaretçinin tarayıcısında çalışır. Yalnızca güvendiğiniz kodları ekleyin.'
       display_mode: 'Footer Görüntüleme Modu'
       font_awesome_icon: 'Font Awesome Simgesi'
       forum_logo: 'Forum Logosu'

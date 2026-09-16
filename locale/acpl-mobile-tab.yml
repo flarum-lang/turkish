@@ -32,6 +32,7 @@ acpl-mobile-tab:
       home: Anasayfa
       log_in: 'Giriş Yap'
       messages: Mesajlar
+      new_discussion: 'Yeni Tartışma'
       notifications: Bildirimler
       profile: Profil
       search: Ara

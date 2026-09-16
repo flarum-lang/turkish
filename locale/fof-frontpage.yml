@@ -14,7 +14,7 @@ core:
 fof-frontpage:
   admin:
     permissions:
-      can_push_to_frontpage_label: 'Ana sayfaya taşınabilir mi?'
+      can_push_to_frontpage_label: 'Ana Sayfaya Taşıyabilir'
   lib:
     gambits:
       frontpage:
