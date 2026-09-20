@@ -5,12 +5,12 @@ CHANGELOG
 1.45.10 (XXXX-XX-XX)
 --------------------
 
-**Genel değişiklikler**:
+**General changes**:
 
-* Flarum çekirdek çevirileri güncellendi.
+* Updated Flarum core translations (3 added).
 
 
-**Yeni uzantılar için destek eklendi**:
+**Added support for new extensions**:
 
 * [`flarum/audit`](https://github.com/flarum/audit)
 * [`fof/author-change`](https://github.com/FriendsOfFlarum/author-change)
@@ -33,23 +33,23 @@ CHANGELOG
 * [`tapao/custom-landing-page`](https://github.com/Tapao-NonSen/Custom-Landing-Page)
 
 
-**Uzantılar için çeviriler güncellendi**:
+**Updated translations for extensions**:
 
-* [`flarum/sticky`](https://github.com/flarum/sticky)
-* [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile)
-* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
-* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
-* [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman)
-* [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
-* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
-* [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
-* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
-* [`forumaker/magicbb`](https://github.com/forumaker/magicbb)
-* [`forumaker/magicread`](https://github.com/forumaker/magicread)
-* [`walsgit/flarum-discussion-cards`](https://github.com/WalsGit/flarum-discussion-cards)
+* [`flarum/sticky`](https://github.com/flarum/sticky) (2 added)
+* [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile) (2 added, 1 removed)
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam) (2 added)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer) (2 added)
+* [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman) (2 changed)
+* [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags) (17 added, 3 changed)
+* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip) (20 added)
+* [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade) (4 added)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls) (27 added)
+* [`forumaker/magicbb`](https://github.com/forumaker/magicbb) (19 added, 3 changed)
+* [`forumaker/magicread`](https://github.com/forumaker/magicread) (13 added, 1 changed)
+* [`walsgit/flarum-discussion-cards`](https://github.com/WalsGit/flarum-discussion-cards) (100 added, 7 changed)
 
 
-Tüm değişiklikler: [1.45.9...1.45.10](https://github.com/flarum-lang/turkish/compare/1.45.9...1.45.10).
+All changes: [1.45.9...1.45.10](https://github.com/flarum-lang/turkish/compare/1.45.9...1.45.10).
 
 
 1.45.9 (2026-07-03)
