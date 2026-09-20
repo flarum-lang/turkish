@@ -22,7 +22,6 @@ fof-links:
       use_rel_me: 'Diğer sitelerde kimlik doğrulaması için <code>rel=''me''</code> özelliğini ekleyin'
       visibility:
         guest-only:
-          help: 'Bu bağlantıyı yalnızca {guest} görebilir. Yukarıdaki izin ''{everyone}'' olarak ayarlanmalıdır.'
           label: 'Sadece {guest} mi?'
         help: 'Bağlantılar varsayılan olarak yalnızca <code>{admin}</code> kullanıcıları tarafından görülebilir. Bu bağlantıyı kimlerin görebileceğini belirtmek için izinleri ayarlayın.'
         help-disabled: 'Görünürlük ayarlarını değiştirmeden önce bağlantıyı kaydedin.'

@@ -21,10 +21,9 @@ huseyinfiliz-stickiest:
   forum:
     badge:
       stickiest_tooltip: 'Süper Sabitle'
-      sticky_tooltip: '=> huseyinfiliz-stickiest.ref.sticky'
+      sticky_tooltip: '=> flarum-sticky.ref.sticky'
       super_sticky_tooltip: '=> huseyinfiliz-stickiest.ref.super_sticky'
       super_tag_sticky_tooltip: '=> huseyinfiliz-stickiest.ref.super_tag_sticky'
-      tag_sticky_tooltip: '=> huseyinfiliz-stickiest.ref.tag_sticky'
     discussion_controls:
       sticky_button: '=> flarum-sticky.forum.discussion_controls.sticky_button'
     post_stream:
