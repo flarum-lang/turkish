@@ -83,7 +83,7 @@ flarum-audit:
         client: 'İsteğin hangi istemci üzerinden yapıldığı.'
         discussion: 'Belirli bir tartışmayı etkileyen eylemler (tartışma ID''sine göre).'
         ip: 'Eylemin geldiği IP adresi.'
-        user: 'Eylemin etkilediği kullanıcı (kullanıcı adına göre).'
+        user: 'Eylemin etkilediği kullanıcı (kullanıcı adına göre)'
       filtersHint: 'Filtreler:'
       fof_ban_ips:
         banned: '{ip} IP adresini yasakladı'

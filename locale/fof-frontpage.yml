@@ -10,7 +10,7 @@ core:
     badge:
       frontpage_tooltip: 'ÖnSayfa olarak işaretle'
     index_sort:
-      front_button: ÖnSayfa
+      front_button: 'Ana Sayfa'
     post_controls:
       pull_from_front_button: 'ÖnSayfa''dan kaldır'
       push_to_front_button: 'ÖnSayfa''ya ekle'

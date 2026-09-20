@@ -56,7 +56,7 @@ fof-ban-ips:
       save_button: Kaydet
       title: '=> fof-ban-ips.ref.ban_ip_addresses'
       unban_button: '=> fof-ban-ips.ref.unban_label'
-      unban_ip_confirmation: 'Bu IP adresinin foruma erişim yasağını kaldırmak istiyor musunuz? Bu IP''yi kullanan kullanıcılar artık foruma erişebilir.'
+      unban_ip_confirmation: 'Bu kullanıcının ve farklı bir IP üzerinden yasaklanmamış olan diğer kullanıcıların yasağını kaldırmak istediğinize emin misiniz?'
       unban_ip_no_users: 'Yasaklanmamış kullanıcı yok'
       unban_ip_users: '{count, plural, one {Toplam {users} kullanıcının banı kaldırılacak} other {Toplam {users} kullanıcının banı kaldırılacak}}'
       unban_options_all_ip: '<i>{username}</i> tarafından kullanılan tüm IP''lerin yasağını kaldır'
