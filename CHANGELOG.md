@@ -46,6 +46,8 @@ CHANGELOG
 
 * [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab) (1 added)
 * [`datitisev/flarum-backup`](https://flarum.org/extension/datitisev/flarum-backup) (3 added, 5 removed)
+* [`ekumanov/flarum-ext-inline-audio`](https://github.com/ekumanov/flarum-ext-inline-audio) (1 changed)
+* [`ekumanov/flarum-ext-new-posts-notice`](https://github.com/ekumanov/flarum-ext-new-posts-notice) (2 changed)
 * [`flarum/extension-manager`](https://github.com/flarum/extension-manager) (2 added, 1 changed)
 * [`flarum/flags`](https://github.com/flarum/flags) (3 added)
 * [`flarum/gdpr`](https://github.com/flarum/gdpr) (6 added)
