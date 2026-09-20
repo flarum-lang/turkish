@@ -45,7 +45,7 @@ CHANGELOG
 **Updated translations for extensions**:
 
 * [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab) (1 added)
-* [`datitisev/flarum-backup`](https://flarum.org/extension/datitisev/flarum-backup) (3 added)
+* [`datitisev/flarum-backup`](https://flarum.org/extension/datitisev/flarum-backup) (3 added, 5 removed)
 * [`flarum/extension-manager`](https://github.com/flarum/extension-manager) (2 added, 1 changed)
 * [`flarum/flags`](https://github.com/flarum/flags) (3 added)
 * [`flarum/gdpr`](https://github.com/flarum/gdpr) (6 added)
@@ -61,6 +61,7 @@ CHANGELOG
 * [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags) (17 added, 3 changed)
 * [`fof/frontpage`](https://github.com/FriendsOfFlarum/frontpage) (1 changed)
 * [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip) (21 added)
+* [`fof/links`](https://github.com/FriendsOfFlarum/links) (1 removed)
 * [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade) (1 added)
 * [`fof/merge-discussions`](https://github.com/FriendsOfFlarum/merge-discussions) (2 added)
 * [`fof/move-posts`](https://github.com/FriendsOfFlarum/move-posts) (2 added)
@@ -73,6 +74,7 @@ CHANGELOG
 * [`forumaker/magicread`](https://github.com/forumaker/magicread) (13 added, 1 changed)
 * [`huseyinfiliz/leaderboard`](https://github.com/huseyinfiliz/leaderboard) (2 added)
 * [`huseyinfiliz/modern-footer`](https://github.com/huseyinfiliz/modern-footer) (2 added)
+* [`huseyinfiliz/stickiest`](https://github.com/huseyinfiliz/stickiest) (1 changed, 1 removed)
 * [`ianm/follow-users`](https://github.com/imorland/follow-users) (2 added)
 * [`walsgit/flarum-discussion-cards`](https://github.com/WalsGit/flarum-discussion-cards) (100 added, 7 changed)
 
