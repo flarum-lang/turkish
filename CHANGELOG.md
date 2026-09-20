@@ -38,14 +38,17 @@ CHANGELOG
 * [`flarum/sticky`](https://github.com/flarum/sticky) (2 added)
 * [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile) (2 added, 1 removed)
 * [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam) (2 added)
+* [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips) (1 changed)
 * [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer) (2 added)
 * [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman) (2 changed)
 * [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags) (17 added, 3 changed)
+* [`fof/frontpage`](https://github.com/FriendsOfFlarum/frontpage) (1 changed)
 * [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip) (20 added)
 * [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade) (4 added)
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls) (27 added)
 * [`forumaker/magicbb`](https://github.com/forumaker/magicbb) (19 added, 3 changed)
 * [`forumaker/magicread`](https://github.com/forumaker/magicread) (13 added, 1 changed)
+* [`huseyinfiliz/flarum-diff`](https://github.com/huseyinfiliz/flarum-diff) (1 changed)
 * [`walsgit/flarum-discussion-cards`](https://github.com/WalsGit/flarum-discussion-cards) (100 added, 7 changed)
 
 
