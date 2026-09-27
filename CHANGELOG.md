@@ -2,6 +2,88 @@ CHANGELOG
 =========
 
 
+2.0.2 (2026-09-27)
+------------------
+
+**General changes**:
+
+* Updated Flarum core translations (43 added, 1 changed).
+
+
+**Added support for new extensions**:
+
+* [`datitisev/flarum-post-galleries`](https://github.com/dsevillamartin/flarum-post-galleries) (100% complete)
+* [`datlechin/flarum-keyboard-shortcuts`](https://github.com/datlechin/flarum-keyboard-shortcuts) (5% complete)
+* [`datlechin/flarum-simple-tour-guide`](https://github.com/datlechin/flarum-simple-tour-guide) (0% complete)
+* [`ffans/geetest`](https://github.com/FFans/geetest) (87% complete)
+* [`flarum/audit`](https://github.com/flarum/audit) (100% complete)
+* [`fof/author-change`](https://github.com/FriendsOfFlarum/author-change) (100% complete)
+* [`fof/blog`](https://github.com/FriendsOfFlarum/blog) (83% complete)
+* [`fof/bookmarks`](https://github.com/FriendsOfFlarum/bookmarks) (95% complete)
+* [`fof/checklist`](https://github.com/FriendsOfFlarum/checklist) (100% complete)
+* [`fof/cookie-consent`](https://github.com/FriendsOfFlarum/cookie-consent) (11% complete)
+* [`fof/filter`](https://github.com/FriendsOfFlarum/filter) (100% complete)
+* [`fof/forum-stats-widget`](https://github.com/FriendsOfFlarum/forum-stats-widget) (100% complete)
+* [`fof/forum-widgets-core`](https://github.com/FriendsOfFlarum/forum-widgets-core) (100% complete)
+* [`fof/mailing`](https://github.com/FriendsOfFlarum/mailing) (100% complete)
+* [`fof/news-widget`](https://github.com/FriendsOfFlarum/news-widget) (75% complete)
+* [`fof/online-users-widget`](https://github.com/FriendsOfFlarum/online-users-widget) (100% complete)
+* [`fof/photoswipe`](https://github.com/FriendsOfFlarum/photoswipe) (100% complete)
+* [`fof/seo`](https://github.com/FriendsOfFlarum/seo) (100% complete)
+* [`fof/signature`](https://github.com/FriendsOfFlarum/signature) (77% complete)
+* [`fof/top-posters-widget`](https://github.com/FriendsOfFlarum/top-posters-widget) (66% complete)
+* [`fof/usercard-stats`](https://github.com/FriendsOfFlarum/usercard-stats) (100% complete)
+* [`glowingblue/author-filter`](https://github.com/glowingblue/flarum-ext-author-filter) (100% complete)
+* [`huoxin/filter-rule-manager`](https://github.com/huoxin233/flarum-ext-filter-rule-manager) (100% complete)
+* [`huseyinfiliz/language-detection`](https://github.com/huseyinfiliz/language-detection) (100% complete)
+* [`huseyinfiliz/notificationhub`](https://github.com/huseyinfiliz/notificationhub) (100% complete)
+* [`jslirola/flarum-ext-login2seeplus`](https://github.com/jslirola/flarum-ext-login2seeplus) (78% complete)
+* [`ralkage/flarum-ext-word-counter`](https://github.com/Ralkage/flarum-ext-word-counter) (100% complete)
+* [`tapao/custom-landing-page`](https://github.com/Tapao-NonSen/Custom-Landing-Page) (80% complete)
+
+
+**Updated translations for extensions**:
+
+* [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab) (1 added, 56% complete)
+* [`datitisev/flarum-backup`](https://flarum.org/extension/datitisev/flarum-backup) (3 added, 5 removed, 95% complete)
+* [`ekumanov/flarum-ext-inline-audio`](https://github.com/ekumanov/flarum-ext-inline-audio) (1 changed, 100% complete)
+* [`ekumanov/flarum-ext-new-posts-notice`](https://github.com/ekumanov/flarum-ext-new-posts-notice) (2 changed, 100% complete)
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager) (2 added, 1 changed, 100% complete)
+* [`flarum/flags`](https://github.com/flarum/flags) (3 added, 100% complete)
+* [`flarum/gdpr`](https://github.com/flarum/gdpr) (6 added, 100% complete)
+* [`flarum/nicknames`](https://github.com/flarum/nicknames) (1 added, 100% complete)
+* [`flarum/sticky`](https://github.com/flarum/sticky) (1 added, 80% complete)
+* [`flarum/subscriptions`](https://github.com/flarum/subscriptions) (1 added, 100% complete)
+* [`flarum/suspend`](https://github.com/flarum/suspend) (2 added, 100% complete)
+* [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile) (2 added, 1 removed, 100% complete)
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam) (2 added, 62% complete)
+* [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips) (5 added, 1 changed, 100% complete)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer) (2 added, 100% complete)
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu) (2 added, 100% complete)
+* [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags) (17 added, 3 changed, 100% complete)
+* [`fof/frontpage`](https://github.com/FriendsOfFlarum/frontpage) (1 changed, 100% complete)
+* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip) (21 added, 78% complete)
+* [`fof/links`](https://github.com/FriendsOfFlarum/links) (1 removed, 43% complete)
+* [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade) (1 added, 79% complete)
+* [`fof/merge-discussions`](https://github.com/FriendsOfFlarum/merge-discussions) (2 added, 100% complete)
+* [`fof/move-posts`](https://github.com/FriendsOfFlarum/move-posts) (2 added, 100% complete)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls) (41 added, 100% complete)
+* [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions) (2 added, 100% complete)
+* [`fof/user-bio`](https://github.com/FriendsOfFlarum/user-bio) (1 added, 100% complete)
+* [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory) (2 added, 100% complete)
+* [`fof/username-request`](https://github.com/FriendsOfFlarum/username-request) (6 added, 100% complete)
+* [`forumaker/magicbb`](https://github.com/forumaker/magicbb) (19 added, 3 changed, 100% complete)
+* [`forumaker/magicread`](https://github.com/forumaker/magicread) (13 added, 1 changed, 100% complete)
+* [`huseyinfiliz/leaderboard`](https://github.com/huseyinfiliz/leaderboard) (2 added, 100% complete)
+* [`huseyinfiliz/modern-footer`](https://github.com/huseyinfiliz/modern-footer) (2 added, 100% complete)
+* [`huseyinfiliz/stickiest`](https://github.com/huseyinfiliz/stickiest) (1 changed, 1 removed, 86% complete)
+* [`ianm/follow-users`](https://github.com/imorland/follow-users) (2 added, 100% complete)
+* [`walsgit/flarum-discussion-cards`](https://github.com/WalsGit/flarum-discussion-cards) (100 added, 7 changed, 97% complete)
+
+
+All changes: [2.0.1...2.0.2](https://github.com/flarum-lang/turkish/compare/2.0.1...2.0.2).
+
+
 2.0.1 (2026-07-03)
 ------------------
 
