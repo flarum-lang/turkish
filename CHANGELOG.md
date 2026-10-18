@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+2.0.4 (XXXX-XX-XX)
+------------------
+
+**Added support for new extensions**:
+
+* [`fof/discussion-language`](https://github.com/FriendsOfFlarum/discussion-language) (59% complete)
+
+
+All changes: [2.0.3...2.0.4](https://github.com/flarum-lang/turkish/compare/2.0.3...2.0.4).
+
+
 2.0.3 (2026-10-18)
 ------------------
 
