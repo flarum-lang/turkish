@@ -34,3 +34,7 @@ fof-bookmarks:
     postButton:
       add: 'Yer İmi'
       remove: 'Yer İmlerinde'
+  lib:
+    gambits:
+      bookmarked:
+        key: 'yer imlerine eklendi'

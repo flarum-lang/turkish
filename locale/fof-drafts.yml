@@ -23,6 +23,8 @@ fof-drafts:
       schedule_log_output: 'Depolamayı günlüğe kaydetmek için zamanlayıcı çıktısını ekleyin'
       schedule_on_one_server: 'Görev zamanlayıcı için ''onOneServer()'' direktifini kullanın (Redis/Memcache gerektirir)'
       title: 'Taslak Ayarları'
+  api:
+    empty_draft_message: 'Bu taslakta henüz kaydedilecek bir şey yok.'
   console:
     no_title_error: 'Taslak atlandı: Tartışma başlığı eksik.'
     scheduled_drafts_disabled: 'Zamanlanmış taslaklar şu anda ayarlardan etkisizleştirilmiştir.'
@@ -59,10 +61,11 @@ fof-drafts:
       unschedule_warning: 'Bu taslağı iptal etmek istediğinizden emin misiniz?'
     user:
       settings:
-        draft_autosave_enable: 'Taslaklar için otomatik kayıt etkinleştirilsin mi?'
+        draft_autosave_enable: 'Taslakları Otomatik Kaydetmeyi Etkinleştir'
         draft_autosave_interval_button: 'Güncelleme Aralığı'
         draft_autosave_interval_invalid: 'Güncelleme aralığı 4 sayısından büyük olmalıdır.'
         draft_autosave_interval_label: 'Otomatik Kaydetme Aralığı (saniye)'
+        draft_autosave_interval_saved_message: 'Otomatik kaydetme aralığı güncellendi.'
         drafts_heading: Taslaklar
   ref:
     schedule_draft: 'Taslağı planla'

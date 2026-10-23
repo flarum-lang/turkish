@@ -2,6 +2,20 @@
 # Use https://weblate.rob006.net/projects/flarum2/fof-polls/tr/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      poll:
+        created: '{title} anketi oluşturuldu'
+        deleted: '{title} anketi silindi'
+        published: '{title} anketi yayımlandı'
+        unpublished: '{title} anketi yayından kaldırıldı'
+        updated: '{title} anketi güncellendi'
+        voted: '{title} anketinde oy kullandı'
+      poll_group:
+        created: '{name} anket grubu oluşturuldu'
+        deleted: '{name} anket grubu güncellendi'
+        updated: '{name} anket grubu güncellendi'
 fof-polls:
   admin:
     permissions:
@@ -102,6 +116,7 @@ fof-polls:
         label: 'Anket Yanıtı Resmi'
       public_poll_label: 'Kullanıcıların yanıt verenleri görmesine izin ver'
       question_placeholder: Soru
+      settings_label: Oylama
       submit: Gönder
       subtitle_placeholder: 'Alt başlık/Açıklama (tercihe bağlı)'
       tooltip:
@@ -154,7 +169,10 @@ fof-polls:
         add_title: 'Anket Grubu Ekle'
         delete: 'Anket Grubunu Sil'
         edit_title: 'Anket Grubunu Düzenle'
+        error: 'Anket grubu kaydedilirken bir hata oluştu. Lütfen bir yöneticiyle iletişime geçin.'
         groups_manager: 'Anket Grupları Yöneticisi'
+        name_label: Ad
+        name_required: 'Anket grubuna bir ad verilmelidir.'
         save_changes: '=> core.ref.save_changes'
         success: 'Anket grubu başarıyla kaydedildi.'
         view_group: 'Anket Grubunu Görüntüle'
