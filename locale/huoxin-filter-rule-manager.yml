@@ -237,6 +237,9 @@ huoxin-filter-rule-manager:
       global_evaluate_title_help: 'Etkinleştirilirse, kural motoru gönderi içeriğinin yanı sıra tartışmanın başlığını da değerlendirir.'
       global_evasion_active: 'Atlatma Takibi'
       global_evasion_active_help: 'Etkinleştirilirse sistem, engelleme kurallarını art arda tetikleyen kullanıcıları takip eder.'
+      global_evasion_flag_message: 'Özel Atlatma Bildirimi Mesajı'
+      global_evasion_flag_message_help: 'İsteğe bağlı. Filtreyi aşma girişimi tespit edildiğinde oluşturulan moderasyon şikayetleri için özel mesaj şablonu.'
+      global_evasion_flag_message_placeholder: 'Tüm eşleşmelerin ayrıntılarını içeren varsayılan mesajı kullanmak için boş bırakın'
       global_evasion_log_keep_days: 'Atlatma Günlüğü Saklama Süresi (gün)'
       global_evasion_log_keep_days_help: 'Günlük temizlemeyi devre dışı bırakmak ve günlükleri süresiz saklamak için 0 olarak ayarlayın. (Varsayılan: 0)'
       global_evasion_threshold: 'Atlatma Eşiği'
@@ -260,6 +263,15 @@ huoxin-filter-rule-manager:
       builtin: Yerleşik
     toggle_error: 'Kural kümesinin aktiflik durumu güncellenemedi.'
     token_badge_universal: Evrensel
+    token_evasion_count_desc: 'Belirtilen zaman aralığında engellenen girişim sayısı'
+    token_evasion_details_desc: 'Tüm ayrıntılar (eşleşmeler ve zaman çizelgesi)'
+    token_evasion_last_content_desc: 'Son engellenen girişimden bir metin parçası'
+    token_evasion_last_match_desc: 'Son girişimde ihlale neden olan terim'
+    token_evasion_matches_desc: 'Girişimler arasında tekrarlananlar çıkarılmış eşleşen terimler'
+    token_evasion_ruleset_desc: 'Tetiklenen kural kümesinin adı'
+    token_evasion_threshold_desc: 'Yapılandırılmış engelleme eşiği'
+    token_evasion_timeline_desc: 'Son girişimlerin metin parçacıklarıyla birlikte denetim geçmişi'
+    token_evasion_timeout_desc: 'Filtreyi aşma girişimlerinin izlendiği dakika'
     token_matched_group_desc: 'Kuralı tetikleyen kullanıcı grubu kimliği'
     token_matched_pattern_desc: 'Tetiklenen regex deseni tanımı'
     token_matched_string_desc: 'Regex tarafından yakalanan alt metin dizesi'
@@ -283,7 +295,11 @@ huoxin-filter-rule-manager:
       name_required: 'Lütfen kural kümesine bir isim verin.'
       tags_required: 'Etiket kapsamı seçildi — en az bir etiket kimliği belirtin.'
   forum:
-    evasion_flag_message: 'Şüpheli: Kullanıcı kısa süre önce ''{ruleset}'' kural kümesi tarafından engellendi, ardından bu gönderiyi başarıyla gönderdi. Lütfen filtre atlatma ihtimaline karşı inceleyin.'
+    evasion_attempts_header: 'Bu gönderiden önceki son engellenen girişimler:'
+    evasion_earlier_attempts: '(... ve önceki {count} engellenen girişim)'
+    evasion_flag_message: 'Kullanıcı kısa süre önce "{ruleset}" kural kümesi tarafından engellendi ({count_formatted}), ardından bu gönderiyi başarıyla paylaştı. Olası filtreyi aşma girişimini inceleyin.{details}'
+    evasion_item_matched: 'Eşleşen: {match}'
+    evasion_matched_terms: 'Önceki eşleşmeler: {matches}'
     flag_message: 'Filtre Kuralı Yöneticisi tarafından otomatik olarak bayraklandı. Tetiklenen kural kümeleri: {rulesets}'
     flagger_name: 'Filtre Kuralı Yöneticisi'
     modal_ok: Tamam

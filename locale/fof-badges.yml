@@ -239,6 +239,48 @@ fof-badges:
     uncategorized: Kategorisiz
     validation:
       tag_required: '"Etiketteki Gönderiler" metriğini kullanırken bir etiket seçmelisiniz.'
+  defaults:
+    badges:
+      active-member:
+        description: '50 yanıt yaz'
+        name: 'Aktif Üye'
+      anniversary:
+        description: '1 yıldan eski üyeler için'
+        name: 'Yıl Dönümü'
+      conversation-starter:
+        description: 'İlk tartışmanı başlat'
+        name: 'Sohbet Başlatan'
+      editor:
+        description: '10 gönderiyi iyileştirmek için düzenle'
+        name: Editör
+      first-post:
+        description: 'İlk yanıtını yaz'
+        name: 'İlk Gönderi'
+      first-week:
+        description: '7 günden eski üyeler için'
+        name: 'İlk Hafta'
+      profile-picture:
+        description: 'Profil fotoğrafını yükle'
+        name: 'Profil Fotoğrafı'
+      prolific:
+        description: '200 yanıt yaz'
+        name: Üretken
+      regular:
+        description: '30 günden eski üyeler için'
+        name: Müdavim
+      topic-starter:
+        description: '10 tartışma başlat'
+        name: 'Tartışma Başlatan'
+    categories:
+      getting-started:
+        description: 'İlk adımlarını atan yeni üyelere verilen rozetler'
+        name: 'İlk Başarılar'
+      milestones:
+        description: 'Önemli dönüm noktalarına ulaşan üyelere verilen rozetler'
+        name: 'Kilometre Taşları'
+      posting:
+        description: 'Gönderi sayısı ve katkı başarıları için verilen rozetler'
+        name: Katılım
   forum:
     all_badges: 'Tüm Rozetler'
     badges_subtitle: 'Topluluğa katılarak rozetler kazanın!'
