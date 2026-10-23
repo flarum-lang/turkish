@@ -5,6 +5,11 @@ CHANGELOG
 2.0.4 (XXXX-XX-XX)
 ------------------
 
+**General changes**:
+
+* Updated Flarum core translations (6 added).
+
+
 **Added support for new extensions**:
 
 * [`clarkwinkelmann/flarum-ext-likes-received`](https://github.com/clarkwinkelmann/flarum-ext-likes-received) (100% complete)
@@ -15,7 +20,16 @@ CHANGELOG
 
 **Updated translations for extensions**:
 
+* [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache) (1 changed, 100% complete)
+* [`datitisev/flarum-backup`](https://flarum.org/extension/datitisev/flarum-backup) (5 added, 100% complete)
 * [`flarum/gdpr`](https://github.com/flarum/gdpr) (3 added, 100% complete)
+* [`fof/badges`](https://github.com/FriendsOfFlarum/badges) (26 added, 100% complete)
+* [`fof/bookmarks`](https://github.com/FriendsOfFlarum/bookmarks) (1 added, 100% complete)
+* [`fof/drafts`](https://github.com/FriendsOfFlarum/drafts) (2 added, 1 changed, 100% complete)
+* [`fof/linguist`](https://github.com/FriendsOfFlarum/linguist) (2 added, 2 changed, 100% complete)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth) (2 added, 1 changed, 92% complete)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls) (13 added, 100% complete)
+* [`huoxin/filter-rule-manager`](https://github.com/huoxin233/flarum-ext-filter-rule-manager) (16 added, 1 changed, 100% complete)
 * [`huseyinfiliz/awards`](https://github.com/huseyinfiliz/awards) (4 added, 100% complete)
 * [`walsgit/flarum-discussion-cards`](https://github.com/WalsGit/flarum-discussion-cards) (5 added, 100% complete)
 
