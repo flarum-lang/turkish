@@ -2,6 +2,19 @@ CHANGELOG
 =========
 
 
+1.45.11 (XXXX-XX-XX)
+--------------------
+
+**Updated translations for extensions**:
+
+* [`fof/badges`](https://github.com/FriendsOfFlarum/badges) (26 added, 100% complete)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth) (3 added, 1 changed, 100% complete)
+* [`huoxin/filter-rule-manager`](https://github.com/huoxin233/flarum-ext-filter-rule-manager) (16 added, 1 changed, 100% complete)
+
+
+All changes: [1.45.10...1.45.11](https://github.com/flarum-lang/turkish/compare/1.45.10...1.45.11).
+
+
 1.45.10 (2026-09-27)
 --------------------
 
