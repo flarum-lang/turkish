@@ -13,6 +13,13 @@ CHANGELOG
 * [`ianm/gravatar`](https://github.com/imorland/gravatar) (100% complete)
 
 
+**Updated translations for extensions**:
+
+* [`flarum/gdpr`](https://github.com/flarum/gdpr) (3 added, 100% complete)
+* [`huseyinfiliz/awards`](https://github.com/huseyinfiliz/awards) (4 added, 100% complete)
+* [`walsgit/flarum-discussion-cards`](https://github.com/WalsGit/flarum-discussion-cards) (5 added, 100% complete)
+
+
 All changes: [2.0.3...2.0.4](https://github.com/flarum-lang/turkish/compare/2.0.3...2.0.4).
 
 
