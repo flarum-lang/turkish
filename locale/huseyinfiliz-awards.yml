@@ -64,6 +64,8 @@ huseyinfiliz-awards:
       select_category: 'Kategori Seç'
       title: 'Adayları Yönet'
       vote_adjustment_title: 'Oy Ayarlaması'
+      website_url: 'Website Bağlantısı'
+      website_url_help: 'Bu aday için harici bağlantı (http:// veya https:// ile başlamalıdır)'
     permissions:
       manage: 'Ödülleri Yönet'
       view: 'Ödülleri Görüntüle'
@@ -112,6 +114,7 @@ huseyinfiliz-awards:
       no_categories: 'Bu ödülde henüz kategori yok.'
       no_nominees: 'Bu kategoride henüz aday yok.'
     error:
+      already_voted: 'Bu adaya zaten oy verdiniz.'
       cannot_delete_processed_suggestion: 'Sadece bekleyen öneriler iptal edilebilir.'
       not_available: 'Bu ödül henüz mevcut değil.'
       other_not_allowed: 'Bu kategori öneri kabul etmiyor.'
@@ -142,6 +145,8 @@ huseyinfiliz-awards:
       all_categories: 'Tüm Kategoriler'
       categories: Kategoriler
       title: Ödüller
+    nominee:
+      open_link: 'Bağlantıyı yeni sekmede aç'
     notification:
       results_published: '{awardName} sonuçları yayınlandı!'
     other:

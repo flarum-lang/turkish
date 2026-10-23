@@ -159,3 +159,8 @@ flarum-gdpr:
       request_button: 'Arşiv isteği'
       text: "Sizin için bir zip arşivi hazırlanacaktır. Hazır olduğunda, bir indirme bağlantısı içeren bir bildirim alacaksınız. Bağlantı bir gün boyunca aktif kalacaktır.\n"
       title: '{username} için veri isteği'
+  views:
+    confirm_erasure:
+      submit_button: 'Silmeyi onayla'
+      text: 'Hesabınızın ve hesabınıza ait verilerin silinmesini istediğinizi onaylayın. Talebiniz işleme alınana kadar ayarlarınızdan bu talebi iptal edebilirsiniz.'
+      title: 'Hesabın silinmesini onayla'

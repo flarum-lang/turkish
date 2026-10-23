@@ -61,7 +61,9 @@ walsgit_discussion_cards:
       tabletCardWidth: 'Tabletlerde birincil kart genişliği 10 ile 100 arasında bir sayı olmalıdır'
       tagImageNoTagId: 'Etiket kimliği (tagId) sağlanmadı!'
       tagImageUnsupportedMethod: 'Desteklenmeyen yöntem ({method})'
+      tagSettingsNoTagId: 'tagId belirtilmedi!'
       useListCards: 'Değer null, 0 veya 1 olmalıdır'
+      webpNotSupported: 'Sunucunuzdaki PHP GD uzantısı WebP görselleri oluşturamıyor (imagewebp() işlevi eksik). WebP desteğiyle GD''yi etkinleştirin veya barındırma sağlayıcınızdan bunu yapmasını isteyin.'
     settings:
       general:
         allowRepostLinks_help: 'Bu seçenek (Repost eklentisi ile birlikte) etkinleştirilirse, bir URL ile başlayan tartışmaların kartları, kartın başlığına tıklandığında URL''yi açacak, kartın başka bir kısmına tıklandığında ise tartışma her zamanki gibi açılacaktır.'
@@ -90,6 +92,8 @@ walsgit_discussion_cards:
         onIndexPage_label: 'Ana Sayfada kartları etkinleştir'
         otherOptions_info: 'Aşağıdaki seçeneklerin çalışması için başka eklentilerin kurulu ve etkin olması gerekecektir. <strong>ÖNEMLİ: Lütfen her bir seçenek için <u>tüm</u> bilgileri okuyun ve bunları etkinleştirmeden önce gerekli adımları uygulayın</strong>.'
         otherOptions_title: 'Diğer eklentiler gerektiren seçenekler'
+        otherOptions_warningLabel: 'Uyarı: Flarum V2 ile uyumlu olmayan uzantılar var'
+        otherOptions_warningText: 'Aşağıdaki uzantıların çoğu henüz Flarum V2''ye uyarlanmadığından Discussion Cards ile çalışmayacaktır. Discussion Cards''ın bu sürümü itibarıyla yalnızca <strong>fof/discussion-views</strong> Flarum V2''ye uyarlanmıştır ve <em>Discussion Cards''ın bu sürümü tarafından desteklenmektedir</em>. Diğer uzantıların Flarum V2 ile uyumlu sürümleri yayımlansa bile aşağıdaki seçeneklerini etkinleştirmeden önce tam destek durumlarını kontrol etmek için Discussion Cards''ın gelecek sürümlerini bekleyin. Bu gerçekleştiğinde mesaj güncellenecek ve <em>tüm üçüncü taraf uzantılar Flarum V2''ye uyarlanıp Discussion Cards tarafından tamamen desteklendiğinde bu uyarı kaldırılacaktır</em>. Bazı uzantılar Flarum V2''ye uyarlanmazsa veya alternatifleri bulunmazsa bunlara yönelik desteğin sonlandırılabileceğini unutmayın.'
         previewText_help: 'Etkinleştirilirse, ilk mesajın başlangıcını kartta bir önizleme olarak gösterir.'
         previewText_label: 'Önizleme metni'
         primaryCardOptions_info: 'Birincil kartlar (tartışma kartlarını kullanan her sayfanın üst kısmındaki daha büyük kartlar) için seçenekleri belirleyin.'
@@ -117,6 +121,7 @@ walsgit_discussion_cards:
         showViews_title_start: 'Her iki durumda da '
         tabletCardWidth_help: 'Tabletlerde birincil kartların genişliğini (%) ayarlayın. (10 ile 100 arasında)'
         tabletCardWidth_label: 'Tabletlerde birincil kart genişliği'
+        tempExtension_Message: '{icon} Bu uzantı henüz Discussion Cards tarafından tam olarak desteklenmiyor (Discussion Cards''ın gelecek sürümlerini bekleyin)'
         useBlogImages_help: 'Seçenek etkinleştirilirse, her blog yazısı için kartların görseli şunlara ayarlanacaktır: blog yazısının öne çıkan görseli; yoksa, blog içeriğinin ilk bulunan görseli; yoksa, blog eklentisinin varsayılan görseli; yoksa, tartışma kartlarının etiket varsayılan görseli; yoksa, tartışma kartlarının ana varsayılan görseli. Flarum Blog eklentisi ayarlarında blog etiketlerini yönlendirmeyi seçerseniz, blog etiketleri olarak kullanılan etiketlere ait özel ayarların tabii ki göz ardı edileceğini unutmayın.'
         useBlogImages_label: 'Blogun varsayılan ve öne çıkan görsellerini kullan'
         useBlogSummary_help: 'Bu seçenek ve önizleme metni etkinleştirilirse, blog yazıları için kartlar, blog yazısı metninin başlangıcı yerine blog yazısının özetinin başlangıcını önizleme metni olarak gösterecektir.'
