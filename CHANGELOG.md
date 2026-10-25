@@ -15,6 +15,7 @@ CHANGELOG
 * [`clarkwinkelmann/flarum-ext-likes-received`](https://github.com/clarkwinkelmann/flarum-ext-likes-received) (100% complete)
 * [`fof/discussion-language`](https://github.com/FriendsOfFlarum/discussion-language) (59% complete)
 * [`fof/mason`](https://github.com/FriendsOfFlarum/mason) (65% complete)
+* [`huoxin/auto-follow-discussion`](https://github.com/huoxin233/flarum-ext-auto-follow-discussion) (100% complete)
 * [`ianm/gravatar`](https://github.com/imorland/gravatar) (100% complete)
 
 
