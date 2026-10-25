@@ -21,7 +21,7 @@ CHANGELOG
 
 **Updated translations for extensions**:
 
-* [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache) (1 changed, 100% complete)
+* [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache) (1 changed, 66% complete)
 * [`datitisev/flarum-backup`](https://flarum.org/extension/datitisev/flarum-backup) (5 added, 100% complete)
 * [`flarum/gdpr`](https://github.com/flarum/gdpr) (3 added, 100% complete)
 * [`fof/badges`](https://github.com/FriendsOfFlarum/badges) (26 added, 100% complete)
