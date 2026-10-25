@@ -7,7 +7,9 @@ CHANGELOG
 
 **Updated translations for extensions**:
 
+* [`club-1/flarum-ext-cross-references`](https://github.com/club-1/flarum-ext-cross-references) (1 changed, 100% complete)
 * [`fof/badges`](https://github.com/FriendsOfFlarum/badges) (26 added, 100% complete)
+* [`fof/links`](https://github.com/FriendsOfFlarum/links) (1 changed, 100% complete)
 * [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth) (3 added, 1 changed, 100% complete)
 * [`huoxin/filter-rule-manager`](https://github.com/huoxin233/flarum-ext-filter-rule-manager) (16 added, 1 changed, 100% complete)
 
