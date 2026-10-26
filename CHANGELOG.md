@@ -17,6 +17,7 @@ CHANGELOG
 * [`fof/mason`](https://github.com/FriendsOfFlarum/mason) (65% complete)
 * [`huoxin/auto-follow-discussion`](https://github.com/huoxin233/flarum-ext-auto-follow-discussion) (100% complete)
 * [`ianm/gravatar`](https://github.com/imorland/gravatar) (100% complete)
+* [`tpokorra/flarum-ext-post-notification`](https://github.com/tpokorra/flarum-ext-post-notification) (100% complete)
 
 
 **Updated translations for extensions**:
