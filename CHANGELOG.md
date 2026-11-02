@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+2.0.5 (XXXX-XX-XX)
+------------------
+
+**Added support for new extensions**:
+
+* [`huseyinfiliz/private-profile`](https://github.com/huseyinfiliz/private-profile) (3% complete)
+
+
+All changes: [2.0.4...2.0.5](https://github.com/flarum-lang/turkish/compare/2.0.4...2.0.5).
+
+
 2.0.4 (2026-10-26)
 ------------------
 
