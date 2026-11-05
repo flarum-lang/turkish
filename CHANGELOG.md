@@ -7,6 +7,7 @@ CHANGELOG
 
 **Added support for new extensions**:
 
+* [`ernestdefoe/google-fonts`](https://github.com/ernestdefoe/google-fonts) (44% complete)
 * [`huseyinfiliz/private-profile`](https://github.com/huseyinfiliz/private-profile) (3% complete)
 
 
