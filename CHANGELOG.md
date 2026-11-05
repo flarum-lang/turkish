@@ -8,6 +8,8 @@ CHANGELOG
 **Added support for new extensions**:
 
 * [`ernestdefoe/google-fonts`](https://github.com/ernestdefoe/google-fonts) (44% complete)
+* [`huseyinfiliz/bump`](https://github.com/huseyinfiliz/bump) (100% complete)
+* [`huseyinfiliz/pickem`](https://github.com/huseyinfiliz/pickem) (100% complete)
 * [`huseyinfiliz/private-profile`](https://github.com/huseyinfiliz/private-profile) (3% complete)
 
 
