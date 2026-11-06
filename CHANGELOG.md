@@ -7,7 +7,8 @@ CHANGELOG
 
 **Updated translations for extensions**:
 
-* [`mattoid/flarum-ext-store`](https://github.com/Mattoids/flarum-ext-store) (17 added, 2 changed, 50% complete)
+* [`fof/upgrade-advisor`](https://github.com/FriendsOfFlarum/upgrade-advisor) (10 added, 47% complete)
+* [`mattoid/flarum-ext-store`](https://github.com/Mattoids/flarum-ext-store) (122 added, 2 changed, 100% complete)
 * [`mshuo/reply-to-see`](https://github.com/MShuoo/reply-to-see) (4 added, 2 changed, 100% complete)
 
 
