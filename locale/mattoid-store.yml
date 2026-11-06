@@ -21,25 +21,42 @@ mattoid-store:
       goods-discount-limit: 'İndirim limiti'
       goods-discount-limit-unit: Birim
       goods-edit: Düzenle
+      goods-group: 'Ürün grubu'
+      goods-group-placeholder: 'Eklenti grubunu devralmak için boş bırakın'
       goods-hide: 'Ürünleri sınırlı bir süre gizleme yetkisi yok'
       goods-icon: Simge
+      goods-icon-back: Geri
+      goods-icon-effect-preview: 'Stil Önizlemesi'
       goods-item-delete: 'Bu öğeyi silmek istediğinizden emin misiniz？'
+      goods-item-restore: 'Bu ürünü geri yüklemek istiyor musunuz? Ürün, satış dışı durumda geri yüklenecek ve yeniden satışa sunulması gerekecektir.'
       goods-item-status-0: 'Bu öğeyi listelemek istediğinizden emin misiniz？'
       goods-item-status-1: 'Bu öğeyi raflardan kaldırmak istediğinizden emin misiniz？'
       goods-outtime: 'Süre Sonu'
       goods-price: Fiyat
-      goods-repeat: 'Tekrarlayan ürünlere izin ver'
+      goods-repeat: 'Tekrar satın almaya izin ver'
+      goods-restore: 'Geri yükle'
+      goods-sort: Sırala
+      goods-sort-help: 'Büyük değerlere sahip öğeler önce gösterilir. Liste bu değere göre azalan sırada sıralanır. Eşit değerlerde en yeni öğeler önce gösterilir'
       goods-status: Durum
       goods-stock: Stok
+      goods-subtype: 'Ürün türü'
+      goods-subtype-none: Hiçbiri
       goods-title: Başlık
       goods-type: 'Satın alma türü'
       goods-upload-button: Yükle
+      goods-usable: Envantere
+      goods-use-type: 'Kullanım türü'
+      group-moderate: 'Kullanıcı gruplarının mağaza ürünlerini yönetmesine izin ver'
       group-view: 'Kullanıcı gruplarının mağazaya erişmesine izin ver'
+      search-goods-placeholder: 'Ürünleri ada göre ara'
+      section-basic: 'Temel Bilgiler'
+      section-goods: 'Ürün Yönetimi'
+      section-settings: 'Mağaza Ayarları'
       show-icon-button: Galeri
       store-name: 'Mağaza Adı'
       store-name-requirement: 'Mağaza adı ana sayfa menüsünde ve başlık çubuğunda görüntülenecektir'
       store-timezone: 'Saat dilimi'
-      store-timezone-requirement: 'Saat dilimini ayarlayın. Varsayılan "Asia/Shanghai"'
+      store-timezone-requirement: 'Saat dilimini ayarlayın. Varsayılan değer "Asia/Shanghai"dır'
   forum:
     auto-deduction: 'Ürünler için otomatik ücret kesintisi：{title}'
     button: 'Satın Al'

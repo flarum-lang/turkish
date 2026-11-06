@@ -4,6 +4,7 @@
 
 mshuo-reply-to-see:
   admin:
+    description: '[REPLY]...[/REPLY] etiketleri arasındaki içeriği gizler. İçeriği yalnızca tartışmayı başlatan kişi, sonraki yanıtlarında da gizleyebilir. Diğer kullanıcılar yanıt verdikten sonra gizlenen içeriği görebilir. Başka kullanıcıların eklediği etiketler kaldırılır ve metin görünür hale gelir.'
     permissions:
       reply-to-see-lable: 'Yanıt vermeden gizli içeriği görüntüle'
     reply-type:
@@ -11,8 +12,8 @@ mshuo-reply-to-see:
       - 'Gizli içeriği görmek için belirtilen gönderiye yanıt ver'
     settings:
       reply-type-lable: 'Yanıt görüntüleme seçenekleri'
-      reply-type-lable-helpText: 'Konuya yanıt ver:Gizli içeriği görmek için tartışmaya katılın,Belirli gönderiye yanıt ver:Gizli içeriği görmek için doğrudan bu gönderiye yanıt verin'
-      theme-type-parse-helpText: 'Yalnızca ''Yanıt görüntüleme seçenekleri'' ''Konuya yanıt ver'' olarak ayarlandığında geçerlidir'
+      reply-type-lable-helpText: 'Tartışmaya yanıt ver: Gizli içeriği görüntülemek için tartışmaya yanıt verilmesi gerekir. Belirli gönderiye yanıt ver: Gizli içeriği içeren gönderiye yanıt verilmesi gerekir. Gizleme etiketlerini yalnızca tartışmayı başlatan kişi kullanabilir. Belirli gönderiye yanıt verme seçeneğini kullanmadan önce Mentions uzantısını yükleyip etkinleştirin.'
+      theme-type-parse-helpText: 'Yalnızca Yanıt Görüntüleme Seçenekleri "Tartışmaya Yanıt Ver" olarak ayarlandığında geçerli olur'
       theme-type-parse-lable: 'Konuya yanıt verirken gönderi çözümleme modu'
     theme-type-parse:
       - 'Yalnızca ilk gönderi (Varsayılan, en iyi performans)'
@@ -21,3 +22,6 @@ mshuo-reply-to-see:
     insert-reply-to-see: 'Gizli içeriği görmek için yanıt ver'
     must-reply-specific: 'Görmek için yanıt ver'
     must-reply-theme: 'Görmek için tartışmaya katıl'
+    refresh-failed: 'Gizli içerik otomatik olarak gösterilemedi'
+    reload: Yenile
+    reply-visible: 'Görüntülemek için yanıt ver'
