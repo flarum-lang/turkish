@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+1.45.12 (XXXX-XX-XX)
+--------------------
+
+**Updated translations for extensions**:
+
+* [`mattoid/flarum-ext-store`](https://github.com/Mattoids/flarum-ext-store) (17 added, 2 changed, 50% complete)
+* [`mshuo/reply-to-see`](https://github.com/MShuoo/reply-to-see) (4 added, 2 changed, 100% complete)
+
+
+All changes: [1.45.11...1.45.12](https://github.com/flarum-lang/turkish/compare/1.45.11...1.45.12).
+
+
 1.45.11 (2026-10-31)
 --------------------
 
