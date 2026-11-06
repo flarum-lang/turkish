@@ -13,6 +13,7 @@ fof-upgrade-advisor:
       extension-compatibility:
         title: 'Uzantı uyumluluğu'
       php-version:
+        chip: 'PHP {current}'
         fail: 'PHP {current} sürümü kurulu, ancak {required} veya daha yeni bir sürüm gerekiyor.'
         pass: 'PHP {current} ile çalıştırılıyor.'
         title: 'PHP sürümü'
@@ -24,6 +25,13 @@ fof-upgrade-advisor:
         forum: 'Destek tartışması'
         issues: 'Sorun Kayıtları'
         source: Kaynak
+    overall:
+      blocked: 'Engellendi: {reasons}'
+      reasons:
+        check: '{title} için düzeltme gerekiyor'
+        unchecked: '{count, plural, one {# uzantı} other {# uzantı}} kontrol edilemedi'
+      tasks: '{count, plural, one {# görev tamamlandığında hazır} other {# görev tamamlandığında hazır}}'
+      unchecked_only: 'Neredeyse hazır: {count, plural, one {# uzantı} other {# uzantı}} kontrol edilemedi'
     repositories:
       add_composer: 'Depo ekle'
       add_floxum: 'Floxum''u ekle'
@@ -40,6 +48,9 @@ fof-upgrade-advisor:
       type_floxum: Floxum
       url: 'Depo bağlantısı'
       username: 'Kullanıcı adı'
+    summary:
+      progress: 'Uzantıların %{percent} kadarı hazır'
+      ready: '{count} değişiklik gerektirmeden hazır'
     tabs:
       report: 'Hazırlık raporu'
       repositories: Depolar
