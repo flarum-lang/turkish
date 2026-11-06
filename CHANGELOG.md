@@ -7,6 +7,7 @@ CHANGELOG
 
 **Added support for new extensions**:
 
+* [`ernestdefoe/cross-references`](https://github.com/ernestdefoe/cross-references) (100% complete)
 * [`ernestdefoe/google-fonts`](https://github.com/ernestdefoe/google-fonts) (44% complete)
 * [`huseyinfiliz/bump`](https://github.com/huseyinfiliz/bump) (100% complete)
 * [`huseyinfiliz/custom-profile-page`](https://github.com/huseyinfiliz/custom-profile-page) (100% complete)
