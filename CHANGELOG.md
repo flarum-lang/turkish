@@ -13,6 +13,11 @@ CHANGELOG
 * [`huseyinfiliz/private-profile`](https://github.com/huseyinfiliz/private-profile) (3% complete)
 
 
+**Updated translations for extensions**:
+
+* [`fof/upgrade-advisor`](https://github.com/FriendsOfFlarum/upgrade-advisor) (8 added, 42% complete)
+
+
 All changes: [2.0.4...2.0.5](https://github.com/flarum-lang/turkish/compare/2.0.4...2.0.5).
 
 
