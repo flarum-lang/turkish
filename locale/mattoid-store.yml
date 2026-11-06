@@ -5,6 +5,7 @@
 mattoid-store:
   admin:
     error:
+      invalid-params: 'Geçersiz istek parametreleri'
       invalid-product: 'Geçersiz ürün'
       validate-fail: 'Ürün doğrulama başarısız oldu'
     settings:
@@ -13,6 +14,25 @@ mattoid-store:
       decorationStoreTimezone: 'Saat dilimi'
       decorationStoreTimezone-requirement: 'Saat dilimini ayarlayın. Varsayılan "Asia/Shanghai"'
       edit-store-goods: 'Ürünü Düzenle'
+      gift-all-users: 'Tüm kullanıcılar'
+      gift-all-users-confirm: 'Bu ürünü TÜM kullanıcılara hediye etmek istediğinizden emin misiniz? Bu işlem geri alınamaz.'
+      gift-all-users-warning: 'Uyarı: Bu ürün TÜM kullanıcılara hediye edilecektir. Bu işlem geri alınamaz.'
+      gift-amount: 'Kullanıcı başına miktar'
+      gift-amount-invalid: 'Geçersiz miktar (1-99)'
+      gift-amount-unique: 'Bu ürün tekrar satın alınamaz, miktar 1 olarak sabitlenmiştir'
+      gift-goods: 'Hediye et'
+      gift-goods-title: 'Ürün hediye et: {title}'
+      gift-outtime: 'Hediye geçerlilik süresi (gün)'
+      gift-outtime-help: '0, süresiz geçerlilik anlamına gelir'
+      gift-outtime-help-permanent: '0, süresiz geçerlilik anlamına gelir'
+      gift-outtime-invalid: 'Geçersiz süre, 0 veya daha büyük bir tam sayı olmalıdır'
+      gift-result-failed-other: 'Diğer hatalar nedeniyle {count} kullanıcı atlandı.'
+      gift-result-failed-owned: 'Bu ürüne zaten sahip olan {count} kullanıcı atlandı.'
+      gift-result-failed-stock: 'Yetersiz stok nedeniyle {count} kullanıcı atlandı.'
+      gift-result-success: 'Hediye gönderildi: {users} kullanıcı, {count} ürün.'
+      gift-search-user-placeholder: 'Kullanıcı adına göre ara'
+      gift-select-users: 'Kullanıcıları seç'
+      gift-target: 'Hediye alıcısı'
       goods-auto-deduction: 'Otomatik Kesinti'
       goods-code: Kod
       goods-delete: Sil
@@ -27,12 +47,17 @@ mattoid-store:
       goods-icon: Simge
       goods-icon-back: Geri
       goods-icon-effect-preview: 'Stil Önizlemesi'
+      goods-icon-hint: 'Görsel URL''sini, video URL''sini veya dekorasyon stili sınıfını (ör. kullanıcı adı renk sınıfı) destekler'
       goods-item-delete: 'Bu öğeyi silmek istediğinizden emin misiniz？'
       goods-item-restore: 'Bu ürünü geri yüklemek istiyor musunuz? Ürün, satış dışı durumda geri yüklenecek ve yeniden satışa sunulması gerekecektir.'
       goods-item-status-0: 'Bu öğeyi listelemek istediğinizden emin misiniz？'
       goods-item-status-1: 'Bu öğeyi raflardan kaldırmak istediğinizden emin misiniz？'
       goods-outtime: 'Süre Sonu'
       goods-price: Fiyat
+      goods-purchase-limit-count: 'Dönem başına limit'
+      goods-purchase-limit-enable: 'Satın alma limitini etkinleştir'
+      goods-purchase-limit-period: 'Limit dönemi (0: ömür boyu limit)'
+      goods-purchase-limit-period-unit: 'Dönem birimi'
       goods-repeat: 'Tekrar satın almaya izin ver'
       goods-restore: 'Geri yükle'
       goods-sort: Sırala
@@ -51,7 +76,13 @@ mattoid-store:
       search-goods-placeholder: 'Ürünleri ada göre ara'
       section-basic: 'Temel Bilgiler'
       section-goods: 'Ürün Yönetimi'
+      section-icon: Simge
+      section-item: 'Öğe Ayarları'
+      section-plugin: 'Eklenti Ayarları'
+      section-price: 'Fiyat ve İndirim'
+      section-purchase-limit: 'Satın Alma Limiti'
       section-settings: 'Mağaza Ayarları'
+      section-validity: 'Geçerlilik Süresi'
       show-icon-button: Galeri
       store-name: 'Mağaza Adı'
       store-name-requirement: 'Mağaza adı ana sayfa menüsünde ve başlık çubuğunda görüntülenecektir'
@@ -59,6 +90,7 @@ mattoid-store:
       store-timezone-requirement: 'Saat dilimini ayarlayın. Varsayılan değer "Asia/Shanghai"dır'
   forum:
     auto-deduction: 'Ürünler için otomatik ücret kesintisi：{title}'
+    backpack: Envanter
     button: 'Satın Al'
     buy-goods: 'Ürün satın alma：{title}'
     buy-goods-fail: 'Ürün iadesi：{title}'
@@ -69,24 +101,85 @@ mattoid-store:
       automatic-renewal: 'Otomatik yenileme etkin değil'
       automatic-renewal-fail: 'Otomatik yenileme başarısız oldu [{message}]'
       buy-goods-fail: 'Satın alma başarısız [{title}]'
+      buy-success: 'Satın alma başarılı'
       cannot-Goods-repeatedly: 'Geçerlilik süresi içinde tekrarlayan ürünlere izin verilmez'
+      cannot-purchase-repeatedly: 'Geçerlilik süresi içinde tekrar satın almaya izin verilmez'
       cart-no-use: 'Bu ürünün işlevsel bir kullanımı yok'
+      cart-not-subscribable: 'Bu ürün için abonelik iptali desteklenmiyor'
+      cart-status-changed: 'Öğenin durumu değişti. Lütfen sayfayı yenileyip tekrar deneyin'
       cart-use-fail: 'Ürün kullanımı başarısız oldu'
       file-exist: 'dosya zaten mevcut'
+      gift-already-owned: 'Kullanıcı "{title}" ürününe zaten sahip, tekrar hediye edilemez'
+      gift-too-many-users: 'Her istekte en fazla {count} kullanıcıya hediye gönderebilirsiniz. Lütfen gruplar halinde gönderin'
       goods-invalid-event-fail: 'Ürün hatası olay gönderimi başarısız oldu [{message}]'
       goods-invalid-fail: 'Ürün hatası mantık yürütme başarısız oldu [{message}]'
       insufficient-inventory: 'Yetersiz stok'
       invalid-product: 'Geçersiz ürün'
+      limit-outtime-required: 'Süreli ürünlerin geçerlilik süresi 0 günden fazla olmalıdır'
+      purchase-limit-exceeded: 'Bu dönem için satın alma limitine ulaşıldı. Lütfen daha sonra tekrar deneyin'
+      purchase-limit-exceeded-lifetime: 'Bu ürün ömür boyu {count} kez satın alınabilir ve limite ulaştınız'
+      purchase-limit-exceeded-period: 'Satın alma limitine ulaşıldı (her {period} {unit} için en fazla {count}). {time} sonra tekrar satın alabilirsiniz'
+      request-processing: 'İsteğiniz işleniyor, lütfen tekrar göndermeyin'
       store-goods-non-existent: 'Ürün mevcut değil veya listeden kaldırıldı'
       user-balance-low: 'Yetersiz kullanıcı bakiyesi'
       validate-fail: 'Ürün doğrulama başarısız oldu'
     free: Ücretsiz
+    gift-amount: Miktar
+    gift-amount-invalid: 'Geçersiz miktar (1-99)'
+    gift-amount-unique: 'Bu ürün tekrar satın alınamaz, miktar 1 olarak sabitlenmiştir'
+    gift-goods: 'Ürün hediye et'
+    gift-goods-title: '{username} kullanıcısına ürün hediye et'
+    gift-outtime: 'Hediye geçerlilik süresi (gün)'
+    gift-outtime-help: '0, süresiz geçerlilik anlamına gelir'
+    gift-outtime-help-permanent: '0, süresiz geçerlilik anlamına gelir'
+    gift-outtime-invalid: 'Geçersiz süre, 0 veya daha büyük bir tam sayı olmalıdır'
+    gift-result-failed-owned: 'Kullanıcı bu ürüne zaten sahip olduğu için hediye gönderilemedi.'
+    gift-result-success: 'Hediye gönderildi: {count} ürün.'
+    gift-select-goods: 'Ürün seç'
+    gift-select-goods-placeholder: 'Lütfen hediye edilecek ürünü seçin'
+    gift-target-user: 'Hediye alıcısı'
     infinite: Sonsuz
+    money-history:
+      auto-deduction: 'Ürünler için otomatik ücret kesintisi：{title}'
+      buy-goods: 'Ürün satın alma：{title}'
+      buy-goods-fail: 'Ürün iadesi：{title}'
+    no-permission-buy: 'Satın alma izni yok'
+    notification:
+      gift-received: 'Bir hediye aldınız: {title}'
+      goods-invalid: '"{title}" ürününüzün geçerlilik süresi doldu'
+      notify_gift_label: 'Mağaza hediyeleri ve süre sonu bildirimleri'
+    sold-out: Tükendi
     tital: Mağaza
+    title: Mağaza
   lib:
+    backpack-cancel-subscribe: 'Aboneliği iptal et'
+    backpack-cancel-subscribe-success: '"{title}" aboneliği iptal edildi. Süresi dolduğunda envanterinizden kaldırılacak.'
+    backpack-cancel-use: 'Kullanımı iptal et'
+    backpack-empty: 'Envanteriniz boş'
+    backpack-equip: Kuşan
+    backpack-in-use: Kullanımda
+    backpack-remaining: '{count} adet kaldı'
+    backpack-unequip: Çıkar
+    backpack-use: Kullan
+    backpack-use-fail: 'İşlem başarısız oldu, lütfen daha sonra tekrar deneyin'
     cancel: İptal
+    class-icon-preview: 'Stil Önizlemesi'
     confirm: Tamam
+    filter-all: Tümü
+    filter-code: 'Ürün eklentisi'
+    filter-discount: İndirim
+    filter-discount-off: 'İndirim yok'
+    filter-discount-on: İndirimli
+    filter-group: Grup
+    filter-subtype: 'Öğe türü'
+    filter-type: 'Geçerlilik süresi'
+    free: Ücretsiz
+    group-default: Genel
+    infinite: Sonsuz
     item-cart-auto-deduction: 'Otomatik yenileme'
+    item-cart-auto-deduction-0: 'Yenileme yok'
+    item-cart-auto-deduction-1: 'Otomatik yenileme'
+    item-cart-auto-deduction-all: 'Tüm yenileme türleri'
     item-cart-button-cancel: İptal
     item-cart-button-use: Etkinleştir
     item-cart-created: 'Satın alma zamanı'
@@ -94,8 +187,18 @@ mattoid-store:
     item-cart-pay-amt: 'Ödeme miktarı'
     item-cart-price: Fiyat
     item-cart-status: 'Ödeme durumu'
+    item-cart-status-0: Ödenmedi
+    item-cart-status-1: Ödendi
+    item-cart-status-2: Geçersiz
+    item-cart-status-3: Kullanıldı
+    item-cart-status-9: 'Süresi doldu'
+    item-cart-status-all: 'Tüm ödeme durumları'
+    item-cart-status-unknown: Bilinmiyor
     item-cart-title: 'Ürün Başlığı'
     item-cart-type: 'Ürün Türü'
+    item-cart-type-all: 'Tüm ürün türleri'
+    item-cart-type-limit: 'Sınırlı süreli geçerlilik'
+    item-cart-type-permanent: 'Süresiz geçerlilik'
     item-created-at: 'Ekleme zamanı'
     item-desc: 'Ürün Açıklaması'
     item-discount: İndirim
@@ -112,6 +215,7 @@ mattoid-store:
     item-status-1: Listeleniyor
     item-status-all: 'Tüm ürün durumları'
     item-status-down: 'Listeden kaldırılıyor'
+    item-status-trashed: Silindi
     item-status-up: Listeleniyor
     item-stock: Stok
     item-title: 'Ürün Başlığı'
@@ -119,5 +223,8 @@ mattoid-store:
     item-type-all: 'Tüm ürün türleri'
     item-type-limit: 'Süre sınırlı geçerlilik'
     item-type-permanent: 'Kalıcı geçerlilik'
+    item-use-type-consumable: 'Tüketilebilir öğe'
+    item-use-type-limit: 'Süreli öğe'
+    item-use-type-permanent: 'Kalıcı öğe'
     list-empty: 'Burası tamamen boş'
     list-load-more: 'daha fazla'

@@ -23,6 +23,7 @@ fof-upgrade-advisor:
         title: 'Uzantı uyumluluğu'
         warning: 'Etkin durumdaki {current} uzantı kontrol edilemedi, bunlar premium uzantılar olabilir veya özel depolardan alınmış olabilir. Depolar sekmesinden erişim ekleyin.'
       php-version:
+        chip: 'PHP {current}'
         fail: 'PHP {current} sürümü kurulu, ancak {required} veya daha yeni bir sürüm gerekiyor.'
         pass: 'PHP {current} ile çalıştırılıyor.'
         title: 'PHP sürümü'
@@ -49,9 +50,17 @@ fof-upgrade-advisor:
       superseded_self: 'Son yükseltme adımı olarak bu uzantıyı kaldırın'
       unknown: 'Bulunamadı, premium veya özel mi? Depo erişimini yapılandırın'
     overall:
+      blocked: 'Engellendi: {reasons}'
       fail: 'Forumunuz henüz Flarum {version} sürümü için hazır değil'
       pass: 'Forumunuz Flarum {version} sürümü için hazır görünüyor'
+      ready: 'Flarum {version} için hazır'
+      reasons:
+        check: '{title} için düzeltme gerekiyor'
+        no_path: '{count, plural, one {# uzantının} other {# uzantının}} 2.0''a geçiş yolu yok'
+        unchecked: '{count, plural, one {# uzantı} other {# uzantı}} kontrol edilemedi'
       subtitle: 'Flarum {version} sürümüne yükseltme hazırlığı.'
+      tasks: '{count, plural, one {# görev tamamlandığında hazır} other {# görev tamamlandığında hazır}}'
+      unchecked_only: 'Neredeyse hazır: {count, plural, one {# uzantı} other {# uzantı}} kontrol edilemedi'
       warning: 'Forumunuz Flarum {version} sürümü için neredeyse hazır görünüyor'
     repositories:
       add_composer: 'Depo ekle'
@@ -69,6 +78,9 @@ fof-upgrade-advisor:
       type_floxum: Floxum
       url: 'Depo bağlantısı'
       username: 'Kullanıcı adı'
+    summary:
+      progress: 'Uzantıların %{percent} kadarı hazır'
+      ready: '{count} değişiklik gerektirmeden hazır'
     tabs:
       report: 'Hazırlık raporu'
       repositories: Depolar
