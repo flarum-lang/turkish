@@ -2,6 +2,27 @@ CHANGELOG
 =========
 
 
+2.0.5 (2026-11-07)
+------------------
+
+**Added support for new extensions**:
+
+* [`ernestdefoe/cross-references`](https://github.com/ernestdefoe/cross-references) (100% complete)
+* [`ernestdefoe/google-fonts`](https://github.com/ernestdefoe/google-fonts) (44% complete)
+* [`huseyinfiliz/bump`](https://github.com/huseyinfiliz/bump) (100% complete)
+* [`huseyinfiliz/custom-profile-page`](https://github.com/huseyinfiliz/custom-profile-page) (100% complete)
+* [`huseyinfiliz/pickem`](https://github.com/huseyinfiliz/pickem) (100% complete)
+* [`huseyinfiliz/private-profile`](https://github.com/huseyinfiliz/private-profile) (3% complete)
+
+
+**Updated translations for extensions**:
+
+* [`fof/upgrade-advisor`](https://github.com/FriendsOfFlarum/upgrade-advisor) (8 added, 42% complete)
+
+
+All changes: [2.0.4...2.0.5](https://github.com/flarum-lang/turkish/compare/2.0.4...2.0.5).
+
+
 2.0.4 (2026-10-26)
 ------------------
 
