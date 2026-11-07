@@ -2,6 +2,19 @@ CHANGELOG
 =========
 
 
+1.45.12 (2026-11-07)
+--------------------
+
+**Updated translations for extensions**:
+
+* [`fof/upgrade-advisor`](https://github.com/FriendsOfFlarum/upgrade-advisor) (10 added, 47% complete)
+* [`mattoid/flarum-ext-store`](https://github.com/Mattoids/flarum-ext-store) (122 added, 2 changed, 100% complete)
+* [`mshuo/reply-to-see`](https://github.com/MShuoo/reply-to-see) (4 added, 2 changed, 100% complete)
+
+
+All changes: [1.45.11...1.45.12](https://github.com/flarum-lang/turkish/compare/1.45.11...1.45.12).
+
+
 1.45.11 (2026-10-31)
 --------------------
 
