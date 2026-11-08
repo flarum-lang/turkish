@@ -190,9 +190,14 @@ core:
     dashboard:
       clear_cache_button: 'Önbelleği Temizle'
       clear_cache_modal:
+        chunks: '{frontend} için bölünmüş parçalar yeniden oluşturuldu ({count} değiştirildi)'
         cleared: '{name} temizlendi'
         cleared_files: '{name} temizlendi ({count} dosya)'
+        empty: '{bundle} için derlenecek bir şey yok'
+        rebuilt: '{bundle} yeniden oluşturuldu'
+        rewritten: '{bundle} yeniden yazıldı'
         title: 'Önbelleği Temizleme'
+        unchanged: '{bundle} zaten güncel'
         working: 'Derlenmiş dosyalar yeniden oluşturuluyor. Bu işlem büyük forumlarda biraz zaman alabilir.'
       description: 'Bir bakışta forumun.'
       info_button: 'Sistem Bilgisi'
