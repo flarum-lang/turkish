@@ -21,7 +21,7 @@ ernestdefoe-hashtags:
     composer:
       post_count: '{count, plural, one {# ileti} other {# ileti}}'
     nav:
-      browse: Etiketler
+      browse: Hashtags
     page:
       browse_all: 'Tüm etiketlere göz at'
       empty: 'Henüz #{name} ile bir ileti paylaşılmadı — ya da görüntüleyebileceğiniz bir ileti yok.'
