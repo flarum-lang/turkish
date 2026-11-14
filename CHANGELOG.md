@@ -12,7 +12,7 @@ CHANGELOG
 
 **Added support for new extensions**:
 
-* [`ernestdefoe/hashtags`](https://github.com/ernestdefoe/hashtags) (88% complete)
+* [`ernestdefoe/hashtags`](https://github.com/ernestdefoe/hashtags) (100% complete)
 
 
 All changes: [2.0.5...2.0.6](https://github.com/flarum-lang/turkish/compare/2.0.5...2.0.6).
