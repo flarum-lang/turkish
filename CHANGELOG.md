@@ -2,6 +2,22 @@ CHANGELOG
 =========
 
 
+2.0.6 (XXXX-XX-XX)
+------------------
+
+**General changes**:
+
+* Updated Flarum core translations (5 added).
+
+
+**Added support for new extensions**:
+
+* [`ernestdefoe/hashtags`](https://github.com/ernestdefoe/hashtags) (100% complete)
+
+
+All changes: [2.0.5...2.0.6](https://github.com/flarum-lang/turkish/compare/2.0.5...2.0.6).
+
+
 2.0.5 (2026-11-07)
 ------------------
 
