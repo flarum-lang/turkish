@@ -7,13 +7,16 @@ ernestdefoe-hashtags:
     backfill:
       body: 'Hashtags kurulmadan önce yazılan iletiler, etiket bağlantıları olmadan saklanır; bu nedenle yeniden ayrıştırılana kadar hiçbir akışta görünmezler. Flarum dizininizden bu komutu bir kez çalıştırın:'
       heading: 'Mevcut iletiler'
-      help: 'Kaç iletinin değişeceğini görmek için önce --dry-run ekleyin. Yalnızca gerçekten etiket içeren iletiler yeniden yazılır; diğerlerinin tümü okunur ve atlanır.'
+      help: 'Kaç iletinin değişeceğini görmek için önce --dry-run ekleyin. Yalnızca gerçekten konu etiketi içeren iletiler yeniden yazılır; diğerlerinin tümü okunur ve atlanır.'
+    settings:
+      per_page_help: 'Etiketler sayfasında gösterilecek maksimum etiket sayısı (1-100 arası, varsayılan: 60).'
+      per_page_label: 'Sayfa başına gösterilecek etiket sayısı'
   forum:
     browse:
-      empty: 'Henüz etiket yok. Bir etiket oluşturmak için bir iletide `#` işaretinin ardından bir kelime yazın.'
-      lede: 'Herkes bir etiket oluşturabilir. Herhangi bir iletide `#` işaretinin ardından bir kelime yazın.'
-      no_matches: 'Bununla eşleşen etiket yok.'
-      search_placeholder: 'Etiket ara…'
+      empty: 'Henüz konu etiketi yok. Bir etiket oluşturmak için bir iletide `#` işaretinin ardından bir kelime yazın.'
+      lede: 'Herkes bir konu etiketi oluşturabilir. Herhangi bir iletide `#` işaretinin ardından bir kelime yazın.'
+      no_matches: 'Bununla eşleşen konu etiketi yok.'
+      search_placeholder: 'Konu etiketi ara…'
       sort_alphabetical: A–Z
       sort_popular: 'En çok kullanılanlar'
       sort_recent: 'Son kullanılanlar'
