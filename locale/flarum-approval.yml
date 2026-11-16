@@ -17,3 +17,10 @@ flarum-approval:
       approve_button: Onayla
   ref:
     awaiting_approval: 'Onay Bekliyor'
+flarum-audit:
+  lib:
+    browser:
+      discussion:
+        approved: '{discussion} onaylandı'
+      post:
+        approved: '{discussion} tartışmasında {postuser} kullanıcısının {post} gönderisini onayladı'
