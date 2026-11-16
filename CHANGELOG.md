@@ -2,6 +2,27 @@ CHANGELOG
 =========
 
 
+2.0.8 (XXXX-XX-XX)
+------------------
+
+**Added support for new extensions**:
+
+* [`huseyinfiliz/discussion-ban`](https://github.com/huseyinfiliz/discussion-ban) (100% complete)
+
+
+**Updated translations for extensions**:
+
+* [`flarum/sticky`](https://github.com/flarum/sticky) (1 changed, 100% complete)
+* [`fof/merge-discussions`](https://github.com/FriendsOfFlarum/merge-discussions) (3 added, 100% complete)
+* [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions) (7 added, 100% complete)
+* [`fof/rich-text`](https://github.com/FriendsOfFlarum/rich-text) (2 changed, 100% complete)
+* [`huseyinfiliz/stickiest`](https://github.com/huseyinfiliz/stickiest) (3 added, 1 changed, 100% complete)
+* [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views) (1 added, 100% complete)
+
+
+All changes: [2.0.7...2.0.8](https://github.com/flarum-lang/turkish/compare/2.0.7...2.0.8).
+
+
 2.0.7 (2026-11-16)
 ------------------
 
