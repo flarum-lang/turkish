@@ -2,6 +2,44 @@ CHANGELOG
 =========
 
 
+2.0.7 (2026-11-16)
+------------------
+
+**General changes**:
+
+* Updated Flarum core translations (64 added).
+
+
+**Added support for new extensions**:
+
+* [`ernestdefoe/kindred`](https://github.com/ernestdefoe/kindred) (100% complete)
+* [`flarum/deck`](https://github.com/flarum/deck) (100% complete)
+* [`huseyinfiliz/author-moderation`](https://github.com/huseyinfiliz/author-moderation) (100% complete)
+* [`huseyinfiliz/rewind`](https://github.com/huseyinfiliz/rewind) (100% complete)
+* [`huseyinfiliz/simple-dark-mode`](https://github.com/huseyinfiliz/simple-dark-mode) (100% complete)
+* [`linkrobins/auto-verify`](https://github.com/linkrobins/auto-verify) (100% complete)
+* [`ramon/guest-cta`](https://github.com/ram0ng1/guest-cta) (100% complete)
+
+
+**Updated translations for extensions**:
+
+* [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab) (21 added, 1 changed, 100% complete)
+* [`flarum/akismet`](https://github.com/flarum/akismet) (1 added, 100% complete)
+* [`flarum/approval`](https://github.com/flarum/approval) (2 added, 100% complete)
+* [`flarum/emoji`](https://github.com/flarum/emoji) (1 changed, 100% complete)
+* [`flarum/lock`](https://github.com/flarum/lock) (2 added, 100% complete)
+* [`flarum/messages`](https://github.com/flarum/messages) (18 added, 2 changed, 100% complete)
+* [`flarum/pusher`](https://github.com/flarum/pusher) (6 added, 100% complete)
+* [`flarum/realtime`](https://github.com/flarum/realtime) (11 added, 1 changed, 100% complete)
+* [`flarum/sticky`](https://github.com/flarum/sticky) (3 added, 100% complete)
+* [`flarum/tags`](https://github.com/flarum/tags) (13 added, 100% complete)
+* [`huseyinfiliz/private-profile`](https://github.com/huseyinfiliz/private-profile) (56 added, 100% complete)
+* [`huseyinfiliz/traderfeedback`](https://github.com/huseyinfiliz/traderfeedback) (36 added, 1 changed, 100% complete)
+
+
+All changes: [2.0.6...2.0.7](https://github.com/flarum-lang/turkish/compare/2.0.6...2.0.7).
+
+
 2.0.6 (2026-11-15)
 ------------------
 
