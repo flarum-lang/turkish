@@ -2,6 +2,29 @@ CHANGELOG
 =========
 
 
+2.0.7 (XXXX-XX-XX)
+------------------
+
+**General changes**:
+
+* Updated Flarum core translations (64 added).
+
+
+**Added support for new extensions**:
+
+* [`flarum/deck`](https://github.com/flarum/deck) (100% complete)
+* [`huseyinfiliz/rewind`](https://github.com/huseyinfiliz/rewind) (100% complete)
+
+
+**Updated translations for extensions**:
+
+* [`flarum/akismet`](https://github.com/flarum/akismet) (1 added, 100% complete)
+* [`flarum/approval`](https://github.com/flarum/approval) (2 added, 100% complete)
+
+
+All changes: [2.0.6...2.0.7](https://github.com/flarum-lang/turkish/compare/2.0.6...2.0.7).
+
+
 2.0.6 (2026-11-15)
 ------------------
 
