@@ -2,12 +2,28 @@
 # Use https://weblate.rob006.net/projects/flarum2/flarum-tags/tr/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      discussion:
+        tagged: '{discussion} etiketlerini {old_tags} yerine {new_tags} olarak güncellendi'
+      tag:
+        created: '{tag} etiketini oluşturdu'
+        deleted: '{tag} etiketini sildi'
+        updated: '{tag} etiketini güncellendi'
 flarum-tags:
   admin:
     basics:
+      slug_driver_options:
+        default: Varsayılan
+        id_with_slug: 'Kısa adla birlikte ID'
       tags_label: '=> flarum-tags.ref.tags'
     edit_tag:
       color_label: '=> core.ref.color'
+      default_sort_label: 'Varsayılan Sıralama'
+      default_sort_none: 'Forumun varsayılanını kullan'
+      default_sort_text: 'Kullanıcı kendisi bir sıralama seçmediğinde, bu etiketteki tartışmaların hangi sırayla gösterileceğini belirler.'
+      default_sort_unavailable: '{sort} (artık kullanılamıyor)'
       delete_tag_button: 'Etiketi Sil'
       delete_tag_confirmation: 'Bu etiketi silmek istediğinize emin misin? Etiketin tartışmaları silinmeyecek.'
       description_label: Açıklama
@@ -53,6 +69,10 @@ flarum-tags:
       title: 'Tartışmanız için Etiket Seçin'
     composer_discussion:
       choose_tags_link: '=> flarum-tags.ref.choose_tags'
+    deck:
+      column_label: Etiket
+      tag_label: Etiket
+      tag_placeholder: 'Etiket ara'
     discussion_controls:
       edit_tags_button: 'Etiketleri Düzenle'
     header:

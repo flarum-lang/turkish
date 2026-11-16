@@ -2,6 +2,14 @@
 # Use https://weblate.rob006.net/projects/flarum2/huseyinfiliz-traderfeedback/tr/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      traderfeedback:
+        approved: '{author} tarafından {recipient} için verilen geri bildirimi onayladı'
+        deleted: '{author} tarafından {recipient} için verilen geri bildirimi sildi'
+        rejected: '{author} tarafından {recipient} için verilen geri bildirimi reddetti'
+        report_dismissed: '{recipient} için verilen geri bildirime ilişkin raporu kapattı'
 huseyinfiliz-traderfeedback:
   admin:
     approvals:
@@ -86,7 +94,7 @@ huseyinfiliz-traderfeedback:
       badge_var_total: Toplam
       feedback_action_tag_filter_help: 'Boş bırakılırsa tüm tartışmalarda görünür. Görünürlüğü belirli etiketlerle sınırlamak için etiket seçin.'
       feedback_action_tag_filter_label: 'Geri bildirim butonlarını yalnızca şu etiketlerde göster'
-      feedback_only_when_locked_help: 'Etkinleştirildiğinde geri bildirim butonları yalnızca kilitli tartışmalarda görünür (flarum-lock eklentisi gerekir)'
+      feedback_only_when_locked_help: 'Etkinleştirildiğinde geri bildirim butonları yalnızca kilitli tartışmalarda görünür, flarum-lock eklentisi gerekir.'
       feedback_only_when_locked_label: 'Sadece kilitli tartışmalarda göster'
       footer_only_first_post_help: 'Etkinleştirildiğinde, gönderi altındaki geri bildirim butonu yalnızca tartışmanın ilk gönderisinde görünür'
       footer_only_first_post_label: 'Alt kısımdaki butonu sadece ilk gönderide göster'
@@ -127,13 +135,20 @@ huseyinfiliz-traderfeedback:
       already_given: 'Bu tartışma için zaten geri bildirim verdiniz.'
       already_reported: 'Bu geri bildirimi zaten raporladınız.'
       discussion_not_found: 'Belirtilen tartışma bulunamadı.'
+      discussion_not_locked: 'Yalnızca kilitli tartışmalar için geri bildirim verilebilir.'
       discussion_required: 'Geri bildirim için tartışma bağlantısı veya kimliği gereklidir.'
+      discussion_tag_not_allowed: 'Bu tartışmanın etiketleri için geri bildirime izin verilmiyor.'
+      invalid_report_reason: 'Lütfen 1 ile 1000 karakter arasında bir raporlama nedeni girin.'
+      invalid_role: 'İşlemdeki rolünüz alıcı, satıcı veya ticaret yapan taraf olmalıdır.'
+      invalid_type: 'Geri bildirim türü olumlu, tarafsız veya olumsuz olmalıdır.'
       min_days: 'Geri bildirim verebilmek için en az {days} gün üye olmalısınız.'
       min_posts: 'Geri bildirim verebilmek için en az {posts} gönderiniz olmalıdır.'
       negative_not_allowed: 'Olumsuz geri bildirimlere izin verilmiyor.'
       rate_limit_feedback: 'Yeni bir geri bildirim göndermeden önce lütfen {seconds} saniye bekleyin.'
       rate_limit_report: 'Yeni bir rapor göndermeden önce lütfen {seconds} saniye bekleyin.'
       self_feedback: 'Kendinize geri bildirim veremezsiniz.'
+      user_not_found: 'Belirtilen kullanıcı bulunamadı.'
+      user_required: 'Geri bildirim verilecek kullanıcıyı belirtmelisiniz.'
   forum:
     badge:
       format_count_percentage: '{total} (%{score})'
@@ -143,6 +158,7 @@ huseyinfiliz-traderfeedback:
     discussion_actions:
       continue: 'Devam Et'
       give_feedback: 'Geri Bildirim Ver'
+      load_error: 'Tartışmaya katılan kullanıcılar yüklenemedi.'
       no_matching_users: 'Eşleşen kullanıcı bulunamadı'
       no_users_found: 'Bu tartışmada başka kullanıcı bulunamadı'
       search_user_placeholder: 'Kullanıcı ara...'
@@ -205,16 +221,39 @@ huseyinfiliz-traderfeedback:
       role_trader: Ticaret
       submit_button: 'Geri Bildirim Gönder'
       success: 'Geri bildirim başarıyla gönderildi'
+      success_pending_approval: 'Geri bildirim başarıyla gönderildi ve onay bekliyor.'
       title: '{username} kullanıcısına geri bildirim ver'
       type_label: 'Geri Bildirim Türü'
       type_negative: Olumsuz
       type_neutral: Tarafsız
       type_positive: Olumlu
+    moderation:
+      actions_button: İşlemler
+      approve_button: Onayla
+      approved_success: 'Geri bildirim başarıyla onaylandı'
+      confirm_approve: 'Bu geri bildirimi onaylamak istediğinize emin misiniz?'
+      confirm_delete: 'Bu geri bildirimi silmek istediğinize emin misiniz?'
+      confirm_dismiss: 'Bu raporu kapatmak istediğinize emin misiniz?'
+      confirm_reject: 'Bu geri bildirimi reddetmek istediğinize emin misiniz?'
+      delete_button: 'Geri Bildirimi Sil'
+      deleted_success: 'Geri bildirim başarıyla silindi'
+      dismiss_button: 'Raporu Kapat'
+      dismissed_success: 'Rapor başarıyla kapatıldı'
+      error: 'Bir hata oluştu'
+      no_pending: 'Bu kullanıcı için onay bekleyen geri bildirim yok.'
+      no_reports: 'Bu kullanıcı için bekleyen rapor yok.'
+      pending_tab: 'Bekleyen Onaylar'
+      reject_button: Reddet
+      rejected_success: 'Geri bildirim başarıyla reddedildi'
+      reports_tab: Raporlar
+      title: 'Ticaret Geri Bildirimlerini Yönet — {username}'
     nav:
       feedback_link: 'Ticaret Geri Bildirimi'
     notifications:
       feedback_approved_title: '{username} kullanıcısına verdiğiniz geri bildirim onaylandı'
+      feedback_needs_approval_title: '{username}, {recipient} kullanıcısına geri bildirim verdi, onayınızı bekliyor'
       feedback_rejected_title: '{username} kullanıcısına verdiğiniz geri bildirim reddedildi'
+      feedback_reported_title: '{username} kullanıcısının {recipient} için verdiği geri bildirim raporlandı'
       new_feedback_title: '{username} size {type} bir geri bildirim verdi'
     post_actions:
       give_feedback: 'Geri Bildirim Ver'
@@ -228,7 +267,9 @@ huseyinfiliz-traderfeedback:
       title: 'Geri Bildirimi Raporla'
     settings:
       notify_feedback_approved_label: 'Geri bildirimim onaylandığında'
+      notify_feedback_needs_approval_label: 'Bir geri bildirim moderatör onayı gerektirdiğinde'
       notify_feedback_rejected_label: 'Geri bildirimim reddedildiğinde'
+      notify_feedback_reported_label: 'Bir geri bildirim raporlandığında'
       notify_new_feedback_label: 'Biri bana geri bildirim verdiğinde'
     user_card:
       negative_tooltip: 'Olumsuz Geri Bildirimler'

@@ -6,10 +6,12 @@ acpl-mobile-tab:
   admin:
     active_items: 'Aktif öğeler'
     available_items: 'Kullanılabilir öğeler'
-    create_new_item_button: 'Yeni öğe oluştur'
+    available_items_help: 'Mobil sekmeye eklemek istediğiniz öğeleri bu listeden sürükleyerek herhangi bir görünüme bırakın.'
+    create_new_item_button: 'Öğe oluştur'
     edit_item:
       delete_button: Sil
       delete_item_confirmation: 'Bu öğeyi silmek istediğinizden emin misiniz?'
+      help: 'Bir bağlantıdan daha fazlasına mı ihtiyacınız var? Özel öğeler eklemek ve davranışlarını özelleştirmek için <a>geliştirici belgelerine</a> göz atın.'
       icon: Simge
       icon_help: '<code>fas fa-</code> öneki dahil olmak üzere herhangi bir <a>FontAwesome</a> simge sınıfı adını girin.'
       is_internal_checkbox: 'Bu bir dahili bağlantı mı?'
@@ -19,15 +21,38 @@ acpl-mobile-tab:
       open_new_tab_checkbox: 'Bağlantıyı yeni sekmede aç'
       path: Dizin
       submit_button: Kaydet
+      type:
+        external:
+          help: 'Bu forumun dışındaki bir adresi açar.'
+          label: 'Başka bir siteye yönlendirir'
+        heading: 'Bu bağlantının işlevi'
+        internal:
+          help: 'Sayfa yeniden yüklenmeden açılır.'
+          label: 'Bu forumdaki bir sayfaya yönlendirir'
       url: Bağlantı
+      url_help:
+        external: '<code>https://</code> dahil olmak üzere tam adres.'
+        internal: '{baseUrl} adresinden sonra gelen ve eğik çizgi (/) ile başlayan adres bölümü.'
     scroll_settings:
       threshold_help: 'Görünürlüğü değiştirmek için mevcut konumdan kaydırılması gereken mesafe.'
       threshold_label: 'Kaydırma eşiği (px)'
       toggle_label: 'Kaydırmada görünürlüğü değiştir'
+    variants:
+      create: 'Düzenl oluştur'
+      delete: 'Düzeni sil'
+      delete_confirmation: 'Bu düzeni silmek istediğinizden emin misiniz? Bu işlem geri alınamaz.'
+      empty_help: 'Öğeleri bu düzene eklemek için buraya sürükleyin.'
+      enabled: Etkin
+      heading: 'Mobil sekme düzenleri'
+      help: 'Düzenler yukarıdan aşağıya doğru kontrol edilir. Kullanıcılara, görüntüleme iznine sahip oldukları ilk etkin düzen gösterilir. Daha özel yetkilere sahip grupları üst sıralara yerleştirin. Örneğin: 1. yöneticiler, 2. moderatörler, 3. üyeler, 4. herkes. Belirli grupların mobil sekmeyi hiç görmemesini istiyorsanız ilgili düzeni boş bırakın.'
+      number: '#{number}'
+      reorder: 'Düzeni yeniden sırala'
+      visible_to: 'Şu kişilere görünür'
   lib:
     item:
       all_discussions: Tartışmalar
       categories: Kategoriler
+      flags: Raporlar
       fof-byobu: 'Özel Tartışma'
       home: Anasayfa
       log_in: 'Giriş Yap'
@@ -35,6 +60,7 @@ acpl-mobile-tab:
       new_discussion: 'Yeni Tartışma'
       notifications: Bildirimler
       profile: Profil
+      ramon-chat: Sohbet
       search: Ara
       session: Oturum
       tags: Etiketler

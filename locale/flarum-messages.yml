@@ -2,17 +2,33 @@
 # Use https://weblate.rob006.net/projects/flarum2/flarum-messages/tr/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      dialog:
+        posted: '{username} kullanıcısına özel mesaj gönderdi'
+        started: '{username} ile özel sohbet başlattı'
+flarum-gdpr:
+  lib:
+    data:
+      messages:
+        anonymize_description: 'Özel mesajlarının gönderildiği IP adresleri silinir. Mesajların ise korunur.'
+        delete_description: 'Özel mesajların silinir.'
+        export_description: 'Özel mesajların, gönderilme tarihleri ve gönderildikleri IP adresleriyle birlikte.'
 flarum-messages:
   admin:
     permissions:
       delete_own_messages_label: 'Kendi mesajlarını silebilir'
+      message_users_without_permission_label: 'Mesajlaşma izni olmayan kullanıcılara mesaj gönder'
       send_messages_label: 'Özel mesaj gönder'
+      send_without_throttle_label: 'Hız sınırına takılmadan mesaj gönder'
+      view_ips_label: 'Mesajların IP adreslerini görüntüle'
   email:
     message_received:
       html:
-        body: '{user_display_name} size [yeni bir mesaj]({url}) gönderdi.'
+        body: "{user_display_name} sana [yeni bir mesaj]\\({url}) gönderdi.\n\nBu mesajı okuyana kadar bu sohbetle ilgili başka bir e-posta almayacaksın.\n"
       plain:
-        body: "{user_display_name} size yeni bir mesaj gönderdi.\n\n{url}\n\n---\n\n{content}\n"
+        body: "{user_display_name} sana yeni bir mesaj gönderdi.\n\n{url}\n\n---\n\n{content}\n\n---\n\nBu mesajı okuyana kadar bu sohbetle ilgili başka bir e-posta almayacaksın.\n"
       subject: '{user_display_name} size bir mesaj gönderdi'
   forum:
     composer:
@@ -24,7 +40,9 @@ flarum-messages:
     dialog_list:
       load_more_button: '=> core.ref.load_more'
       mark_as_read_tooltip: 'Okundu olarak işaretle'
+      own_last_message_preview: 'Sen: {content}'
       title: Mesajlar
+      unread_count_text: '{count} okunmamış'
       view_all: 'Tüm mesajları görüntüle'
     dialog_section:
       back_label: 'Geri dön'
@@ -65,7 +83,11 @@ flarum-messages:
     notifications:
       message_received_text: '{user} size bir mesaj gönderdi'
     recipient_selection_modal:
+      cannot_reply_text: 'Mesajlara yanıt verilemiyor'
       title: 'Bu mesajın gönderileceği alıcıları seçin'
+    search_source:
+      conversation_with: '{username} ile sohbet'
+      heading: Mesajlar
     settings:
       notify_message_received_label: 'Birisi bana mesaj gönderdiğinde'
     user_controls:
@@ -74,3 +96,11 @@ flarum-messages:
   lib:
     dialog:
       title: '{username} ile sohbet'
+    no_other_members_message: 'Bu sohbette başka kimse yok.'
+    recipient_cannot_reply_message: '{username} mesajlara yanıt veremiyor.'
+    recipient_unavailable_message: '{username} mesaj alamıyor.'
+flarum-statistics:
+  admin:
+    statistics:
+      dialog_replies_heading: 'Yanıtlanan Sohbetler'
+      dialogs_heading: 'Başlatılan Sohbetler'

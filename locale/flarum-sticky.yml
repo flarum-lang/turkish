@@ -2,6 +2,12 @@
 # Use https://weblate.rob006.net/projects/flarum2/flarum-sticky/tr/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      discussion:
+        stickied: '{discussion} tartışmasını sabitledi'
+        unstickied: '{discussion} tartışmasının sabitlemesini kaldırdı'
 flarum-sticky:
   admin:
     permissions:
@@ -10,6 +16,7 @@ flarum-sticky:
       enable_display_excerpt: 'Sabitlenmiş bir tartışma okunmamış durumdayken ilk gönderinin bir özetini göster'
       only_sticky_unread_discussions_help: '“Tüm Tartışmalar” sayfasında, okunmamış sabitlenmiş tartışmalar en üste sabitlenirken, okunmuş sabitlenmiş tartışmalar normal sırayla görüntülenir.'
       only_sticky_unread_discussions_label: 'Yalnızca okunmamış sabit tartışmalar'
+      pin_sticky_on_all_discussions_help: 'Etkinleştirildiğinde (varsayılan), sabitlenen tartışmalar Tüm Tartışmalar sayfasının en üstünde gösterilir. Devre dışı bırakıldığında ise son etkinlik tarihlerine göre sıralanır. Etiket sayfalarında sabitlenen tartışmalar, bu ayardan bağımsız olarak her zaman en üstte gösterilir.'
       pin_sticky_on_all_discussions_label: 'Sabitlenmiş tartışmaları Tüm Tartışmalar sayfasında başa tuttur'
   forum:
     badge:

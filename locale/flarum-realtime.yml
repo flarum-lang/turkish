@@ -5,8 +5,15 @@
 flarum-realtime:
   admin:
     permission:
+      view-all-typing: 'Forum genelinde kimlerin yazdığını gör'
       view-who-types: 'Kimin yazdığını göster'
     settings:
+      index-typing-indicator: 'Tartışma listesindeki yazıyor göstergeleri'
+      index-typing-indicator-help: 'Etkinleştirildiğinde, birisi herkese açık bir tartışmada yazı yazıyorsa tartışma listesinde bir gösterge belirir. Kullanıcı adları gösterilmez.'
+      index-typing-indicator-restricted: 'Kısıtlı etiketlerdeki tartışma listesinde yazıyor göstergeleri'
+      index-typing-indicator-restricted-help: 'Kısıtlı etiketlerdeki tartışmalarda da yazıyor göstergelerini, bu etiketleri görüntüleme izni olan kullanıcılara gösterir. Etiketler uzantısı gereklidir. Varsayılan olarak devre dışıdır.'
+      notification-toast-dismiss-after: 'Bildirimlerin ekranda kalma süresi'
+      notification-toast-dismiss-after-help: 'Gerçek zamanlı bildirimlerin otomatik olarak kapanmadan önce ekranda kaç saniye kalacağını belirler. Bu bildirimleri devre dışı bırakmak için 0 olarak ayarlayın.'
       release-discussion-updates: 'Tartışma Listesi güncellemeleri'
       release-discussion-updates-help: 'Etkinleştirildiğinde, yeni tartışmalar aşağıda tanımlanan aralıkta <code>Tartışma Listesi</code>''ne gönderilir.'
       release-discussion-updates-interval: 'Yeni tartışma etkinliğini otomatik aktarma aralığı'
@@ -14,11 +21,16 @@ flarum-realtime:
       typing-indicator: 'Yazma göstergesi'
       typing-indicator-help: 'Etkinleştirildiğinde, izne bağlı olarak kullanıcılar bir tartışmada o anda yazan diğer kullanıcıların sayısını görebilir. Devre dışı bırakıldığında, yazma etkinliği hem arayüzden hem de websocket verisinden kaldırılır.'
   forum:
+    discussion-removed: 'Bu tartışma kaldırıldı.'
+    index-typing:
+      someone-typing: 'Birisi bu tartışmada yazıyor'
+      someone-typing-tag: 'Birisi bu etikette yazıyor'
     push:
       discussion-list-new-activity: '{count, plural, one {# güncellenmiş tartışmayı göster} other {# güncellenmiş tartışmayı göster}}'
       discussion-list-new-activity-with-auto-release: '{count, plural, one {# tartışma var} other {# tartışmalar var}} güncellenmiş etkinlik ve {releaseTimeout} saniye içinde yayınlanacak. Şimdi göstermek için tıklayın.'
     typing-indicator:
-      anonymous-user: '[Anonim]'
+      anonymous-user: '[Gizlendi]'
+      hidden-user: '{username} (gizlendi)'
       no-activity: 'Kimse yazmıyor'
       people-are-typing: '{number, plural, one {# kişi yazıyor} other {# kişi yazıyor}}'
       users-are-typing: '{count, plural, one {{users} yazıyor} other {{users}{others, plural, =1 { & # other} =0 {} other { & # others}} yazıyorlar}}'
