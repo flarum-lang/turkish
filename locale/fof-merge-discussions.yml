@@ -20,7 +20,9 @@ fof-merge-discussions:
       deleting_failed: 'Boş tartışmalar silinirken bir hata oluştu.'
       fixing_posts_number_failed: 'Gönderi numaraları düzeltilemedi.'
       fixing_posts_number_meta_failed: 'Gönderi numaraları düzeltilemedi.'
+      into_itself: 'Bir tartışma kendisiyle birleştirilemez.'
       merging_failed: 'Tartışmalar birleştirilirken bir hata oluştu.'
+      redirecting_failed: 'Birleştirilen tartışmalara yönlendirme yapılamadı.'
       updating_failed: 'Tartışma ayrıntıları güncellenirken bir hata oluştu.'
   email:
     merged:
@@ -36,6 +38,7 @@ fof-merge-discussions:
       ordering_heading: 'Sıralamayı birleştir'
       ordering_suffix_help: 'Hayatta kalan tartışmayla birleştirilen gönderiler, tartışmanın sonuna eklenecektir'
       ordering_suffix_label: 'Tartışmanın sonuna birleştirilmiş gönderiler ekleyin'
+      preview_truncated: 'Toplam {total} gönderiden {from} ile {to} arasındakiler gösteriliyor.'
       search_discussions_placeholder: 'Tartışmaları ara...'
       submit_button: '=> fof-merge-discussions.ref.merge'
       title: 'Tartışmaları Birleştir'
