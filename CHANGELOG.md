@@ -16,7 +16,7 @@ CHANGELOG
 * [`fof/merge-discussions`](https://github.com/FriendsOfFlarum/merge-discussions) (3 added, 100% complete)
 * [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions) (7 added, 100% complete)
 * [`fof/rich-text`](https://github.com/FriendsOfFlarum/rich-text) (2 changed, 100% complete)
-* [`huseyinfiliz/stickiest`](https://github.com/huseyinfiliz/stickiest) (3 added, 1 changed, 100% complete)
+* [`huseyinfiliz/stickiest`](https://github.com/huseyinfiliz/stickiest) (3 added, 1 changed, 76% complete)
 * [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views) (1 added, 100% complete)
 
 
