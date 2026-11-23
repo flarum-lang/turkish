@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.45.13 (2026-11-23)
+--------------------
+
+**General changes**:
+
+* Updated Day.js translations.
+
+
+All changes: [1.45.12...1.45.13](https://github.com/flarum-lang/turkish/compare/1.45.12...1.45.13).
+
+
 1.45.12 (2026-11-07)
 --------------------
 
