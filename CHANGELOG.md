@@ -7,6 +7,8 @@ CHANGELOG
 
 **Added support for new extensions**:
 
+* [`clarkwinkelmann/flarum-ext-popular-discussion-badge`](https://github.com/clarkwinkelmann/flarum-ext-popular-discussion-badge) (100% complete)
+* [`clarkwinkelmann/flarum-ext-who-read`](https://github.com/clarkwinkelmann/flarum-ext-who-read) (96% complete)
 * [`huseyinfiliz/discussion-ban`](https://github.com/huseyinfiliz/discussion-ban) (100% complete)
 
 
