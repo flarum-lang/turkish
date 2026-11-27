@@ -1,59 +1,49 @@
 {
-    "name": "flarum-lang/turkish",
-    "type": "flarum-extension",
-    "description": "Turkish language pack.",
-    "keywords": [
-        "locale"
-    ],
-    "license": "MIT",
-    "support": {
-        "issues": "https://github.com/flarum-lang/turkish/issues",
-        "source": "https://github.com/flarum-lang/turkish/",
-        "forum": "https://discuss.flarum.org/d/21356-flarum-core-turkish-language-pack/"
-    },
-    "homepage": "https://github.com/flarum-lang/",
-    "funding": [
-        {
-            "type": "website",
-            "url": "https://flarum.org/donate"
-        }
-    ],
-    "authors": [
-        {
-            "name": "tolgaaaltas",
-            "homepage": "https://tolgaaltas.com/"
-        }
-    ],
-   "require": {
-        "flarum/core": "^1.0.0"
-    },
-    "support": {
-        "issues": "https://github.com/flarum-lang/turkish/issues",
-        "source": "https://github.com/flarum-lang/turkish/"
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-main": "1.x-dev"
-        },
-        "authors": [
-            {
-                "name": "tolgaaaltas",
-                "role": "Translator"
-            }
-        ],
-        "flarum-extension": {
-            "title": "Turkish",
+	"name": "flarum-lang/turkish",
+	"description": "Turkish Language Pack for Flarum",
+	"type": "flarum-extension",
+	"keywords": [
+		"flarum-locale"
+	],
+	"homepage": "https://github.com/flarum-lang/turkish",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "tolgaaaltas",
+			"homepage": "https://github.com/tolgaaaltas",
+			"role": "Maintainer"
+		},
+		{
+			"name": "huseyinfiliz",
+			"homepage": "https://github.com/huseyinfiliz",
+			"role": "Maintainer"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/flarum-lang/turkish/issues",
+		"forum": "https://discuss.flarum.org/d/21356",
+		"source": "https://github.com/flarum-lang/turkish"
+	},
+	"require": {
+		"flarum/core": "^1.0.0"
+	},
+	"extra": {
+		"branch-alias": {
+			"dev-main": "1.x-dev"
+		},
+		"flarum-extension": {
+			"title": "Turkish",
 			"category": "language",
-            "icon": {
-                "image": "core.svg",
-                "backgroundColor": "#ffffff",
-                "backgroundSize": "cover",
-                "backgroundPosition": "center"
-            }
-        },
-        "flarum-locale": {
-            "code": "tr",
-            "title": "Turkish"
-        }
-    }
+			"icon": {
+				"image": "core.svg",
+				"backgroundColor": "#ffffff",
+				"backgroundSize": "cover",
+				"backgroundPosition": "center"
+			}
+		},
+		"flarum-locale": {
+			"code": "tr",
+			"title": "Türkçe"
+		}
+	}
 }
